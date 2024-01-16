@@ -1,0 +1,2221 @@
+OSL Script
+Set Game To DR2
+Text Count|160, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+Load Map|0, 102, 0, 0
+Change UI|9, 0
+0x46|12, 0, 0, 0
+0x4d|
+0x3b|1, 244
+Sprite|1, 3, 0, 0, 0
+0x1|0, 105, 1, 1
+0x1|0, 102, 3, 1
+0x1|0, 107, 4, 1
+0x1|0, 110, 6, 1
+0x1|0, 111, 7, 1
+0x1|0, 112, 8, 1
+0x1|0, 113, 9, 1
+0x1|0, 115, 11, 1
+0x2c|1, 244
+0x23|25, 0, 0, 0, 0
+0x46|12, 0, 0, 1
+0x4d|
+0x3b|1, 245
+Change UI|14, 1
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+0x3b|1, 246
+0x2c|1, 245
+Set Flag|12, 0, 1
+Change UI|14, 0
+Change UI|3, 0
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 8
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>This night, I couldn't fall asleep for a long time,\nand when I did, I slept only for a few hours.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Heading to the hotel restaurant, I was expecting\nit to be empty yet. However, to my surprise...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Right beside Mahiru's photo gallery, there was\nGundham, standing still and whispering to himself.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Music|6, 100, 0
+Change UI|6, 0
+Change UI|14, 1
+Change UI|3, 1
+Change UI|51, 0
+Change UI|2, 1
+Change UI|26, 8
+0x3a|5, 0, 0, 20
+Change UI|9, 1
+Change UI|1, 1
+Speaker|0
+Text|Um... Gundham? Up already this early?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 4, 1, 1
+Voice Line|3, 99, 0, 35, 100
+Text|You! How dare you make such a pathetic attempt\nto ambush me! The terrible Gundham Tanaka!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I am just as surprised to meet you here\nas you are.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 6, 1, 1
+Voice Line|3, 99, 0, 31, 100
+Text|Ha! My sixth sense picked up on your presence\nthe second you set foot in this room. \n
+Wait Frame|
+Wait For Input|
+Text|You're lucky I was able to keep my concentration\nto maintain control over my horde of demons.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 12, 1, 1
+Voice Line|3, 99, 0, 40, 100
+Text|Or else, you would have been devoured\nthat very second.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I still don’t get it. Does this guy really want us to play along\nwith his act?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Demons? Do you mean... some of your\nother animals?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 13, 1, 1
+Voice Line|3, 99, 0, 39, 100
+Text|Silence, fool! This pathetic planet is lucky that only\na tiny fraction of my forces posesses a corporeal form!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 1
+Voice Line|3, 99, 0, 41, 100
+Text|I was reassigning half of my army under the command\nof the associate of mine, currently residing\nin the Dark Abyss.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 8, 1, 1
+Voice Line|3, 99, 0, 52, 100
+Text|Right now... she amasses the force to launch\nan assault on Monokuma's Citadel in the spirit world!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>His associate is female? And she is\nnot in this world? Wait, does he mean...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Gundham... Are you talking about Sonia?\nI am… sorry if this is a painful topic…\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 1, 1, 1
+Voice Line|3, 99, 0, 45, 100
+Text|Yes, I am talking about an entity\nyou may have known as Sonia Nevermind.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|That, however, was merely a name\nher mortal shell was going by. In reality...\n
+0x3a|6, 0, 0, 10
+Wait For Input|
+Speaker|0
+Text|Gundham... If this makes you feel any better...\nI am mourning her, too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 9, 1, 1
+Voice Line|3, 99, 0, 41, 100
+Text|HA! I laugh at the depth of your delusion, Hajime Hinata!\nGenerals of Hell never mourn anyone!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|56
+Voice Line|11, 99, 0, 46, 100
+Text|You absolutely do! Stop this retarded circus act,\n you clown wannabe!
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Huh? ...Who?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 47, 1, 2
+Voice Line|11, 99, 0, 55, 100
+Text|Stop putting on this disgusting act!\nYou don't even have a reason anymore!\n
+Wait Frame|
+Wait For Input|
+Change UI|9, 0
+0x1|0, 115, 11, 0
+0x1|0, 112, 11, 1
+Sprite|9, 11, 3, 0, 0
+Change UI|9, 1
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Hiyoko? For how long have you been listening?!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Seriously, this kid really needs to stop her habit of\ncreeping up on other's conversations…<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 9, 1, 1
+Voice Line|3, 99, 0, 13, 100
+Text|Ha, you fell for that illusion too, Hiyoko?\nI am the General of Hell! I cannot mourn! I am...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Voice Line|11, 99, 0, 46, 100
+Text|Do you think an Ultimate like me\nwould fail to spot you put on an act?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Me - whose Ultimate talent is all about performance?!\nAre you really this stupid?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 9, 1, 1
+Text|...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 15, 1, 1
+Voice Line|3, 99, 0, 13, 100
+Text|It seems that your mind is incapable of comprehending\nmy true form. As driving you mad is not yet in my plans...\n
+Wait Frame|
+Wait For Input|
+Text|I shall have to pretend as though I were a mortal man\nto you. And if I were a mere mortal - which I am not...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 1, 1, 1
+Voice Line|3, 99, 0, 9, 100
+Text|I would have been what you call "mourning".\nBut I am no mortal. I am…\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 37, 1, 2
+Voice Line|11, 99, 0, 55, 100
+Text|DO. NOT. PITY. ME.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Voice Line|11, 99, 0, 42, 100
+Text|Just so you know, the only reason\nI am here is because... It's for Mahiru.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 2
+Voice Line|11, 99, 0, 43, 100
+Text|You know what I want more than anything\nright now? To lock myself in my own room again.\n
+Wait Frame|
+Wait For Input|
+Text|To never talk with any of you again.\nQuietly sneak food from the restaurant to my cottage...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Voice Line|11, 99, 0, 43, 100
+Text|But Mahiru... would have wanted me\nto approach you... to say "sorry". And so...\n
+Wait Frame|
+Wait For Input|
+Text|I am sorry for killing your girlfriend. I really, really am.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 1, 1, 1
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 2, 1, 1
+Voice Line|3, 99, 0, 3, 100
+Text|What are you apologising for?\nYou couldn't have predicted what would happen.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Voice Line|11, 99, 0, 42, 100
+Text|Except I should have. I knew that going out\nalone at night was dangerous, didn't I?\n
+Wait Frame|
+Wait For Input|
+Text|But I was so concerned with how to not become\na victim myself…\n
+Wait Frame|
+Wait For Input|
+Text|That it had completely slipped my mind the others\ncould become victims, too.\n
+Wait Frame|
+Wait For Input|
+Text|And, aside from that...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 2
+Voice Line|11, 99, 0, 42, 100
+Text|I had purposefully made her endanger her own\nlife... Just to make myself feel a bit better.\n
+Wait Frame|
+Wait For Input|
+Text|I had used her stupidity to manipulate her...\nAnd she only wanted to help.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Voice Line|11, 99, 0, 43, 100
+Text|I am a selfish, hateful bitch...Maybe...\nno better than my rivals from the dancing industry...\n
+Wait Frame|
+Wait For Input|
+Text|What punishment do I deserve, Gundham?\nAs long as it's not... anything perverted, I am going to accept it.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 1
+Voice Line|3, 99, 0, 38, 100
+Text|To be aware of the darkness inside one's heart is a curse...\nand a sufficient punishment on its own.\n
+Wait Frame|
+Wait For Input|
+Text|As someone who is fully aware of the evilness of my own heart,\nI respect you as a worthy opponent, Hiyoko.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 1, 1, 1
+Voice Line|3, 99, 0, 9, 100
+Text|The pain that you had caused me... is not an obstacle for it.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Voice Line|11, 99, 0, 46, 100
+Text|S-stop, you're not evil at all...\nJust a c-colossal d-dork.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 36, 1, 2
+Voice Line|11, 99, 0, 18, 100
+Text|W-wait, is someone else coming here?\nOh shit, it's <CLT 03>them<CLT>!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>At that moment, I also had heard it - two more people\nentering the restaurant.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 27, 1, 2
+Text|Don't tell them that I'm there.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Furiously whispering that, Hiyoko quickly hid behind\nthe flower pots.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|9, 0
+0x1|0, 107, 4, 0
+0x1|0, 111, 7, 0
+0x1|0, 112, 4, 1
+0x1|0, 112, 7, 1
+Sprite|14, 4, 0, 0, 0
+Sprite|3, 7, 30, 0, 0
+Change UI|9, 1
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 8, 1, 1
+Voice Line|4, 99, 0, 27, 100
+Text|But Miss Sonia is still dead because of her cruelty!\nAre we supposed to just let her off the hook for that?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 3
+Voice Line|7, 99, 0, 29, 100
+Text|Well, you did let me off the hook for... the murder\nI had caused.\nSurely you can do the same for her, too?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Absolutely great. They had picked up a "perfect"\nconversation topic for this time and place.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|Um... Fuyuhiko, Kazuichi, good morning to you!\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 34, 1, 3
+Voice Line|7, 99, 0, 5, 100
+Text|Yo, Hajime, Gundham.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Me and Kazuichi had decided to have breakfast\ntogether because... em...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 1
+Voice Line|4, 99, 0, 27, 100
+Text|Quit your bullshit, dude! You had caught me\nbeside my cottage and forced your company on me!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And now you are trying to convince me that\nit is me who should be apologising to Hiyoko!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 31, 1, 3
+Voice Line|7, 99, 0, 30, 100
+Text|Kazuichi. Listen carefully.\nI know that Hiyoko is an insufferable brat...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>As Fuyuhiko continued talking, I could almost feel\nthe air freezebehind my back…<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 3
+Text|…whose selfishness caused Sonia's death.\nBut even still… I was worse than her.\n
+Wait Frame|
+Wait For Input|
+Text|I caused not one, but two people to die…\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 41, 1, 3
+Text|…because I was too fucking stupid to not fall\nfor Monokuma's obvious bait!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 8, 1, 1
+Voice Line|4, 99, 0, 23, 100
+Text|But …at least it wasn't Miss Sonia you killed!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 38, 1, 3
+Voice Line|7, 99, 0, 27, 100
+Text|You’re wrong. I would have. At Peko's trial,\nI tried to get all of us killed - including Sonia...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...to save her.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 3
+Text|I had no options, and couldn't think straight\nabout it back then, but…\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 1
+Voice Line|4, 99, 0, 21, 100
+Text|But… but… you never targeted Miss Sonia specifically!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 44, 1, 3
+Voice Line|7, 99, 0, 5, 100
+Text|Neither did Hiyoko.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 38, 1, 3
+Text|If i had to guess, she would have done\nwhat she did to anyone who would have...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...disturbed her on that evening.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 1
+Voice Line|4, 99, 0, 34, 100
+0x20|4, 0, 30, 4, 2
+Text|Well… well… you're... probably right, but…\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 8, 1, 1
+Voice Line|1, 99, 0, 27, 100
+Text|...why should I apologize to her!?! SHE still hasn't apologized\nto anyone for all of the shit she was pulling since day one!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 33, 1, 3
+Voice Line|7, 99, 0, 20, 100
+Text|Because he who apologizes first has the power\nto de-escalate a situation!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 41, 1, 3
+Text|That improves the chance of their survival, don't you get it?\nYou thick-headed bastard!\n
+Wait Frame|
+Wait For Input|
+Text|If Mahiru had been smart enough to understand that,\nshe wouldn't be rotting in her grave right now!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I am genuinely terrified of turning around right now…<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 7, 1, 1
+Voice Line|3, 99, 0, 6, 100
+Text|You have made a terrible mistake, one-eyed prince.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 39, 1, 3
+Music|255, 0, 0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 4, 1, 1
+Voice Line|4, 99, 0, 54, 100
+Text|Oh, crap...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 37, 1, 2
+Voice Line|11, 99, 0, 35, 100
+Text|What... did... you... just... say... you...\ncriminal... lowlife...\n
+Wait Frame|
+Wait For Input|
+Voice Line|11, 99, 0, 40, 100
+Text|REPEAT WHAT YOU JUST SAID!!!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 43, 1, 3
+Voice Line|7, 99, 0, 29, 100
+Text|...I said exactly what you heard, Hiyoko.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|In my defense, I would have never said it out loud\nif I knew that you were in the same room...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 37, 1, 2
+Text|AAAAAGGGRRRRHHHHH!\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+0x20|4, 0, 30, 4, 2
+Text|Hiyoko, no!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>With lightning speed, Hiyoko dashed towards Fuyuhiko...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...only to freeze in place,\nwith her palm millimeters from Fuyuhiko's cheek.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Voice Line|11, 99, 0, 43, 100
+Text|...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 42, 1, 3
+Text|...If you want to hit me, follow through to the end.\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Text|You would be embarrassing both of us less\nif you struck me for real now.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Text|Go. Have your breakfast.\nDon't interact with me today... and tomorrow, too.\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Text|Don't worry about the embarassment - next time,\nI will slap you for real.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And if I hear you... blaming Mahiru...\none more time...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 37, 1, 2
+Voice Line|11, 99, 0, 40, 100
+Text|See the fork on that table?\nI swear, I will gouge out your remaining eye with it.\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Text|You have fifteen seconds. Go.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 42, 1, 3
+Voice Line|7, 99, 0, 29, 100
+Text|Damn it, you would have been a good match\nfor Natsumi...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Voice Line|11, 99, 0, 18, 100
+Text|Who?!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 38, 1, 3
+Voice Line|7, 99, 0, 13, 100
+Text|...Heh, not important. Forget it.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Giving an awkwardly pitiful look to both\nHiyoko and Kazuichi, Fuyuhiko walked away.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 12, 1, 1
+Voice Line|4, 99, 0, 32, 100
+Text|Fuyuhiko! Buddy! Don't abandon me with her, please!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Music|255, 120, 0
+Sprite|1, 11, 28, 1, 2
+Voice Line|11, 99, 0, 34, 100
+Text|So, I infer you wanted to tell me something,\nyou... ugly creep?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 1
+Text|Well... ugh...\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Sprite|1, 11, 29, 1, 2
+Text|I'm listening.\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Sprite|0, 4, 11, 1, 1
+Voice Line|4, 99, 0, 34, 100
+Text|Hiyoko, I... You are not really guilty of Miss Sonia dying,\nand I was in the wrong for wanting to lock you up for it.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 2
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 3, 1, 1
+Text|Like... I am sorry, okay? We may really annoy each other,\nbut ultimately we have only one common enemy - Monokuma!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 1
+Text|...and Monomi... and whoever controls them... and...\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Sprite|1, 11, 42, 1, 2
+Voice Line|11, 99, 0, 48, 100
+Text|...This is the first time in forever that someone\nhas... apologised to me...\n
+Wait Frame|
+Wait For Input|
+Text|...without me... bullying them into it...\nWhy should it be you of all people?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 1
+Voice Line|4, 99, 0, 48, 100
+Text|Why are you crying?\nI'm really sorry, okay?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Sprite|0, 4, 8, 1, 1
+Voice Line|4, 99, 0, 41, 100
+Text|I should have solely blamed that evil,\ntwo-faced bitch Mikan from the start, and not you!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Text|Don't say that girl's name again.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 11, 1, 1
+Voice Line|4, 99, 0, 46, 100
+Text|So, um... peace treaty? You aren't going to have Gundham\nmake his hamsters bite my balls again?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 10, 1, 1
+Voice Line|3, 99, 0, 31, 100
+Text|Take that back, fiend! No one could ever control\nthe great Gundham Tanaka! I serve myself, and myself alone!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 4, 1, 1
+Text|If my mysterious goals happen to be aligning...\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Speaker|0
+Text|Gundham! This is a serious moment!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 1, 1, 1
+Text|Hmph. I am very serious.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 35, 1, 2
+Voice Line|11, 99, 0, 16, 100
+Text|Heh. Yes... Kazuichi. Peace...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 28, 1, 2
+Text|But! To prove to me you are genuine,\ncan you do me a service?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 3, 1, 1
+Text|Ew... is the "service" something weird?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Text|Mahiru's camera is lying on my... shrine... over here...\nIt got broken when she died. Can you fix it?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 7, 1, 1
+Voice Line|4, 99, 0, 12, 100
+Text|In one day, maybe even less!\nNo problem! Is that what you want?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 30, 1, 2
+Voice Line|11, 99, 0, 26, 100
+Text|Yes, yes! You can start after breakfast!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 7, 1, 1
+Text|Well... okay! Good appetite, I suppose?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 35, 1, 2
+Text|...Right.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>The four of us then joined Fuyuhiko for breakfast.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|9, 0
+Sprite|4, 1, 0, 0, 0
+Sprite|5, 19, 0, 0, 0
+Sprite|0, 8, 0, 0, 0
+Sprite|8, 9, 0, 0, 0
+0x1|0, 105, 1, 0
+0x1|0, 102, 1, 1
+0x1|0, 110, 6, 0
+0x1|0, 102, 6, 1
+0x1|0, 112, 8, 0
+0x1|0, 102, 8, 1
+0x1|0, 113, 9, 0
+0x1|0, 102, 9, 1
+Change UI|9, 1
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Soon, the rest of our group had gathered in the restaurant as well.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 20, 1, 2
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 67, 100
+Text|Man, the food today is awesome as usual!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 3, 1, 1
+Speaker|6
+Voice Line|6, 99, 0, 48, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|As always, you sure do eat a lot! I feel relaxed just by\nlooking at you!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>It's impossible...not to worry about it...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>No matter what, this feels really strange... It's not\nsomething I'll get used to easily...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 11, 1, 3
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Anyway...what are you gonna do, Mechamaru?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Mechamaru? You're used to him already!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+Text|What am I going to do...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 9, 1, 3
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|For food... Do you need, like...oil?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 11, 1, 3
+Voice Line|9, 99, 0, 5, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Regular? Premium?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 3, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 34, 100
+Text|Nah, he doesn't need oil. Since he said he's "pure\nelectricity", maybe he's battery-powered or something...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 44, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|I can totally eat normal food! Especially rice dishes, I\ncan't keep my eyes off them!!!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 19, 9, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 41, 100
+Text|However...I've been feeling a little down today...so I\ndon't have much of an appetite...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 2, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 16, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Are you malfunctioning!? If you show me your insides, I\ncan fix you up, you know!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|NOOOOOOOO MEANS NOOOOOOOOOOOOOOOOOOO!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 1, 1, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 11, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ahahahaha!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 49, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 38, 100
+Text|What...so you're here, too?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 7, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 5, 100
+Text|Ah, I'm sorry...\n
+Wait Frame|
+Wait For Input|
+Text|I should know my place and not speak out of turn when\neveryone's gathered together like this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|However, I just wanted to make sure I spoke to you about\nwhat happened yesterday.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|What happened yesterday...?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 26, 100
+Format|3
+Text|<CLT 03>That person<CLT> Mikan called her "beloved." I can't help\nthinking about that and it won't get out of my head...\n
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 27, 1, 1
+Voice Line|1, 99, 0, 69, 100
+Text|Hm? Am I just a coward for worrying about that?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 2
+Speaker|3
+Voice Line|3, 99, 0, 38, 100
+Text|It crossed my mind as well but...based on how she\nphrased it...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Sprite|0, 3, 0, 3, 2
+Sprite|1, 1, 27, 3, 1
+Filter|1, 1, 0, 0
+0x37|0, 41, 1
+Sprite|0, 13, 5, 8, 2
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 20
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|13
+Text|So this is the end.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 13, 22, 1, 2
+Text|This is really...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 13, 22, 1, 2
+Text|Now I can go to <CLT 03>my beloved<CLT> and be forgiven...!\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Text|I can finally see my beloved.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 13, 23, 1, 2
+Text|Please forgive me, as my hopes of finally seeing you die\nwith me!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 41, 3
+Sprite|1, 13, 23, 3, 2
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|3, 1
+Sprite|0, 3, 1, 8, 2
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+0x3a|6, 0, 0, 30
+Speaker|3
+Voice Line|3, 99, 0, 6, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|It was...as if she was speaking to an entity that does\nnot exist in this world...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 20, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 67, 100
+Text|Then there's nothin' to worry about!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 17, 100
+Text|There... there is something to worry about,\nyou... stupid.\n
+Wait Frame|
+Wait For Input|
+Text|Mikan's "beloved", it's obviously someone she had met\nduring our time at Hope's Peak Academy, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 15, 1, 0
+Speaker|4
+Voice Line|4, 99, 0, 28, 100
+Text|I thought you wanted us to never talk about\nMikan again!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 41, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 15, 100
+Text|I want you... never bring up Mikan\nwhen talking to me personally!\n
+Wait Frame|
+Wait For Input|
+Text|When we are talking about matters of our survival,\nI'm fine talking about her.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 3, 1, 0
+Speaker|4
+Voice Line|4, 99, 0, 22, 100
+Text|But... how can a dead person - whoever they are -\nbe of an any danger to us?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 2, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 3, 100
+Text|By leaving behind living, breathing allies to avenge them,\nof course!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 41, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 36, 100
+Text|You're right, Mister... Robot. Mikan's "beloved" is obviousy\nan ally to the assholes who had kidnapped us\nand stole our memories.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 1, 1, 2
+Speaker|3
+Voice Line|3, 99, 0, 3, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Our enemy...the <CLT 03>Future Foundation<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Text|If that fearsome organization known also as <CLT 03>World\nEnder<CLT> is truly responsible for our imprisonment...\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 13, 1, 2
+Voice Line|3, 99, 0, 40, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Then investigating who's behind that organization is our\ntop priority!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>The Future Foundation...hm...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>That word "future"...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Sprite|0, 3, 0, 3, 2
+Animation|3, 16, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 16, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Does it...have anything to do with that ancient ruin?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I mean, there's no doubt that that symbol on the door to\nthe ancient ruin was...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>The Japanese word for "<CLT><CLT 03>Future<CLT><CLT 04>"...<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 16, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 30
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>If that's the case...it might be better if we\ninvestigate the ancient ruins again later...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 10
+0x3a|5, 0, 0, 20
+Sprite|1, 7, 42, 1, 3
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 39, 100
+Text|But...the more I think about it, the less sense it\nmakes.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|7
+Text|Why would an organization that's secretly plotting to\nend the world...make us suffer like this?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|7
+Voice Line|7, 99, 0, 38, 100
+Text|They went to a lot of trouble to abduct us and bring us\nto...this island.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 26, 100
+Text|Not only that, they took away several years worth of\nmemories of our lives at Hope's Peak Academy...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...For reasons that are also unknown.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 28, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 36, 100
+Text|I think I know why they stole our memories.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 15, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 13, 100
+Text|You really do? Amazing, Hiyoko!\nTell us more!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 28, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 34, 100
+Text|If Mikan's "beloved" had met her during our time at\nHope's Peak... They should have met all of us too, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 2, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 3, 100
+Text|Yeah, that makes sense now when I think about it...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 43, 100
+Text|Mikan's "beloved"... was as close to her as... Mahiru...\nwas to me... Only very evil...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 3
+Speaker|11
+Text|Can it be that they were our classmate?\nOr a teacher, maybe?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 33, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 32, 100
+Text|A teacher seducing a student?! At Hope's Peak?!\nThat's disgusting!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 14, 100
+Text|Let's say they were our classmate.\nThey should have spend years with all of us...\n
+Wait Frame|
+Wait For Input|
+Text|Learn our secrets, fears and insecurities...\nAll our weaknessses.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 3
+Speaker|11
+Text|Made Mikan fall in love with them using...\nMikan's... mental illness...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 47, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 58, 100
+Text|And then the piece of shit turned on us and used\nall of this against us!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 40, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 44, 100
+Text|This monster used everything they knew about us\nto make this killing game and these horrid motives!\n
+Wait Frame|
+Wait For Input|
+Text|And then, they had erased our memories so they\nknow everything about us, but we - nothing about them!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|But... why would anyone do all of this!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 50, 100
+Text|Don't you get it? They're just...\nthe most horrible bully imaginable.\n
+Wait Frame|
+Wait For Input|
+Text|They simply do it because they enjoy our suffering.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|But we established that this person is dead and\nonly their allied organisation remains now.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Future Foundation... Are they really just that?\n
+Wait Frame|
+Wait For Input|
+Text|A super powerful organisation of sadists...\nwho are only interested in our suffering?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 41, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 59, 100
+Text|I know it sounds like a plot of shitty manga.\nBut it's the only thing that makes sense in my head.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 4, 1, 2
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Future Foundation! World Ender! Hah!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 19, 8, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 43, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|There's obviously something wrong with you if you\nbelieve in something so unrealistic!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 5, 1, 1
+Voice Line|4, 99, 0, 23, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Speaker|4
+Text|...You're one to talk...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 35, 100
+Text|But...what we should be most concerned about, as it\nrelates to the Future Foundation...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|1, 1, 3, 1, 0
+Voice Line|1, 99, 0, 53, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...is the <CLT 03>traitor<CLT> from the Future Foundation that's\nhiding among us.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|9, 100, 0
+Speaker|0
+Format|4
+Text|<CLT 04>...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 11, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I wonder who it is...\n
+Wait Frame|
+Wait For Input|
+Text|The true identity of the outsider hiding among us and\ntrying to ensnare us...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 18, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 40, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Nagito's obviously the most suspicious, though...!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 24, 100
+Text|Even a childish organization blathering about ending the\nworld wouldn't accept someone like me.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 14, 1, 0
+Voice Line|1, 99, 0, 46, 100
+Text|Nobody wants a worthless human like me to join their\ngroup...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 15, 1, 0
+Voice Line|1, 99, 0, 11, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|You guys should know that feeling well, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 9, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 46, 100
+Text|And that's the reason why you're not the traitor...?\nI don't understand your theory at all.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 31, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 12, 100
+Text|Then...who do you think is the most suspicious?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 38, 100
+Music|255, 0, 0
+SFX A|0, 21, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I nominate Hajime!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Music|19, 100, 120
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 9, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 22, 100
+Text|Well...isn't it normal to doubt the most unlikely\ncandidate?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 25, 1, 0
+Voice Line|1, 99, 0, 2, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Not just that...you're the only one here who still\ndoesn't know what Ultimate talent you possess...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|If we're basing this on an outsider hiding among a group\nof <CLT 03>Ultimates<CLT>, Hajime should be doubted right away.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 19, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Then...Hajime's the traitor!?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|O-Of course not!? What are you even saying!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 1, 16, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 78, 100
+Text|You shouldn't raise your voice like that. We might\nbecome even more suspicious of you, you know?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Th-This is obviously your fault!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 7, 33, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 16, 100
+Music|255, 0, 0
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Stop fighting, you stupid fucks!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Music|6, 100, 120
+Sprite|0, 19, 8, 1, 1
+Voice Line|6, 99, 0, 44, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Don't you think fighting with ourselves like this is\nMonokuma's trap!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Th-That might be true...but...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 1
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|All right, I'll handle this! Just leave this matter to\nmeeeeeeeeeee!!!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 8, 20, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 67, 100
+Text|Whaddaya mean?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 0, 1, 1
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|To eliminate this tense atmosphere, allow me to present\nto you my <CLT 03>new function<CLT> that I discovered last night.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 5, 1, 0
+Speaker|4
+Voice Line|4, 99, 0, 72, 100
+Text|N-New function...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 22, 1, 0
+Voice Line|4, 99, 0, 61, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Don't tell me...is it flight!? C-CAN YOU FLY!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 1
+Speaker|6
+Voice Line|6, 99, 0, 45, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|It's not a conventional function like that! It's far\nmore practical and novel!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Music|255, 120, 0
+Sprite|0, 19, 8, 1, 1
+Voice Line|6, 99, 0, 52, 100
+SFX A|0, 21, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Now then, let's go...!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|1, 42, 100
+Sprite|0, 19, 6, 1, 1
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 60, 0
+0x3a|6, 0, 0, 60
+Music|17, 100, 0
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 15, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Whooooooooooooooooooaaaaaaaaaaaaaaa!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|BEHOOOOOOOOOOOOOOOOOOOOOOOOLD!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 11, 36, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 29, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|M-Mister R-Robot is broken!\nKazuichi, do you know what's...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 6, 1, 1
+Speaker|6
+Voice Line|6, 99, 0, 45, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Hardly! I'm not broken!\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|My right eye dispenses cola...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...and my left eye dispenses Rooibos tea...\n
+Wait Frame|
+Wait For Input|
+Voice Line|6, 99, 0, 58, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|BEHOOOOOOOOOOOOOOOOOOOOOOOOLD!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 6, 1, 0
+Speaker|4
+Voice Line|4, 99, 0, 28, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...What are you, a soda fountain!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 48, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 71, 100
+Text|I know we'll be here all day if we keep commenting on\nevery little thing you do...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 33, 1, 3
+Voice Line|7, 99, 0, 23, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|But what the hell was Monokuma thinking giving you a\nfunction like that!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|1, 17, 1, 6, 2
+Music|14, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|17
+Voice Line|17, 99, 0, 48, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|That guy...he's definitely fooling around!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Text|Monokuma's just toying with other people's bodies!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 4, 1, 2
+SFX A|0, 23, 100
+Voice Line|17, 99, 0, 69, 100
+Text|I, too, was modified by Monokuma, so I totally\nunderstand how Nekomaru feels...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 16, 1, 2
+Voice Line|17, 99, 0, 51, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But don't be depressed! You'll get used to it! It's\nsurprising how quickly you'll get used to it!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 4, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 19, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Don't go buttin' in our conversation all of a sudden!\nI'll kill you until you die from it, you stupid rabbit!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 17, 18, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 62, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...That's an extremely violent thing to say to someone!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 32, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 37, 100
+Text|You showing up at this time means...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Did you come to tell us that you've defeated another\nMonobeast?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 8, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 36, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Taaadaaaaa! You're cooooorrect!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 16, 1, 2
+Voice Line|17, 99, 0, 50, 100
+Text|Once again, you can visit a new island, so please take\nthis opportunity to get along with everyone...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 19, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 56, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|...I ain't going. What a drag.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 3, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 21, 100
+Text|Eh?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 11, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 36, 100
+Text|Even if we go to the new island...it's not like we're\ngonna find a way to escape this place, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 40, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 46, 100
+Text|Don't you get it? Monokuma is playing us like a fiddle!\nEach new island is a trap to trick us into killing!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 3
+Speaker|11
+Text|So... it's best if we do not go...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 18, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 58, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ehhhhhhh!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 13, 1, 3
+Speaker|3
+Voice Line|3, 99, 0, 19, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|I don't know what you're planning, fiend, but we're not\ngoing to fall for it...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 12, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 62, 100
+Text|Th-That...that's a misunderstanding... I was just...\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 1, 6, 3
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 1, 147, 100
+Text|Argh, jeez! How annoying!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 2, 1, 3
+Voice Line|16, 99, 0, 15, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Just stay back and leave the rest to your big brother!\n
+Wait Frame|
+Wait For Input|
+Text|I'll give you an example of how to lure these guys to\nyou, little sis!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 1, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 13, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Wh-What are you doing!? You're...acting like we're\nallies or something...\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 17, 0, 3, 2
+Animation|3, 87, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+SFX A|1, 43, 100
+Animation|3, 87, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 2, 200, 100
+SFX A|0, 18, 100
+Text|Didn't I tell you to stay baaaaack!?\n
+Wait Frame|
+Wait For Input|
+Speaker|17
+Voice Line|17, 99, 2, 103, 100
+Text|GYAAAAAAAAAAAAAA!\n
+Wait Frame|
+Wait For Input|
+Voice Line|17, 99, 2, 151, 100
+Text|This technique... It's impossible to defend against it\nor evade it!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Animation|3, 87, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|3, 1
+Sprite|0, 16, 0, 8, 2
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 6, 100
+Text|There, now that I've mopped up the annoying one...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 13, 1, 2
+Voice Line|16, 99, 1, 195, 100
+Text|Okay! Since you guys are feeling down in the dumps, I'll\nmake you guys so excited your noses will bleed!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Compared to the earlier investigations, I've prepared a\nspecial treat that's completely different than before!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 3
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|...Treat?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 166, 100
+Text|Oh, you took the bait? I guess it's true...if you wanna\nget a shut-in out of their room, carrots work the best!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 33, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 18, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Who the fuck cares about that!? Hurry up and tell us\nwhat the treat is!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 29, 100
+Text|It's an amazing treat.\n
+Wait Frame|
+Wait For Input|
+Text|Don't wet your pants. Well, it's okay if you do...just\ndon't spray it on me.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I've prepared a bunch of stuff you guys might find\ninteresting on the new island!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 12, 1, 2
+Voice Line|16, 99, 1, 220, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Such as...<CLT 03>clues about the Future Foundation<CLT>...\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 13, 1, 1
+Speaker|1
+Voice Line|1, 99, 0, 68, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 12, 1, 2
+Voice Line|16, 99, 0, 41, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Such as...<CLT 03>parts that may be useful for making a\nship<CLT>...\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 5, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 27, 100
+Text|Are you for real!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 159, 100
+Text|And also...your student profiles from your time at\nHope's Peak Academy!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 9, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 164, 100
+Text|Soooo do your best to explore! Take caaaaare!\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 7, 2
+0x3a|6, 0, 0, 30
+Music|2, 100, 0
+Sprite|1, 9, 0, 1, 3
+Change UI|1, 1
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 9, 1, 3
+Voice Line|9, 99, 0, 5, 100
+Text|...What should we do?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 18, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 55, 100
+Text|O-Our only option is to go...obviously... We might be\nable to go home if we have ship parts...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 12, 100
+Text|I plan to go, too. If there are clues about the Future\nFoundation, we need to make sure we see them.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 6, 100
+Text|...What about you, Hajime? Of course you're going,\nright?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|If you look at your student profile, you might be able\nto find out what your shining talent is...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 1, 0
+Voice Line|1, 99, 0, 11, 100
+Text|It's a chance for you to clear any suspicions, right?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|What suspicions...! I don't think anyone here doubts\nme...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 27, 1, 0
+Speaker|1
+Voice Line|1, 99, 0, 69, 100
+Text|...Ah, I see.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|1, 1, 0, 4, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>But...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If there's a clue about my talent, I want to know what\nit is.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>The reason Hope's Peak Academy chose me...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>The talent I possess...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>These things matter to me... There's no way I'm not\nworried about it.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 19
+0x3a|5, 0, 0, 20
+Change UI|1, 1
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 13, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|It seems you've all prepared yourselves for the worst!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 8, 7, 1, 3
+Speaker|8
+Voice Line|8, 99, 0, 26, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|That means we're gonna go, right!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 1, 4
+Speaker|11
+Voice Line|11, 99, 0, 50, 100
+Text|Well... if Hajime and Chiaki are going,\nI am going too.\n
+Wait Frame|
+Wait For Input|
+Text|I trust you with my... our safety, guys.\nDon't you dare screw up!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 10, 1, 3
+Speaker|9
+Voice Line|9, 99, 0, 54, 100
+Text|But there's a real possibility that Monokuma set a trap.\nWe should be careful where we step.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I can't stop thinking about <CLT><CLT 03>that ancient ruin<CLT><CLT 04> that\nmight hold clues about the Future Foundation...<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...But we should start exploring the new island.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 4, 1
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Change UI|9, 0
+Sprite|4, 1, 98, 0, 0
+Sprite|5, 19, 98, 0, 0
+Sprite|14, 4, 98, 0, 0
+Sprite|1, 3, 98, 0, 0
+Sprite|0, 8, 98, 0, 0
+Sprite|9, 11, 98, 0, 0
+Sprite|8, 9, 98, 0, 0
+Sprite|3, 7, 98, 0, 0
+0x1|0, 102, 1, 0
+0x1|0, 102, 3, 0
+0x1|0, 102, 4, 0
+0x1|0, 102, 6, 0
+0x1|0, 102, 7, 0
+0x1|0, 102, 8, 0
+0x1|0, 102, 9, 0
+0x1|0, 102, 11, 0
+0x1|1, 66, 28, 1
+0x1|0, 20, 30, 0
+0x1|1, 58, 30, 0
+0x1|1, 61, 30, 0
+0x1|1, 99, 1, 253
+0x2c|1, 246
+Change UI|16, 1
+0x3b|1, 247
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 100
+Choice|21
+Run Script|4, 3, 231, 0, 101
+Choice|22
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 101, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 200, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 101
+Stop Script|
+Choice|23
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 100, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 19
+SFX A|0, 200, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 100
+Stop Script|
+Choice|24
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's Mahiru's photos. Hiyoko used them as decoration.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>She made it in memory of Mahiru...\nAnd everyone else who has died...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|<CLT 04>But after what happened... would she even be able\nto tolerate seeing Mikan's face on them?<CLT>\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|254
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|1, 248
+0x32|1
+Text|Outside\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 100, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 19
+SFX A|0, 200, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 100
+Stop Script|
+0x32|2
+Text|Lobby\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 101, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 200, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 101
+Stop Script|
+0x32|3
+Text|Cancel\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Where would you like to go?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 248
+Choice|255
+0x2c|1, 247
+Stop Script|
+Stop Script|

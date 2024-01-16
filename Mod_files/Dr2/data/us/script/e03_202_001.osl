@@ -1,0 +1,130 @@
+OSL Script
+Set Game To DR2
+Text Count|22, 0
+Change UI|21, 1
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|1, 1, 5, 0, 0
+Text|Hajime's testimony is clearly suspicious!\n
+Wait Frame|
+Check Flag A|0, 1
+Sprite|13, 13, 7, 0, 0
+Text|If Hajime's <CLT 69>testimony is a lie<CLT>...\n
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 2
+Sprite|13, 13, 4, 0, 0
+Text|...then the fact that Ibuki hung herself...\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|1, 1, 22, 0, 0
+Text|That would also be a lie.\n
+Wait Frame|
+Check Flag A|0, 4
+Sprite|4, 4, 11, 0, 0
+Text|I don't think I can deny that possibility...\n
+Wait Frame|
+Check Flag A|0, 5
+Sprite|4, 4, 8, 0, 0
+Text|After all, <CLT 17>Hajime is\nthe only witness<CLT>!\n
+Format|17
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 6
+Sprite|11, 2, 4, 0, 0
+Speaker|11
+Text|Why would Hajime lie,\nyou dipshit?\n
+Wait Frame|
+Check Flag A|0, 7
+Sprite|1, 1, 22, 0, 0
+Text|Well, obviously because he's the killer!\n
+Wait Frame|
+Check Flag A|0, 8
+Sprite|9, 9, 9, 0, 0
+Text|Did Hajime kill both of them?\n
+Wait Frame|
+Check Flag A|0, 9
+Sprite|1, 1, 21, 0, 0
+Text|The fact that the bodies\nwere <CLT 17>imitating the movie<CLT>...\n
+Wait Frame|
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 10
+Sprite|1, 1, 15, 0, 0
+Text|...means it probably\n*is* Hajime's fault!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 11
+Speaker|62
+Format|20
+Text|<CLT 20>Puhuhuhuhu!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 12
+Speaker|62
+Format|20
+Text|<CLT 20>Is that really it...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 13
+Speaker|62
+Format|20
+Text|<CLT 20>You guys sure are entertaining!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 14
+Speaker|62
+Format|20
+Text|<CLT 20>Hajime's a liar?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Speaker|62
+Format|20
+Text|<CLT 20>However...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Speaker|62
+Format|20
+Text|<CLT 20>The wielder of the cursed eyes...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>...is me, only me!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>Fuhahahahaha!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>Um, the movie...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>You're talking about the Wizard of Monomi, right?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>I'm a witch!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

@@ -1,0 +1,791 @@
+OSL Script
+Set Game To DR2
+Text Count|90, 0
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x3a|20, 0, 0, 100
+0x46|14, 6, 0, 0
+0x4d|
+0x3b|1, 244
+Set Flag|0, 12, 0
+0x3b|1, 245
+0x2c|1, 244
+Set Flag|0, 12, 1
+0x2c|1, 245
+0x46|14, 6, 0, 0
+0x4d|
+0x3b|1, 246
+0x1|1, 99, 0, 253
+0x3b|1, 247
+0x2c|1, 246
+Run Script|3, 3, 231, 0, 150
+0x2c|1, 247
+Change UI|6, 0
+Load Map|0, 55, 0, 0
+0x1|0, 55, 4, 1
+0x46|15, 28, 0, 0
+0x4d|
+0x3b|1, 248
+0x1|0, 61, 9, 1
+0x2c|1, 248
+Change UI|9, 0
+Sprite|0, 4, 0, 0, 0
+0x46|15, 28, 0, 0
+0x4d|
+0x3b|1, 249
+Sprite|2, 9, 0, 0, 0
+0x2c|1, 249
+0x23|20, 1, 0, 1, 0
+0x23|21, 1, 0, 1, 0
+0x23|23, 0, 0, 0, 0
+0x23|24, 0, 0, 0, 0
+0x23|25, 1, 0, 0, 0
+0x23|26, 1, 0, 1, 0
+0x23|29, 0, 0, 0, 0
+0x23|30, 0, 0, 0, 0
+Change UI|14, 1
+Load Map|0, 40, 1, 0
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+0x2c|0, 1
+Change UI|16, 1
+0x3b|1, 250
+Check Character|0
+0x46|15, 27, 0, 0
+0x4d|
+0x3b|1, 251
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 4, 21, 1, 2
+Voice Line|4, 99, 0, 29, 100
+Text|What do you even want from me now?!\nLeave me alone!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Souda, I...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 12, 1, 2
+Voice Line|4, 99, 0, 53, 100
+Text|Shut up! How can you even want to live\nin the world where Miss Sonia... precious, divine princess...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Well... her hobbies were a far cry from divinity.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Don't be ridiculous, dude! Do you think\nSonia would have wanted for everyone to die with her?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 2
+Voice Line|4, 99, 0, 41, 100
+Text|Yes! She would have wanted us all to die\nfor failing to protect her!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Is this guy serious?! He really needs some\nprofessional help!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|But what about bringing Sonia's killer to\n justice?! Bringing her body home for official burial?!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 5, 1, 2
+Voice Line|4, 99, 0, 56, 100
+Text|Wha-a-a-a-t?!\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 4, 1, 2
+Voice Line|4, 99, 0, 59, 100
+Text|Dammit, how I could... have been so\nstupid? Of course you're right, Hajime...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 14, 1, 2
+Voice Line|4, 99, 0, 41, 100
+Text|I absolutely should make a cryogenic freezer\nto preserve Miss Sonia's body for the burial she deserves!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 9, 1, 2
+Voice Line|4, 99, 0, 44, 100
+Text|In the meantime, it... she should obviuosly be stored\nin my cottage... I can sacrifice my bed...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Holy shit! I really regret bringing this up now...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Hey, we need to survive the class trial before\nyou can start doing that, remember?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 10, 1, 2
+Voice Line|4, 99, 0, 59, 100
+Text|Huh?! Of course, sorry.\nYou need something from me for the investigation?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You prepared that surveillance camera unit, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 2
+Voice Line|4, 99, 0, 23, 100
+Text|Yeah, so...? I didn't make any weird modifications or\nanything... It's not like I'm suspicious or anything...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Didn't you get this from that shady-looking alley where\nall those machines were lined up?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 11, 1, 2
+Voice Line|4, 99, 0, 3, 100
+Text|Yeah...I just tweaked it a little.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Then...if there are other surveillance camera units...\n
+Wait Frame|
+Wait For Input|
+Text|Would it be possible to transmit a signal to the\nhospital from those cameras, too?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 3, 1, 2
+Voice Line|4, 99, 0, 36, 100
+Text|No, that's impossible.\n
+Wait Frame|
+Wait For Input|
+Text|Originally, surveillance cameras and surveillance\nmonitors are only used as part of the same unit.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The video that was filmed with the hospital camera can\nonly be viewed on the hospital monitor...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The video that was filmed with the music venue camera\ncan only be seen on the music venue monitor...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 11, 1, 2
+Voice Line|4, 99, 0, 4, 100
+Text|But if I left it like that, we wouldn't have been able\nto communicate, so I decided to swap the cameras.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Speaker|0
+Text|So that's how you guys were able to view the hospital\nfootage from the music venue and vice-versa.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 11, 1, 2
+Text|However, each surveillance camera unit manages its\nbroadcast based on a specific number...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|So even if you bring the same model camera or monitor,\nyou won't be able to interfere with the signal.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Meaning...even if another surveillance camera exists,\nit'd be impossible to broadcast with it...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 17, 1, 2
+Voice Line|4, 99, 0, 56, 100
+Text|However...I didn't just swap the cameras.\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|I modified them and increased the wireless range. If I\nhadn't done that, we wouldn't have been able to use it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Y-You're right. You did work on that.\n
+Wait Frame|
+Wait For Input|
+Set Flag|15, 27, 1
+Change UI|1, 0
+Sprite|0, 4, 0, 4, 2
+0x3b|1, 252
+0x2c|1, 251
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 4, 3, 1, 2
+Speaker|4
+Voice Line|4, 99, 0, 20, 100
+Text|Originally, surveillance cameras and surveillance\nmonitors are only used as part of the same unit.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The video that was filmed with the hospital camera can\nonly be viewed on the hospital monitor...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The video that was filmed with the music venue camera\ncan only be seen on the music venue monitor...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But if I left it like that, we wouldn't have been able\nto communicate, so I decided to swap the cameras.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|So that's how you guys were able to view the hospital\nfootage from the music venue and vice-versa.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 17, 1, 2
+Voice Line|4, 99, 0, 56, 100
+Text|However...I didn't just swap the cameras.\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|I modified them and increased the wireless range. If I\nhadn't done that, we wouldn't have been able to use it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Anyway...it seems there's no possibility that another\nsurveillance camera unit was used in this incident.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 4, 17, 4, 2
+0x2c|1, 252
+Check Character|2
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 9, 0, 1, 2
+Voice Line|9, 99, 0, 11, 100
+Text|I feel like I haven't been here in a while. Even\nthough it's only really been a few days...\n<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 9, 0, 4, 2
+Check Character|255
+Choice|20
+Run Script|3, 3, 231, 0, 1
+Choice|21
+Run Script|3, 3, 231, 0, 2
+Choice|22
+Run Script|3, 3, 231, 0, 68
+Choice|23
+Choice|24
+Choice|25
+0x2c|0, 3
+0x46|15, 28, 0, 0
+0x4d|
+0x3b|1, 253
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There's a surveillance camera unit on top of the\nreception desk...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>As long as the music venue's surveillance camera unit is\ndestroyed, it's impossible to broadcast with this.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|26, 9
+0x3a|5, 0, 0, 30
+Change UI|1, 1
+Change UI|9, 1
+Sprite|0, 9, 2, 1, 2
+Voice Line|9, 99, 0, 22, 100
+Text|Hey Hajime. There's something I want to ask you...\n
+Wait Frame|
+Wait For Input|
+Text|You first discovered Ibuki's body at the music venue,\nright?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But why did you go to the music venue? You had a reason\nfor that, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Did you...see something with this camera?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 14, 1, 1
+Voice Line|4, 99, 0, 2, 100
+Text|Oh, I also wanted to ask you that.\n
+Wait Frame|
+Wait For Input|
+Text|It'd be different if the surveillance camera unit could\nrecord, but it's only good for household functions.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 2, 1, 2
+Voice Line|9, 99, 0, 5, 100
+Text|...Tell me Hajime.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Yeah, that's exactly it... I saw a strange video in that\nsurveillance camera unit...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Sprite|0, 9, 0, 3, 2
+Sprite|1, 4, 0, 3, 1
+Music|11, 100, 90
+Change UI|6, 1
+Animation|3, 67, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 67, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Text|It showed the music venue stage. There was a black\ncurtain hanging like there is now...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But the whole display was pretty dark because they were\njust using candlelight...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|There was rope hanging from the ceiling, and beneath\nthat, there was a stepladder on the floor...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And right away...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 67, 0, 0, 0, 0, 0, 255
+Animation|3, 68, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 68, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Text|A person wearing a hospital gown and a hemp bag on their\nhead appeared...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I didn't know who it was because their face was covered,\nbut now I know that must've been Ibuki...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|She walked straight to the stepladder, and without any\nhesitation...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 68, 0, 0, 0, 0, 0, 255
+Animation|3, 69, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 69, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Text|She climbed that stepladder of her own free will. And\nthen, she grabbed that rope and...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|...That's all I saw.\n
+Wait Frame|
+Wait For Input|
+Text|The candlelight being used must've been snuffed out or\nsomething because...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The screen went dark all of a sudden, and it wasn't\ndisplaying anything anymore.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 69, 0, 0, 0, 0, 0, 255
+Music|57, 100, 0
+Change UI|6, 0
+Sprite|0, 4, 24, 1, 2
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Change UI|6, 0
+Speaker|4
+Voice Line|4, 99, 0, 36, 100
+Text|Well, if the candlelight goes out, obviously nothing\nwill show up... \n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Modern surveillance cameras have infrared functions so\nthings can still show up even in the dark...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But the one I got from the machine alley was a really\nold model.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 17, 1, 3
+Voice Line|9, 99, 0, 29, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Ah, hold on.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 2, 1, 3
+Voice Line|9, 99, 0, 11, 100
+Text|At the time, you said you didn't know the person wearing\nthe hemp bag was Ibuki, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Yeah...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 11, 1, 2
+Voice Line|4, 99, 0, 20, 100
+Text|You didn't know it was her, but you saw she was trying\nto hang herself...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|So you rushed over to the music venue to try to stop\nher.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...But I didn't make it in time.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 10, 1, 2
+Voice Line|4, 99, 0, 4, 100
+Text|Still, if she climbed the stepladder on her own...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Does that mean she committed suicide? Wouldn't that mean\nshe's her own killer?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Ibuki...committed suicide...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 12, 1, 3
+Speaker|0
+Text|...What do you think, Chiaki?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 12, 1, 3
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 99, 0, 44, 100
+Text|There's no doubt Ibuki climbed the stepladder on her\nown, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Yeah, there's no doubt.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 12, 1, 3
+Text|If so...\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 99, 0, 44, 100
+Text|Hmm...\n
+Wait Frame|
+Wait For Input|
+Text|Hmmmmmmmmmm...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 11, 1, 2
+Voice Line|4, 99, 0, 47, 100
+Text|Hey, don't think for so long. If you don't know, just be\nhonest about it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Well, of course she doesn't... There's no way we'd\nbe able to figure that out so easily.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 3, 1, 3
+Voice Line|9, 99, 0, 30, 100
+Text|Mmph...!\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 2, 1, 3
+Voice Line|9, 99, 0, 29, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Oh yeah. I need to investigate the conference room on\nthe second floor.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 3, 1, 3
+Voice Line|9, 99, 0, 30, 100
+Text|...I'm heading over there.\n
+Wait Frame|
+SFX A|0, 204, 100
+Sprite|1, 9, 3, 5, 2
+0x3a|6, 0, 0, 60
+Wait For Input|
+Change UI|9, 0
+Sprite|1, 9, 98, 0, 0
+0x1|0, 55, 9, 0
+0x1|0, 64, 9, 1
+0x1|0, 64, 28, 1
+Change UI|9, 1
+Sprite|0, 4, 7, 1, 2
+Voice Line|4, 99, 0, 37, 100
+Text|What the heck...? She ran away all of a sudden...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 0, 4, 3
+Speaker|0
+Format|4
+Text|<CLT 04>She said the conference room... But why would she\nmention the conference room all of a sudden?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Also...I might just be overthinking but...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Did she seem a little upset?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Truth Bullet|73, 1
+Change UI|2, 0
+Speaker|63
+Animation|4, 49, 0, 0, 0, 0, 0, 1
+Format|6
+Text|<CLT 06>"<CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Surveillance Monitor Video<CLT><CLT 06>" has been added to the\nTruth Bullets section of your handbook.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|4, 49, 0, 0, 0, 0, 0, 2
+Set Flag|0, 6, 1
+Set Flag|15, 28, 1
+Change UI|1, 0
+0x3b|1, 254
+0x2c|1, 253
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Based on the surveillance camera video I saw...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>There's no doubt Ibuki climbed the stepladder on her\nown...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|If so... It'd mean Ibuki committed suicide...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>But...is that really it?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|1, 254
+Choice|26
+Choice|27
+Change UI|15, 0
+0x46|14, 6, 0, 1
+0x4d|
+0x3b|1, 255
+0x3b|0, 4
+0x3b|2, 0
+0x2c|1, 255
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There should still be things to investigate here.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|2, 0
+Choice|28
+Change UI|15, 0
+0x46|15, 27, 0, 1, 6, 15, 28, 0, 1
+0x4d|
+0x3b|2, 1
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 56, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 208, 100
+Change UI|15, 2
+Script|3, 0, 100, 0, 56
+Stop Script|
+0x3b|2, 2
+0x2c|2, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should investigate the lobby first...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|2, 2
+Choice|254
+0x46|14, 6, 0, 1
+0x4d|
+0x3b|2, 3
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|2, 4
+0x32|1
+Text|Yes\n
+Wait Frame|
+0x2c|0, 4
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 40, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 5
+SFX A|0, 209, 100
+Change UI|15, 2
+Script|3, 0, 0, 0, 40
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|2, 4
+0x3b|2, 5
+0x2c|2, 3
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There should still be things to investigate in this\nhospital...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|2, 5
+Choice|255
+0x2c|1, 250
+0x2c|0, 2
+Run Script|3, 3, 231, 0, 141
+Screen Fade|1, 1, 24
+Script|3, 0, 101, 0, 0
+Stop Script|
+Stop Script|

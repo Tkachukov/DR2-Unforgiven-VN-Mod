@@ -1,0 +1,53 @@
+OSL Script
+Set Game To DR2
+Text Count|0, 0
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 0
+0x1|0, 144, 28, 1
+Change UI|6, 0
+0x3a|8, 0, 0, 3
+Load Map|0, 141, 0, 0
+Change UI|9, 0
+0x23|21, 0, 0, 0, 0
+0x23|22, 0, 0, 0, 0
+0x23|28, 0, 0, 0, 0
+0x23|29, 0, 0, 0, 0
+Music|11, 100, 120
+Change UI|14, 0
+Load Map|0, 143, 1, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|16, 1
+0x3b|1, 244
+Check Character|255
+Choice|25
+Run Script|3, 3, 231, 0, 142
+Choice|30
+Change UI|15, 0
+Change UI|3, 0
+Load Map|0, 145, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 1
+SFX A|0, 201, 100
+Change UI|15, 2
+Script|3, 0, 102, 0, 0
+Stop Script|
+Choice|24
+Run Script|3, 3, 231, 0, 142
+Choice|23
+Run Script|3, 3, 231, 0, 142
+Choice|27
+Run Script|3, 3, 231, 0, 142
+Choice|26
+Run Script|3, 3, 231, 0, 142
+Choice|20
+Run Script|3, 3, 231, 0, 142
+Choice|254
+Choice|255
+0x2c|1, 244
+Stop Script|

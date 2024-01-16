@@ -1,0 +1,1717 @@
+OSL Script
+Set Game To DR2
+Text Count|197, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Change UI|1, 1
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 183, 0, 1, 0
+Voice Line|0, 3, 0, 114, 100
+Text|You're referring to the candle in the music venue,\nright?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 69, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 69, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 115, 100
+Text|In the video I saw, a candle was used for lighting. But\nif you think about it that's pretty strange...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 116, 100
+Text|The music venue has good lighting, so there's no reason\nto even use candlelight.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|13
+Voice Line|13, 3, 0, 39, 100
+Text|But...wouldn't they have done it to make it feel\ncreepier?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|1
+Voice Line|1, 3, 0, 102, 100
+Text|That might've been another reason but...the main reason\nwas probably to tamper with evidence.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 69, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 115, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 2, 0, 0
+Voice Line|1, 3, 0, 103, 100
+Text|The lighting in the conference room and the music venue\nare so different, they couldn't be used during filming.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 69, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 69, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 3, 0, 104, 100
+Text|That's why the killer used a candle as <CLT 03>film lighting\ninstead<CLT>.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 69, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|7, 7, 47, 0, 0
+Trial Camera|7, 0, 21, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|7, 7, 47, 0, 0
+Voice Line|7, 3, 0, 58, 100
+Text|Which means... Are you saying the candle in the music\nvenue wasn't actually used?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 133, 0, 0, 0
+Voice Line|0, 3, 0, 117, 100
+Text|That candle was likely placed there just to make me\nthink it was the same candle that was used in the video.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 69, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 69, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|4
+Voice Line|4, 3, 0, 43, 100
+Text|With candlelight, you can't see things in that much\ndetail. Maybe they were going for that effect.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|4, 3, 0, 44, 100
+Text|With that cheap-ass camera, it won't capture much in a\ndark area.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 69, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 2, 10, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 0, 0, 0
+Voice Line|0, 3, 0, 118, 100
+Text|As long as this all matches up, it should be no problem\nto say this is decided...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 240, 0
+Sprite|0, 0, 9, 4, 0
+Trial Camera|0, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|0, 3, 0, 119, 100
+SFX A|0, 26, 100
+Text|The video I saw wasn't filmed at the music venue! It was\nactually filmed at the hospital conference room!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|9, 9, 0, 0, 0
+Trial Camera|9, 0, 95, 0, 0, 0
+Voice Line|9, 3, 0, 74, 100
+Text|If I'd found proof that evidence in the conference room\nwas altered, we would've reached an answer sooner...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 178, 0, 1, 0
+Voice Line|9, 3, 0, 75, 100
+Text|But it appears the killer already covered that up, so I\ndidn't find anything when I went there.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 10, 0, 0
+Trial Camera|4, 0, 36, 0, 0, 0
+Voice Line|4, 3, 0, 45, 100
+Text|But there's no mistake...that's the only place within\nthe connection range of the surveillance camera...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 144, 0, 0, 0
+Text|The motel would have been too far... And the interior\ndesign of the movie theater is too distinctive.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 1, 33, 0, 0, 0
+Voice Line|1, 3, 0, 105, 100
+SFX A|0, 19, 100
+Text|...But this must be a surprising turn of events for\nHajime.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 15, 0, 0
+Trial Camera|1, 2, 167, 0, 0, 0
+Voice Line|1, 3, 0, 106, 100
+Text|You never suspected that the video you saw in the\nhospital was being filmed in the conference room.\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 13, 0, 0
+Trial Camera|8, 2, 7, 0, 0, 0
+Voice Line|8, 3, 0, 56, 100
+Text|Um...if Ibuki's hangin' video was filmed at the\nhospital's conference room...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 4, 0
+Trial Camera|8, 0, 149, 0, 0, 0
+Voice Line|8, 3, 0, 57, 100
+SFX A|0, 20, 100
+Text|Then was Ibuki killed at the conference room too!?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 241, 0, 0, 0
+Voice Line|7, 3, 0, 59, 100
+SFX A|0, 19, 100
+Text|No, that's not possible...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|7, 0, 118, 0, 0, 0
+Voice Line|7, 3, 0, 60, 100
+Text|Right after Hajime saw that video, he discovered Ibuki's\nbody at the music venue.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|18, 1
+0x3b|1, 244
+0x32|1
+Text|The Ibuki in the conference room\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|2
+Text|The Ibuki at the music venue\n
+Wait Frame|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Format|4
+Text|<CLT 04>The Ibuki at the music venue was...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...not a fake. There's no doubt she was the real Ibuki.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>As long as I personally saw that she hanged herself,\nthat's a fact we have to accept.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...what am I doing!? I need to calm down and think \nthis over again!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3b|0, 0
+0x32|3
+Text|The Sonia at the motel\n
+Wait Frame|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Format|4
+Text|<CLT 04>The Sonia at the motel was fake...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If the Sonia staying there was fake, then where was the\nreal Sonia staying?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...even as I say it, it doesn't make sense.\nI need to calm down and think it over again...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3b|0, 0
+0x32|4
+Text|The Sonia at the music venue\n
+Wait Frame|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Format|4
+Text|<CLT 04>The Sonia at the music venue is fake...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Then does that mean the Sonia who was suspended there\nwasn't real?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If that's it...it would've been great...but that's not\nthe case...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...what am I doing!? I need to calm down and think \nthis over again!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3b|0, 0
+0x32|18
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 33, 0, 0, 0
+Text|Hey, what are you freezing for?\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 0, 0
+Trial Camera|4, 0, 253, 0, 0, 0
+Text|You bastard, what are you planning!? You're trying to\nback up the killer, aren't you!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 16, 0, 0
+Trial Camera|8, 0, 235, 0, 0, 0
+Text|No, he looks suspicious. Like...he has the face of a\nkiller.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Th-This is bad...I don't really get it but...it looks\nlike they're suspicious of me now...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3b|0, 0
+0x32|19
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 89, 0, 0, 0
+Format|4
+Text|<CLT 04>That video was filmed at the conference room, but\nIbuki's body was at the music venue.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 226, 0, 0, 0
+Format|4
+Text|<CLT 04>Which means...there was a fake somewhere.\nThat fake must have been...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Music|56, 100, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 212, 0, 0, 0
+Voice Line|0, 3, 0, 120, 100
+Text|The person wearing the hemp bag in that video wasn't\nIbuki...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 69, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 69, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 121, 100
+Text|It was...the killer pretending to be Ibuki.\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 122, 100
+Text|The killer put on a hospital gown, wore a hemp bag on\ntheir head, and was only pretending to be the victim.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 69, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 159, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 3, 0, 0
+Voice Line|1, 3, 0, 107, 100
+Text|By that time, the real Ibuki must've already been\nkilled.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 183, 0, 0, 0
+Voice Line|9, 3, 0, 76, 100
+Text|The actual time of death...must've been earlier.\nProbably around midnight or dawn to avoid witnesses.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 94, 0, 0, 0
+Voice Line|7, 3, 0, 61, 100
+Text|If they took Ibuki from the music venue to the hospital\nto kill her, there's no way it happened during the day.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 240, 0
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 1, 239, 0, 0, 0
+Format|4
+Text|<CLT 04>So that's what happened... Then no matter how quickly I\nran, it was impossible for me to rescue Ibuki.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>At that moment, I was already in the killer's trap.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|9, 100, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 208, 0, 1, 0
+Format|4
+Text|<CLT 04>And...the one who set a trap for me was...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 0, 0
+Trial Camera|4, 2, 7, 0, 0, 0
+Voice Line|4, 99, 0, 56, 100
+Text|But why did the killer go to the trouble of making a\nfake video just so Hajime could go to the crime scene?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 167, 0, 0, 0
+Voice Line|0, 3, 0, 123, 100
+Text|The reason the killer made a fake video...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 108, 0, 1, 0
+Voice Line|0, 3, 0, 124, 100
+Text|There's only one possibility I can think of. And if I\nexamine that possibility thoroughly...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Voice Line|0, 3, 0, 125, 100
+SFX A|0, 19, 100
+Text|Then naturally, the killer's identity will reveal\nitself.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 14, 4, 0
+Trial Camera|11, 1, 53, 0, 0, 0
+Voice Line|11, 99, 0, 42, 100
+Speaker|11
+Text|...Finally?\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 7, 0, 0
+Trial Camera|3, 0, 119, 0, 0, 0
+Voice Line|3, 3, 0, 62, 100
+Text|You fiend... Are you saying you already know who the\nkiller is!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 240, 0
+Sprite|0, 0, 16, 0, 0
+Trial Camera|0, 0, 13, 0, 0, 0
+Voice Line|0, 3, 0, 126, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Music|8, 100, 0
+0x3a|11, 0, 0, 120
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 2
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 251
+0x3b|1, 252
+0x2c|1, 251
+0x2c|1, 252
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 2, 7, 0, 0, 0
+Format|4
+Text|<CLT 04>That's right...I should already know...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I should've already known...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>Who the killer...is...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Change UI|37, 1
+0x3b|1, 253
+0x32|13
+Voice Line|0, 99, 0, 4, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x3a|13, 0, 0, 1
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 254
+0x3a|13, 1, 3, 232
+0x3b|1, 255
+0x2c|1, 254
+0x3a|13, 1, 1, 244
+0x2c|1, 255
+0x3b|0, 3
+0x32|0
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 177, 0, 0, 0
+Format|4
+Text|<CLT 04>That's right, it was me...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 10, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>...Wait, huh? That's not possible! Now's not the time\nfor me to fool around!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 0
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 0
+0x3a|13, 0, 0, 0
+0x3b|0, 2
+0x32|1
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|Aren't you...the killer, Nagito?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 16, 0, 0
+Trial Camera|1, 0, 32, 0, 0, 0
+Text|I couldn't have committed the crime because I had the\nDespair Disease... I mentioned that over and over...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 28, 0, 0
+Trial Camera|1, 0, 14, 0, 0, 0
+Text|But I don't mind!\n
+Wait Frame|
+Wait For Input|
+Text|If that's what the "Symbols of Hope" choose, I'll accept\nit with all my heart and soul!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 28, 0, 0
+Trial Camera|1, 1, 37, 0, 0, 0
+Text|Now then, vote for me!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 13, 0, 0, 0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>No...it's not Nagito...I should've already known that\nfrom the start.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...what am I doing!?<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 1
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 1
+0x3a|13, 0, 0, 0
+0x3b|0, 2
+0x32|7
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|Hey Fuyuhiko...you're not the killer, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 137, 0, 0, 0
+Text|I-I feel pain too, you know... I never expected I'd be\ndoubted...at a time like this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 33, 0, 0
+Trial Camera|7, 1, 19, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|God dammit! I'll risk my life to prove my innocence!\nI'll fucking cut my guts with no mercy!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Hey Monokuma! Bring me a knife or a katana! Bring me\nanything!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 10, 0, 0
+Trial Camera|0, 0, 208, 0, 0, 0
+Text|Th-That's not it... I...was checking just in case...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...what am I doing!?<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 2
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 2
+0x3a|13, 0, 0, 0
+0x3b|0, 2
+0x32|9
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|Hey Chiaki...it's not you, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 3, 0, 0
+Trial Camera|9, 0, 235, 0, 0, 0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|Hey, hey...this isn't Portopia, so a development like\nthat is really out of place...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 10, 0, 0
+Trial Camera|0, 0, 253, 0, 0, 0
+Text|Y-You're right...I just wanted to check to be sure.\nDon't worry about it...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...what am I doing!?<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 3
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 3
+0x3a|13, 0, 0, 0
+0x3b|0, 2
+0x32|252
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>No...that's not it... There's no way this person is the\nkiller...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 4
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 4
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 11, 0, 0
+Format|4
+Text|<CLT 04>Dammit...I need to think this over one more time!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|0, 2
+0x32|253
+Sprite|4, 4, 8, 4, 0
+Trial Camera|4, 1, 37, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|4, 4, 8, 4, 0
+Speaker|62
+SFX A|0, 18, 100
+Text|Argh! What are you clamming up for!? Hurry up and say\nit, Hajime!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 0, 0
+Text|Don't tell me there's gonna be a twist like, "I'm the\nkiller, so I can't say it", okay?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|2, 5
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|2, 5
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 0
+0x3b|0, 2
+0x32|255
+0x2c|1, 253
+0x2c|0, 3
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Change UI|1, 1
+Change UI|4, 0
+Music|255, 180, 0
+Sprite|0, 0, 4, 4, 0
+Trial Camera|0, 1, 39, 0, 0, 0
+Voice Line|0, 3, 0, 127, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 26, 100
+Text|Mikan...you're the killer, aren't you?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 14, 4, 0
+Trial Camera|13, 1, 63, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 40, 100
+SFX A|0, 22, 100
+Text|...Eeeeeek!\n
+Wait Frame|
+Music|25, 100, 0
+Wait For Input|
+Sprite|13, 13, 21, 0, 0
+Trial Camera|13, 0, 18, 0, 0, 0
+Voice Line|13, 3, 0, 41, 100
+Text|U-Um...what are you talking about?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 143, 0, 0, 0
+Voice Line|0, 3, 0, 128, 100
+Text|Like I said... Aren't you the killer who murdered Ibuki\nand Sonia?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 0, 226, 0, 0, 0
+Voice Line|13, 3, 0, 42, 100
+Text|K-Killer...h-huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 20, 4, 0
+Trial Camera|13, 1, 45, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 43, 100
+SFX A|0, 22, 100
+Text|Haaaaah!? I-I'm the killer...? Wh-What is this!?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 0, 0
+Trial Camera|8, 0, 38, 0, 0, 0
+Voice Line|8, 3, 0, 58, 100
+Text|H-Hey...don'tcha think that's kinda impossible?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 18, 0, 0
+Trial Camera|8, 0, 93, 0, 0, 0
+Voice Line|8, 3, 0, 59, 100
+Text|A chick like her is the killer? She couldn't even kill a\nfly... In fact, the fly would prolly kill her first.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 4, 0
+Trial Camera|13, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 44, 100
+SFX A|0, 18, 100
+Text|Sh-She's right!\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 10, 4, 0
+Trial Camera|13, 0, 133, 0, 0, 0
+Voice Line|13, 3, 0, 45, 100
+Text|A clumsy, slowpoke like me killing someone...? Th-That's\ncompletely out of the question!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 91, 0, 0, 0
+Voice Line|0, 3, 0, 129, 100
+Text|But...we're the only ones.\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 130, 100
+Text|Thanks to that video, we're the only ones who have the\nadvantage of an <CLT 03>alibi<CLT>...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 54, 0, 0, 0
+Text|An alibi...? Was that the killer's goal?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 93, 0, 0, 0
+Voice Line|1, 3, 0, 108, 100
+Text|Now that you mention it, you guys brought that up\nearlier... Only Hajime and Mikan have an alibi.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 20, 4, 0
+Trial Camera|13, 1, 3, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 46, 100
+SFX A|0, 18, 100
+Text|I-It's just a coincidence!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 18, 0, 0, 0
+Voice Line|0, 3, 0, 131, 100
+Text|But you're the only one who could've filmed that video\nin the hospital conference room.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 55, 0, 0, 0
+Voice Line|0, 3, 0, 132, 100
+SFX A|0, 19, 100
+Text|Is that also a coincidence?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 14, 4, 0
+Trial Camera|13, 1, 51, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 47, 100
+SFX A|0, 22, 100
+Text|Haaah!?\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+Filter|1, 1, 0, 0
+0x37|0, 38, 1
+Sprite|0, 13, 9, 101, 2
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Text|Shouldn't you...get some rest already? You should be\nexhausted from nursing without any sleep, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 13, 7, 1, 2
+Speaker|13
+Text|Then, if you insist, I will use the on-call room\nupstairs...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|You must be mentally exhausted, so it's better if you\nrelax in the lobby instead.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Filter|1, 0, 0, 0
+Sprite|0, 13, 7, 3, 2
+0x37|0, 28, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 199, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 0, 0, 0
+Voice Line|0, 3, 0, 133, 100
+Text|At that time, you said you were going to the on-call\nroom... But you actually went to the conference room.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 77, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 77, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 134, 100
+Text|That's when you put on a hospital gown that you prepared\nin advance, put the bag on your head, and began filming.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 135, 100
+Text|By doing that, you made up a video that showed Ibuki\ntrying to hang herself at the music venue...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 77, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 4, 4, 0
+Trial Camera|0, 0, 220, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 4, 4, 0
+Voice Line|0, 3, 0, 136, 100
+SFX A|0, 26, 100
+Text|...and showed that to me!\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 9, 0, 0
+Trial Camera|13, 0, 217, 0, 0, 0
+Voice Line|13, 3, 0, 48, 100
+Text|Hah, wa...ha-wa-wa-wa-wa-wa-wa...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 94, 0, 0, 0
+Voice Line|0, 3, 0, 137, 100
+Text|Furthermore, I saw that video at the hospital lobby...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 38, 0, 1, 0
+Voice Line|0, 3, 0, 138, 100
+Text|If someone wants to go to the conference room from\noutside, they have to pass through the lobby.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 140, 0, 0, 0
+Voice Line|7, 3, 0, 62, 100
+Text|So it's impossible that someone who wasn't already in\nthe hospital went to the conference room to film!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 204, 0, 0, 0
+Voice Line|1, 3, 0, 109, 100
+Text|Not only that...the others in the hospital, Akane and I,\nwere both delirious from the Despair Disease...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 12, 0, 0
+Trial Camera|3, 0, 92, 0, 0, 0
+Voice Line|3, 3, 0, 63, 100
+Text|So that must mean...!\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 12, 4, 0
+Trial Camera|13, 1, 53, 0, 0, 0
+0x2e|1, 20, 0, 100, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 49, 100
+SFX A|0, 18, 100
+Text|P-Please wait a second!\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 0, 83, 0, 0, 0
+Voice Line|13, 3, 0, 50, 100
+Text|Wh-Wh-What are you saying...!? I-I'm the killer...!?\n
+Wait Frame|
+Wait For Input|
+Music|255, 240, 0
+Sprite|13, 13, 20, 0, 0
+Trial Camera|13, 0, 92, 0, 0, 0
+Voice Line|13, 3, 0, 51, 100
+SFX A|0, 18, 100
+Text|That's impossible! There's no way I could kill someone!\n
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 142, 0, 0, 0
+Voice Line|1, 3, 0, 110, 100
+Text|It's not literally impossible... Can't you give a better\ndefense than that?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 18, 0, 0
+Trial Camera|4, 0, 21, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 10, 0
+Voice Line|4, 3, 0, 46, 100
+SFX A|0, 21, 100
+Text|It just shows she can't even do that...\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 0, 0
+Trial Camera|8, 0, 38, 0, 0, 0
+Voice Line|8, 3, 0, 60, 100
+Text|Hey, you sure this chick is really the killer?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 10, 0, 0
+Trial Camera|13, 0, 87, 0, 0, 0
+Voice Line|13, 3, 0, 52, 100
+Text|W-Wrong... I-It's totally wrong... It's not what you\nthink!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 7, 0, 0
+Trial Camera|11, 0, 116, 0, 0, 0
+Voice Line|11, 99, 0, 50, 100
+Text|Piggy... If you were framed by someone...\nJust tell us everything as it happened...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 179, 0, 0, 0
+Text|I agree...it is truly difficult to believe someone could\nbe killed by such a slow-witted woman...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 0, 0
+Trial Camera|4, 0, 21, 0, 0, 0
+Voice Line|4, 99, 0, 50, 100
+Text|Hey! Show some respect to the girl, dude!\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 0, 21, 0, 0, 0
+Voice Line|13, 3, 0, 53, 100
+Text|Nyuh...it's fine... I've been like this for a long\ntime...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 20, 0, 0
+Trial Camera|13, 0, 140, 0, 0, 0
+Voice Line|13, 3, 0, 54, 100
+Text|In a <CLT 03>tournament for social punching bags<CLT>, I'd easily\nwin first place with my soft reputation...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 6, 0, 0
+Trial Camera|13, 0, 142, 0, 0, 0
+Voice Line|13, 3, 0, 55, 100
+SFX A|0, 23, 100
+Text|Nnh...even I can't deny that...\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 20, 0, 0
+Trial Camera|13, 0, 207, 0, 0, 0
+Voice Line|13, 3, 0, 56, 100
+Text|How many times do I have to tell you? It's impossible\nfor me to kill someone! I'm serious...very serious!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 2, 7, 0, 0, 0
+Voice Line|4, 3, 0, 47, 100
+Text|...Wh-What do you say, Hajime?\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 183, 0, 0, 0
+Voice Line|3, 3, 0, 65, 100
+Text|Do you still believe...this woman is the killer?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 6, 0, 0
+Trial Camera|13, 0, 83, 0, 0, 0
+Voice Line|13, 3, 0, 57, 100
+Text|Nnnh... D-Do you...hate me—*hic!*—that much, Hajime...?\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|8, 8, 16, 4, 0
+Trial Camera|8, 1, 39, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|8, 3, 0, 61, 100
+SFX A|0, 18, 100
+Text|Hey, Hajime!\n
+Wait Frame|
+Wait For Input|
+Music|15, 100, 240
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 88, 0, 0, 0
+Voice Line|0, 3, 0, 139, 100
+Text|U-Umm...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 137, 0, 1, 0
+Format|4
+Text|<CLT 04>E-Everyone's...ganging up on me...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 6, 0, 0
+Trial Camera|13, 0, 134, 0, 0, 0
+Voice Line|13, 3, 0, 58, 100
+Text|Uh...ugh...! *Hic!* *Hic!*\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 167, 0, 0, 0
+Format|4
+Text|<CLT 04>Tricks aside, logic aside... Is she really capable...of\ndoing something like this?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 11, 0, 0
+Trial Camera|0, 1, 51, 0, 0, 0
+Voice Line|0, 3, 0, 140, 100
+SFX A|0, 20, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 1, 252, 0, 1, 0
+Format|4
+Text|<CLT 04>Could it be...I'm the one making a mistake?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>No, in fact...it'd be so much easier if I was wrong...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If I have this much doubt about someone I've spent so\nmuch time with...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|1, 1, 28, 0, 0
+Trial Camera|1, 1, 1, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 0, 128, 30, 0
+Voice Line|1, 3, 0, 111, 100
+SFX A|0, 21, 100
+Text|...Ah, can you hold on a minute?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 255, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|10, 100, 0
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 2, 169, 0, 0, 0
+Voice Line|1, 3, 0, 112, 100
+Text|Well...I know I'm being intrusive and all. And I mean, I\nhave no place to say this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 227, 0, 0, 0
+Voice Line|1, 3, 0, 113, 100
+Text|I missed all of the critical parts and I doubt I have\nanything worth saying at an important time like this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 89, 0, 0, 0
+Voice Line|0, 3, 0, 141, 100
+Text|Wh-What are you saying...?\n
+Wait Frame|
+Wait For Input|
+Music|25, 100, 0
+Sprite|1, 1, 10, 0, 0
+Trial Camera|1, 0, 231, 0, 0, 0
+Voice Line|1, 3, 0, 114, 100
+SFX A|0, 21, 100
+Text|But still...there's definitely no way I can overlook the\nkiller this time.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 1, 37, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 199, 0, 0, 0
+Voice Line|1, 3, 0, 115, 100
+Text|I thought it was suspicious all along. From the very\nbeginning...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 2, 7, 0, 1, 0
+Voice Line|1, 3, 0, 116, 100
+Text|Investigating with a suspect in mind creates a different\nresult than investigating with no leads...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 134, 0, 0, 0
+Voice Line|3, 3, 0, 66, 100
+Text|...Hey, what are you trying to say?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 0, 41, 0, 0, 0
+Voice Line|1, 3, 0, 117, 100
+SFX A|0, 19, 100
+Text|Well, thanks to that... I was able to discover a truth\nthat nobody else knows.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 4, 0
+Trial Camera|4, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|4, 3, 0, 48, 100
+SFX A|0, 20, 100
+Text|Wha-!? Are you serious!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 2, 181, 0, 0, 0
+Voice Line|1, 3, 0, 118, 100
+Text|I've been so focused on everybody else this trial...but\nI guess now's a good time to say it, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 33, 4, 0
+Trial Camera|7, 0, 92, 0, 0, 0
+Voice Line|7, 3, 0, 63, 100
+SFX A|0, 18, 100
+Text|You better not have kept quiet on purpose! This isn't a\ngame, you know!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 31, 4, 0
+Trial Camera|16, 2, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|16, 3, 0, 11, 100
+SFX A|0, 18, 100
+Text|Actually, this *is* a game!\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 26, 0, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Speaker|17
+Voice Line|17, 3, 0, 14, 100
+Text|Please don't say such controversial statements!\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 0, 61, 0, 0, 0
+Voice Line|9, 3, 0, 77, 100
+Text|Well...what do you know, Nagito?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 211, 0, 0, 0
+Voice Line|1, 3, 0, 119, 100
+Text|Well, it's nothing big, really... Only a small, decisive\nclue that points to the killer.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 4, 0
+Trial Camera|8, 1, 3, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|8, 3, 0, 62, 100
+SFX A|0, 20, 100
+Text|Dang! That's a huge deal!\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 0, 64, 0, 0, 0
+Voice Line|13, 3, 0, 59, 100
+Text|A d-decisive clue... Does something like that...really\nexist?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 221, 0, 0, 0
+Voice Line|1, 3, 0, 120, 100
+Text|Let's take a look, shall we...?\n
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 2, 7, 0, 0, 0
+Animation|11, 233, 0, 0, 0, 0, 0, 1
+Voice Line|1, 3, 0, 121, 100
+Text|Regarding the rope Ibuki was dangling from...\n
+Wait Frame|
+Wait For Input|
+Voice Line|1, 3, 0, 122, 100
+Text|This rope...was supplied by the supermarket, right?\nThere weren't any ropes inside the music venue.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 233, 0, 0, 0, 0, 0, 2
+Sprite|8, 8, 11, 0, 0
+Trial Camera|8, 0, 90, 0, 0, 0
+Voice Line|8, 3, 0, 63, 100
+Text|Again with the supermarket... That place is a hot spot\nfor criminal goods.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 119, 0, 0, 0
+Voice Line|1, 3, 0, 123, 100
+Text|If they got it at the supermarket, that means it was\n<CLT 03>brand-new<CLT>, right?\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 186, 0, 0, 0
+Voice Line|7, 3, 0, 64, 100
+Text|...What's wrong with that?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 0, 118, 0, 0, 0
+Voice Line|1, 3, 0, 124, 100
+Text|I want you to take a close look at this rope, and keep\nin mind that it's brand-new...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 249, 0, 0, 0, 0, 0, 1
+Voice Line|1, 3, 0, 125, 100
+SFX A|0, 19, 100
+Text|Near the middle of the rope... It's frayed, as if it was\n<CLT 03>rubbed strongly<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 17, 0, 1, 0
+Voice Line|1, 3, 0, 126, 100
+Text|But why is it like this? The loop Ibuki used to hang\nherself is on one end of the rope...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 41, 0, 1, 0
+Voice Line|1, 3, 0, 127, 100
+Text|And the part of the rope that hung from the baton\nlighting is on the other end...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 249, 0, 0, 0, 0, 0, 2
+Sprite|8, 8, 18, 0, 0
+Trial Camera|8, 0, 14, 0, 0, 0
+Voice Line|8, 3, 0, 64, 100
+Text|Hey, you're takin' too long. What's wrong with the rope\nbein' frayed!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 1, 239, 0, 0, 0
+Voice Line|1, 3, 0, 128, 100
+Text|It means...well, from what I can infer, I think the rope\nwas used like this.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 78, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 78, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 3, 0, 129, 100
+Text|The killer wrapped the rope around Ibuki's neck, pulled\nboth ends at full strength, and strangled her.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|1, 3, 0, 130, 100
+Text|The center of the rope is frayed because that's the part\nthey used to strangle Ibuki.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 78, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 21, 4, 0
+Trial Camera|0, 1, 17, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 21, 4, 0
+Voice Line|0, 3, 0, 142, 100
+SFX A|0, 18, 100
+Text|Hold on...I've been listening to you for a while, and it\nsounds like you knew about this rope clue all along...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 92, 0, 1, 0
+Voice Line|0, 3, 0, 143, 100
+Text|What exactly did you say to me during the investigation?\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+Filter|1, 1, 0, 0
+0x37|0, 141, 1
+Sprite|0, 1, 1, 8, 2
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Text|So this rope won't be much of a clue.\n
+Wait Frame|
+Wait For Input|
+Text|...Then I might as well search another place.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Filter|1, 0, 0, 0
+Sprite|0, 1, 1, 3, 2
+0x37|0, 141, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 7, 0, 0
+Trial Camera|1, 2, 181, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 7, 0, 0
+Voice Line|1, 3, 0, 131, 100
+Text|Not everyone cooperates at a class trial... Those who\nlie and conceal the truth will obviously be here too...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 15, 4, 0
+Trial Camera|1, 1, 37, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|1, 3, 0, 132, 100
+SFX A|0, 21, 100
+Text|Just like the this case's killer! I was just copying\nthem a little bit!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 4, 0
+Trial Camera|0, 1, 53, 0, 0, 0
+Voice Line|0, 3, 0, 144, 100
+SFX A|0, 20, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 61, 0, 0, 0
+Voice Line|4, 3, 0, 49, 100
+Text|More importantly, what was all that about the rope? The\nkiller strangled Ibuki...and then?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 1, 37, 0, 0, 0
+Voice Line|1, 3, 0, 133, 100
+SFX A|0, 19, 100
+Text|And then...I finished speaking.\n
+Wait Frame|
+Music|9, 100, 120
+Wait For Input|
+Sprite|4, 4, 6, 0, 0
+Trial Camera|4, 1, 49, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|4, 3, 0, 50, 100
+SFX A|0, 22, 100
+Text|Huuuuuuhhhh!?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 12, 4, 0
+Trial Camera|13, 0, 235, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 60, 100
+SFX A|0, 18, 100
+Text|H-How is that a decisive clue!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 112, 0, 0, 0
+Voice Line|1, 3, 0, 134, 100
+Text|Huh? You didn't notice it? I thought I made the decisive\nclue...very clear.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 19, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>Nagito's words...contain a decisive clue...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 37, 0, 1, 0
+Voice Line|0, 3, 0, 145, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 229, 0, 0, 0
+Format|4
+Text|<CLT 04>Is that...really true?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Script|3, 0, 233, 0, 0
+Stop Script|
+Stop Script|

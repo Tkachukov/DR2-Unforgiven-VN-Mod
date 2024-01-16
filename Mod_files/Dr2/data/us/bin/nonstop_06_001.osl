@@ -1,0 +1,794 @@
+OSL Script
+Game Context: "Nonstop Debate (DR2)"
+
+[New Section]
+TextID|0
+Type|0
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|2000
+Has Weak Point|0
+Advance|180
+0x8|0
+0x9|3
+Transition|3
+Fade Out|180
+Horizontal|270
+Vertical|60
+Angle Acceleration|30
+Angle|270
+Scale|120
+Final Scale|90
+0x12|1
+Rotation|5
+Rotation Speed|65531
+Character|4
+Sprite|8
+Background Animation|323
+0x18|1
+Voice|8
+0x1a|20
+Chapter|6
+0x1c|0
+0x1d|4
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|1
+Type|0
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|2000
+Has Weak Point|0
+Advance|30
+0x8|2
+0x9|0
+Transition|0
+Fade Out|200
+Horizontal|310
+Vertical|140
+Angle Acceleration|0
+Angle|0
+Scale|110
+Final Scale|100
+0x12|0
+Rotation|73
+Rotation Speed|65533
+Character|16
+Sprite|50
+Background Animation|105
+0x18|0
+Voice|21
+0x1a|20
+Chapter|6
+0x1c|1
+0x1d|16
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|10
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|0
+0x8|2
+0x9|3
+Transition|3
+Fade Out|180
+Horizontal|370
+Vertical|140
+Angle Acceleration|0
+Angle|0
+Scale|90
+Final Scale|100
+0x12|1
+Rotation|70
+Rotation Speed|65533
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|1
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|11
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|170
+0x8|2
+0x9|3
+Transition|3
+Fade Out|180
+Horizontal|250
+Vertical|140
+Angle Acceleration|0
+Angle|180
+Scale|90
+Final Scale|100
+0x12|1
+Rotation|70
+Rotation Speed|65533
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|1
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|2
+Type|0
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|2000
+Has Weak Point|0
+Advance|170
+0x8|2
+0x9|0
+Transition|0
+Fade Out|170
+Horizontal|120
+Vertical|90
+Angle Acceleration|30
+Angle|180
+Scale|120
+Final Scale|90
+0x12|1
+Rotation|45
+Rotation Speed|5
+Character|11
+Sprite|20
+Background Animation|343
+0x18|1
+Voice|561
+0x1a|20
+Chapter|2
+0x1c|1
+0x1d|10
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|3
+Type|0
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|2000
+Has Weak Point|0
+Advance|30
+0x8|0
+0x9|3
+Transition|3
+Fade Out|250
+Horizontal|310
+Vertical|70
+Angle Acceleration|30
+Angle|270
+Scale|100
+Final Scale|100
+0x12|0
+Rotation|0
+Rotation Speed|0
+Character|16
+Sprite|43
+Background Animation|23
+0x18|0
+Voice|22
+0x1a|20
+Chapter|6
+0x1c|0
+0x1d|16
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|12
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|220
+0x8|0
+0x9|3
+Transition|3
+Fade Out|180
+Horizontal|170
+Vertical|210
+Angle Acceleration|30
+Angle|90
+Scale|90
+Final Scale|100
+0x12|1
+Rotation|0
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|4
+Type|0
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|2000
+Has Weak Point|0
+Advance|210
+0x8|0
+0x9|1
+Transition|0
+Fade Out|210
+Horizontal|240
+Vertical|110
+Angle Acceleration|30
+Angle|180
+Scale|40
+Final Scale|150
+0x12|1
+Rotation|0
+Rotation Speed|0
+Character|16
+Sprite|44
+Background Animation|448
+0x18|1
+Voice|23
+0x1a|20
+Chapter|6
+0x1c|0
+0x1d|16
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|5
+Type|0
+0x2|0
+Shoot With Evidence|255
+0x4|65535
+0x5|2000
+Has Weak Point|1
+Advance|30
+0x8|0
+0x9|0
+Transition|0
+Fade Out|220
+Horizontal|190
+Vertical|180
+Angle Acceleration|30
+Angle|90
+Scale|100
+Final Scale|100
+0x12|0
+Rotation|0
+Rotation Speed|0
+Character|16
+Sprite|40
+Background Animation|442
+0x18|0
+Voice|24
+0x1a|20
+Chapter|6
+0x1c|0
+0x1d|16
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|13
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|0
+0x8|0
+0x9|3
+Transition|3
+Fade Out|180
+Horizontal|270
+Vertical|170
+Angle Acceleration|50
+Angle|290
+Scale|90
+Final Scale|100
+0x12|0
+Rotation|20
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|14
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|0
+0x8|0
+0x9|3
+Transition|3
+Fade Out|180
+Horizontal|270
+Vertical|170
+Angle Acceleration|50
+Angle|250
+Scale|90
+Final Scale|100
+0x12|0
+Rotation|340
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|15
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|190
+0x8|0
+0x9|3
+Transition|3
+Fade Out|180
+Horizontal|330
+Vertical|170
+Angle Acceleration|80
+Angle|270
+Scale|90
+Final Scale|100
+0x12|0
+Rotation|0
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|6
+Type|0
+0x2|0
+Shoot With Evidence|157
+0x4|65535
+0x5|2000
+Has Weak Point|1
+Advance|30
+0x8|0
+0x9|0
+Transition|0
+Fade Out|210
+Horizontal|330
+Vertical|180
+Angle Acceleration|30
+Angle|0
+Scale|100
+Final Scale|100
+0x12|0
+Rotation|0
+Rotation Speed|0
+Character|16
+Sprite|52
+Background Animation|733
+0x18|0
+Voice|25
+0x1a|20
+Chapter|6
+0x1c|0
+0x1d|16
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|16
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|30
+0x8|0
+0x9|0
+Transition|0
+Fade Out|180
+Horizontal|330
+Vertical|120
+Angle Acceleration|20
+Angle|180
+Scale|90
+Final Scale|100
+0x12|0
+Rotation|0
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|17
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|30
+0x8|0
+0x9|0
+Transition|0
+Fade Out|180
+Horizontal|330
+Vertical|80
+Angle Acceleration|50
+Angle|180
+Scale|90
+Final Scale|100
+0x12|0
+Rotation|0
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|18
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|120
+0x8|0
+0x9|0
+Transition|0
+Fade Out|180
+Horizontal|330
+Vertical|180
+Angle Acceleration|80
+Angle|0
+Scale|90
+Final Scale|100
+0x12|0
+Rotation|0
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|7
+Type|0
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|2000
+Has Weak Point|0
+Advance|180
+0x8|0
+0x9|3
+Transition|0
+Fade Out|180
+Horizontal|240
+Vertical|180
+Angle Acceleration|30
+Angle|280
+Scale|150
+Final Scale|70
+0x12|1
+Rotation|10
+Rotation Speed|0
+Character|8
+Sprite|12
+Background Animation|326
+0x18|0
+Voice|8
+0x1a|20
+Chapter|6
+0x1c|0
+0x1d|8
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|8
+Type|0
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|2000
+Has Weak Point|0
+Advance|30
+0x8|0
+0x9|3
+Transition|0
+Fade Out|180
+Horizontal|240
+Vertical|180
+Angle Acceleration|30
+Angle|80
+Scale|150
+Final Scale|70
+0x12|1
+Rotation|350
+Rotation Speed|0
+Character|8
+Sprite|24
+Background Animation|350
+0x18|0
+Voice|9
+0x1a|20
+Chapter|6
+0x1c|0
+0x1d|8
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|19
+Type|1
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|150
+0x8|0
+0x9|0
+Transition|0
+Fade Out|180
+Horizontal|300
+Vertical|50
+Angle Acceleration|40
+Angle|270
+Scale|100
+Final Scale|100
+0x12|0
+Rotation|0
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|1
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|9
+Type|0
+0x2|0
+Shoot With Evidence|255
+0x4|65535
+0x5|2000
+Has Weak Point|1
+Advance|30
+0x8|0
+0x9|0
+Transition|0
+Fade Out|210
+Horizontal|295
+Vertical|120
+Angle Acceleration|30
+Angle|210
+Scale|40
+Final Scale|170
+0x12|1
+Rotation|5
+Rotation Speed|0
+Character|8
+Sprite|10
+Background Animation|232
+0x18|1
+Voice|10
+0x1a|20
+Chapter|6
+0x1c|0
+0x1d|8
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|20
+Type|2
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|0
+0x8|0
+0x9|0
+Transition|0
+Fade Out|180
+Horizontal|260
+Vertical|180
+Angle Acceleration|50
+Angle|275
+Scale|50
+Final Scale|120
+0x12|0
+Rotation|5
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|2
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0
+
+[New Section]
+TextID|21
+Type|2
+0x2|0
+Shoot With Evidence|65535
+0x4|65535
+0x5|0
+Has Weak Point|0
+Advance|180
+0x8|0
+0x9|0
+Transition|0
+Fade Out|180
+Horizontal|180
+Vertical|220
+Angle Acceleration|50
+Angle|95
+Scale|50
+Final Scale|120
+0x12|0
+Rotation|5
+Rotation Speed|0
+Character|0
+Sprite|0
+Background Animation|65535
+0x18|0
+Voice|65535
+0x1a|2
+Chapter|6
+0x1c|0
+0x1d|0
+0x1e|65535
+0x1f|0
+0x20|0
+0x21|0

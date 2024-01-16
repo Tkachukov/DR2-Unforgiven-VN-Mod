@@ -1,0 +1,543 @@
+OSL Script
+Set Game To DR2
+Text Count|38, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x46|12, 9, 0, 0
+0x4d|
+0x3b|1, 244
+Set Flag|0, 12, 0
+0x3b|1, 245
+0x2c|1, 244
+Set Flag|0, 12, 1
+0x2c|1, 245
+0x1|0, 133, 29, 1
+Change UI|6, 0
+Load Map|0, 133, 0, 0
+Change UI|9, 0
+Sprite|0, 8, 0, 0, 0
+Sprite|1, 7, 30, 0, 0
+0x1|0, 133, 7, 1
+0x1|0, 133, 8, 1
+0x23|22, 1, 0, 0, 0
+0x23|23, 0, 0, 0, 0
+Change UI|14, 1
+Load Map|0, 70, 1, 0
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+0x46|12, 9, 0, 0
+0x4d|
+0x3b|1, 246
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There's a creepy-looking building that doesn't seem like\nit belongs in an amusement park...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Is it supposed to be a haunted house?\n
+Wait Frame|
+Wait For Input|
+0x3a|6, 0, 0, 60
+0x3a|5, 0, 0, 20
+Change UI|9, 1
+Sprite|0, 8, 21, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 70, 100
+Text|Hey, what'd you wanna talk about?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 39, 100
+Text|Well, you know...\n
+Wait Frame|
+Wait For Input|
+Text|I'm sure you don't want to hear this, since I caused a\nsimilar incident...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And I already know that a guy like me has no right to\nsay this to you but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 31, 1, 1
+Voice Line|7, 99, 0, 37, 100
+Text|But...when I look at you, I just have to say\nsomething...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 11, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 69, 100
+Text|Then spit it out.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 44, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 5, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|You don't need to act so stubborn, you know?\n'Cause...I know what you're going through.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 21, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 68, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 43, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 57, 100
+Text|The only reason you're standing here right now...is\nbecause someone sacrificed himself for you...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|You feel guilty about that. Isn't that right?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 18, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 65, 100
+Text|Hey, what're you talkin' about?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 61, 100
+Text|So you don't want to be honest about it, huh... Well, I\nunderstand that feeling too...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 4, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 18, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Seriously, what the hell are you talkin' about!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 7, 44, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 57, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But like he said, it's better to just be alive...\n
+Wait Frame|
+Wait For Input|
+Text|It might hurt to look at his painful appearance\nright now...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 49, 1, 1
+Voice Line|7, 99, 0, 71, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|But you're much better off because at least he's still\nalive! I mean...for me...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 43, 1, 1
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|7, 99, 0, 53, 100
+Text|S-Sorry...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 3, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 13, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Oh, are you cryin'?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 44, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 59, 100
+Text|Right now...I feel very grateful to her... But I can't\ntell her that anymore.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 49, 1, 1
+Voice Line|7, 99, 0, 57, 100
+Text|But you're different. So...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 50, 1, 1
+Voice Line|7, 99, 0, 72, 100
+Text|Make sure you tell him how grateful you are...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 18, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 68, 100
+Text|Wait, so, what're you tryin' to say again?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 2, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 2, 100
+Text|...Oh, hi, Hajime!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 39, 1, 1
+Voice Line|7, 99, 0, 17, 100
+Text|Wait, what?!\n...God fucking damn it!\n
+Wait Frame|
+Wait For Input|
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Speaker|0
+Text|I didn't hear anything!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...I mean...\nI heard only an end of your conversation...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 0, 4, 2
+Music|255, 120, 0
+Change UI|1, 0
+0x2c|1, 246
+Change UI|16, 1
+0x3b|1, 247
+Check Character|0
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 0, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 42, 100
+Text|Gosh, this place is really boring.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 6, 1, 2
+Voice Line|8, 99, 0, 49, 100
+Text|Why did baby gangsta ask me\nto hang out there, I wonder?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+Check Character|1
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 7, 32, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 11, 100
+Text|What the hell...is wrong with this island...? Why is\nthis here when they're forcing us to kill each other?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 33, 1, 2
+Voice Line|7, 99, 0, 21, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|This is in such bad taste...!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 7, 21, 4, 2
+Change UI|1, 0
+Check Character|255
+Choice|20
+Run Script|4, 3, 231, 0, 100
+Choice|21
+Run Script|4, 3, 231, 0, 101
+Choice|22
+Change UI|15, 0
+0x46|12, 9, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|51, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>The sign at the top of the building definitely says\n<CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>Horror House<CLT><CLT 04> but...<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's like...whatever building used to be here was\nconverted into a haunted house or something...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|0, 17, 19, 6, 2
+Music|14, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|17
+Voice Line|17, 99, 0, 69, 100
+Text|*Sob sob*... *Sob sob*...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 4, 1, 2
+Voice Line|17, 99, 0, 67, 100
+Text|Ever since he took away my Magic Stick, Monokuma has\nbeen doing whatever he pleases.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I've been reduced to the role of an unwanted child... My\ninfluence is weaker than it's ever been...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|And not just that, look what he did to my house...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 19, 1, 2
+Voice Line|17, 99, 0, 69, 100
+SFX A|0, 23, 100
+Text|*Sob sob*... *Sob sob*... This is too much...there's\nnothing good about this at all...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|If this keeps up, history will remember me as the\ngreatest character to ever become a one-shot punchline.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 12, 1, 2
+Voice Line|17, 99, 0, 57, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Speaker|17
+Text|Ah, Hajime!? You were here!?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You didn't notice until now...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 9, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 51, 100
+SFX A|0, 23, 100
+Text|Heheheh... How terrible of me as your teacher to cry in\nfront of one of my students...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|That haunted house over there... Is that your house?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 10, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 67, 100
+SFX A|0, 23, 100
+Text|It was...but Monokuma kept bullying me and it ended up\nlike this.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 9, 1, 2
+Voice Line|17, 99, 0, 24, 100
+Text|Awww, it was supposed to be cute! My house was supposed\nto be cute!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 18, 1, 2
+Speaker|17
+Voice Line|17, 99, 0, 58, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ah, you can't! I understand that you're interested but\nyou cannot go inside!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 16, 1, 2
+Voice Line|17, 99, 0, 52, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Even teachers have a <CLT 03>private<CLT> side that their students\naren't allowed to see!\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 4, 1, 2
+Voice Line|17, 99, 0, 7, 100
+Text|Also...you're a boy of a certain age.\n
+Wait Frame|
+Wait For Input|
+Text|If you come inside, I'll make sure I leave the door open\nhalfway. Otherwise, my mommy won't shut up about it...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 18, 1, 2
+Voice Line|17, 99, 0, 57, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ha-wa-wa! Wh-What am I saying!? It's just a "what if"\nscenario, okay!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|0, 17, 18, 7, 2
+0x3a|6, 0, 0, 30
+Music|55, 100, 0
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Anyway, this is Monomi's house...and it's safe to say\nthat we're not allowed inside.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|So it's a waste of time to stay here any longer.\nI should hurry and go somewhere else.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Set Flag|12, 9, 1
+Run Script|4, 3, 231, 0, 2
+Set Flag|0, 12, 1
+Change UI|1, 0
+0x3b|1, 249
+0x2c|1, 248
+Change UI|51, 0
+Change UI|9, 1
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|0, 17, 18, 6, 2
+Voice Line|17, 99, 0, 42, 100
+Music|14, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|17
+Text|Like I said, you can't! I understand that you're\ninterested but you cannot go inside!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Even teachers have a <CLT 03>private<CLT> side that their students\naren't allowed to see!\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|0, 17, 18, 7, 2
+0x3a|6, 0, 0, 30
+Music|55, 100, 0
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>It's a waste of time to stay here any longer. I should\nhurry and go somewhere else.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|1, 249
+Choice|254
+0x46|12, 9, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I should investigate here a little more...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|1, 251
+0x2c|1, 250
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|1, 252
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 70, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 4
+SFX A|0, 201, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 70
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 252
+0x2c|1, 251
+Choice|255
+0x2c|1, 247
+Stop Script|
+Stop Script|

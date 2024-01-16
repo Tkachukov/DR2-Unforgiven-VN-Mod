@@ -1,0 +1,684 @@
+OSL Script
+Set Game To DR2
+Text Count|79, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|26, 100, 0
+Change UI|1, 1
+Sprite|10, 12, 99, 0, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 2, 6, 0, 1, 0
+Text|I got it... Sonia's body was hidden before we found it.\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 0, 119, 0, 0, 0
+Voice Line|3, 3, 0, 6, 100
+Text|But it would have taken quite a long time to tape up a\nhidden body.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 137, 0, 0, 0
+Voice Line|0, 3, 0, 38, 100
+Text|No, the body was already taped up and the killer hid it,\n<CLT 03>along with the pillar<CLT>, using the wallpaper.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 7, 4, 0
+Trial Camera|3, 0, 38, 0, 0, 0
+SFX A|0, 20, 100
+Voice Line|3, 3, 0, 7, 100
+Text|What!? They hid the pillar!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 94, 0, 0, 0
+Voice Line|0, 3, 0, 39, 100
+Text|Yeah, by wrapping the wallpaper around the pillar, the\nkiller was able to create <CLT 03>a slightly larger pillar<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 25, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Text|So when I first discovered Ibuki's body...Sonia's body\nwas already there!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 25, 3
+Change UI|60, 1
+Change UI|60, 0
+0x37|0, 28, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 41, 100
+Text|However, because it was concealed within a <CLT 03>slightly\nlarger pillar<CLT>, I didn't realize that at the time...\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 28, 3
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 7, 0, 0
+Trial Camera|1, 2, 169, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 7, 0, 0
+Voice Line|1, 3, 0, 39, 100
+Text|Well, that's understandable. I mean, it makes sense that\nyou'd notice Ibuki's body right away.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 25, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 3, 0, 40, 100
+Text|The baton lighting forms a perfect circle around the\npillar...so using it to hang the wallpaper totally fits.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|13
+Voice Line|13, 3, 0, 12, 100
+Text|Then...the reason the wallpaper was covered in so many\nstickers was to make it look like that pillar...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 25, 3
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|17, 17, 22, 0, 1
+Sprite|16, 16, 31, 0, 1
+Sprite|0, 0, 0, 0, 0
+Speaker|0
+Trial Camera|0, 0, 119, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 0, 0, 0
+Text|That's how they hid Sonia's body, and then peeled off\nthe wallpaper as soon as I left the music venue.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 54, 0, 0, 0
+Voice Line|9, 3, 0, 13, 100
+Text|But the killer made a mistake. They accidentally ripped\noff a piece of the wallpaper.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 236, 0, 0, 0, 0, 0, 1
+Voice Line|9, 3, 0, 14, 100
+Text|And because of that, a scrap was left on the baton\nlighting.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 236, 0, 0, 0, 0, 0, 255
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 94, 0, 0, 0
+Voice Line|1, 3, 0, 41, 100
+Text|The killer must've been in a hurry. If their plan took\ntoo long, Hajime could've walked in on them.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 38, 0, 0, 0
+Voice Line|13, 3, 0, 13, 100
+Text|But going to the trouble of hiding the body and the\npillar is very bold...and risky...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 61, 0, 0, 0
+Voice Line|1, 3, 0, 42, 100
+Text|But the crime itself would be much easier to pull off\nsince they don't have much to do while Hajime's gone.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 2, 166, 0, 1, 0
+Voice Line|1, 3, 0, 43, 100
+Text|They just have to peel off that wallpaper and stash it\nin the storage room... It's not that big of a deal.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 42, 0, 0
+Trial Camera|7, 2, 10, 0, 0, 0
+Voice Line|7, 99, 0, 37, 100
+Text|Then...when was Sonia actually killed?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 0, 41, 0, 0, 0
+Voice Line|1, 3, 0, 44, 100
+SFX A|0, 19, 100
+Text|Good point, and on that note...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 203, 0, 0, 0
+Voice Line|1, 3, 0, 45, 100
+Text|It's about time we shed some light on those <CLT 03>imitation\nmurders<CLT>!\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|14, 100, 120
+Sprite|17, 17, 28, 0, 0
+Trial Camera|17, 2, 77, 0, 0, 0
+Voice Line|17, 3, 0, 4, 100
+Text|Um...you mentioned "imitation murder" more than once,\nbut...what is that?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 36, 0, 0
+Trial Camera|16, 2, 17, 0, 0, 0
+Voice Line|16, 3, 0, 4, 100
+Text|Are you kidding me!? You haven't seen my masterpiece,\n"The Wizard of Monomi 2.5D"!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 26, 4, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|17, 3, 0, 5, 100
+SFX A|0, 21, 100
+Text|Heeeey! Don't put my likeness in your movies without my\npermission!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 34, 0, 0
+Trial Camera|16, 2, 17, 0, 0, 0
+Voice Line|16, 3, 0, 5, 100
+Text|You're pretty noisy...for someone who eats moss balls.\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 26, 4, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|17, 3, 0, 6, 100
+SFX A|0, 18, 100
+Text|I don't eat moss balls! I just enjoy looking at them!\n
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 115, 0, 0, 0
+Voice Line|13, 3, 0, 14, 100
+Text|I knew it... There are so many similarities, it must\nhave been intentional...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 113, 0, 0, 0
+Voice Line|7, 3, 0, 38, 100
+Text|Ibuki's death by hanging matches the scarecrow's death\nfrom the movie...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 106, 0, 0, 0
+Voice Line|7, 99, 0, 39, 100
+Text|Not just that, but Sonia getting taped up after her\ndeath matches the lion's death...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 159, 0, 0, 0
+Voice Line|3, 3, 0, 8, 100
+Text|It's as if both crimes were replicas of scenes from the\nmovie. Although the mutilated tin man was omitted...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 117, 0, 0, 0
+Voice Line|8, 3, 0, 12, 100
+Text|But why did the killer go to all this trouble in the\nfirst place?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 22, 0, 1
+Sprite|16, 16, 31, 0, 1
+Sprite|1, 1, 21, 0, 0
+Speaker|1
+Trial Camera|1, 0, 113, 0, 0, 0
+Voice Line|1, 3, 0, 46, 100
+Text|Based on what we know, the reason the killer chose these\nimitations isn't that difficult to figure out.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|18, 1
+0x3b|1, 244
+0x32|1
+Text|To mix up the killing order\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|2
+Text|To hide the weapon\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 138, 0, 0, 0
+Text|Maybe the killer committed an imitation murder so they\ncould hide the weapon.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 138, 0, 0, 0
+Text|Why...would an imitation murder help them hide the\nweapon?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 7, 0, 0
+Trial Camera|3, 0, 138, 0, 0, 0
+Text|*Gasp*... Don't tell me the killer has conjuration\nspells...!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3b|0, 0
+0x32|3
+Text|To let their accomplice escape\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 137, 0, 0, 0
+Text|Maybe the killer committed an imitation murder so they\ncould let their accomplice escape.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 137, 0, 0, 0
+Text|Huh? There was an accomplice? Who was it?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 137, 0, 0, 0
+Text|Hajime...you shouldn't make things up and try to confuse\neveryone like that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>I shouldn't just make things up... I need to think about\nthis carefully and answer...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3b|0, 0
+0x32|4
+Text|Because they like movies\n
+Wait Frame|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 137, 0, 0, 0
+Text|Maybe the killer committed an imitation murder because\nthey really liked movies?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 35, 0, 0
+Trial Camera|16, 2, 15, 0, 0, 0
+Text|Riiiiight!? "The Wizard of Monomi 2.5D" is like the\nCitizen Kuma of films!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 26, 0, 0
+Trial Camera|0, 0, 14, 0, 0, 0
+Text|...That's obviously not it.\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>I shouldn't just make things up... I need to think about\nthis carefully and answer...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3b|0, 0
+0x32|18
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3b|0, 0
+0x32|19
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 251
+Format|4
+Text|<CLT 04>The reason the killer imitated the two victims in that\nmovie... I should be able to explain that now.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x3b|1, 252
+0x2c|1, 251
+Format|4
+Text|<CLT 04>The reason the killer imitated the two victims in that\nmovie...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>They probably wanted us to think everything was\nhappening the same way it did in the movie...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x2c|1, 252
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 17, 0, 1, 0
+Voice Line|0, 3, 0, 43, 100
+Text|The reason the killer imitated two of the murders from\nthe movie was so we'd mix up the killing order.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 47, 0, 0
+Trial Camera|7, 0, 119, 0, 0, 0
+Voice Line|7, 99, 0, 40, 100
+Text|Then...Sonia was actually killed before Ibuki...!?\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 0, 38, 0, 0, 0
+Voice Line|3, 3, 0, 9, 100
+Text|A valid line of reasoning...\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 0, 21, 0, 0, 0
+Voice Line|9, 3, 0, 15, 100
+Text|Yeah, it's valid. The condition of Ibuki's body suggests\nthat as well.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 7, 4, 0
+Trial Camera|3, 1, 37, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|3, 3, 0, 10, 100
+SFX A|0, 22, 100
+Text|What do you mean?\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 13, 0, 0
+Trial Camera|3, 2, 167, 0, 0, 0
+Voice Line|3, 3, 0, 11, 100
+SFX A|0, 19, 100
+Text|Hmph... If you're going to cry and beg like that, then I\nguess I'll hear about the <CLT 03>condition of Ibuki's body<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 162, 0, 0, 0
+Voice Line|9, 3, 0, 16, 100
+Text|...I'm not even crying.\n
+Wait Frame|
+Wait For Input|
+Music|25, 100, 0
+Sprite|3, 3, 4, 4, 0
+Trial Camera|3, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|3, 3, 0, 12, 100
+SFX A|0, 18, 100
+Text|I'll let you sob as much as you want later! Just hurry\nup and tell me before I change my mind!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 18, 0, 0, 0
+Voice Line|4, 3, 0, 12, 100
+Text|What a jeeeerk.\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 0, 139, 0, 0, 0
+Voice Line|9, 3, 0, 17, 100
+Text|Oh I see, you want me to explain it to you, right?\nBecause you don't understand what I'm saying, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 7, 0, 0
+Trial Camera|3, 0, 160, 0, 0, 0
+SFX A|0, 22, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|3, 3, 0, 13, 100
+Text|An even bigger jerk!? Impossible!\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 115, 0, 0, 0
+Voice Line|9, 3, 0, 18, 100
+Text|...Look, Ibuki died because she hanged herself, right?\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 3, 0, 19, 100
+Text|That means <CLT 03>when she was still alive<CLT>, her feet were\ntouching the floor.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 21, 0, 0, 0
+Voice Line|3, 3, 0, 14, 100
+Text|...What's wrong with that!?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 193, 0, 0, 0
+Voice Line|9, 99, 0, 20, 100
+Text|But...it seems Ibuki was still standing when Sonia was\nkilled.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 197, 0, 0, 0
+Voice Line|9, 99, 0, 21, 100
+Text|That would mean Sonia was killed before Ibuki.\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 7, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|3, 3, 0, 15, 100
+Text|Stop it! You're just talking things out of your\nfat gamer ass now!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 11, 7, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+SFX A|0, 18, 100
+Voice Line|3, 3, 0, 16, 100
+Text|You think because you have this much body fat in right places\nand can smile nicely, we are going to always agree with you?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 0, 0
+Trial Camera|4, 0, 87, 0, 0, 0
+Voice Line|4, 99, 0, 59, 100
+Text|Dammit... not this again!\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 12, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|3, 3, 0, 17, 100
+Speaker|11
+Text|"Ibuki's feet were touching the floor when Sonia\nwas killed, blah-blah-blah."\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 6, 4, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|3, 3, 0, 18, 100
+SFX A|0, 21, 100
+Speaker|11
+Text|How on Earth could you know that?\nWere you standing behind the killer's back the whole time?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 3, 0, 0
+Trial Camera|9, 0, 197, 0, 0, 0
+Voice Line|9, 3, 0, 22, 100
+Text|Because she was doing something that's only possible if\nher feet were on the floor.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 15, 4, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|3, 3, 0, 19, 100
+Speaker|11
+Text|You're... just being obsessed with flaunting\nyour supposed "intellectual superiority" over us now!\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 4, 0
+Trial Camera|4, 0, 235, 0, 0, 0
+SFX A|0, 18, 100
+Voice Line|4, 3, 0, 14, 100
+Text|...You're one to talk!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 226, 0, 0, 0
+Format|4
+Text|<CLT 04>A-Anyway...if this continues, we're just gonna talk in\ncircles...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I think it's best if we clarify Ibuki's status when\nSonia was killed.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|10, 12, 99, 0, 0
+Script|3, 0, 210, 0, 0
+Stop Script|
+Stop Script|

@@ -1,0 +1,493 @@
+OSL Script
+Set Game To DR2
+Text Count|63, 0
+0x2c|0, 20
+Change UI|43, 3
+Change UI|4, 1
+Change UI|1, 0
+Music|255, 240, 0
+Screen Fade|1, 1, 24
+Change UI|34, 1
+0x3b|1, 244
+0x32|0
+0x32|1
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 169, 100
+Text|The key to this incident is the <CLT 03>surveillance camera\nvideo<CLT> that only I saw.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 170, 100
+Text|That's why...I'm going to start with that to unravel the\nknots of this crime.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|2
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 171, 100
+Text|When I went to the <CLT 03>hospital<CLT> with Mikan this morning, I\nnoticed a specific thing in the lobby.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 172, 100
+Text|The incoming signal light on the <CLT 03>surveillance monitor<CLT>\nwas blinking ahead of the scheduled time.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|3
+0x32|4
+0x32|5
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 173, 100
+Text|When I switched on the monitor, what appeared onscreen\nwas...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 174, 100
+Text|...a person wearing a hospital gown and a bag on their\nhead about to <CLT 03>hang themselves<CLT> right at that moment.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|10
+0x32|11
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 175, 100
+Text|That surveillance camera unit was designed for two-way\ncommunication with the hospital and the music venue...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 176, 100
+Text|That's why I thought the signal originated from the\nmusic venue...so I immediately headed over there.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|12
+0x32|13
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 177, 100
+Text|But that was the <CLT 03>killer's trap<CLT>...\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|14
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 178, 100
+Text|In truth, that video was recorded in a <CLT 03>different\nplace<CLT>.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 179, 100
+Text|The killer brought the <CLT 03>music venue camera<CLT> the night\nbefore and made their preparations in advance...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 180, 100
+Text|And then...they filmed that video in the <CLT 03>hospital\nconference room<CLT>.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|15
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 181, 100
+Text|By doing so, they tried to make me think the incident\nwas happening in real-time.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 182, 100
+Text|When in fact...the crime had already been committed by\nthat point.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 183, 100
+Text|The person in the footage wearing the bag was actually\nthe killer acting as a <CLT 03>fake<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|21
+0x32|22
+0x32|23
+0x32|24
+0x3a|6, 0, 0, 90
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 184, 100
+Text|I didn't know that, so I went to the music venue...and\nfound the <CLT 03>hanged body<CLT> wearing a bag on its head.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|25
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 185, 100
+Text|Seeing the body before me, I panicked and rushed out of\nthere to get the rest of you guys...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 186, 100
+Text|But...that was also part of the <CLT 03>killer's trap<CLT>.\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 187, 100
+Text|After cleaning the conference room, the killer was\nlikely watching the music venue from outside...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 188, 100
+Text|And, as if they were switching places with me, they went\ninside the music venue...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 189, 100
+Text|...and began working on their last trick.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|30
+0x32|31
+0x32|32
+0x32|33
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 190, 100
+Text|First, the killer peeled off the <CLT 03>wallpaper<CLT> covering\none of the stage pillars, revealing <CLT 03>Sonia's body<CLT>.\n
+Format|3
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 191, 100
+Text|When I first arrived and saw the hanged body, I didn't\nnotice anything strange about that pillar...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 192, 100
+Text|I didn't expect it to be slightly larger from the\nwallpaper, or have Sonia's body <CLT 03>hidden<CLT> inside...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|34
+0x32|35
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 193, 100
+Text|Next, the killer destroyed the <CLT 03>surveillance camera<CLT>\nthat was used in the conference room.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|40
+0x32|41
+0x32|42
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 194, 100
+Text|After destroying it, they <CLT 03>mixed<CLT> it with what was left\nof the surveillance monitor found at the crime scene.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 195, 100
+Text|The surveillance camera the killer used was originally\nbrought from the music venue, but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 196, 100
+Text|...when they brought it, they made sure to <CLT 03>destroy<CLT> its\nmonitor beforehand.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 197, 100
+Text|They wanted to hide the fact that the camera wasn't at\nthe crime scene...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|43
+0x32|44
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 198, 100
+Text|In the end, the killer transformed the crime scene into\na <CLT 03>closed room<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 199, 100
+Text|They broke one of the <CLT 03>drumsticks<CLT> from the storage room\nand placed it near the music venue's entrance.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 200, 100
+Text|However, they did this to <CLT 03>mislead<CLT> us into believing\nthat the music venue was locked from the inside...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|45
+0x32|46
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 201, 100
+Text|In actuality, the reason the music venue became a closed\nroom was because of the <CLT 03>glue<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 202, 100
+Text|The killer sealed the door with <CLT 03>glue<CLT> and intentionally\ncreated a <CLT 03>closed room that could be forced open<CLT>.\n
+Format|3
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|50
+0x32|51
+0x32|52
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 203, 100
+Text|With that, the killer finished tampering with the crime\nscene and met up with Fuyuhiko and me...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|53
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 204, 100
+Text|They helped us force open the music venue door, despite\nthe fact that they personally sealed it...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|54
+0x32|55
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 205, 100
+Text|And they <CLT 03>made us discover<CLT> not just Ibuki's body, but\nSonia's suddenly present body as well.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 206, 100
+Text|At the time, they pretended to be surprised but...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 207, 100
+Text|Inside, they were probably relieved that their plan\nworked out...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|60
+0x32|61
+0x32|62
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 208, 100
+SFX A|0, 26, 100
+Text|Isn't that right, <CLT 03>Mikan<CLT>!? This crime was orchestrated\nby you, wasn't it!?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x32|63
+0x32|70
+0x32|80
+0x32|90
+0x32|100
+0x32|199
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>This information doesn't fit here... Think it over again!<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Change UI|1, 0
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 245
+Screen Fade|1, 1, 24
+Change UI|34, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 245
+0x32|224
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x32|225
+0x3b|0, 21
+0x32|255
+Check Flag A|0, 0
+Text|The video...of the broadcasted hanging.\n
+Wait Frame|
+Check Flag A|0, 1
+Text|Threw off the hemp bag...no, Monomi's tote bag...!\n
+Wait Frame|
+Check Flag A|0, 2
+Text|The killer ripped off the music venue's wallpaper!\n
+Wait Frame|
+Check Flag A|0, 3
+Text|The ripped piece on the baton lighting.\n
+Wait Frame|
+Check Flag A|0, 4
+Text|What's left of the surveillance camera unit...\n
+Wait Frame|
+Check Flag A|0, 5
+Text|What are you spreading? Glue?\n
+Wait Frame|
+Check Flag A|0, 6
+Text|Turning the switch on the surveillance camera unit on!\n
+Wait Frame|
+Check Flag A|0, 7
+Text|The two stepladders are different somehow.\n
+Wait Frame|
+Check Flag A|0, 8
+Text|Sonia was taped to the pillar.\n
+Wait Frame|
+Check Flag A|0, 9
+Text|Breaking the drumstick in half!?\n
+Wait Frame|
+Check Flag A|0, 10
+Check Flag A|0, 11
+Check Flag A|0, 12
+Check Flag A|0, 13
+Check Flag A|0, 14
+Check Flag A|0, 15
+Check Flag A|0, 16
+Check Flag A|0, 17
+Check Flag A|0, 18
+Check Flag A|0, 19
+Check Flag A|0, 20
+Check Flag A|0, 21
+Check Flag A|0, 22
+Check Flag A|0, 200
+Text|What I saw on the monitor...\n
+Wait Frame|
+Check Flag A|0, 201
+Text|What did the killer do after the broadcast?\n
+Wait Frame|
+Check Flag A|0, 202
+Text|The body was hidden before...\n
+Wait Frame|
+Check Flag A|0, 203
+Text|The small clue that the killer left...\n
+Wait Frame|
+Check Flag A|0, 204
+Text|Put it back to normal after destroying it...\n
+Wait Frame|
+Check Flag A|0, 205
+Text|How was the real locked room created?\n
+Wait Frame|
+Check Flag A|0, 206
+Text|Hint 6\n
+Wait Frame|
+Check Flag A|0, 207
+Text|Hint 7\n
+Wait Frame|
+Check Flag A|0, 208
+Text|Hint 8\n
+Wait Frame|
+Check Flag A|0, 209
+Text|Hint 9\n
+Wait Frame|
+Check Flag A|0, 210
+Text|Hint 10\n
+Wait Frame|
+Check Flag A|0, 211
+Text|Hint 11\n
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x2c|0, 21
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Script|3, 0, 240, 0, 0
+Stop Script|
+Stop Script|

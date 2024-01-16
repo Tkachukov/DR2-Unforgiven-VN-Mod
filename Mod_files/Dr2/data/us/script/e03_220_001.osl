@@ -1,0 +1,168 @@
+OSL Script
+Set Game To DR2
+Text Count|33, 0
+Change UI|73, 2
+Change UI|74, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|8, 8, 21, 0, 0
+Text|The killer could have\nlured Sonia out\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 1
+Sprite|8, 8, 18, 0, 0
+Text|with a letter,\nfor example!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 2
+Sprite|8, 8, 11, 0, 0
+Text|They could have\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|8, 8, 11, 0, 0
+Text|slipped the letter\n
+Wait Frame|
+Check Flag A|0, 4
+Sprite|8, 8, 11, 0, 0
+Text|asking her to go\nin there\n
+Wait Frame|
+Check Flag A|0, 5
+Sprite|8, 8, 11, 0, 0
+Text|under the door of\nSonia's room\n
+Wait Frame|
+Check Flag A|0, 6
+Sprite|8, 8, 4, 0, 0
+Text|and even I wouldn't\nbe able to hear\n
+Wait Frame|
+Check Flag A|0, 7
+Sprite|8, 8, 13, 0, 0
+Text|I have\n
+Wait Frame|
+Check Flag A|0, 8
+Sprite|8, 8, 13, 0, 0
+Text|better things to do\n
+Wait Frame|
+Check Flag A|0, 9
+Sprite|8, 8, 13, 0, 0
+Text|than constantly\nlisten for footsteps,\n
+Wait Frame|
+Check Flag A|0, 10
+Sprite|8, 8, 10, 0, 0
+Text|get it though\nyour thick head!\n
+Wait Frame|
+Check Flag A|0, 11
+Sprite|0, 0, 19, 0, 0
+Format|25
+Text|<CLT 25>But where is this\nletter now, then?\n<CLT>
+Wait Frame|
+Format|0
+Check Flag A|0, 12
+Sprite|0, 0, 9, 0, 0
+Format|25
+Text|<CLT 25>It was nowhere to be found\non Sonia's body...<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Check Flag A|0, 13
+Sprite|0, 0, 4, 0, 0
+Format|25
+Text|<CLT 25>And we didn't find any\nletter in her room either, did we?<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Check Flag A|0, 14
+Sprite|8, 8, 18, 0, 0
+Text|How can you be\nso stupid, Hajime?\n
+Wait Frame|
+Check Flag A|0, 15
+Sprite|8, 8, 18, 0, 0
+Text|You were much smarter\nthan that when\n
+Wait Frame|
+Check Flag A|0, 16
+Sprite|8, 8, 13, 0, 0
+Text|the bad guys had\nframed me for killing Mahiru!\n
+Wait Frame|
+Check Flag A|0, 17
+Sprite|8, 8, 13, 0, 0
+Text|Can you be this smart,\nkind guy for me again?\n
+Wait Frame|
+Check Flag A|0, 18
+Sprite|8, 8, 4, 0, 0
+Text|And not the moron and\nthe asshole you are right now?\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 19
+Sprite|0, 0, 20, 0, 0
+Format|25
+Text|<CLT 25>You literally have no arguments\nexcept insults right now.\n<CLT>
+Wait Frame|
+Wait Frame|
+Wait Frame|
+Format|0
+Check Flag A|0, 20
+Sprite|0, 0, 4, 0, 0
+Format|25
+Text|<CLT 25>Where, in your opinion,\nthis letter should be?\n<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Check Flag A|0, 21
+Sprite|8, 8, 24, 0, 0
+Text|Nowhere, you dummy!\nBecause the killer had deposed of it!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 22
+Sprite|8, 8, 10, 0, 0
+Text|They had<CLT 17>searched though\nSonia's body<CLT>\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 23
+Sprite|8, 8, 1, 0, 0
+Text|If the letter\nwas with her\n
+Wait Frame|
+Check Flag A|0, 24
+Sprite|8, 8, 1, 0, 0
+Text|They must have\n
+Wait Frame|
+Check Flag A|0, 25
+Sprite|8, 8, 1, 0, 0
+Text|deposed of it\nimmediately!\n
+Wait Frame|
+Check Flag A|0, 26
+Sprite|8, 8, 1, 0, 0
+Text|If she had\nleft it in her room...\n
+Wait Frame|
+Check Flag A|0, 27
+Sprite|8, 8, 7, 0, 0
+Text|They had <CLT 17>found the key<CLT>,\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 28
+Sprite|8, 8, 16, 0, 0
+Text|then went back to\nthe motel\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 29
+Sprite|8, 8, 4, 0, 0
+Text|when even I\nwas already asleep,\n
+Wait Frame|
+Check Flag A|0, 30
+Sprite|8, 8, 4, 0, 0
+Text|entered Sonia's room,\n
+Wait Frame|
+Check Flag A|0, 31
+Sprite|8, 8, 4, 0, 0
+Text|found the letter,\nand destroyed it!\n
+Wait Frame|
+Check Flag A|0, 32
+Sprite|0, 0, 20, 0, 0
+Format|25
+Text|<CLT 25>Let me listen to your opinion one more time...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

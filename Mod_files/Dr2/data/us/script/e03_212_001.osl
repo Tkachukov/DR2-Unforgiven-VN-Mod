@@ -1,0 +1,105 @@
+OSL Script
+Set Game To DR2
+Text Count|20, 0
+Change UI|73, 1
+Change UI|74, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|3, 3, 12, 0, 0
+Text|You're saying the blood on Ibuki's feet\nbelonged to Sonia?\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 1
+Sprite|3, 3, 9, 0, 0
+Text|Hah, impossible!\n
+Wait Frame|
+Check Flag A|0, 2
+Sprite|3, 3, 6, 0, 0
+Text|Try to remember the crime scene...\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|3, 3, 13, 0, 0
+Text|There was no <CLT 17>blood<CLT> on the floor!\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 4
+Sprite|3, 3, 12, 0, 0
+Text|You can't step on blood that was never there...\n
+Wait Frame|
+Check Flag A|0, 5
+Sprite|3, 3, 15, 0, 0
+Text|Kehehe...\nJust about one minute...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 6
+Sprite|3, 3, 15, 0, 0
+Text|Did you see\na nice nightmare?\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 7
+Sprite|0, 0, 20, 0, 0
+Format|25
+Text|<CLT 25>As long as Ibuki's body\nhas no open wounds...\n<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Check Flag A|0, 8
+Sprite|0, 0, 4, 0, 0
+Format|25
+Text|<CLT 25>There's no doubt\nthat that blood is Sonia's!\n<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Check Flag A|0, 9
+Sprite|3, 3, 19, 0, 0
+Text|Sonia was tied\n
+Wait Frame|
+Check Flag A|0, 10
+Sprite|3, 3, 19, 0, 0
+Text|to the pillar, yes?\n
+Wait Frame|
+Check Flag A|0, 11
+Sprite|3, 3, 19, 0, 0
+Text|Then it's possible\n
+Wait Frame|
+Check Flag A|0, 12
+Sprite|3, 3, 19, 0, 0
+Text|that the pillar\n
+Wait Frame|
+Check Flag A|0, 13
+Sprite|3, 3, 19, 0, 0
+Text|still had blood on it...\n
+Wait Frame|
+Check Flag A|0, 14
+Sprite|3, 3, 20, 0, 0
+Text|However, you cannot step on\nthe pillar with your feet!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 15
+Sprite|3, 3, 18, 0, 0
+Text|Kehehe...\n
+Wait Frame|
+Check Flag A|0, 16
+Sprite|3, 3, 18, 0, 0
+Text|You should feel proud of yourself...\n
+Wait Frame|
+Check Flag A|0, 17
+Sprite|3, 3, 17, 0, 0
+Text|It's been nearly three years since\n
+Wait Frame|
+Check Flag A|0, 18
+Sprite|3, 3, 17, 0, 0
+Text|I've had to use\n60 percent of my power!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 19
+Sprite|0, 0, 20, 0, 0
+Format|25
+Text|<CLT 25>Can you explain that from the beginning one more time?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

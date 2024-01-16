@@ -1,0 +1,214 @@
+OSL Script
+Set Game To DR2
+Text Count|15, 0
+0x2c|0, 20
+0x3a|9, 0, 0, 0
+Set Flag|0, 10, 1
+Set Flag|0, 11, 1
+Run Script|3, 0, 218, 0, 1
+Music|29, 100, 0
+Animation|0, 230, 0, 0, 0, 0, 0, 0
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 244
+Change UI|20, 1
+0x3b|1, 245
+0x32|61
+0x32|64
+0x32|65
+0x32|68
+0x32|69
+0x32|75
+0x32|78
+0x32|255
+0x2c|1, 245
+0x3b|1, 246
+0x2c|1, 244
+Change UI|20, 1
+0x3b|1, 247
+0x32|61
+0x32|63
+0x32|64
+0x32|65
+0x32|69
+0x32|255
+0x2c|1, 247
+0x2c|1, 246
+0x46|21, 12, 0, 1
+0x4d|
+0x3b|1, 248
+Change UI|20, 1
+0x3b|1, 249
+0x32|61
+0x32|63
+0x32|64
+0x32|255
+0x2c|1, 249
+0x2c|1, 248
+Change UI|31, 1
+0x3b|1, 250
+Check Flag A|0, 3
+Change UI|1, 1
+Sprite|11, 2, 5, 0, 0
+Trial Camera|11, 0, 12, 0, 0, 0
+Speaker|11
+Text|Happy to know you agree with my\nobviously truthful remark, Hajime!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|But how does the nonsence you had\njust said make it even more obviuosly true?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Dammit...that's not it! I need to think this over\none more time.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 5
+Change UI|1, 1
+Sprite|8, 8, 18, 0, 0
+Trial Camera|8, 0, 33, 0, 0, 0
+Text|I'm happy you agree with what I'm sayin', but that\ndoesn't make sense at all.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Oh well...there's no doubt that the killer abducted\nSonia.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Dammit...that's not it! I need to think this over\none more time.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 7
+Change UI|1, 1
+Sprite|7, 7, 37, 0, 0
+Trial Camera|7, 0, 13, 0, 0, 0
+Text|So you also think that, huh...\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 33, 0, 0
+Trial Camera|7, 1, 37, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|If you're gonna give me cover fire, make sure you have a\nbetter argument than that!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Dammit...that's not it! I need to think this over\none more time.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 9
+Change UI|1, 1
+Sprite|3, 3, 6, 0, 0
+Trial Camera|3, 0, 33, 0, 0, 0
+Text|For a certain phenomenon to occur, there is a phenomenon\nwhich first precedes that phenomenon.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|That is absolute! That is inescapable!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Um...looks like I made a mistake. I should think this\nover again.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|39, 23
+0x3a|6, 0, 0, 50
+Voice Line|0, 99, 0, 8, 100
+Animation|0, 230, 0, 0, 0, 0, 0, 1
+Trial Camera|0, 2, 12, 0, 0, 0
+Change UI|31, 0
+0x3b|0, 0
+Check Flag A|78, 32
+Check Flag A|117, 48
+Check Flag A|156, 64
+Change UI|1, 1
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 251
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>I need to find out why Sonia went to the music venue\nfirst!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|1, 252
+0x2c|1, 251
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>If Sonia's murder wasn't planned...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Then the reason Sonia went to the music venue would\nhave nothing to do with the killer's plan.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x2c|1, 252
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|195, 80
+Change UI|31, 2
+0x3b|0, 1
+Check Flag A|234, 96
+Change UI|31, 3
+0x3b|0, 2
+Check Flag A|255, 255
+0x2c|1, 250
+0x2c|0, 0
+Animation|0, 230, 0, 0, 0, 0, 0, 255
+Script|3, 0, 219, 0, 0
+Stop Script|
+0x2c|0, 1
+Animation|0, 230, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|0, 2
+Animation|0, 230, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+Stop Script|

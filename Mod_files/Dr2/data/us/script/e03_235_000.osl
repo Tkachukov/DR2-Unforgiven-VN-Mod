@@ -1,0 +1,301 @@
+OSL Script
+Set Game To DR2
+Text Count|26, 0
+0x2c|0, 20
+0x3a|9, 0, 0, 0
+Set Flag|0, 10, 1
+Set Flag|0, 11, 1
+Run Script|3, 0, 235, 0, 1
+Music|30, 100, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 0
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 244
+Change UI|20, 1
+0x3b|1, 245
+0x32|61
+0x32|62
+0x32|63
+0x32|64
+0x32|68
+0x32|69
+0x32|72
+0x32|255
+0x2c|1, 245
+0x3b|1, 246
+0x2c|1, 244
+Change UI|20, 1
+0x3b|1, 247
+0x32|61
+0x32|62
+0x32|68
+0x32|69
+0x32|72
+0x32|255
+0x2c|1, 247
+0x2c|1, 246
+0x46|21, 12, 0, 1
+0x4d|
+0x3b|1, 248
+Change UI|20, 1
+0x3b|1, 249
+0x32|62
+0x32|69
+0x32|72
+0x32|255
+0x2c|1, 249
+0x2c|1, 248
+Change UI|31, 1
+0x3b|1, 250
+Check Flag A|0, 4
+Change UI|1, 1
+Sprite|13, 13, 16, 0, 0
+Trial Camera|13, 0, 13, 0, 0, 0
+Text|Didn't you say there was a person wearing a hospital\ngown and a bag on their head in the video?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 0, 0
+Trial Camera|13, 1, 37, 0, 0, 0
+Text|I haven't made a mistake at all! Please forgive me\nalready!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>No...that's not it...! One more time...I need to think\nit over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 5
+Change UI|1, 1
+Sprite|13, 13, 16, 0, 0
+Trial Camera|13, 0, 33, 0, 0, 0
+Text|Didn't you say there was a person wearing a hospital\ngown and a hemp bag on their head in the video?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 0, 0
+Trial Camera|13, 1, 37, 0, 0, 0
+Text|I haven't made a mistake at all! Please forgive me\nalready!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>No...that's not it...! One more time...I need to think\nit over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 6
+Change UI|1, 1
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 0, 13, 0, 0, 0
+Text|Ibuki was wearing hospital shoes, right? Then the person\nin the video was wearing hospital shoes too, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|What...what's wrong with that? Is that proof that I was\nthe one who filmed that video?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 0, 0
+Trial Camera|13, 1, 37, 0, 0, 0
+Text|Of course not!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>No...that's not it...! One more time...I need to think\nit over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 9
+Change UI|1, 1
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 0, 33, 0, 0, 0
+Text|There's no way you'd be able to tell whose figure is\nunder that really loose hospital gown!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|That...isn't even proof that I was the one who filmed\nthat video...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>No...that's not it...! One more time...I need to think\nit over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 11
+Change UI|1, 1
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 0, 33, 0, 0, 0
+Text|Whaaaaaaat? What are you talking about? What you're\nsaying makes nooooooooooo sense.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 0, 0
+Trial Camera|13, 1, 37, 0, 0, 0
+Text|How much longer are you going to treat me like the\nkiller!? It's about time you forgive me already!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>No...that's not it...! One more time...I need to think\nit over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 12
+Change UI|1, 1
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 0, 33, 0, 0, 0
+Text|Weren't we talking about that earlier? The light that\nwas used in the video was the light from the candle.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And? What's wrong with that? Is there any proof that I\nwas the one who used that candle?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>No...that's not it...! One more time...I need to think\nit over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 16
+Change UI|1, 1
+Sprite|9, 9, 17, 0, 0
+Trial Camera|9, 0, 137, 0, 0, 0
+Text|Hajime, calm down... Now's not the time for you to panic\nand enter Berserk Mode.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Calm down and think carefully... What is the evidence\nthat Mikan was the one who filmed that video...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...what am I doing!? Calm down...think this over\none more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|39, 16
+Check Flag A|78, 43
+0x3a|6, 0, 0, 50
+Voice Line|0, 99, 0, 7, 100
+Animation|0, 201, 0, 0, 0, 0, 0, 1
+Trial Camera|0, 2, 12, 0, 0, 0
+Change UI|31, 0
+0x3b|0, 0
+Check Flag A|117, 48
+Check Flag A|156, 64
+Change UI|1, 1
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 251
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>Don't flinch...don't hesitate...don't run away...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I'm the only one who saw that video... Who else is gonna\ndo it if I don't!?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|1, 252
+0x2c|1, 251
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>Don't flinch...don't hesitate...don't run away...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Just as Chiaki said...Mikan is panicking right now. I'm\nthe only one who can point out that "mistake"...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x2c|1, 252
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|195, 80
+Change UI|31, 2
+0x3b|0, 1
+Check Flag A|234, 96
+Change UI|31, 3
+0x3b|0, 2
+Check Flag A|255, 255
+0x2c|1, 250
+0x2c|0, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Script|3, 0, 236, 0, 0
+Stop Script|
+0x2c|0, 1
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|0, 2
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+Stop Script|

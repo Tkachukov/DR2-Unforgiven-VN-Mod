@@ -1,0 +1,647 @@
+OSL Script
+Set Game To DR2
+Text Count|65, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|24, 100, 0
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 179, 0, 1, 0
+Voice Line|0, 6, 0, 6, 100
+Text|Earlier, in the teacher's lounge... \nI found this strange <CLT 03>newspaper clipping<CLT>.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 177, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 177, 0, 0, 0, 0, 0, 4
+Animation|3, 177, 0, 0, 0, 0, 0, 6
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Text|There was a picture of Hiyoko,\nbut she looked much more <CLT 03>like an adult<CLT> than she is now.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 177, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|9, 0
+Sprite|8, 8, 3, 0, 0
+Trial Camera|8, 0, 115, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|8, 8, 3, 4, 0
+Voice Line|8, 6, 0, 11, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 20, 100
+Text|L-Like an adult...? What does that mean?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 108, 0, 0, 0
+Voice Line|0, 6, 0, 8, 100
+Text|Since we're avatars right now, we look exactly \nas we did before we entered the school...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 6, 0, 9, 100
+Text|But in the real world, we've already lived out\nour school lives...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 105, 0, 1, 0
+Voice Line|0, 6, 0, 10, 100
+Text|Which means we've grown that much older... \nAnd among us, some <CLT 03>aged so much we didn't recognize them<CLT>...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|8, 0, 21, 0, 0
+Sprite|7, 11, 12, 0, 0
+Trial Camera|7, 0, 91, 0, 0, 0
+Speaker|11
+Text|Are... are you saying that... that photo...\nshows how I really look like right now?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 11, 18, 0, 0
+Speaker|11
+Text|Jeez... I now have a body I envied in other girls\nso much... I feel so ashamed before them now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 0, 0
+Sprite|7, 7, 41, 4, 0
+Trial Camera|7, 0, 149, 0, 0, 0
+Voice Line|7, 6, 0, 6, 100
+SFX A|0, 20, 100
+Text|I-I can't believe that... You're just making shit up.\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 50, 0, 0
+Trial Camera|16, 0, 205, 0, 0, 0
+Voice Line|16, 6, 0, 27, 100
+Text|But if you guys only had memory loss, your bodies \nstill should've grown during that time, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|16, 2, 7, 0, 1, 0
+Voice Line|16, 6, 0, 28, 100
+Text|So you should've felt your bodies go through growth spurts, \nbut why didn't you guys recognize each other?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 4, 0
+Trial Camera|4, 1, 37, 0, 0, 0
+SFX A|0, 19, 100
+Text|Because we did not know each other before we\nlost our memories!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 15, 0, 0
+Trial Camera|4, 0, 112, 0, 0, 0
+Voice Line|4, 6, 0, 9, 100
+Text|If we all met after we lost our school memories,\nit's no different than meeting each other for the first time.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 4, 0
+Trial Camera|4, 1, 37, 0, 0, 0
+Voice Line|4, 6, 0, 10, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Since we didn’t know each other <CLT 03>before that<CLT>, \nwe wouldn't have noticed how much we've all grown!\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 2, 178, 0, 0, 0
+Voice Line|0, 6, 0, 11, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Format|4
+Text|<CLT 04>No...hold on...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|8, 100, 0
+0x3a|11, 0, 0, 120
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>If we didn't know each other before, and we wouldn't have\nknown if we aged or not by looking at each other...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Then...wouldn't *he* have noticed a difference?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Change UI|37, 1
+0x3b|1, 244
+0x32|7
+Voice Line|0, 99, 0, 4, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x3a|13, 0, 0, 1
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|0
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 177, 0, 0, 0
+Format|4
+Text|<CLT 04>That's right, it was me...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 10, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>...Wait, huh? That's not possible! \nNow's not the time for me to fool around!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 7, 8
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|6, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3a|13, 0, 0, 0
+0x3b|0, 0
+0x32|16
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Wait, hold on...! Am I sure it's this person!?<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 7, 8
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|6, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 2, 0, 0
+Format|4
+Text|<CLT 04>I should think about it again...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|0, 0
+0x32|252
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Wait, hold on...! Am I sure it's this person!?<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 7, 8
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|6, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 2, 0, 0
+Format|4
+Text|<CLT 04>I should think about it again...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|0, 0
+0x32|253
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made\na fool of myself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 7, 8
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Run Script|6, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 0
+0x3b|0, 0
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|37, 0
+0x3a|13, 0, 0, 0
+Change UI|1, 1
+Change UI|4, 0
+Music|255, 180, 0
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Voice Line|0, 6, 0, 12, 100
+Text|Hey...Fuyuhiko. You <CLT 03>knew Peko for a long time<CLT>, right?\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Music|9, 100, 0
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 179, 0, 0, 0
+Voice Line|7, 6, 0, 7, 100
+SFX A|0, 19, 100
+Text|Yeah... Now that you mention it...it seems weird...\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 41, 4, 0
+Trial Camera|7, 1, 39, 0, 0, 0
+Voice Line|7, 6, 0, 8, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 20, 100
+Text|No... Now that I think about it, it's definitely strange...!\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 1, 37, 0, 0, 0
+Text|Strange...? What is...?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 114, 0, 0, 0
+Voice Line|7, 6, 0, 9, 100
+Text|Our school memories...\nAbout how many days worth were taken away!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 50, 0, 0
+Trial Camera|16, 2, 10, 0, 0, 0
+Voice Line|16, 6, 0, 29, 100
+Text|As the creators of the Neo World Program, only the Future\nFoundation would know the details but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 53, 0, 0
+Trial Camera|16, 1, 37, 0, 0, 0
+Voice Line|16, 6, 0, 30, 100
+SFX A|0, 25, 100
+Text|Around two or three years worth, I assume.\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 6, 4, 0
+Trial Camera|4, 1, 39, 0, 0, 0
+Voice Line|4, 6, 0, 11, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 20, 100
+Text|Th-That long!?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 34, 0, 0, 0
+Voice Line|7, 6, 0, 10, 100
+Text|...Peko and I have seen each other almost every single\nday of our lives.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|7, 6, 0, 11, 100
+Text|If we lost two years worth of memories, we would've noticed\nthat we were older than we remembered...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 0, 0
+Trial Camera|8, 0, 14, 0, 0, 0
+Voice Line|8, 6, 0, 12, 100
+Text|So...does that mean our memory loss is another one\nof Monokuma's lies...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 52, 0, 0
+Trial Camera|16, 0, 140, 0, 0, 0
+Voice Line|16, 6, 0, 31, 100
+Text|Your refusal to accept your mutual memory loss is why\nyou can't notice all the important parts...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 42, 4, 0
+Trial Camera|16, 1, 19, 0, 0, 0
+Voice Line|16, 6, 0, 32, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|You've lost your memories. End of story. You guys are avatars\nwho had their memories taken from them.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 0, 0
+Trial Camera|4, 0, 112, 0, 0, 0
+Voice Line|4, 6, 0, 12, 100
+Text|Th-This is a virtual world...and we're...virtual avatars...\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 4, 0
+Trial Camera|4, 0, 89, 0, 1, 0
+Voice Line|4, 6, 0, 13, 100
+Text|Are you saying...we just have to accept that!?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 12, 0, 0
+Trial Camera|8, 2, 166, 0, 0, 0
+Voice Line|8, 6, 0, 13, 100
+Text|I...can feel my heartbeat... \nAnd I know what I smell like...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 4, 0
+Trial Camera|8, 1, 45, 0, 0, 0
+Voice Line|8, 6, 0, 14, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|So what do you call these <CLT 03>things<CLT> I'm feelin'?\nAre you sayin' these are all lies!?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|16, 16, 43, 0, 0
+Trial Camera|16, 0, 139, 0, 0, 0
+Voice Line|16, 6, 0, 33, 100
+Text|Just because it's a game doesn't mean everything was a lie.\n
+Wait Frame|
+Wait For Input|
+Music|10, 100, 0
+Sprite|16, 16, 50, 0, 0
+Trial Camera|16, 0, 232, 0, 0, 0
+Voice Line|16, 6, 0, 34, 100
+Text|Have you heard that when you're hypnotized to believe\nyou've been burned,  a burn mark will really appear?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 38, 0, 0, 0
+Voice Line|0, 6, 0, 13, 100
+Text|So if our brains believe something is real...\nit's no different than if it actually happened...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 0, 18, 0, 0
+Sprite|7, 11, 21, 0, 0
+Trial Camera|7, 0, 91, 0, 0, 0
+Speaker|11
+Text|Yeah... Just two days ago, I took a nice stroll\non the beach with Mahiru...in my dream.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 11, 3, 0, 0
+Speaker|11
+Text|And you know what? It was so real that I can\nstill almost feel all of it even now...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 11, 21, 0, 0
+Speaker|11
+Text|The sea breeze in my face, the sun on my skin,\nand... Mahiru's hand inside my own...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 11, 14, 0, 0
+Speaker|11
+Text|In fact, I do now believe that Mahiru's spirit\nhad made it for me... somehow.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|She took my mind out of this dream made by\nthe Future Foundation, and made for us a different one.\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 4, 0
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 146, 0, 0, 0
+Text|Hiyoko, we are getting your point!\nCan you stop already, please?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 0, 18, 0, 0
+Sprite|7, 11, 21, 0, 0
+Trial Camera|7, 0, 91, 0, 0, 0
+Speaker|11
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|Oh, sorry.\nI really got carried away by it.\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 4, 0
+Sprite|7, 7, 49, 0, 0
+Trial Camera|7, 0, 146, 0, 0, 0
+Voice Line|7, 6, 0, 12, 100
+Text|If a lie is a <CLT 03>believable lie<CLT>... \nYou're saying it might become the truth?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 181, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 181, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 6, 0, 13, 100
+Text|We're really just connected to machines and stuff, and...\nour consciousness was uploaded into here...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|7, 6, 0, 14, 100
+Text|So we genuinely believed that this <CLT 03>game world<CLT> was real.\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 24
+Animation|3, 181, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|9, 0
+Sprite|8, 8, 3, 0, 0
+Trial Camera|8, 0, 151, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|8, 8, 3, 0, 0
+Voice Line|8, 6, 0, 15, 100
+Text|Then...the Jabberwock Island we've been livin' on...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 11, 0, 0
+Trial Camera|0, 0, 89, 0, 0, 0
+Voice Line|0, 6, 0, 14, 100
+SFX A|0, 20, 100
+Text|Of course, that's also a virtual world...\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 182, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 182, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 6, 0, 15, 100
+Text|That sea, that beach, the buildings, everything... \nIt's all a <CLT 03>virtual world<CLT> created by the Neo World Program.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 182, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 7, 0, 0
+Trial Camera|0, 0, 208, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 7, 0, 0
+Voice Line|0, 6, 0, 16, 100
+Text|It's just like this space we're in right now.\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 2, 12, 0, 0, 0
+Voice Line|0, 6, 0, 17, 100
+Text|What we see before us is a virtual environment\ncreated by the program...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 6, 0, 18, 100
+Text|It looks real because our brains think it's real.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 2, 236, 0, 1, 0
+Format|4
+Text|<CLT 04>That's why...in the end...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 3, 80, 0, 1, 0
+Change UI|4, 1
+Change UI|1, 0
+0x3a|6, 0, 2, 88
+Screen Fade|1, 1, 96
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...It was all just a creation.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>That's the truth...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 20, 100
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Run Script|6, 0, 206, 0, 0
+Script|6, 0, 207, 0, 0
+Stop Script|
+Stop Script|

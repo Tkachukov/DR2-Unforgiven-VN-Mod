@@ -1,0 +1,636 @@
+OSL Script
+Set Game To DR2
+Text Count|86, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|8, 0, 0, 0
+0x3a|0, 0, 0, 4
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 4, 1
+Set Flag|0, 5, 0
+Set Flag|0, 6, 1
+Set Flag|0, 7, 1
+0x3a|17, 0, 0, 9
+Change UI|6, 0
+Load Map|0, 208, 0, 0
+Change UI|9, 0
+Sprite|2, 3, 0, 0, 0
+Sprite|3, 8, 0, 0, 0
+Sprite|4, 1, 0, 0, 0
+Sprite|5, 7, 30, 0, 0
+Sprite|8, 9, 0, 0, 0
+Sprite|11, 11, 3, 0, 0
+Sprite|13, 4, 0, 0, 0
+Sprite|14, 16, 0, 0, 0
+Sprite|15, 17, 0, 0, 0
+Load Map|0, 145, 1, 0
+Music|15, 100, 90
+Screen Fade|0, 1, 64
+0x3a|6, 0, 0, 60
+Change UI|3, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's finished...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Is it...really finished...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>The killer who killed Ibuki Mioda and Sonia Nevermind was\nMikan Tsumiki.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And she's been...executed.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>She apparently committed her crime because she was\nafflicted by the Despair Disease.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...So what?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>What's...finished?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Nobody wanted it...to end this way.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 3
+0x3a|5, 0, 0, 20
+Change UI|1, 1
+Change UI|9, 1
+Sprite|0, 3, 2, 1, 2
+Voice Line|3, 99, 0, 3, 100
+Text|Who was that Mikan...from earlier?\n
+Wait Frame|
+Wait For Input|
+Text|Was that her true form? Or...is that itself a symptom of\nthe Despair Disease?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 19, 1, 1
+Voice Line|1, 99, 0, 82, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|...It doesn't matter either way.\n
+Wait Frame|
+Wait For Input|
+Text|If she ended up like that just from "remembering"...\n
+Wait Frame|
+Wait For Input|
+Text|Then all along, Mikan was never worth being a Symbol of\nHope.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 11, 1, 1
+Voice Line|1, 99, 0, 35, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Even if her words were influenced by the Despair\nDisease, if the disease turned her into that...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|If she lost herself to a simple disease, she was\ndefinitely unworthy of being a Symbol of Hope.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 1, 1
+Voice Line|1, 99, 0, 53, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|So...let's just move on.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 15, 1, 1
+Voice Line|1, 99, 0, 11, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|C'mon, let's take all this despair and change it into\nhope!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 23, 1, 4
+Voice Line|4, 99, 0, 40, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 13, 4, 2
+Text|No, I am not finished yet!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 8, 1, 3
+Voice Line|4, 99, 0, 28, 100
+Text|This little brat right here got\nMiss Sonia killed just because...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|She's too infantile to even be able to dress herself,\nbut has the gall to think she is so valuable...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|That literal princesses should risk their own lives for her!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 3
+Text|.........
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 48, 1, 2
+Voice Line|7, 99, 0, 30, 100
+Text|That's really fucked up, dude! Did you really just wish\nHiyoko was the victim instead?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 4, 1, 3
+Voice Line|4, 99, 0, 52, 100
+Text|...I mean...\nNo, of course, not! But...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 8, 1, 3
+Voice Line|4, 99, 0, 28, 100
+Text|Still, she should have insisted\nthey go for the mirror together!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 13, 1, 3
+Voice Line|4, 99, 0, 55, 100
+Text|Or wait until the morning, or...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 17, 1, 3
+Voice Line|9, 99, 0, 28, 100
+Text|Kazuichi, enough! I know that you are hurting,\nbut blaming Hiyoko won't solve anything!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 8, 1, 3
+Voice Line|4, 99, 0, 28, 100
+Text|Still, shouldn't she be at least somehow punished\nfor getting a princess killed?\n
+Wait Frame|
+Wait For Input|
+Text|We should lock her up in the motel room\nuntil she learns to tie her own damned kimono sash!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 3
+Text|.........
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Souda, that's outright cruelty! Sonia would have never\napproved it!
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 2, 1, 2
+Voice Line|3, 99, 0, 2, 100
+Text|Even someone as evil as myself would find torment\nof someone so much below your power level dishonorable...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 13, 1, 3
+Voice Line|4, 99, 0, 28, 100
+Text|It's easy for you to say! You all never cared about\n Sonia the way I did, did you?\n
+Wait Frame|
+Wait For Input|
+Speaker|63
+Text|*Munch!*
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 20, 1, 2
+Voice Line|4, 99, 0, 32, 100
+Speaker|4
+Text|WAAAAAAAAAHHHHH!!!\nMY BAAAALLLLSSS!\n
+Wait Frame|
+Wait For Input|
+Speaker|3
+Text|...
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|<CLT 04>Souda had collapsed again, grabbing\nhis crotch area and screaming.<CLT>\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|<CLT 04>A hamster run out from his pant legs\ntowards Gundham, hiding inside his scarf.<CLT>\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 0, 4, 4
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Change UI|26, 4
+0x3a|5, 0, 0, 20
+Sprite|1, 7, 43, 1, 2
+Voice Line|7, 99, 0, 42, 100
+Text|It...would've been so much easier if she was the\ntraitor, too...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 1
+Voice Line|16, 99, 0, 77, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Too bad. That's not the case. Mikan was not the traitor.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 1
+Voice Line|16, 99, 0, 96, 100
+Text|The traitor is still alive. As proof, see how fine\nMonomi looks right now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 12, 1, 0
+Voice Line|17, 99, 0, 64, 100
+Text|I-I'm not fine at all...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 10, 1, 1
+Voice Line|16, 99, 0, 80, 100
+Text|But if the traitor died, you wouldn't be this calm,\nright?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I mean...you're <CLT 03>both pawns of the Future Foundation<CLT>.\nSo you guys are like two hearts beating as one, right?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 2, 1, 2
+Voice Line|3, 99, 0, 2, 100
+Text|What does that make you, fiend? You did say that you're\ndifferent than Monomi...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 9, 1, 1
+Voice Line|16, 99, 0, 42, 100
+Text|Who cares about who I am!? More important, I'm tired!\n
+Wait Frame|
+Wait For Input|
+Text|The drama just kept going and going, I didn't even have\ntime to eat my black bean right eye during the break!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 18, 1, 0
+Voice Line|17, 99, 0, 61, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Your right eye is made out of black beans!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 14, 1, 0
+Voice Line|17, 99, 0, 43, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|...Wait, now's not the time to focus on that. What are\nyou trying to say!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 16, 13, 1, 1
+Voice Line|16, 99, 0, 5, 100
+Text|You know, isn't it said that life has its ups and downs?\n
+Wait Frame|
+Wait For Input|
+Text|It's fun because downs come after ups, but if life was\nfull of downs, wouldn't it get boring?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 4, 1, 1
+Voice Line|16, 99, 0, 32, 100
+SFX A|0, 21, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Sooooo in order to help you guys feel better, I've\nprepared a special event!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Special event?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 1
+Voice Line|16, 99, 0, 29, 100
+Text|Head over to the <CLT 03>1st island's beach<CLT>. An old friend\nwill be waiting there.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Old friend...?\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|1, 8, 3, 1, 0
+Voice Line|8, 99, 0, 12, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Could it be...Nekomaru...?\n
+Wait Frame|
+Wait For Input|
+Music|2, 100, 0
+Sprite|1, 8, 8, 1, 0
+Voice Line|8, 99, 0, 28, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Is it!? It is, isn't it!? Nekomaru was safe after all!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 16, 0, 1, 1
+Voice Line|16, 99, 0, 8, 100
+Text|Um... "Safe"...how should I say this...hmm...\n
+Wait For Input|
+Sprite|0, 1, 15, 1, 1
+Voice Line|1, 99, 0, 11, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Awesome! We're starting to see the light of hope!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 41, 1, 3
+Voice Line|7, 99, 0, 42, 100
+Text|Can you shut up about hope for one damn\nsecond, you crazy bastard?!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 6, 1, 3
+Voice Line|9, 99, 0, 42, 100
+Text|Yes, before starting to talk about hope\nfor the future...\n
+Wait Frame|
+Wait For Input|
+Text|We should check if everyone here and now\ncan stand on their two legs.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|<CLT 04>Fuyuhiko had approached Souda and helped\nhim get up again.<CLT>\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 31, 1, 3
+Voice Line|7, 99, 0, 42, 100
+Text|You kind of had asked for it, dude,\nbut I still hope\nit didn't hurt that much.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 12, 1, 3
+Voice Line|4, 99, 0, 31, 100
+Text|God... damn... it... Why?\nWhat's even the purpose of anything now?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|<CLT 04>At the same time, Gundham had approached\nHiyoko.<CLT>\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 2, 1, 2
+Voice Line|3, 99, 0, 8, 100
+Text|The Demon Child... are you in the need of assistance?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Voice Line|11, 99, 0, 46, 100
+Text|...Leave me alone.\nI r-really can take care of myself.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 2
+Voice Line|3, 99, 0, 8, 100
+Text|Don't be afraid of me cursing your pristine mortal form\nwith a lustful gaze.\n
+Wait Frame|
+Wait For Input|
+Text|Remember, I am not a mortal man, and therefore,\ndo not posess...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Voice Line|11, 99, 0, 51, 100
+Text|That's not it, you... big dummy!\nI really can take care of myself!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 47, 1, 2
+Voice Line|11, 99, 0, 40, 100
+Text|If I really would need to wear my kimono,\nI would manage to put it on by myself!\n
+Wait Frame|
+Wait For Input|
+Text|If I decide to stay in the swimsuit, that's because\nI want to stay in the swimsuit!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 2
+Voice Line|11, 99, 0, 42, 100
+Text|...I already had got it that nobody here\nis into my body anyways...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 29, 1, 2
+Voice Line|11, 99, 0, 34, 100
+Text|So, can we go greet Nekomaru back already?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 4, 1, 2
+Voice Line|9, 99, 0, 35, 100
+Text|Then let's all go greet Nekomaru. Let's make it grand,\neven for those who have died.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 9, 1, 1
+Voice Line|8, 99, 0, 32, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|*Sob*...\n
+Wait Frame|
+Wait For Input|
+Text|Huh...? What the heck...? Do I still have the\naftereffects of that disease...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|*Sob*...I don't get this at all...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>A-Akane...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 31, 1, 2
+Text|Come on, Kazuichi! Aren't you at least a little bit happy\nthat the carzy bastard Nekomaru is returning to us?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 21, 1, 2
+Voice Line|4, 99, 0, 21, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|I guess... getting Nekomaru back wouldn't hurt...\nLet's go, then...\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|...Yeah, you're right.\n
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 64
+SFX A|0, 205, 100
+Sprite|0, 4, 0, 4, 2
+Sprite|1, 8, 0, 3, 1
+Change UI|3, 0
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 16
+0x3a|6, 0, 0, 10
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Nekomaru's coming back... When we heard that...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>We were unable to contain our excitement as we jumped\ninto the elevator.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Music|10, 100, 0
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 1, 64
+0x3a|6, 0, 0, 40
+SFX A|0, 33, 100
+Sprite|0, 16, 7, 6, 2
+0x3a|6, 0, 0, 10
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+0x3a|6, 0, 0, 30
+Speaker|16
+Voice Line|16, 99, 0, 91, 100
+Text|Maaaan... They just ran off without listening to what I\nhad to say...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 1, 1, 2
+Voice Line|16, 99, 0, 15, 100
+Text|Jeez, they're so impatient! Didn't they learn to stick\naround until others have finished talking?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 12, 1, 1
+Voice Line|17, 99, 0, 7, 100
+Text|Wh-What does that mean?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 1, 1, 1
+Voice Line|17, 99, 0, 13, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|You...you're plotting something again, aren't you!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Voice Line|16, 99, 1, 219, 100
+Text|Puhuhu. I'm not plotting anything... I was just trying\nto properly explain everything to them.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Including...Nekomaru's body...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 3, 1, 1
+Voice Line|17, 99, 0, 21, 100
+Text|...Huh? Nekomaru's body?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Voice Line|16, 99, 0, 29, 100
+Text|Puhuhu...It's their fault for not sticking around until\nI finished talking....\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 4, 1, 2
+Voice Line|16, 99, 0, 35, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|So if something happens because of that, I bear no\nresponsibility!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 12, 1, 1
+Voice Line|17, 99, 0, 64, 100
+Text|Y-You...what did you do to Nekomaru...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 12, 1, 2
+Voice Line|16, 99, 0, 46, 100
+Text|What did I do...? I just saved him, that's all.\n
+Wait Frame|
+Wait For Input|
+Text|I mean...if I didn't do *that*...there's no way I\ncould've saved someone who was that close to death...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|...So it just couldn't be helped.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Voice Line|16, 99, 0, 29, 100
+Text|Puhu...puhuhuhu...\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|3, 0
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+Screen Fade|1, 1, 64
+0x37|0, 0, 3
+Sprite|0, 16, 3, 3, 2
+Sprite|1, 17, 12, 3, 1
+Script|3, 1, 45, 0, 144
+Stop Script|
+Stop Script|

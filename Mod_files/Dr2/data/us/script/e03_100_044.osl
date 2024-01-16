@@ -1,0 +1,705 @@
+OSL Script
+Set Game To DR2
+Text Count|75, 0
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x46|14, 8, 0, 0
+0x4d|
+0x3b|1, 244
+Set Flag|0, 12, 0
+0x3b|1, 245
+0x2c|1, 244
+Set Flag|0, 12, 1
+0x2c|1, 245
+0x46|14, 8, 0, 0
+0x4d|
+0x3b|1, 246
+0x1|1, 99, 0, 253
+0x3b|1, 247
+0x2c|1, 246
+0x1|1, 99, 1, 253
+0x2c|1, 247
+Change UI|6, 0
+Load Map|0, 44, 0, 0
+0x1|0, 1, 11, 0
+0x1|0, 44, 11, 1
+0x1|0, 44, 7, 1
+Change UI|9, 0
+Sprite|2, 7, 30, 0, 0
+0x46|15, 22, 0, 1
+0x4d|
+0x3b|1, 248
+0x23|24, 0, 0, 0, 0
+0x3b|1, 249
+0x2c|1, 248
+0x23|22, 1, 0, 1, 0
+0x2c|1, 249
+Change UI|14, 1
+Load Map|0, 40, 1, 0
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+0x46|15, 22, 0, 1
+0x4d|
+0x3b|1, 250
+0x3b|0, 1
+0x2c|1, 250
+0x2c|0, 0
+Speaker|0
+Format|4
+Text|<CLT 04>I just remembered...I never went inside any of the rooms\nin the motel...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Plus, I don't even know where Sonia's room is...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...It might be faster to just ask someone.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|41
+Voice Line|11, 99, 0, 53, 100
+Text|What the hell you think you are doing here,\nyou fuckfaces?!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...Huh? Who?..<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 3, 0, 0
+Change UI|9, 1
+Sprite|0, 11, 37, 1, 2
+Voice Line|11, 99, 0, 56, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Get your disease-riddled asses a mile away from\nthis place! Now!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 43, 1, 2
+Voice Line|7, 99, 0, 16, 100
+Text|Hiyoko, we...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 47, 1, 2
+Voice Line|11, 99, 0, 55, 100
+Text|Shut up, Mahiru's murderer!\nNever, ever approach me again!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|There's no Despair Disease anymore, Hiyoko!\nDidn't Monokuma tell you... about the murders?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 26, 1, 2
+Voice Line|11, 99, 0, 47, 100
+Text|Yeah, just because someone had croaked, the disease\nis miraculously gone. Lie better, Hajime.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|That's... that's exactly what had happened.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 42, 1, 2
+Voice Line|7, 99, 0, 16, 100
+Text|Is Hajime really looking like a person afflicted with\nLiar Disease to you?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 27, 1, 2
+Voice Line|11, 99, 0, 55, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 1, 2
+Voice Line|11, 99, 0, 50, 100
+Text|To your knowledge, I wasn't able to leave my room\nwhen I heard an announcement. Because...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 38, 1, 2
+Voice Line|11, 99, 0, 50, 100
+Text|...I wasn't able to put my kimono on, because...\nbecause...\n
+Wait Frame|
+Wait For Input|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 43, 1, 2
+Voice Line|7, 99, 0, 16, 100
+Text|...I understand.\nLeave her alone, Hajime.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 30, 5, 2
+Change UI|1, 0
+Change UI|9, 0
+0x2c|0, 1
+Change UI|16, 1
+0x3b|1, 251
+Check Character|0
+0x46|15, 22, 0, 0
+0x4d|
+0x3b|1, 252
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 11, 38, 1, 2
+Voice Line|11, 99, 0, 43, 100
+Text|...Anyways, who's dead?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Sonia... and Ibuki.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 36, 1, 2
+Voice Line|11, 99, 0, 29, 100
+Text|...Wha-a-a-t?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I know you grew to like Ibuki a lot before the disease\nhad happened, but...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 27, 1, 2
+Voice Line|11, 99, 0, 37, 100
+Text|Cut to the point, you sooth-speaking asshole.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...which room was Sonia staying in?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 2
+Voice Line|11, 99, 0, 19, 100
+Text|...T-to the left of my own.\nCome, I would show you the way.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Hey, what had happened to your\n"stay away from me" attitude?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 27, 1, 2
+Voice Line|11, 99, 0, 51, 100
+Text|I am doing it only because I would rather be stuck half-naked\nin one room with you than with Mahiru's murderer.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 37, 1, 2
+Voice Line|11, 99, 0, 40, 100
+Text|Make one move towards making your perverted fantasies\nreality, and you would regret being born! Got it?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I wonder... Is this girl the same way towards her\nteachers, too?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Set Flag|15, 22, 1
+Change UI|1, 0
+Sprite|0, 3, 0, 4, 2
+0x23|24, 0, 0, 0, 0
+0x23|22, 1, 0, 0, 0
+0x3b|1, 253
+0x2c|1, 252
+Change UI|9, 1
+Sprite|0, 11, 37, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Voice Line|11, 99, 0, 40, 100
+Text|Make one move towards making your perverted fantasies\nreality, and you would regret being born! Got it?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Kehehe...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I wonder... Is this girl the same way towards her\nteachers, too?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 3, 0, 4, 2
+0x2c|1, 253
+Check Character|2
+0x46|15, 23, 0, 0
+0x4d|
+0x3b|1, 254
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 7, 31, 1, 2
+Voice Line|7, 99, 0, 4, 100
+Text|Hey Hajime... Can you explain it to me again...?\n
+Wait Frame|
+Wait For Input|
+Text|What happened when you first discovered Ibuki's body?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|It was the same as when I found it with you guys.\nIbuki's body was hanging from the baton lighting...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|However, there was no body discovery announcement made.\nThat's why I went to get you guys.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I met up with Chiaki at this motel, and when we were\nabout to go back to the music venue...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 37, 1, 2
+Voice Line|7, 99, 0, 51, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|You met up with Mikan and me...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|And when we went back to the music venue, the entrance\ndoor wouldn't open for some reason.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 31, 1, 2
+Voice Line|7, 99, 0, 52, 100
+Text|So we had no choice but to break down the door...and\ndiscovered Sonia's body was suddenly there, too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Yeah, that's what happened.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 37, 1, 2
+Voice Line|7, 99, 0, 5, 100
+Text|This is the most important part...\n
+Wait Frame|
+Wait For Input|
+Text|When you arrived at the motel, who else saw you besides\nChiaki?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Um...as I recall...\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Sprite|0, 7, 0, 3, 2
+Filter|1, 1, 0, 0
+0x37|0, 30, 1
+Sprite|1, 17, 3, 8, 2
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 10
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|Didn't you hear me!? A body was found!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 12, 1, 2
+Text|B-B-B-Body...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 2, 1, 2
+Text|Kyaaaaaaaaaaaaaaaaaaaaaa!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 2, 4, 2
+0x3a|6, 0, 0, 24
+Sprite|0, 3, 8, 1, 2
+Text|Are you trying to confuse us, you fiend?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Sprite|0, 7, 0, 3, 2
+0x37|0, 30, 3
+Filter|1, 0, 0, 0
+Sprite|0, 11, 0, 3, 2
+Change UI|6, 0
+Change UI|9, 1
+Change UI|3, 1
+Sprite|0, 7, 42, 8, 2
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|2, 1
+Speaker|0
+Text|Besides Chiaki...I also saw Gundham and Monomi.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 31, 1, 2
+Voice Line|7, 99, 0, 52, 100
+Text|I see...so Kazuichi and Hiyoko didn't appear, huh?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Do you think...those two are suspicious?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 37, 1, 2
+Voice Line|7, 99, 0, 50, 100
+Text|Well, Sonia was killed...\n
+Wait Frame|
+Wait For Input|
+Text|...between the time you saw Ibuki's body and when we\nbroke down the door, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|So obviously those two are the most suspicious since\nthey weren't with us...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|That...that might be it but...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 31, 1, 2
+Voice Line|7, 99, 0, 6, 100
+Text|While we're at it...lemme tell you my alibi, too...\n
+Wait Frame|
+Wait For Input|
+Text|When the morning Monokuma Announcement woke me up,\nI went straight to the hospital.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I saw Mikan panicking in front of the hospital... I\nasked her what's going on, she said Ibuki disappeared...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|So...you guys split up and looked for Ibuki, huh...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 37, 1, 2
+Voice Line|7, 99, 0, 10, 100
+Text|While we were circling the island, we came to the motel\nand saw you guys there.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Did you see...anyone else while you circled the island?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 42, 1, 2
+Voice Line|7, 99, 0, 39, 100
+Text|No, we went to the movie theater and that street full of\nmachines to look for Ibuki, but we didn't see anyone...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 35, 1, 2
+Voice Line|7, 99, 0, 29, 100
+Text|Are you implying I don't have an alibi because I didn't\nrun into anyone? It's unreasonable for you to doubt me.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|The time that Mikan and I were on our own looking for\nIbuki wasn't very long...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 38, 1, 2
+Voice Line|7, 99, 0, 37, 100
+Text|In that short time, there's no way I could've killed\nSonia and wrapped her around the pillar with duct tape.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>It's true...I feel like there wasn't enough time to do\nthat after I left the music venue...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But...the fact is Sonia was killed, and we did discover\nher body...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 32, 1, 2
+Voice Line|7, 99, 0, 12, 100
+Text|What...? Do you still doubt me?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 44, 1, 2
+Voice Line|7, 99, 0, 40, 100
+Text|Well, I'm used to it... It's true I've done things that\nI deserve to be doubted for...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 50, 1, 2
+Voice Line|7, 99, 0, 72, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|So don't worry...even if you doubt me, I don't plan on\ndismembering you and encasing you in concrete.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I'd want to know in advance what I'd have to do to end\nup like that...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Truth Bullet|74, 1
+Change UI|2, 0
+Speaker|63
+Animation|4, 50, 0, 0, 0, 0, 0, 1
+Format|6
+Text|<CLT 06>"<CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Fuyuhiko's Account<CLT><CLT 06>" has been added to the Truth\nBullets section of your handbook.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 0, 4, 2
+Animation|4, 50, 0, 0, 0, 0, 0, 2
+Set Flag|0, 6, 1
+Set Flag|15, 23, 1
+Change UI|1, 0
+0x46|15, 22, 0, 1, 6, 15, 23, 0, 1, 6, 15, 24, 0, 1, 6, 15, 25, 0, 1, 6, 15, 26, 0, 1
+0x4d|
+0x3b|1, 255
+Set Flag|14, 8, 1
+Set Flag|0, 12, 1
+0x1|1, 99, 1, 253
+0x2c|1, 255
+0x46|14, 6, 0, 1, 6, 14, 8, 0, 1, 6, 14, 10, 0, 1
+0x4d|
+0x3b|2, 0
+0x3b|0, 2
+0x2c|2, 0
+0x3b|2, 1
+0x2c|1, 254
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 7, 42, 1, 2
+Voice Line|7, 99, 0, 7, 100
+Text|Sonia was killed between the time you discovered\nIbuki's body and when we broke down the door, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Then whoever didn't show themselves when you came to the\nmotel are suspicious. That means Hiyoko and Kazuichi...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 31, 1, 2
+Voice Line|7, 99, 0, 37, 100
+Text|Well, I'm suspicious too...\n
+Wait Frame|
+Wait For Input|
+Text|During that time, Mikan and I were each looking for\nIbuki. I have no alibi because I didn't meet anyone...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 35, 1, 2
+Voice Line|7, 99, 0, 29, 100
+Text|But still, the time I spent running around looking for\nIbuki wasn't very long...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|There's no way I could've killed Sonia and wrapped her\naround the pillar with duct tape in such short time.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Like he said, I just can't figure out how they killed\nSonia in such a short amount of time...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 7, 0, 4, 2
+0x2c|2, 1
+Check Character|255
+Choice|20
+Run Script|3, 3, 231, 0, 1
+Choice|21
+Run Script|3, 3, 231, 0, 2
+Choice|22
+0x46|15, 22, 0, 0
+0x4d|
+0x3b|2, 2
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I don't even know where Sonia's room is... It might be\nfaster to just ask someone.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 3
+0x2c|2, 2
+0x46|14, 7, 0, 0
+0x4d|
+0x3b|2, 4
+Change UI|15, 0
+0x3a|6, 0, 0, 30
+Change UI|2, 0
+Change UI|1, 1
+Sprite|0, 11, 45, 1, 2
+Voice Line|11, 99, 0, 19, 100
+Text|This way, Hajime.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 24, 5, 2
+Speaker|63
+SFX A|0, 214, 100
+Format|6
+Text|<CLT 06>*Clatter clatter clatter*<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|2, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Looks like it's locked, but..<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|11, 234, 0, 0, 0, 0, 0, 1
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>The key was on her body... Maybe if I use this...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|11, 234, 0, 0, 0, 0, 0, 2
+Change UI|2, 0
+Change UI|1, 1
+Speaker|63
+SFX A|0, 217, 100
+Format|6
+Text|<CLT 06>*Creak...*<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|2, 1
+Speaker|0
+Text|It opened... Just as I thought, this key was Sonia's\nroom key.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...All right, I should go inside.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Set Flag|15, 24, 1
+0x2c|2, 4
+Change UI|15, 0
+Change UI|3, 0
+Change UI|1, 0
+Load Map|0, 45, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 208, 100
+Change UI|15, 2
+Script|3, 0, 100, 0, 45
+Stop Script|
+0x2c|2, 3
+Choice|23
+Run Script|3, 3, 231, 0, 129
+Choice|24
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I don't even know where Sonia's room is... It might be\nfaster to just ask someone.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|254
+0x46|14, 8, 0, 0
+0x4d|
+0x3b|2, 5
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There should still be things worth investigating here...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 6
+0x2c|2, 5
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|2, 7
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 40, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 3
+SFX A|0, 201, 100
+Change UI|15, 2
+Script|3, 0, 0, 0, 40
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|2, 7
+0x2c|2, 6
+Choice|255
+0x2c|1, 251
+0x2c|0, 2
+Run Script|3, 3, 231, 0, 141
+Screen Fade|1, 1, 24
+Script|3, 0, 101, 0, 0
+Stop Script|
+Stop Script|

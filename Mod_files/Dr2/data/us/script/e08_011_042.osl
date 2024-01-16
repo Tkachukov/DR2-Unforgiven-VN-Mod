@@ -1,0 +1,780 @@
+OSL Script
+Set Game To DR2
+Text Count|64, 0
+0x11|11, 0, 0, 15
+Change UI|2, 1
+Change UI|0, 0
+Change UI|1, 1
+Sprite|0, 11, 41, 1, 2
+Speaker|0
+Text|By the way, about your last name, Saionji...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 4, 2
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Grrrrr!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|Wh-What the hell was that look for...? \nI feel like someone punched me in the stomach...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 14, 100
+Text|I had a reaaaaal bad dream today. The next time you\ncasually say my last name, I'll kill you.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Y-You should warn me about that ahead of time...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|B-But...what's wrong with your last name anyway? Is it\nreally that big of a deal...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 27, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 34, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|I hate my last name!\n
+Wait Frame|
+Wait For Input|
+Text|Everyone who shares my last name...eventually dies\na crazy death!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Does that...include you, too?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 1, 2
+Voice Line|11, 99, 0, 14, 100
+Text|...Oh well.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Huh...?\n
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|It can't be helped 'cause chosen bloodlines are always\ntargeted by conspiracies and assassinations and stuff...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 34, 1, 2
+Voice Line|11, 99, 0, 16, 100
+Text|When I'm the head of my family, I'll probably do\nsimilar stuff, too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Well, since my dad only married into the family, \nI guess I can let him off easy.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|C-Conspiracies...? Assassinations...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 33, 1, 2
+Voice Line|11, 99, 0, 32, 100
+Text|Those people are just the worst!\n
+Wait Frame|
+Wait For Input|
+Text|They'll put pins in kids' shoes, or scatter dead mice\nall over your bed...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|They're the type of people who'd drop stage lights on\nyou on purpose, or poison your food...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 37, 1, 2
+Voice Line|11, 99, 0, 37, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|So they totally deserve to die, right!?\n
+Wait Frame|
+Wait For Input|
+Text|There's nothing lamer than being envied by people who\nhave no talent at all!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Did...all those things...actually happen to Hiyoko?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I heard the Saionji family was famous for its\ntraditional Japanese dancing...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 28, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 19, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Do you know about a performance called, "The Madness of\nNakazu"? It's a dance about a dad who goes crazy.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But to tell you the truth, the dad's craziness is a\ntotal lie. Now why would he do something like that...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Do you know whyyyyyy?\n
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x2c|0, 30
+Change UI|18, 1
+0x3b|1, 244
+0x32|1
+Text|To kill his own daughter\n
+Wait Frame|
+Speaker|0
+Text|He was faking it so he could kill his own daughter...right?\n
+Wait Frame|
+Wait For Input|
+0x11|11, 2, 0, 2
+0x4a|0, 11, 4, 0, 20
+0x4d|
+0x3b|1, 245
+0x11|11, 0, 0, 20
+0x2c|1, 245
+0x4a|0, 11, 5, 0, 0
+0x4d|
+0x3b|1, 246
+0x11|11, 0, 0, 0
+0x2c|1, 246
+SFX A|0, 37, 100
+Sprite|0, 11, 25, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 25, 100
+Text|Gyahaha! What the heck!? That's a new interpretation!\n
+Wait Frame|
+Wait For Input|
+Text|It's like you seriously don't want to live anymore!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Crap... Looks like I messed up...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|0, 30
+0x32|2
+Text|To use his daughter\n
+Wait Frame|
+Speaker|0
+Text|Was he...trying to use his daughter?\n
+Wait Frame|
+Wait For Input|
+0x11|11, 2, 0, 2
+0x4a|0, 11, 4, 0, 20
+0x4d|
+0x3b|1, 247
+0x11|11, 0, 0, 20
+0x2c|1, 247
+0x4a|0, 11, 5, 0, 0
+0x4d|
+0x3b|1, 248
+0x11|11, 0, 0, 0
+0x2c|1, 248
+SFX A|0, 37, 100
+Sprite|0, 11, 26, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 14, 100
+Text|If he was that clever...she probably wouldn't have\nsuffered so much...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Crap... Looks like I messed up...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|0, 30
+0x32|3
+Text|To protect his daughter\n
+Wait Frame|
+0x11|11, 1, 0, 3
+0x4a|0, 11, 4, 0, 20
+0x4d|
+0x3b|1, 249
+0x11|11, 0, 0, 20
+0x2c|1, 249
+0x4a|0, 11, 5, 0, 0
+0x4d|
+0x3b|1, 250
+0x11|11, 0, 0, 0
+0x2c|1, 250
+SFX A|0, 36, 100
+0x3b|0, 40
+0x32|18
+Sprite|0, 11, 28, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 19, 100
+Text|Do you know about a performance called, "The Madness of\nNakazu"? It's a dance about a dad who goes crazy.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But to tell you the truth, the dad's craziness is a\ntotal lie. Now why would he do something like that...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Do you know whyyyyyy?\n
+Wait Frame|
+Wait For Input|
+0x3b|0, 30
+0x32|19
+Speaker|0
+Format|4
+Text|<CLT 04>There's no way I'd know anything about that...but if\nI compare that character to Hiyoko's father...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 40
+Speaker|0
+Text|Was he...trying to protect his daughter?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 4, 100
+Text|That's right... The story's about a father who pretends\nhe's crazy so he can protect his daughter from perverts.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|During the performance, the bad guys are punished and\nthere's a happily-ever-after ending, but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 2
+Text|Life isn't that easy.\n
+Wait Frame|
+Wait For Input|
+Text|My hag grandma thinks the family name is so important\nthat she took me away from my parents...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Voice Line|11, 99, 0, 25, 100
+Text|But then again, she did take good care of me.\n
+Wait Frame|
+Wait For Input|
+Text|After all, I'm the next head of the family.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You...you don't feel lonely?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 2
+Speaker|11
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|That's why...it really makes me happy when you talk\nto me.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I-I didn't know that...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 34, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 33, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|...Heh, as long as I say that, everyone gladly agrees\nto become my slave.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Wha-!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Text|H-Hold on a sec... What you said just now...how much\nof it was a lie...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 33, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 31, 100
+Text|You're sooooo stupid! It'd be boring if I told you.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wh-What the heck!? I was actually worried about you\nfor a moment!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 11, 38, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 42, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ugh...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 39, 1, 2
+Voice Line|11, 99, 0, 45, 100
+Text|Waaaaaaaaaaaaaaaaah! Don't yell at me!\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|It's not my fault! Why are you still yelling at me!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|W-Well...um...you know...how should I put this...?\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 23, 100
+Text|...I-I'm sorry.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Once again, I feel like I understand Hiyoko a little\nbetter now...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...But the more I get to know her, the more fearful\nI become.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 24, 4, 2
+Change UI|1, 0
+0x3b|0, 10
+0x2c|0, 0
+Music|255, 60, 0
+Set Report Info|11, 0, 4
+0x3a|38, 1, 0, 100
+Change UI|2, 0
+SFX A|0, 41, 100
+Speaker|63
+Format|6
+Text|<CLT 06>Hiyoko's <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Report Card<CLT><CLT 06> has been updated based on your\nexperience with her.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|0, 20
+0x2c|0, 1
+Change UI|1, 0
+Change UI|3, 0
+Screen Fade|1, 1, 24
+SFX A|255, 255, 100
+0x3a|6, 0, 0, 60
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I felt really tired after I got Hiyoko to stop crying,\nso I went back to my room...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|51, 0
+Change UI|1, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Screen Fade|0, 1, 24
+Set Flag|15, 31, 1
+0x1c|
+0x2c|0, 10
+0x3a|19, 0, 255, 255
+0x47|0, 41, 0, 0, 0
+0x4d|
+0x3b|1, 251
+0x3a|19, 0, 0, 0
+0x2c|1, 251
+0x47|0, 41, 0, 0, 1
+0x4d|
+0x3b|1, 252
+0x3a|19, 0, 0, 1
+0x2c|1, 252
+0x47|0, 41, 0, 0, 2
+0x4d|
+0x3b|1, 253
+0x3a|19, 0, 0, 2
+0x2c|1, 253
+0x47|0, 41, 0, 0, 3
+0x4d|
+0x3b|1, 254
+0x3a|19, 0, 0, 3
+0x2c|1, 254
+0x47|0, 41, 0, 0, 4
+0x4d|
+0x3b|1, 255
+0x3a|19, 0, 0, 4
+0x2c|1, 255
+0x47|0, 41, 0, 0, 5
+0x4d|
+0x3b|2, 0
+0x3a|19, 0, 0, 5
+0x2c|2, 0
+0x47|0, 41, 0, 0, 6
+0x4d|
+0x3b|2, 1
+0x3a|19, 0, 0, 6
+0x2c|2, 1
+0x47|0, 41, 0, 0, 7
+0x4d|
+0x3b|2, 2
+0x3a|19, 0, 0, 7
+0x2c|2, 2
+0x47|0, 41, 0, 0, 8
+0x4d|
+0x3b|2, 3
+0x3a|19, 0, 0, 8
+0x2c|2, 3
+0x47|0, 41, 0, 0, 9
+0x4d|
+0x3b|2, 4
+0x3a|19, 0, 0, 9
+0x2c|2, 4
+0x47|0, 41, 0, 0, 10
+0x4d|
+0x3b|2, 5
+0x3a|19, 0, 0, 10
+0x2c|2, 5
+0x47|0, 41, 0, 0, 11
+0x4d|
+0x3b|2, 6
+0x3a|19, 0, 0, 11
+0x2c|2, 6
+0x47|0, 41, 0, 0, 12
+0x4d|
+0x3b|2, 7
+0x3a|19, 0, 0, 12
+0x2c|2, 7
+0x47|0, 41, 0, 0, 13
+0x4d|
+0x3b|2, 8
+0x3a|19, 0, 0, 13
+0x2c|2, 8
+0x47|0, 41, 0, 0, 14
+0x4d|
+0x3b|2, 9
+0x3a|19, 0, 0, 14
+0x2c|2, 9
+0x47|0, 41, 0, 0, 15
+0x4d|
+0x3b|2, 10
+0x3a|19, 0, 0, 15
+0x2c|2, 10
+0x47|0, 41, 0, 0, 16
+0x4d|
+0x3b|2, 11
+0x3a|19, 0, 0, 16
+0x2c|2, 11
+0x47|0, 41, 0, 0, 17
+0x4d|
+0x3b|2, 12
+0x3a|19, 0, 0, 17
+0x2c|2, 12
+0x47|0, 41, 0, 0, 18
+0x4d|
+0x3b|2, 13
+0x3a|19, 0, 0, 18
+0x2c|2, 13
+0x47|0, 41, 0, 0, 19
+0x4d|
+0x3b|2, 14
+0x3a|19, 0, 0, 19
+0x2c|2, 14
+0x47|0, 41, 0, 0, 20
+0x4d|
+0x3b|2, 15
+0x3a|19, 0, 0, 20
+0x2c|2, 15
+0x47|0, 41, 0, 0, 21
+0x4d|
+0x3b|2, 16
+0x3a|19, 0, 0, 21
+0x2c|2, 16
+0x47|0, 41, 0, 0, 22
+0x4d|
+0x3b|2, 17
+0x3a|19, 0, 0, 22
+0x2c|2, 17
+0x47|0, 41, 0, 0, 23
+0x4d|
+0x3b|2, 18
+0x3a|19, 0, 0, 23
+0x2c|2, 18
+0x47|0, 41, 0, 0, 24
+0x4d|
+0x3b|2, 19
+0x3a|19, 0, 0, 24
+0x2c|2, 19
+0x47|0, 41, 0, 0, 25
+0x4d|
+0x3b|2, 20
+0x3a|19, 0, 0, 25
+0x2c|2, 20
+0x47|0, 41, 0, 0, 26
+0x4d|
+0x3b|2, 21
+0x3a|19, 0, 0, 26
+0x2c|2, 21
+0x47|0, 41, 0, 0, 27
+0x4d|
+0x3b|2, 22
+0x3a|19, 0, 0, 27
+0x2c|2, 22
+0x47|0, 41, 0, 0, 28
+0x4d|
+0x3b|2, 23
+0x3a|19, 0, 0, 28
+0x2c|2, 23
+0x47|0, 41, 0, 0, 29
+0x4d|
+0x3b|2, 24
+0x3a|19, 0, 0, 29
+0x2c|2, 24
+0x47|0, 41, 0, 0, 30
+0x4d|
+0x3b|2, 25
+0x3a|19, 0, 0, 30
+0x2c|2, 25
+0x47|0, 41, 0, 0, 31
+0x4d|
+0x3b|2, 26
+0x3a|19, 0, 0, 31
+0x2c|2, 26
+0x47|0, 41, 0, 0, 32
+0x4d|
+0x3b|2, 27
+0x3a|19, 0, 0, 32
+0x2c|2, 27
+0x47|0, 41, 0, 0, 33
+0x4d|
+0x3b|2, 28
+0x3a|19, 0, 0, 33
+0x2c|2, 28
+0x47|0, 41, 0, 0, 34
+0x4d|
+0x3b|2, 29
+0x3a|19, 0, 0, 34
+0x2c|2, 29
+0x47|0, 41, 0, 0, 35
+0x4d|
+0x3b|2, 30
+0x3a|19, 0, 0, 35
+0x2c|2, 30
+0x47|0, 41, 0, 0, 36
+0x4d|
+0x3b|2, 31
+0x3a|19, 0, 0, 36
+0x2c|2, 31
+0x47|0, 41, 0, 0, 37
+0x4d|
+0x3b|2, 32
+0x3a|19, 0, 0, 37
+0x2c|2, 32
+0x47|0, 41, 0, 0, 38
+0x4d|
+0x3b|2, 33
+0x3a|19, 0, 0, 38
+0x2c|2, 33
+0x47|0, 41, 0, 0, 39
+0x4d|
+0x3b|2, 34
+0x3a|19, 0, 0, 39
+0x2c|2, 34
+0x47|0, 41, 0, 0, 40
+0x4d|
+0x3b|2, 35
+0x3a|19, 0, 0, 40
+0x2c|2, 35
+0x47|0, 41, 0, 0, 41
+0x4d|
+0x3b|2, 36
+0x3a|19, 0, 0, 41
+0x2c|2, 36
+0x47|0, 41, 0, 0, 42
+0x4d|
+0x3b|2, 37
+0x3a|19, 0, 0, 42
+0x2c|2, 37
+0x47|0, 41, 0, 0, 43
+0x4d|
+0x3b|2, 38
+0x3a|19, 0, 0, 43
+0x2c|2, 38
+0x47|0, 41, 0, 0, 44
+0x4d|
+0x3b|2, 39
+0x3a|19, 0, 0, 44
+0x2c|2, 39
+0x47|0, 41, 0, 0, 45
+0x4d|
+0x3b|2, 40
+0x3a|19, 0, 0, 45
+0x2c|2, 40
+0x47|0, 41, 0, 0, 46
+0x4d|
+0x3b|2, 41
+0x3a|19, 0, 0, 46
+0x2c|2, 41
+0x47|0, 41, 0, 0, 47
+0x4d|
+0x3b|2, 42
+0x3a|19, 0, 0, 47
+0x2c|2, 42
+0x47|0, 41, 0, 0, 48
+0x4d|
+0x3b|2, 43
+0x3a|19, 0, 0, 48
+0x2c|2, 43
+0x47|0, 41, 0, 0, 49
+0x4d|
+0x3b|2, 44
+0x3a|19, 0, 0, 49
+0x2c|2, 44
+0x47|0, 41, 0, 0, 50
+0x4d|
+0x3b|2, 45
+0x3a|19, 0, 0, 50
+0x2c|2, 45
+0x47|0, 41, 0, 0, 51
+0x4d|
+0x3b|2, 46
+0x3a|19, 0, 0, 51
+0x2c|2, 46
+0x47|0, 41, 0, 0, 52
+0x4d|
+0x3b|2, 47
+0x3a|19, 0, 0, 52
+0x2c|2, 47
+0x47|0, 41, 0, 0, 53
+0x4d|
+0x3b|2, 48
+0x3a|19, 0, 0, 53
+0x2c|2, 48
+0x47|0, 41, 0, 0, 54
+0x4d|
+0x3b|2, 49
+0x3a|19, 0, 0, 54
+0x2c|2, 49
+0x47|0, 41, 0, 0, 55
+0x4d|
+0x3b|2, 50
+0x3a|19, 0, 0, 55
+0x2c|2, 50
+0x3b|0, 0
+0x2c|0, 20
+0x2f|0, 19, 112, 59, 2, 51, 112, 48, 0, 0
+Music|0, 100, 0
+Show Background|0, 1, 112
+Show Background|0, 2, 112
+Show Background|0, 3, 112
+Show Background|0, 4, 112
+Show Background|0, 5, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 13, 112
+Show Background|0, 14, 112
+Show Background|0, 15, 112
+Show Background|0, 16, 112
+Show Background|0, 17, 112
+Show Background|0, 18, 112
+Show Background|0, 19, 112
+Show Background|0, 20, 112
+Show Background|0, 21, 112
+Show Background|0, 22, 112
+Show Background|0, 23, 112
+Show Background|0, 24, 112
+Show Background|0, 25, 112
+Show Background|0, 26, 112
+Show Background|0, 27, 112
+Show Background|0, 28, 112
+Show Background|0, 29, 112
+Show Background|0, 30, 112
+Show Background|0, 31, 112
+Show Background|0, 32, 112
+Show Background|0, 33, 112
+Show Background|0, 34, 112
+Show Background|0, 35, 112
+Show Background|0, 36, 112
+Show Background|0, 37, 112
+Show Background|0, 38, 112
+Show Background|0, 39, 112
+Show Background|0, 40, 112
+Show Background|0, 41, 112
+Show Background|0, 42, 112
+Show Background|0, 43, 112
+Show Background|0, 44, 112
+Show Background|0, 45, 112
+Show Background|0, 46, 112
+Show Background|0, 47, 112
+Show Background|0, 48, 112
+Show Background|0, 49, 112
+Show Background|0, 50, 112
+Show Background|0, 51, 112
+Show Background|0, 52, 112
+Show Background|0, 53, 112
+Show Background|0, 54, 112
+Show Background|0, 55, 112
+Show Background|255, 255, 112
+0x2c|2, 51
+0x3b|0, 1
+Stop Script|

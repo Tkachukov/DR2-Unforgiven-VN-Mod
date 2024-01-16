@@ -1,0 +1,533 @@
+OSL Script
+Set Game To DR2
+Text Count|59, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|24, 100, 0
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 179, 0, 1, 0
+Voice Line|0, 6, 0, 2, 100
+Text|This world... This "Jabberwock Island" we're on...\n
+Wait Frame|
+Wait For Input|
+Music|59, 100, 0
+Sprite|16, 16, 44, 0, 0
+Trial Camera|16, 1, 37, 0, 0, 0
+Voice Line|16, 6, 0, 3, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|It's a <CLT 03>virtual world<CLT> that was inspired by\nthe actual Jabberwock Island!\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 4, 0
+Trial Camera|0, 0, 239, 0, 0, 0
+Voice Line|0, 6, 0, 3, 100
+SFX A|0, 20, 100
+Text|H-Hey...!\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 52, 0, 0
+Trial Camera|16, 0, 122, 0, 0, 0
+Voice Line|16, 6, 0, 4, 100
+Text|Soooo...this isn't the <CLT 03>real world<CLT>, but if you want you\ncan call it the <CLT 03>game world<CLT>. \n
+Format|3
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 45, 4, 0
+Trial Camera|16, 1, 19, 0, 0, 0
+Voice Line|16, 6, 0, 5, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|You get it? It's all just one big game!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 0, 0
+Trial Camera|8, 0, 142, 0, 0, 0
+Voice Line|8, 6, 0, 1, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 4, 0
+Voice Line|8, 6, 0, 2, 100
+SFX A|0, 20, 100
+Text|A-Are you friggin' serious?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 33, 4, 0
+Trial Camera|7, 1, 37, 0, 0, 0
+Voice Line|7, 6, 0, 1, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Don't fucking mess with me, you bastard!\nDid you have us all come here just to tell us bullshit!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 15, 0, 0
+Trial Camera|4, 0, 235, 0, 0, 0
+Voice Line|4, 6, 0, 2, 100
+Text|If this is a game...are my words being\ndisplayed in a text window right now!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 13, 4, 0
+Trial Camera|4, 1, 53, 0, 0, 0
+Voice Line|4, 6, 0, 3, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|That's stupid!\nThere's no way that's even possible!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 50, 0, 0
+Trial Camera|16, 0, 88, 0, 0, 0
+Voice Line|16, 6, 0, 6, 100
+Text|I know, I know... The "All In Your Mind" trope makes you\nfeel such cruel despair...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 45, 0, 0
+Trial Camera|16, 1, 19, 0, 0, 0
+Voice Line|16, 6, 0, 7, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|But who cares!? I've revived all the suspense and\nmystery with just one line!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 44, 4, 0
+Trial Camera|16, 1, 37, 0, 0, 0
+Voice Line|16, 6, 0, 8, 100
+SFX A|0, 20, 100
+Text|Cuz it's a game!\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 91, 0, 0, 0
+Voice Line|7, 6, 0, 2, 100
+Text|Then...we were forced to kill each other...\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 52, 0, 0
+Trial Camera|16, 1, 37, 0, 0, 0
+Voice Line|16, 6, 0, 8, 100
+SFX A|0, 21, 100
+Text|Cuz it's a game!\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 5, 0, 0
+Trial Camera|4, 0, 112, 0, 0, 0
+Voice Line|4, 6, 0, 4, 100
+Text|A lot of crazy shit happened...\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 46, 4, 0
+Trial Camera|16, 1, 37, 0, 0, 0
+Voice Line|16, 6, 0, 8, 100
+SFX A|0, 22, 100
+Text|Cuz it's a game!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 90, 0, 0, 0
+Voice Line|8, 6, 0, 3, 100
+Text|We're the only people here...\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 53, 4, 0
+Trial Camera|16, 1, 37, 0, 0, 0
+Voice Line|16, 6, 0, 8, 100
+SFX A|0, 25, 100
+Text|Cuz it's a game!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 0, 2, 0, 0
+Sprite|7, 11, 21, 0, 0
+Trial Camera|7, 0, 91, 0, 0, 0
+Speaker|11
+Text|Monokuma's... magical powers...\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 45, 4, 0
+Trial Camera|16, 1, 37, 0, 0, 0
+Voice Line|16, 6, 0, 8, 100
+SFX A|0, 18, 100
+Text|Cuz it's a game!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Sprite|7, 7, 33, 4, 0
+Trial Camera|7, 0, 235, 0, 0, 0
+Voice Line|7, 6, 0, 3, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|D-Don't fuck with me! That's not even possible!\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 41, 0, 0
+Trial Camera|16, 2, 167, 0, 0, 0
+Voice Line|16, 6, 0, 9, 100
+Text|I know you guys are pissed but you were having fun too, right?\nA world where anything goes only exists in games!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 52, 0, 0
+Trial Camera|16, 0, 140, 0, 0, 0
+Voice Line|16, 6, 0, 10, 100
+Text|....Soooo, just force yourself to accept it.\n
+Wait Frame|
+Wait For Input|
+Voice Line|16, 6, 0, 11, 100
+Text|This closed space, this <CLT 03>game world<CLT>,\nwas the <CLT 03>true stage<CLT> of this killing school trip!\n
+Format|3
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 4, 0
+Trial Camera|8, 0, 14, 0, 0, 0
+Voice Line|8, 6, 0, 4, 100
+Text|J-Just stop... There's no way...\nthere's no way I'm gonna believe that...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 50, 0, 0
+Trial Camera|16, 0, 33, 0, 0, 0
+Voice Line|16, 6, 0, 12, 100
+Text|Back in the day, people must've reacted the same way when\nthey first saw the airplane take flight...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 43, 0, 0
+Trial Camera|16, 0, 232, 0, 0, 0
+Voice Line|16, 6, 0, 13, 100
+Text|But like wearing contact lenses,\nit'll stop feeling strange once you just get used to it. \n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 0, 2, 0, 0
+Sprite|7, 11, 13, 0, 0
+Trial Camera|7, 0, 235, 0, 0, 0
+SFX A|0, 22, 100
+Speaker|11
+Text|Stop deciding for us how we should feel,\nyou mutant panda fetus!\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 0, 0
+Trial Camera|4, 0, 150, 0, 0, 0
+Voice Line|4, 6, 0, 5, 100
+Text|I mean, if this really is a...virtual world... \nWhat does that make...us...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 116, 0, 0, 0
+Voice Line|7, 6, 0, 4, 100
+Text|You better not say we're fictional characters!\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 40, 0, 0
+Trial Camera|16, 0, 54, 0, 0, 0
+Voice Line|16, 6, 0, 14, 100
+Text|The Future Foundation created this world using\na program called the <CLT 03>Neo World Program<CLT>...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 181, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 181, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 6, 0, 15, 100
+Text|It's programmed to place the user in a virtual world\nby synchronizing directly with the user's brain.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|16, 6, 0, 16, 100
+Text|Which means...your bodies still exist in the <CLT 03>real world<CLT>.\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Voice Line|16, 6, 0, 17, 100
+Text|But right now...you're completely submerged in\nthe game world, as if you're dreaming or something.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 60
+Screen Fade|1, 1, 24
+Animation|3, 181, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|9, 0
+Sprite|16, 16, 50, 0, 0
+Trial Camera|16, 0, 198, 0, 0, 0
+Screen Fade|0, 1, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|16, 16, 50, 0, 0
+Voice Line|16, 6, 0, 18, 100
+Text|Simply put, you're...um...you know, not "aviators" but...\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 15, 0, 0
+Trial Camera|4, 0, 135, 0, 0, 0
+Voice Line|4, 6, 0, 6, 100
+SFX A|0, 19, 100
+Text|You mean...<CLT 03>avatar<CLT>, right? An existence created in\nthe game as a copy of the user's real body...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 134, 0, 0, 0
+Voice Line|0, 6, 0, 4, 100
+Text|But...we're not just regular avatars, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 40, 0, 0
+Trial Camera|16, 0, 105, 0, 0, 0
+Voice Line|16, 6, 0, 19, 100
+Text|Your avatars were constructed by removing\na <CLT 03>specific thing<CLT> from your bodies in the real world...\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 143, 0, 0, 0
+Voice Line|7, 6, 0, 5, 100
+SFX A|0, 19, 100
+Text|Wh-What did you remove...?\n
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|18, 1
+0x3b|1, 244
+0x32|1
+Text|Our school memories\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|2
+Text|Memories of our families\n
+Wait Frame|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Th-That's not it...! I remember my family...!<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 7, 8
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|6, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3b|0, 0
+0x32|3
+Text|Our Ultimate Talents\n
+Wait Frame|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>No...that's not it... I'm the only one who forgot,\nand I didn't have a talent...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 7, 8
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|6, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3b|0, 0
+0x32|4
+Text|Our memories prior to entering the school\n
+Wait Frame|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>No...that's not it... I haven't lost any of my memories\nfrom before I entered Hope's Peak Academy...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 7, 8
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|6, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3b|0, 0
+0x32|18
+Sprite|16, 16, 42, 0, 0
+Trial Camera|16, 0, 33, 0, 0, 0
+Text|Hey hey, what are you doing? If you don't hurry up, \nI'm gonna snip off your you-know-what.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Monokuma's staring at me with his cold eyes... \nHe's thinking about doing something bad to me.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 7, 8
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|6, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3b|0, 0
+0x32|19
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>The specific thing that was removed from our bodies... \nHe's definitely talking about that, right?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Music|255, 240, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 178, 0, 1, 0
+Voice Line|0, 6, 0, 5, 100
+Text|What was removed from us...was our <CLT 03>school memories<CLT>, right?\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Music|25, 100, 0
+Sprite|4, 4, 5, 4, 0
+Trial Camera|4, 0, 150, 0, 0, 0
+Voice Line|4, 6, 0, 7, 100
+SFX A|0, 20, 100
+Text|Wh-Which means...we're avatars that were created from \nour memories from before we entered the academy?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 0, 2, 0, 0
+Sprite|7, 11, 12, 0, 0
+Trial Camera|7, 0, 235, 0, 0, 0
+Speaker|11
+Text|So, are we, like...\ntrapped in a dream world?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Sprite|8, 8, 24, 4, 0
+Trial Camera|8, 1, 19, 0, 0, 0
+Voice Line|8, 6, 0, 5, 100
+Text|D-Don't talk like that...\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 0, 0
+Trial Camera|8, 0, 112, 0, 1, 0
+Voice Line|8, 6, 0, 6, 100
+Text|Like we're made from memories of the past... \nLike we're avatars... Like this is a game world...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 10, 4, 0
+Trial Camera|8, 1, 37, 0, 0, 0
+Voice Line|8, 6, 0, 7, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|How'd we end up talkin' about sci-fi crap!? \nI'll never believe it!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 42, 4, 0
+Trial Camera|16, 0, 255, 0, 0, 0
+Voice Line|16, 6, 0, 20, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|How many times do I have to tell you!? \nIt's not sci-fi, it's a game!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 19, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Format|4
+Text|<CLT 04>This world is a virtual reality created by a computer program. \nWe can't proceed if we don't accept it...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 11, 0, 0
+Trial Camera|0, 2, 236, 0, 1, 0
+Format|4
+Text|<CLT 04>...Is believing him really the only thing we can do?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Script|6, 0, 204, 0, 0
+Stop Script|
+Stop Script|

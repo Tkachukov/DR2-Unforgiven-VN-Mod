@@ -1,0 +1,595 @@
+OSL Script
+Set Game To DR2
+Text Count|36, 0
+0x11|11, 0, 0, 15
+Change UI|2, 1
+Change UI|0, 0
+Change UI|1, 1
+Sprite|0, 11, 30, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 26, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Yay! This island has lots of flowers!\n
+Wait Frame|
+Wait For Input|
+Text|I love flowers!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Well, I guess this place looks pretty scenic.\n
+Wait Frame|
+Wait For Input|
+Text|But...I'm surprised that someone like you likes\nflowers and stuff.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 29, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 22, 100
+Text|Huh!? What does that mean, you stupid, ugly, idiot!?\nYou're so meeeeeeeeean!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|How can you perform a traditional Japanese dance if you\ndon't have a heart that cherishes flowers?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 33, 1, 2
+Voice Line|11, 99, 0, 31, 100
+Text|You don't understand at all, do you?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Oh right... Despite her looks, I totally forgot that\nshe's the <CLT><CLT 04><CLT 03>Ultimate Traditional Dancer<CLT><CLT 04><CLT><CLT 04>...<CLT>\n
+Wait Frame|
+Format|0
+Format|4
+Format|3
+Format|0
+Format|4
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If she didn't have her foul mouth and rotten attitude, \nshe'd look perfect standing next to flowers.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 4, 100
+Text|I love flowers 'cause they're soooo pretty! I used to\nplay at flower gardens when I was a kid.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 30, 1, 2
+Voice Line|11, 99, 0, 25, 100
+Text|It was lots of fun stomping them and messing them up!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Text|Wait, didn't you just say that you love flowers because\nthey're so pretty...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 37, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 40, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|It's fun to stomp pretty things with my feet and \nkick them all over the place.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>H-How...can you think like that?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 26, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 16, 100
+Text|Oh yeah, Akane saw me the other day when I was stomping\nflowers, too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|She asked me what I was doing, but it was sooooo\nannoying to explain it to her.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|So I told her that stomping and kicking your food\nbefore you eat it gives you a lot more protein.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 33, 1, 2
+Voice Line|11, 99, 0, 31, 100
+Text|Then she actually started eating the flowers, \nbut she said they didn't taste that good.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I mean, I can imagine Akane doing that, but...it doesn't\nchange the fact that this kid is a rotten jerk...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 25, 100
+Text|She's seriously so stupid. Hmmmm, what should I make her\ndo the next time I see her?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 26, 1, 2
+Voice Line|11, 99, 0, 14, 100
+Text|Then again...Akane is gullible, so no matter what \nI tell her to do, it'll be too boring...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|It's a lot more fun to mess with Mikan.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Hey, Hiyoko.\n
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|...Hm? What?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You...must not have very many friends...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 32, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 29, 100
+Text|Well, no duh. What's wrong with that?\n
+Wait Frame|
+Wait For Input|
+Text|Friends are what you call a bunch of weaklings who decide\nto get along and play nice, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Voice Line|11, 99, 0, 4, 100
+Text|The world is filled with people who exist to serve\nperfect humans like me.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|That's why I don't need friends or any close contacts...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 26, 1, 2
+Voice Line|11, 99, 0, 16, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|You're just my slave, got it?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|S-Slave!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 34, 1, 2
+Voice Line|11, 99, 0, 34, 100
+Text|Hey, that's a big no-no! A slave should never talk back\nto their master!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I don't really understand, but...Hiyoko is giving me\ndetailed instructions on how slaves should behave...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 34, 4, 2
+Change UI|1, 0
+0x3b|0, 10
+0x2c|0, 0
+Music|255, 60, 0
+Set Report Info|11, 0, 3
+0x3a|38, 1, 0, 100
+Change UI|2, 0
+SFX A|0, 41, 100
+Speaker|63
+Format|6
+Text|<CLT 06>Hiyoko's <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Report Card<CLT><CLT 06> has been updated based on your\nexperience with her.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|0, 20
+0x2c|0, 1
+Change UI|1, 0
+Change UI|3, 0
+Screen Fade|1, 1, 24
+SFX A|255, 255, 100
+0x3a|6, 0, 0, 60
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I felt physically and mentally exhausted, so I went\nback to my cottage...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|51, 0
+Change UI|1, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Screen Fade|0, 1, 24
+Set Flag|15, 31, 1
+0x1c|
+0x2c|0, 10
+0x3a|19, 0, 255, 255
+0x47|0, 41, 0, 0, 0
+0x4d|
+0x3b|1, 244
+0x3a|19, 0, 0, 0
+0x2c|1, 244
+0x47|0, 41, 0, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|19, 0, 0, 1
+0x2c|1, 245
+0x47|0, 41, 0, 0, 2
+0x4d|
+0x3b|1, 246
+0x3a|19, 0, 0, 2
+0x2c|1, 246
+0x47|0, 41, 0, 0, 3
+0x4d|
+0x3b|1, 247
+0x3a|19, 0, 0, 3
+0x2c|1, 247
+0x47|0, 41, 0, 0, 4
+0x4d|
+0x3b|1, 248
+0x3a|19, 0, 0, 4
+0x2c|1, 248
+0x47|0, 41, 0, 0, 5
+0x4d|
+0x3b|1, 249
+0x3a|19, 0, 0, 5
+0x2c|1, 249
+0x47|0, 41, 0, 0, 6
+0x4d|
+0x3b|1, 250
+0x3a|19, 0, 0, 6
+0x2c|1, 250
+0x47|0, 41, 0, 0, 7
+0x4d|
+0x3b|1, 251
+0x3a|19, 0, 0, 7
+0x2c|1, 251
+0x47|0, 41, 0, 0, 8
+0x4d|
+0x3b|1, 252
+0x3a|19, 0, 0, 8
+0x2c|1, 252
+0x47|0, 41, 0, 0, 9
+0x4d|
+0x3b|1, 253
+0x3a|19, 0, 0, 9
+0x2c|1, 253
+0x47|0, 41, 0, 0, 10
+0x4d|
+0x3b|1, 254
+0x3a|19, 0, 0, 10
+0x2c|1, 254
+0x47|0, 41, 0, 0, 11
+0x4d|
+0x3b|1, 255
+0x3a|19, 0, 0, 11
+0x2c|1, 255
+0x47|0, 41, 0, 0, 12
+0x4d|
+0x3b|2, 0
+0x3a|19, 0, 0, 12
+0x2c|2, 0
+0x47|0, 41, 0, 0, 13
+0x4d|
+0x3b|2, 1
+0x3a|19, 0, 0, 13
+0x2c|2, 1
+0x47|0, 41, 0, 0, 14
+0x4d|
+0x3b|2, 2
+0x3a|19, 0, 0, 14
+0x2c|2, 2
+0x47|0, 41, 0, 0, 15
+0x4d|
+0x3b|2, 3
+0x3a|19, 0, 0, 15
+0x2c|2, 3
+0x47|0, 41, 0, 0, 16
+0x4d|
+0x3b|2, 4
+0x3a|19, 0, 0, 16
+0x2c|2, 4
+0x47|0, 41, 0, 0, 17
+0x4d|
+0x3b|2, 5
+0x3a|19, 0, 0, 17
+0x2c|2, 5
+0x47|0, 41, 0, 0, 18
+0x4d|
+0x3b|2, 6
+0x3a|19, 0, 0, 18
+0x2c|2, 6
+0x47|0, 41, 0, 0, 19
+0x4d|
+0x3b|2, 7
+0x3a|19, 0, 0, 19
+0x2c|2, 7
+0x47|0, 41, 0, 0, 20
+0x4d|
+0x3b|2, 8
+0x3a|19, 0, 0, 20
+0x2c|2, 8
+0x47|0, 41, 0, 0, 21
+0x4d|
+0x3b|2, 9
+0x3a|19, 0, 0, 21
+0x2c|2, 9
+0x47|0, 41, 0, 0, 22
+0x4d|
+0x3b|2, 10
+0x3a|19, 0, 0, 22
+0x2c|2, 10
+0x47|0, 41, 0, 0, 23
+0x4d|
+0x3b|2, 11
+0x3a|19, 0, 0, 23
+0x2c|2, 11
+0x47|0, 41, 0, 0, 24
+0x4d|
+0x3b|2, 12
+0x3a|19, 0, 0, 24
+0x2c|2, 12
+0x47|0, 41, 0, 0, 25
+0x4d|
+0x3b|2, 13
+0x3a|19, 0, 0, 25
+0x2c|2, 13
+0x47|0, 41, 0, 0, 26
+0x4d|
+0x3b|2, 14
+0x3a|19, 0, 0, 26
+0x2c|2, 14
+0x47|0, 41, 0, 0, 27
+0x4d|
+0x3b|2, 15
+0x3a|19, 0, 0, 27
+0x2c|2, 15
+0x47|0, 41, 0, 0, 28
+0x4d|
+0x3b|2, 16
+0x3a|19, 0, 0, 28
+0x2c|2, 16
+0x47|0, 41, 0, 0, 29
+0x4d|
+0x3b|2, 17
+0x3a|19, 0, 0, 29
+0x2c|2, 17
+0x47|0, 41, 0, 0, 30
+0x4d|
+0x3b|2, 18
+0x3a|19, 0, 0, 30
+0x2c|2, 18
+0x47|0, 41, 0, 0, 31
+0x4d|
+0x3b|2, 19
+0x3a|19, 0, 0, 31
+0x2c|2, 19
+0x47|0, 41, 0, 0, 32
+0x4d|
+0x3b|2, 20
+0x3a|19, 0, 0, 32
+0x2c|2, 20
+0x47|0, 41, 0, 0, 33
+0x4d|
+0x3b|2, 21
+0x3a|19, 0, 0, 33
+0x2c|2, 21
+0x47|0, 41, 0, 0, 34
+0x4d|
+0x3b|2, 22
+0x3a|19, 0, 0, 34
+0x2c|2, 22
+0x47|0, 41, 0, 0, 35
+0x4d|
+0x3b|2, 23
+0x3a|19, 0, 0, 35
+0x2c|2, 23
+0x47|0, 41, 0, 0, 36
+0x4d|
+0x3b|2, 24
+0x3a|19, 0, 0, 36
+0x2c|2, 24
+0x47|0, 41, 0, 0, 37
+0x4d|
+0x3b|2, 25
+0x3a|19, 0, 0, 37
+0x2c|2, 25
+0x47|0, 41, 0, 0, 38
+0x4d|
+0x3b|2, 26
+0x3a|19, 0, 0, 38
+0x2c|2, 26
+0x47|0, 41, 0, 0, 39
+0x4d|
+0x3b|2, 27
+0x3a|19, 0, 0, 39
+0x2c|2, 27
+0x47|0, 41, 0, 0, 40
+0x4d|
+0x3b|2, 28
+0x3a|19, 0, 0, 40
+0x2c|2, 28
+0x47|0, 41, 0, 0, 41
+0x4d|
+0x3b|2, 29
+0x3a|19, 0, 0, 41
+0x2c|2, 29
+0x47|0, 41, 0, 0, 42
+0x4d|
+0x3b|2, 30
+0x3a|19, 0, 0, 42
+0x2c|2, 30
+0x47|0, 41, 0, 0, 43
+0x4d|
+0x3b|2, 31
+0x3a|19, 0, 0, 43
+0x2c|2, 31
+0x47|0, 41, 0, 0, 44
+0x4d|
+0x3b|2, 32
+0x3a|19, 0, 0, 44
+0x2c|2, 32
+0x47|0, 41, 0, 0, 45
+0x4d|
+0x3b|2, 33
+0x3a|19, 0, 0, 45
+0x2c|2, 33
+0x47|0, 41, 0, 0, 46
+0x4d|
+0x3b|2, 34
+0x3a|19, 0, 0, 46
+0x2c|2, 34
+0x47|0, 41, 0, 0, 47
+0x4d|
+0x3b|2, 35
+0x3a|19, 0, 0, 47
+0x2c|2, 35
+0x47|0, 41, 0, 0, 48
+0x4d|
+0x3b|2, 36
+0x3a|19, 0, 0, 48
+0x2c|2, 36
+0x47|0, 41, 0, 0, 49
+0x4d|
+0x3b|2, 37
+0x3a|19, 0, 0, 49
+0x2c|2, 37
+0x47|0, 41, 0, 0, 50
+0x4d|
+0x3b|2, 38
+0x3a|19, 0, 0, 50
+0x2c|2, 38
+0x47|0, 41, 0, 0, 51
+0x4d|
+0x3b|2, 39
+0x3a|19, 0, 0, 51
+0x2c|2, 39
+0x47|0, 41, 0, 0, 52
+0x4d|
+0x3b|2, 40
+0x3a|19, 0, 0, 52
+0x2c|2, 40
+0x47|0, 41, 0, 0, 53
+0x4d|
+0x3b|2, 41
+0x3a|19, 0, 0, 53
+0x2c|2, 41
+0x47|0, 41, 0, 0, 54
+0x4d|
+0x3b|2, 42
+0x3a|19, 0, 0, 54
+0x2c|2, 42
+0x47|0, 41, 0, 0, 55
+0x4d|
+0x3b|2, 43
+0x3a|19, 0, 0, 55
+0x2c|2, 43
+0x3b|0, 0
+0x2c|0, 20
+0x2f|0, 19, 112, 59, 2, 44, 112, 48, 0, 0
+Music|0, 100, 0
+Show Background|0, 1, 112
+Show Background|0, 2, 112
+Show Background|0, 3, 112
+Show Background|0, 4, 112
+Show Background|0, 5, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 13, 112
+Show Background|0, 14, 112
+Show Background|0, 15, 112
+Show Background|0, 16, 112
+Show Background|0, 17, 112
+Show Background|0, 18, 112
+Show Background|0, 19, 112
+Show Background|0, 20, 112
+Show Background|0, 21, 112
+Show Background|0, 22, 112
+Show Background|0, 23, 112
+Show Background|0, 24, 112
+Show Background|0, 25, 112
+Show Background|0, 26, 112
+Show Background|0, 27, 112
+Show Background|0, 28, 112
+Show Background|0, 29, 112
+Show Background|0, 30, 112
+Show Background|0, 31, 112
+Show Background|0, 32, 112
+Show Background|0, 33, 112
+Show Background|0, 34, 112
+Show Background|0, 35, 112
+Show Background|0, 36, 112
+Show Background|0, 37, 112
+Show Background|0, 38, 112
+Show Background|0, 39, 112
+Show Background|0, 40, 112
+Show Background|0, 41, 112
+Show Background|0, 42, 112
+Show Background|0, 43, 112
+Show Background|0, 44, 112
+Show Background|0, 45, 112
+Show Background|0, 46, 112
+Show Background|0, 47, 112
+Show Background|0, 48, 112
+Show Background|0, 49, 112
+Show Background|0, 50, 112
+Show Background|0, 51, 112
+Show Background|0, 52, 112
+Show Background|0, 53, 112
+Show Background|0, 54, 112
+Show Background|0, 55, 112
+Show Background|255, 255, 112
+0x2c|2, 44
+0x3b|0, 1
+Stop Script|

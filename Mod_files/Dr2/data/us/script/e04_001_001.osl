@@ -1,0 +1,994 @@
+OSL Script
+Set Game To DR2
+Text Count|114, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+Load Map|0, 1, 0, 1
+Change UI|9, 0
+Sprite|1, 1, 0, 0, 0
+Sprite|11, 3, 0, 0, 0
+Sprite|4, 4, 0, 0, 0
+Sprite|5, 7, 30, 0, 0
+Sprite|3, 8, 0, 0, 0
+Sprite|2, 9, 0, 0, 0
+Sprite|10, 11, 3, 0, 0
+0x1|0, 1, 1, 1
+0x1|0, 1, 3, 1
+0x1|0, 1, 4, 1
+0x1|0, 1, 6, 1
+0x1|0, 1, 7, 1
+0x1|0, 1, 8, 1
+0x1|0, 1, 9, 1
+0x1|0, 1, 10, 1
+0x23|25, 0, 0, 0, 0
+0x23|26, 0, 0, 0, 0
+Change UI|50, 0
+Change UI|14, 0
+Change UI|3, 0
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 8
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>We were hoping things would progress smoothly.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>That's right. A common, ordinary progression would've\nbeen just fine...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Like, for example...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>The enemy's lair crumbling right after you defeat the\nfinal boss, or your dead friend suddenly reappearing...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It would've been just fine if things had progressed like\nthat.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>That's the kind of old-school progression\nwe were hoping for...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Not...this unreasonable turn of events.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|8, 100, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Animation|3, 80, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 80, 0, 0, 0, 0, 0, 1
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 127, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|The name's NEKOMARU NIDAI!!! I've been reborn in the\nrivers of helllllllllllllllllllllllllllllllllllllllll!!!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|8
+Voice Line|8, 99, 0, 135, 100
+Text|N-Nekomaru...? Is that you...?\n
+Wait Frame|
+Wait For Input|
+Speaker|6
+Voice Line|6, 99, 0, 129, 100
+Text|Gahaha! No matter how you look at it, I'm still me!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Voice Line|0, 99, 0, 158, 100
+Text|No matter how we look at it...this isn't you at all...!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Animation|3, 80, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|9, 0
+Sprite|0, 19, 0, 0, 10
+0x3a|6, 0, 0, 60
+Change UI|9, 1
+Change UI|26, 19
+0x3a|5, 0, 0, 10
+Change UI|9, 1
+Sprite|1, 19, 8, 1, 2
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 23, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Jeez, you guys are a strange lot. You all have such big,\nwide eyes..\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 3, 1, 2
+Voice Line|6, 99, 0, 48, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Oh, perhaps you've all fallen in love with this metallic\nbody of mine!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 1, 1, 2
+Voice Line|6, 99, 0, 8, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Gahahahaaaa!!! I already know what you want to say\njust by looking in your eyes!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Text|Then again, I am a former team manager!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 47, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 45, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|What... What the hell is this monstrocity?!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ngh...what happened? You look like you've seen a ghost\nor something!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 8, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 47, 100
+Text|Hey, dude! I know you should be happy\nsurviving and recovering from your wounds, but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 1
+Text|We had just survivied though an unbearable tragedy!\nNow it's not the time to fool around like that!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>As he raised his stammering voice, Kazuichi grabbed on\nto Nekomaru's head and...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 8, 1, 1
+Voice Line|4, 99, 0, 38, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|C'mon, take this stupid-ass mask off!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 19, 2, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 41, 100
+Change UI|13, 1
+Text|Ow...ow ow ow ow...\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|13, 1
+Text|S-Stop it...\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 19, 4, 1, 2
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|STOOOOOOOOOOOOOOOOPPPPPPPPP IIIIIIIIIIIIIIITTTTTTTTT!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 4, 5, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 23, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|H-Huh...? Why won't it come off...?\n
+Wait Frame|
+Wait For Input|
+Text|Wait...what? Are you friggin' kidding me?\n
+Wait Frame|
+Wait For Input|
+Voice Line|4, 99, 0, 57, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Is this... geniune? Holy... crap...\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 19, 8, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 54, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|It's AS GENIUNE AS IT CAN GET!\nI've been reborn as PURE ELECTRICITY!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 1, 1, 2
+Voice Line|6, 99, 0, 8, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|GAAAHAHAHAHAHAHA!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 8, 8, 1, 3
+Speaker|8
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|If...you're seriously Nekomaru...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 12, 1, 3
+Voice Line|8, 99, 0, 43, 100
+Text|That's...my fault, right...? You ended up gettin' a body\nlike that, and it's all my fault, right...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 15, 1, 3
+Speaker|8
+Voice Line|8, 99, 0, 54, 100
+Text|S-Sorry, Nekomaru... I...I don't know how to apologize\nfor this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 1, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 8, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Gahahaha! Don't worry about it! A lot of stuff happens\nwhen you're alive!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 4, 5, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 27, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But.. you're too upbeat about it!\nIs this really okay!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 3, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 48, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|If you keep sweating the small stuff, you're going to\nend up getting more grey hairs!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 48, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 68, 100
+Text|C-Commenting on every little thing he does is a waste of\ntime...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 12, 1, 3
+Speaker|8
+Voice Line|8, 99, 0, 20, 100
+Text|B-But...you're really Nekomaru, right? You...came back\nfor us, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 15, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|That's right! I've resurrected from the depths of hell\nin shining silverrrrrrrr!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 7, 48, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 48, 100
+Text|How...are you even okay with that...? It doesn't even\ncompare...to my eyepatch...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|How...can you accept that body...?\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|0, 19, 0, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 2, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|It's better to just be alive!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 47, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 66, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Music|18, 100, 0
+Sprite|0, 19, 0, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 7, 100
+Text|It's better to just be alive... Hey, don't you agree?\n
+Wait Frame|
+Wait For Input|
+Text|If I'm alive, I can still talk to you all. If I'm alive,\nI can still fight...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Voice Line|6, 99, 0, 16, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|It doesn't matter what happens to my body! Not one bit!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 1, 18, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 80, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Y-You're amazing...! Nekomaru is brimming with hope...!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|1, 1, 21, 4, 3
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It's better to just be alive... I do understand what\nNekomaru is saying but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>No matter how we make sense of this... It's just too\nweird...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>This isn't a novel or a movie. This is reality.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Can something this unexplainable really be allowed to\nhappen?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>No, instead...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Why did this happen?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 9
+0x3a|5, 0, 0, 20
+Change UI|1, 1
+Sprite|0, 9, 9, 1, 2
+Speaker|9
+Voice Line|9, 99, 0, 45, 100
+Text|Anyway, I'm glad...that's fine, right?\n
+Wait Frame|
+Wait For Input|
+Text|Right? Nekomaru definitely came back to us...\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 3, 6, 3
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 46, 100
+Text|My, my? Am I interrupting your touching reunion?\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|0, 17, 18, 6, 2
+Music|14, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|17
+Voice Line|17, 99, 0, 57, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ha-wa-wa-wa!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 2, 1, 2
+Voice Line|17, 99, 0, 19, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Kyaaaaa! Why is Nekomaru a robot!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 8, 1, 3
+Speaker|16
+Voice Line|16, 99, 0, 5, 100
+Text|Unfortunately, it was truly difficult to save Nekomaru\nfrom the jaws of death...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But they don't call me the <CLT 03>Psychopop Magician<CLT> for\nnothing!\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 4, 1, 3
+Speaker|16
+Voice Line|16, 99, 2, 2, 100
+SFX A|0, 21, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Oh my goodness! Such a wonderful Before-and-After has\noccurred!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 1, 1, 4
+Speaker|6
+Voice Line|6, 99, 0, 8, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|It appears to be a little too dramatic! Thanks to that,\nI'm getting stabbed by all these envious stares!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 4, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 23, 100
+Text|Hey...if you're really a robot, what's going on with\nyour thought process?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Is that a program, too...? Then...what happened to the\nother stuff, like your self-awareness and—?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 44, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Fool! How many times do I have to tell you that it\ndoesn't matter!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|No matter what shape or form I take, I AM NEKOMARU\nNIDAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Is he...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Is he going to power through the rest his life with his\nnew abilities!?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 4, 15, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 20, 100
+Text|Th-That kind of reaction... It looks like you really are\nself-aware...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 22, 1, 1
+Voice Line|4, 99, 0, 61, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|That means this technology is insane! I've never seen or\nheard of anything like this before!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 9, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 42, 100
+Text|What the commoner considers advanced is not much of an\nadvancement.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|If you think advancements exist in colleges and\nlaboratories, that's a huge misunderstanding!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Voice Line|16, 99, 1, 170, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|The real advancements exist...in the <CLT 03>place where you\ncan pass on that talent<CLT>.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 3, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 23, 100
+Text|A-And you're saying that's you? Were you...really that\namazing?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 16, 1, 3
+Speaker|8
+Voice Line|8, 99, 0, 56, 100
+Text|Stop admiring him...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 43, 100
+Text|That's not a real Nekomaru, you idiots...\nIt... is just like one of these Monobeast things...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 10, 1, 3
+Voice Line|8, 99, 0, 36, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|You stupid stuffed toy! Don't go screwin' with people's\nbodies like that!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 7, 48, 1, 1
+Speaker|7
+Voice Line|7, 99, 0, 70, 100
+Text|H-Hold on...if you harm Monokuma, you're going to...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 2, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 248, 100
+Text|Puhuhu, you intend to defy me yet again? You're quite\nthe barbarian...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|0, 16, 5, 1, 2
+Speaker|16
+Voice Line|16, 99, 2, 195, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Jeez. This time, you will definitely fall prey to my\nMonokuma Bazooka!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Music|58, 100, 0
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 8
+Change UI|6, 1
+Sprite|0, 16, 5, 3, 2
+Animation|3, 85, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 8
+0x3a|6, 0, 0, 120
+SFX A|1, 41, 100
+Animation|3, 85, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Music|255, 120, 0
+Screen Fade|1, 2, 8
+Animation|3, 85, 0, 0, 0, 0, 0, 255
+0x37|0, 1, 1
+Screen Fade|0, 2, 8
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Once again...the world shook and turned stark white...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>As if the surrounding environment and all sound was\nblown away by the impact...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...Turning everything completely white.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And within that whiteness...I heard that voice yet\nagain.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|8
+Voice Line|8, 99, 0, 128, 100
+Text|Ah...ah...\n
+Wait Frame|
+Wait For Input|
+Voice Line|8, 99, 0, 129, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|N-Nekomaru!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 2, 24
+0x37|0, 1, 3
+Music|13, 100, 0
+Animation|3, 86, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 86, 0, 0, 0, 0, 0, 1
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 130, 100
+SFX A|0, 18, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Gahahaha! That didn't faze me at allllll!!!\n
+Wait Frame|
+Wait For Input|
+Voice Line|6, 99, 0, 131, 100
+Text|Check it out, I'm intact! I have no injuries at\nallllllllllllllll!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Animation|3, 86, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 7, 48, 8, 2
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 68, 100
+Text|Are you fucking serious? He took that blast and doesn't\neven have a single scratch...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 22, 1, 1
+Speaker|4
+Voice Line|4, 99, 0, 61, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|A-Awesome... He's...seriously a real robot!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 2, 1, 1
+Voice Line|4, 99, 0, 15, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Hey, can you let me disassemble you!? Can you let me\ndisassemble you and show me your insides!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 19, 4, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 55, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|NOOOOOOOOO THAAAAAAAAANK YOUUUUUUUUU!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 19, 1, 1, 3
+Voice Line|6, 99, 0, 8, 100
+Text|If I get disassembled, I'll end up dying!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 10, 101, 2
+Speaker|16
+Voice Line|16, 99, 1, 221, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ah, I suppose I should fill you in...\n
+Wait Frame|
+Wait For Input|
+Text|Even though he's a robot now, if Nekomaru is killed,\nit's still going to count as <CLT 03>murder<CLT>, okay?\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 12, 1, 2
+Voice Line|16, 99, 0, 76, 100
+Text|Of course...it's possible that Nekomaru might kill\nsomeone instead.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 4, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 44, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Don't say such foolish things! That will never happen!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 31, 100
+Text|Well, with all that in mind, you guys enjoy the <CLT 03>killing\nschool trip<CLT> together!\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 19, 8, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 56, 100
+SFX A|0, 21, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|Once again, I hope we can all get along!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 41, 1, 2
+Speaker|7
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 2
+Voice Line|7, 99, 0, 54, 100
+SFX A|0, 23, 100
+Text|It's impossible... It's gonna be a while before I can\nmentally process this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 28, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 21, 100
+Text|Hey, if you're real Nekomaru, why are you so happy\nabout being stuck as a walking tin can?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 1
+Text|Did you hate your old body so much that you'd rather\nprefer... stop being human than...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 7, 1, 2
+Speaker|6
+Voice Line|6, 99, 0, 23, 100
+Text|Hey, hey...it's not like I came back as a monster. I'm\njust a robot now, you know?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 9, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|I'm sorry...I can't really see a difference.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 13, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 2, 100
+Text|Well, just consider this a little promotion.\n
+Wait Frame|
+Wait For Input|
+Text|By making a robot one of the main characters, a genuine\nmystery is transformed into a sci-fi mystery...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 9, 1, 2
+Voice Line|16, 99, 1, 212, 100
+Text|And the hard-boiled is transformed into cyberpunk!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 17, 18, 1, 1
+Speaker|17
+Voice Line|17, 99, 0, 61, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|You're totally destroying the genres!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 29, 100
+Text|Oh well, who cares!? As long as it's fun, it's totally\nfine!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 4, 1, 2
+Voice Line|16, 99, 0, 34, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|Ahhhhhh-hahahahaha!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|1, 16, 4, 4, 2
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>As I listened to Monokuma's boisterous laugh, once\nagain I was forced to accept...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>This island is not the day-to-day world I know. \nIt's a mad world where the strange is accepted as normal.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Causes, reasoning, circumstances, foreshadowing... These\nthings don't apply here at all.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 240, 0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...That's what it means to live in a <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>mad world<CLT><CLT 04>.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|3, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 1, 48
+Sprite|1, 16, 0, 3, 2
+Animation|1, 254, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 64
+Animation|1, 254, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 1, 164
+Screen Fade|1, 1, 64
+Animation|1, 254, 0, 0, 0, 0, 0, 255
+Script|4, 0, 2, 0, 0
+Stop Script|
+Stop Script|

@@ -1,0 +1,302 @@
+OSL Script
+Set Game To DR2
+Text Count|22, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|56, 100, 0
+Change UI|1, 1
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 137, 0, 1, 0
+Voice Line|0, 3, 0, 111, 100
+Text|What the killer did was...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 112, 100
+SFX A|0, 19, 100
+Text|...make the music venue—the crime scene—look like the\nconference room!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 198, 0, 1, 0
+Voice Line|0, 3, 0, 113, 100
+Text|They did that by using the black curtain hanging at the\nback of the stage.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 36, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 3, 0, 69, 100
+Text|From what I remember, there used to be a really flashy\ncurtain, but after the incident...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 36, 3
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 25, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 3, 0, 70, 100
+Text|It somehow became a plain black curtain that didn't seem\nto be the right size.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 25, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|16, 16, 32, 0, 0
+Trial Camera|16, 2, 57, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|16, 16, 32, 0, 0
+Voice Line|16, 3, 0, 10, 100
+Text|That's right! It's so half-assed, just like Monomi!\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 22, 0, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Voice Line|17, 3, 0, 13, 100
+Text|Oh yeah!? Well...your face...looks stupid!\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 93, 0, 0, 0
+Text|That curtain was hung so the music venue would look like\nthe conference room?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 17, 0, 0, 0
+Voice Line|9, 3, 0, 71, 100
+Text|In actuality... Even though the curtain in the\nconference room doesn't stand out...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 37, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 3, 0, 72, 100
+Text|It *is* a black, light-blocking curtain that's long\nenough to reach the floor.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 37, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 140, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 2, 0, 0
+Voice Line|1, 3, 0, 99, 100
+Text|I see, the conference room... Indeed, the floor of that\nroom is...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 119, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 3, 0, 100, 100
+Text|...the same color as the music venue stage.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 119, 3
+0x37|0, 118, 1
+Screen Fade|0, 2, 24
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 3, 0, 101, 100
+Text|So the killer chose the conference room because they\nrealized the floor matched.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 118, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|8, 8, 13, 0, 0
+Trial Camera|8, 0, 94, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|8, 8, 13, 0, 0
+Voice Line|8, 3, 0, 55, 100
+Text|Matchin' floors, matchin' curtains... I guess it makes\nsense you'd mistake the two...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 7, 4, 0
+Speaker|9
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 201, 0, 0, 0
+Voice Line|9, 3, 0, 73, 100
+Text|But that's not all. There should be something else the\nkiller did to tamper with the evidence...probably.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|35, 0
+0x3a|11, 0, 0, 180
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|35, 1
+0x3b|1, 244
+0x32|67
+Voice Line|0, 99, 0, 2, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x3a|13, 0, 0, 1
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|252
+0x3a|13, 0, 0, 1
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 32, 0, 0, 0
+Speaker|62
+Text|U-Um...I don't want you to hate me but...I think that's\ncompletely wrong...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|35, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3b|0, 0
+0x32|253
+0x3a|13, 0, 0, 1
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 32, 0, 0, 0
+Format|4
+Text|<CLT 04>It's no use...I can't think of anything...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|35, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3a|11, 0, 0, 180
+0x3b|0, 0
+0x32|254
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 249
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 226, 0, 0, 0
+Format|4
+Text|<CLT 04>Something else the killer did to make the music venue\nlook like the conference room...it's gotta be *that*.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x3b|1, 250
+0x2c|1, 249
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 226, 0, 0, 0
+Format|4
+Text|<CLT 04>Something else the killer did to make the music venue\nlook like the conference room...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>That's it...the reason the killer used *that* in the\nvideo is because they tampered with evidence...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x2c|1, 250
+0x3a|6, 0, 0, 90
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|35, 0
+0x3a|13, 0, 0, 0
+Script|3, 0, 232, 0, 0
+Stop Script|
+Stop Script|

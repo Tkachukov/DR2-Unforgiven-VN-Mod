@@ -1,0 +1,254 @@
+OSL Script
+Set Game To DR2
+Text Count|21, 0
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 0
+0x46|14, 6, 0, 0
+0x4d|
+0x3b|1, 244
+0x1|1, 99, 0, 253
+0x3b|1, 245
+0x2c|1, 244
+0x1|1, 99, 1, 253
+0x2c|1, 245
+Change UI|6, 0
+Load Map|0, 56, 0, 0
+Change UI|9, 0
+0x46|15, 29, 0, 0
+0x4d|
+0x3b|1, 246
+Sprite|0, 8, 0, 0, 0
+0x1|1, 63, 8, 1
+0x1|1, 63, 28, 1
+0x2c|1, 246
+0x23|34, 0, 0, 0, 0
+0x23|35, 0, 0, 0, 0
+0x23|36, 0, 0, 0, 0
+0x23|37, 0, 0, 0, 0
+0x46|19, 13, 0, 1
+0x4d|
+0x3b|1, 247
+0x23|30, 0, 0, 0, 0
+0x2c|1, 247
+0x23|38, 0, 0, 0, 0
+Change UI|14, 0
+Load Map|0, 55, 1, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|16, 1
+0x3b|1, 248
+Check Character|0
+0x46|15, 29, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 8, 1, 1, 2
+Voice Line|8, 99, 0, 5, 100
+Text|Phew...I'm finally gettin' back to my normal self...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 4, 1, 2
+Voice Line|8, 99, 0, 16, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Hajime, help me out with my recovery! You can touch my\nboobs if you win.\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|No thanks...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>She was bearable when she was quiet. It'd be so much\nbetter if she was still feeling the aftereffects...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...She'd beat me up if I said that out loud.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Anyway, why are you here?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 21, 1, 2
+Voice Line|8, 99, 0, 70, 100
+Text|Well, I've never been sick or hurt before so I had no\nidea, but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 2, 1, 2
+Voice Line|8, 99, 0, 11, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Hospital gowns are pretty comfy! I was thinkin' I might\nas well keep wearin' one!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Don't tell me you plan to wear hospital gowns from now\non?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 13, 1, 2
+Voice Line|8, 99, 0, 48, 100
+Text|That's the idea, but it looks like they're outta stock.\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|It looked like there was one gown for each patient's\nroom, so I thought there'd be more in the empty rooms...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...There weren't any gowns?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 18, 1, 2
+Voice Line|8, 99, 0, 2, 100
+Text|Yep, that's right.\n
+Wait Frame|
+Wait For Input|
+Text|Ibuki died wearin' one, so the only one left is the one\nNagito was wearin'.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 2, 1, 2
+Voice Line|8, 99, 0, 11, 100
+Text|If I have no choice then I should just use Nagito's.\nIt's a unisex size so I'll prolly be able to fit in it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Hold on. What happened to the gown you were wearing?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 3, 1, 2
+Voice Line|8, 99, 0, 12, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Are you sayin' I should wear the one I already wore?\nThat's gross!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Wearing clothes someone else was wearing is even grosser...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 18, 1, 2
+Voice Line|8, 99, 0, 65, 100
+Text|No time to dilly-dally. I totally left Mikan back at the\nmusic venue!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Crap, I gotta go back soon!\n
+Wait Frame|
+SFX A|0, 204, 100
+Sprite|0, 8, 0, 5, 2
+0x3a|6, 0, 0, 60
+0x1|1, 63, 8, 0
+0x1|0, 47, 8, 1
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Well, it's okay since I already investigated the music\nvenue...but leaving her on guard duty was a bad idea.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Set Flag|15, 29, 1
+Change UI|9, 0
+Sprite|0, 8, 98, 0, 0
+0x1|0, 47, 8, 1
+0x1|1, 63, 28, 0
+Run Script|3, 3, 231, 0, 143
+Change UI|1, 0
+Run Script|3, 3, 231, 0, 150
+0x46|14, 6, 0, 1, 6, 14, 8, 0, 1, 6, 14, 10, 0, 1
+0x4d|
+0x3b|1, 250
+0x3b|0, 2
+0x2c|1, 250
+0x2c|1, 249
+Check Character|255
+Choice|20
+Run Script|3, 3, 231, 0, 1
+Choice|21
+Run Script|3, 3, 231, 0, 2
+Choice|22
+Run Script|3, 3, 231, 0, 1
+Choice|23
+Run Script|3, 3, 231, 0, 2
+Choice|24
+Run Script|3, 3, 231, 0, 76
+Choice|25
+Run Script|3, 3, 231, 0, 76
+Choice|26
+Run Script|3, 3, 231, 0, 76
+Choice|27
+Run Script|3, 3, 231, 0, 76
+Choice|28
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 55, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 208, 100
+Change UI|15, 2
+Script|3, 0, 100, 0, 55
+Stop Script|
+Choice|29
+0x13|0, 0
+Choice|30
+Run Script|3, 3, 231, 0, 146
+Choice|31
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 64, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|3, 0, 0, 0, 64
+Stop Script|
+Choice|32
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 63, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|3, 0, 0, 0, 63
+Stop Script|
+Choice|33
+0x13|0, 1
+Choice|254
+Choice|255
+0x2c|1, 248
+0x2c|0, 2
+Run Script|3, 3, 231, 0, 141
+Screen Fade|1, 1, 24
+Script|3, 0, 101, 0, 0
+Stop Script|
+Stop Script|

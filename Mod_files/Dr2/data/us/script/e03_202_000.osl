@@ -1,0 +1,194 @@
+OSL Script
+Set Game To DR2
+Text Count|14, 0
+0x2c|0, 20
+0x3a|9, 0, 0, 0
+Set Flag|0, 10, 1
+Set Flag|0, 11, 1
+Run Script|3, 0, 202, 0, 1
+Music|29, 100, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 0
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 244
+Change UI|20, 1
+0x3b|1, 245
+0x32|63
+0x32|64
+0x32|68
+0x32|73
+0x32|76
+0x32|255
+0x2c|1, 245
+0x3b|1, 246
+0x2c|1, 244
+Change UI|20, 1
+0x3b|1, 247
+0x32|68
+0x32|73
+0x32|76
+0x32|255
+0x2c|1, 247
+0x2c|1, 246
+0x46|21, 12, 0, 1
+0x4d|
+0x3b|1, 248
+Change UI|20, 1
+0x3b|1, 249
+0x32|68
+0x32|73
+0x32|76
+0x32|255
+0x2c|1, 249
+0x2c|1, 248
+Change UI|31, 1
+0x3b|1, 250
+Check Flag A|0, 1
+Change UI|1, 1
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 0, 13, 0, 0, 0
+Text|I-It's not like I'm lying...but...you know...Nagito's\nthe one who said it...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 12, 0, 0
+Trial Camera|13, 1, 37, 0, 0, 0
+Text|S-So don't bully me!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit... Looks like I made a mistake... I should think\nabout this one more time...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 5
+Change UI|1, 1
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 33, 0, 0, 0
+Text|Wh-What the heck...? I haven't made a mistake...\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 0, 0
+Trial Camera|4, 1, 37, 0, 0, 0
+Text|You're the only one who watched that damn video! You\ncould be lying as much as you want!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit... Looks like I made a mistake... I should think\nabout this one more time...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 9
+Change UI|1, 1
+Sprite|1, 1, 10, 0, 0
+Trial Camera|1, 0, 33, 0, 0, 0
+Text|Hm...? What are you trying to say? I don't understand at\nall...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|You're the one who killed those two... You're the one\nwho imitated the victims from the movie...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 1, 191, 0, 0, 0
+Text|...With this, I've presented the evidence.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit... Looks like I made a mistake... I should think\nabout this one more time...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|39, 25
+0x3a|6, 0, 0, 50
+Voice Line|0, 99, 0, 6, 100
+Animation|0, 201, 0, 0, 0, 0, 0, 1
+Trial Camera|0, 2, 12, 0, 0, 0
+Change UI|31, 0
+0x3b|0, 0
+Check Flag A|78, 32
+Check Flag A|117, 48
+Check Flag A|156, 64
+Change UI|1, 1
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 251
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>I'm not the killer...! There should be a contradiction\nsomewhere.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I need to find that...and break through!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|1, 252
+0x2c|1, 251
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>I'm not the killer...! There should be a contradiction\nsomewhere.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Because...there's no way I would've been able to do\nsomething like that...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x2c|1, 252
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|195, 80
+Change UI|31, 2
+0x3b|0, 1
+Check Flag A|234, 96
+Change UI|31, 3
+0x3b|0, 2
+Check Flag A|255, 255
+0x2c|1, 250
+0x2c|0, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Script|3, 0, 203, 0, 0
+Stop Script|
+0x2c|0, 1
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|0, 2
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+Stop Script|

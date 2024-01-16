@@ -1,0 +1,147 @@
+OSL Script
+Set Game To DR2
+Text Count|23, 0
+Change UI|21, 6
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|13, 13, 13, 0, 0
+Text|There's no way the conference room\n
+Wait Frame|
+Check Flag A|0, 1
+Sprite|13, 13, 12, 0, 0
+Text|and the music venue\nlook the same!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 2
+Sprite|4, 4, 15, 0, 0
+Text|Which place resembled the other?\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|4, 4, 3, 0, 0
+Text|Did the conference\nroom <CLT 69>look like\nthe music venue<CLT>?\n
+Wait Frame|
+Format|69
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 4
+Sprite|4, 4, 3, 0, 0
+Text|Or did the music venue\n<CLT 69>look like the\nconference room<CLT>?\n
+Wait Frame|
+Format|69
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 5
+Sprite|10, 10, 19, 0, 0
+Text|Or did they <CLT 69>make some kind of set<CLT>?\n
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 6
+Sprite|3, 3, 3, 0, 0
+Text|Or they might have\n<CLT 69>tampered with the camera<CLT>...\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 7
+Sprite|8, 8, 6, 0, 0
+Text|I still can't believe he mixed up\nthe filming locations...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 8
+Sprite|8, 8, 18, 0, 0
+Text|Hajime, you're <CLT 17>pretty stupid<CLT>!\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 9
+Speaker|62
+Format|20
+Text|<CLT 20>Think about that.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 10
+Speaker|62
+Format|20
+Text|<CLT 20>Even if they tried to copy it...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 11
+Speaker|62
+Format|20
+Text|<CLT 20>Down to the very last detail...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 12
+Speaker|62
+Format|20
+Text|<CLT 20>It's not like they're completely the same, right?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 13
+Speaker|62
+Format|20
+Text|<CLT 20>The sizes are completely different...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 14
+Speaker|62
+Format|20
+Text|<CLT 20>Isn't it about the same?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Speaker|62
+Format|20
+Text|<CLT 20>Something that stands out like that...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Speaker|62
+Format|20
+Text|<CLT 20>I don't think they can make it for outdoors.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>The only person who could do it is Kazuichi...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>I-It's not me!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>Kehehe...that's quite reasonable.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>Hmm, he might be...stupid sometimes.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>Hajime isn't stupid!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 22
+Speaker|62
+Format|20
+Text|<CLT 20>You're one to talk.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

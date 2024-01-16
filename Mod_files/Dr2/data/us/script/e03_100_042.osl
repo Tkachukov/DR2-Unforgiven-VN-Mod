@@ -1,0 +1,1010 @@
+OSL Script
+Set Game To DR2
+Text Count|98, 0
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x46|14, 10, 0, 0
+0x4d|
+0x3b|1, 244
+Set Flag|0, 12, 0
+0x3b|1, 245
+0x2c|1, 244
+Set Flag|0, 12, 1
+0x2c|1, 245
+0x46|14, 10, 0, 0
+0x4d|
+0x3b|1, 246
+0x1|1, 99, 0, 253
+0x3b|1, 247
+0x2c|1, 246
+0x1|1, 99, 1, 253
+0x2c|1, 247
+Change UI|6, 0
+Load Map|0, 42, 0, 0
+0x1|0, 42, 1, 1
+Change UI|9, 0
+Sprite|0, 1, 0, 0, 0
+0x23|25, 0, 0, 0, 0
+0x23|26, 0, 0, 0, 0
+0x46|19, 11, 0, 1
+0x4d|
+0x3b|1, 248
+0x23|27, 0, 0, 0, 0
+0x2c|1, 248
+0x23|28, 0, 0, 0, 0
+Change UI|14, 1
+Load Map|0, 40, 1, 0
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+0x46|14, 10, 0, 1
+0x4d|
+0x3b|1, 249
+0x3b|0, 10
+0x2c|1, 249
+0x2c|0, 0
+0x46|14, 9, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|26, 1
+0x3a|5, 0, 0, 20
+Change UI|9, 1
+Sprite|0, 1, 22, 1, 2
+Change UI|1, 1
+Voice Line|1, 99, 0, 15, 100
+Text|Why hello there, Hajime. I knew you'd come here.\n
+Wait Frame|
+Wait For Input|
+Text|That means you noticed it too, right?\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|The case this time is an <CLT 03>imitation case<CLT> in which the\nkiller used that movie as their theme...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I wouldn't know... I haven't watched that movie yet.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 21, 1, 2
+Voice Line|1, 99, 0, 29, 100
+Text|I see...then you really should watch this movie first.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 17, 1, 2
+Voice Line|1, 99, 0, 79, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Heeeey manager! A customer's here!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 0, 6, 3
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 1, 160, 100
+Text|Yesssssss! Didja call me!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 10, 1, 3
+Voice Line|16, 99, 0, 45, 100
+Text|...Huh? Hajime's the customer?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|D-Do you have a problem with that...?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 3
+Voice Line|16, 99, 0, 43, 100
+Text|Puhuhu... And you said you didn't wanna watch it...but I\nknew you wanted to see it all along!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|If that's what tsundere Hajime looks like, then you're\nreally a tough guy!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 4, 1, 3
+Voice Line|16, 99, 0, 35, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|You were so devoted to being tsundere, you even bought\nthe Monokuma Sticker for 1.5 million dollars!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 27, 1, 2
+Voice Line|1, 99, 0, 68, 100
+Text|...You paid 1.5 million dollars for a sticker?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I-It's nothing...!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 3
+Voice Line|16, 99, 0, 93, 100
+Text|In exchange for not watching this movie, Hajime paid 1.5\nmillion dollars for a Monokuma Sticker.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|C'mon, since we're talking about it anyway, why don't\nyou show it to Nagito?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...S-Stop it!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>But my resistance was in vain, and Monokuma reached into\nmy pocket and took the sticker...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 0, 1, 3
+Voice Line|16, 99, 0, 98, 100
+Text|See, it's this one!\n
+Wait Frame|
+Wait For Input|
+Animation|11, 229, 0, 0, 0, 0, 0, 1
+Change UI|2, 0
+Speaker|63
+Text|"<CLT 03>I'm sorry, I was born stupid<CLT>"...\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|11, 229, 0, 0, 0, 0, 0, 2
+Change UI|2, 1
+Sprite|0, 1, 6, 1, 2
+Voice Line|1, 99, 0, 43, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Y-You bought *this*...for 1.5 million dollars...!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 3
+Voice Line|16, 99, 0, 29, 100
+Text|Puhuhu...but in the end, he's still gonna watch the\nmovie.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wh-Who cares about that anymore! Just hurry up and give\nme an invitation ticket!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 16, 12, 1, 3
+Voice Line|16, 99, 1, 153, 100
+Text|Okaaaaay! Here ya go!\n
+Wait Frame|
+Wait For Input|
+Animation|12, 65, 0, 0, 0, 0, 0, 1
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|It already says so on the invitation ticket, but it's\nonly effective today at this time.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|By the way, I can only give away one ticket per person!\nYou only have one chance to watch it for free!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|12, 65, 0, 0, 0, 0, 0, 2
+Animation|11, 247, 0, 0, 0, 0, 0, 1
+Text|I've already stamped today's date onto the ticket, so\nyou won't be able to cheat!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 247, 0, 0, 0, 0, 0, 2
+Speaker|0
+Text|Don't worry...I only plan to watch it once...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 3
+Voice Line|16, 99, 1, 178, 100
+Text|Then I'll go prepare the projection reel. Please wait a\nbit, okaaaaay?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 3, 7, 2
+0x3a|6, 0, 0, 30
+Music|4, 100, 0
+Sprite|0, 1, 1, 1, 2
+Change UI|1, 1
+Voice Line|1, 99, 0, 2, 100
+Text|Ah, Hajime...about that invitation ticket, I strongly\nrecommend you keep that safe.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Huh? Why?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 2
+Text|No reason, just think of it as a protective charm.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 1, 0, 4, 2
+0x3a|6, 0, 0, 20
+Truth Bullet|76, 1
+Change UI|2, 0
+Speaker|63
+Animation|4, 52, 0, 0, 0, 0, 0, 1
+Format|6
+Text|<CLT 06>"<CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Movie's Invitation Ticket<CLT><CLT 06>" has been added to the\nTruth Bullets section of your handbook.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Animation|4, 52, 0, 0, 0, 0, 0, 2
+Set Flag|0, 6, 1
+Speaker|0
+Format|4
+Text|<CLT 04>I guess I should just wait until Monokuma finishes his\npreparations...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|1, 251
+0x2c|1, 250
+0x2c|0, 1
+Set Flag|14, 10, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 1
+0x3a|5, 0, 0, 30
+Change UI|9, 1
+Sprite|0, 1, 1, 1, 2
+Change UI|1, 1
+Voice Line|1, 99, 0, 24, 100
+Text|How was it...? Actually, I don't even have to ask. I\ntotally expected your reaction.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|That was honestly the worst movie I've ever seen... Is it\neven okay to call that a movie?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 21, 1, 2
+Voice Line|1, 99, 0, 47, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...But thanks to that movie, now you know, right?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Yeah...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Just like he said, the characters who were killed in the\nmovie match the victims in this case...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Sprite|0, 1, 21, 3, 2
+Change UI|6, 1
+0x37|0, 33, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Ibuki's death by hanging matched the scarecrow's death\nin the movie...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 33, 3
+0x37|0, 34, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Not just that, but Sonia's suspended body matches the\nlion's death, too...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 34, 3
+Change UI|6, 0
+Sprite|0, 1, 2, 8, 2
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 35, 100
+Text|It would've been a complete imitation if the killer\nkilled 3 people, but it seems that wasn't possible...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 2
+Voice Line|1, 99, 0, 24, 100
+Text|Perhaps the killer is upset about that right now? Or...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 1, 1, 4, 2
+Change UI|27, 0
+0x3a|5, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>If the killer's main goal was just an imitation murder,\nthey should be upset about it but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...I'm not sure if that's even true.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Truth Bullet|78, 1
+Change UI|2, 0
+Speaker|63
+Animation|4, 54, 0, 0, 0, 0, 0, 1
+Format|6
+Text|<CLT 06>"<CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>The Wizard of Monomi<CLT><CLT 06>" has been added to the Truth\nBullets section of your handbook.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Animation|4, 54, 0, 0, 0, 0, 0, 2
+Set Flag|0, 6, 1
+Set Flag|0, 12, 1
+0x1|1, 99, 1, 253
+0x46|14, 6, 0, 1, 6, 14, 8, 0, 1, 6, 14, 10, 0, 1
+0x4d|
+0x3b|1, 252
+Run Script|3, 3, 231, 0, 141
+Screen Fade|1, 1, 24
+Script|3, 0, 101, 0, 0
+Stop Script|
+0x2c|1, 252
+0x2c|1, 251
+0x2c|0, 10
+Change UI|16, 1
+0x3b|1, 253
+Check Character|0
+0x46|14, 9, 0, 1
+0x4d|
+0x3b|1, 254
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 1, 4, 1, 2
+Voice Line|1, 99, 0, 2, 100
+Text|After watching the movie, you get it now, right? That\nthe case this time is an imitation murder...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Just like he said, the characters who were killed in the\nmovie match the victims in this case...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Sprite|0, 1, 4, 3, 2
+Change UI|6, 1
+0x37|0, 33, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Ibuki's death by hanging matched the scarecrow's death\nin the movie...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 33, 3
+0x37|0, 34, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Not just that, but Sonia's suspended body matches the\nlion's death, too...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 34, 3
+Change UI|6, 0
+Sprite|0, 1, 2, 8, 2
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 35, 100
+Text|It would've been a complete imitation if the killer\nkilled 3 people, but it seems that wasn't possible...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Perhaps the killer is upset about that right now? Or...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 1, 0, 4, 2
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>If the killer's main goal was just an imitation murder,\nthey should be upset about it but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...I'm not sure if that's even true.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|1, 255
+0x2c|1, 254
+0x46|14, 12, 0, 0
+0x4d|
+0x3b|2, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 1, 11, 1, 2
+Voice Line|1, 99, 0, 83, 100
+Text|Hajime, I can't believe you bought that thing...and you\npaid 1.5 million dollars for it, too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|But...even you said you should've just settled it with\nmoney to get out of seeing that movie.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 16, 1, 2
+Voice Line|1, 99, 0, 78, 100
+Text|You're right but...that means I would've had to buy that\nthing...you know?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|J-Just leave me alone...\n
+Wait Frame|
+Wait For Input|
+Set Flag|14, 12, 1
+Change UI|1, 0
+Sprite|0, 1, 23, 4, 2
+0x3b|2, 1
+0x2c|2, 0
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 1, 1, 1, 2
+Voice Line|1, 99, 0, 11, 100
+Text|The invitation ticket from earlier... You should keep\nthat safe, just in case.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 1, 23, 4, 2
+0x2c|2, 1
+0x2c|1, 255
+Check Character|255
+Choice|20
+Run Script|3, 3, 231, 0, 1
+Choice|21
+Run Script|3, 3, 231, 0, 2
+Choice|22
+0x46|15, 21, 0, 0
+0x4d|
+0x3b|2, 2
+Change UI|15, 0
+Change UI|9, 1
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 1, 161, 100
+Text|Hoooold on! I'm still in the middle of preparing! Don't\nrush, don't rush.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 10, 1, 2
+Voice Line|16, 99, 0, 83, 100
+Text|Hasty boys get hated, you know? They might even get\nhated by boy bears too, you know?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 3, 7, 2
+0x3a|6, 0, 0, 30
+Music|4, 100, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>...You can hate me all you want.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 3
+0x2c|2, 2
+0x46|14, 9, 0, 0
+0x4d|
+0x3b|2, 4
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 43, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 209, 100
+Change UI|15, 2
+Script|3, 0, 100, 0, 43
+Stop Script|
+0x3b|2, 5
+0x2c|2, 4
+Change UI|15, 0
+Change UI|9, 1
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 1, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 28, 100
+Text|Hey, hey! Haven't you been listening to me?\n
+Wait Frame|
+Wait For Input|
+Text|The invitation ticket is only valid today at the earlier\ntime! You only have one chance to see it for free!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 1, 221, 100
+Text|By the way, if you wanna watch it one more time...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Voice Line|16, 99, 0, 29, 100
+Text|...You know the rest, right?\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 3, 7, 2
+0x3a|6, 0, 0, 30
+Music|4, 100, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>That movie sucked so much I know I don't want to watch\nit a second time.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|2, 5
+0x2c|2, 3
+Choice|23
+Change UI|15, 0
+0x2c|0, 3
+0x46|14, 10, 0, 0
+0x4d|
+0x3b|2, 6
+0x46|15, 21, 0, 1
+0x4d|
+0x3b|2, 7
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>In order to get closer to the truth of the incident,\nit's necessary for me to watch this movie...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3b|2, 8
+0x2c|2, 7
+Change UI|9, 1
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 69, 100
+Text|You came all this way not to watch it? Your tsundere\nknows no limits!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 9, 1, 2
+Voice Line|16, 99, 0, 42, 100
+Text|It's just like me to make Hajime so prickly...\n
+Wait Frame|
+Wait For Input|
+Text|I might be hiding a past where I was once known as a\nprimadonna of the mascot world!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>You definitely weren't called that...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 10, 1, 2
+Voice Line|16, 99, 0, 1, 100
+Text|It's about time you showed your dere side, you know?\nC'mon, liven yourself up a little.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 1, 164, 100
+Text|Soooo wait for a bit, okay!?\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 3, 7, 2
+0x3a|6, 0, 0, 30
+Music|4, 100, 0
+0x2c|2, 8
+0x3b|2, 9
+0x2c|2, 6
+0x3b|0, 2
+0x2c|2, 9
+Choice|24
+Run Script|3, 3, 231, 0, 56
+Choice|30
+0x46|15, 21, 0, 0
+0x4d|
+0x3b|2, 10
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>That reminds me...that item should be on top of the\ncounter.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Filter|1, 1, 0, 0
+0x37|0, 31, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Animation|11, 228, 0, 0, 0, 0, 0, 1
+Speaker|0
+Format|4
+Text|<CLT 04>This one...looks like a tote bag made of hemp\ncloth...with a decal of Monomi's face on it...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 13, 1, 2
+Text|Ah, did that catch your eye? It's an all-purpose tote\nbag useful for a variety of common tasks!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|It's a limited item! Only one person can have it!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Animation|11, 228, 0, 0, 0, 0, 0, 2
+0x3a|6, 0, 0, 10
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Sprite|0, 7, 0, 3, 2
+0x37|0, 31, 3
+Filter|1, 0, 0, 0
+Sprite|0, 16, 0, 3, 2
+Change UI|6, 0
+Change UI|9, 1
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|2, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>If the tote bag is gone, that means...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 46, 100
+Text|Whoa there, were you interested in buying that tote bag?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 13, 1, 2
+Voice Line|16, 99, 0, 79, 100
+Text|Well that's just toooooo bad! It's already sold out!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Who'd you sell it to?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Voice Line|16, 99, 1, 198, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Stupid! There's no way I'd fall for that! There's no way\nI'd say something that'd reveal who the killer is!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 1, 3
+Voice Line|1, 99, 0, 87, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|So the killer bought it?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 1, 169, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Ah! AHHHHHHHHHHH!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|I remember you said there was only one because it's a\nlimited item, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 7, 1, 2
+Voice Line|16, 99, 0, 8, 100
+Text|Ah, um... It's not limited to one...it's more like it's\nlimited to one person...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...What's the difference?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 0, 5, 100
+Text|When you buy one bag, you get another one free. It's a\ncommon practice to bait customers with bonus prizes.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|For some reason...hearing you say that...pisses me\noff...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 16, 0, 4, 2
+0x3a|6, 0, 0, 10
+Truth Bullet|77, 1
+Change UI|2, 0
+Speaker|63
+Animation|4, 53, 0, 0, 0, 0, 0, 1
+Format|6
+Text|<CLT 06>"<CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Monokuma's Account<CLT><CLT 06>" has been added to the Truth\nBullets section of your handbook.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Animation|4, 53, 0, 0, 0, 0, 0, 2
+Set Flag|0, 6, 1
+Change UI|2, 1
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 0, 6, 100
+Text|Now then, I should forget that I carelessly made a slip\nof the tongue...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 13, 1, 2
+Voice Line|16, 99, 0, 3, 100
+Text|Looks like the preparations are complete, so please\nenter the theater right away!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Voice Line|16, 99, 0, 36, 100
+Text|Puhuhu...this is exciting! Exciting!\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 3, 7, 2
+0x3a|6, 0, 0, 30
+Music|4, 100, 0
+Set Flag|15, 21, 1
+Change UI|1, 0
+0x3b|2, 11
+0x2c|2, 10
+Run Script|3, 3, 231, 0, 57
+0x2c|2, 11
+Choice|27
+Run Script|3, 3, 231, 0, 145
+Choice|29
+Run Script|3, 3, 231, 0, 154
+Choice|254
+0x46|14, 10, 0, 0
+0x4d|
+0x3b|2, 12
+0x3b|0, 3
+0x3b|2, 13
+0x2c|2, 12
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|2, 14
+0x32|1
+Text|Yes\n
+Wait Frame|
+0x2c|0, 2
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 40, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 1
+SFX A|0, 209, 100
+Change UI|15, 2
+Script|3, 0, 0, 0, 40
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|2, 14
+0x2c|2, 13
+Choice|255
+0x2c|1, 253
+Stop Script|

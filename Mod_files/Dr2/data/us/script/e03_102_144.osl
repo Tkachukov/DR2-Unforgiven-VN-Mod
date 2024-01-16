@@ -1,0 +1,566 @@
+OSL Script
+Set Game To DR2
+Text Count|62, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 145, 0, 0
+Change UI|9, 0
+Sprite|7, 1, 0, 0, 0
+Sprite|1, 3, 0, 0, 0
+Sprite|10, 4, 0, 0, 0
+Sprite|14, 8, 0, 0, 0
+Sprite|9, 7, 30, 0, 0
+Sprite|12, 9, 0, 0, 0
+Sprite|2, 11, 3, 0, 0
+Sprite|8, 13, 0, 0, 0
+Run Script|8, 0, 154, 0, 5
+Change UI|14, 1
+Load Map|0, 141, 1, 0
+Change UI|3, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Everyone who heard the announcement had gathered in\nfront of Monokuma Rock.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And soon enough...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 10
+Change UI|9, 0
+Sprite|0, 16, 0, 0, 20
+0x3a|5, 0, 0, 50
+Change UI|26, 16
+0x3a|5, 0, 0, 10
+Change UI|9, 1
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 0, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 1, 211, 100
+Text|Is everybody heeeere!? Do you guys wanna go to the class\ntriaaaaaal!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|1, 17, 1, 6, 3
+Music|14, 100, 0
+0x3a|6, 0, 0, 10
+Speaker|17
+Change UI|1, 1
+Voice Line|17, 99, 0, 46, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Hey, jerk! Hold it right there!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 16, 1, 1, 2
+Voice Line|16, 99, 1, 204, 100
+Text|What? Don't get in my way. You're just a dumb little\nsister who's short a few brain cells.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 1, 1, 3
+Voice Line|17, 99, 0, 13, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|My brain works just fine!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 17, 20, 1, 3
+Voice Line|17, 99, 0, 43, 100
+Text|Monokuma! What did you do with Nekomaru!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 8, 1, 2
+Voice Line|16, 99, 0, 10, 100
+Text|I see...so you've come to avenge him...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 17, 18, 1, 3
+Voice Line|17, 99, 0, 62, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Avenge!? That sounds like he died!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 3, 1, 2
+Voice Line|16, 99, 0, 29, 100
+Text|"Sounds like," you say...? Oops!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 1, 165, 100
+Text|Anyway, since Nekomaru is unfortunately unavailable\ntoday, let's just say he's absent...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 6, 1, 2
+Voice Line|16, 99, 1, 225, 100
+Text|N-Now then, I gotta go first!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 3, 7, 2
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Sprite|1, 17, 1, 1, 3
+Voice Line|17, 99, 0, 44, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Ah, hold on! I won't let you escape!\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 34, 100
+Sprite|1, 17, 0, 7, 3
+Music|11, 100, 0
+0x3a|6, 0, 0, 60
+Sprite|1, 4, 17, 1, 2
+Change UI|1, 1
+Voice Line|4, 99, 0, 23, 100
+Text|Hey...did you hear what he said?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 48, 1, 3
+Voice Line|7, 99, 0, 18, 100
+Text|Don't worry about it, there's no way Nekomaru is dead...\nHe's just trying to piss us off...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 24, 1, 2
+Voice Line|8, 99, 0, 74, 100
+Text|Of course he's not dead. There's no way, not in a\nmillion years.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 22, 1, 1
+Voice Line|1, 99, 0, 89, 100
+Text|More importantly...it's best if we worry about ourselves\nfor now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 15, 1, 1
+Voice Line|1, 99, 0, 11, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|If "something" happens here...every one of us except\nNekomaru will die!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 13, 4, 1, 3
+Voice Line|13, 99, 0, 12, 100
+SFX A|0, 23, 100
+Text|Wh-Why are you so excited about that...!?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 22, 1, 1
+Voice Line|1, 99, 0, 92, 100
+Text|Who knows...? Maybe I'm just looking forward to seeing\npoetic justice prevail.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 2, 1, 2
+Voice Line|3, 99, 0, 36, 100
+Text|What are you saying, fiend?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 21, 1, 1
+Voice Line|1, 99, 0, 87, 100
+Text|You'll find out soon enough...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 0, 1, 3
+Voice Line|9, 99, 0, 25, 100
+Text|...Then let's go.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 4, 1, 2
+Voice Line|8, 99, 0, 17, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|All right! Let's hurry up and get this over with!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Text|Yeah...you're right...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 8, 0, 4, 3
+Sprite|1, 9, 0, 3, 2
+Change UI|9, 0
+Sprite|5, 16, 98, 0, 0
+Change UI|16, 1
+0x3b|1, 244
+Check Character|7
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 1, 4, 1, 2
+Voice Line|1, 99, 0, 26, 100
+Text|Just as I thought, this particular incident...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 21, 1, 2
+Voice Line|1, 99, 0, 87, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Oops... We can continue this later. Right, Hajime?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>What's wrong with him...? He's even creepier than\nusual...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 1, 0, 4, 2
+Check Character|1
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 3, 1, 1, 2
+Voice Line|3, 99, 0, 8, 100
+Text|Hmph, it's about time I showed my serious side.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 2
+Voice Line|3, 99, 0, 5, 100
+Text|The Dark Queen and the Oni Bard... Know that the fiery rain\nof demonic vengeance is about to strike your slayer!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 3, 0, 4, 2
+Check Character|10
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 4, 4, 1, 2
+Voice Line|4, 99, 0, 54, 100
+Text|Hey...what did Monokuma mean just now? Don't tell me\nNekomaru's already...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Don't get distracted by Monokuma. We need to focus on\nthe class trial right now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 18, 1, 2
+Voice Line|4, 99, 0, 41, 100
+Text|Yeah, you're right. Don't worry Miss Sonia,\nI am ready to avenge your precious life!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 4, 0, 4, 2
+Check Character|9
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 7, 31, 1, 2
+Voice Line|7, 99, 0, 40, 100
+Text|I already figured this, but it's best if we don't rely\non Monomi all that much.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|She's just saying stupid things and it'll just make us\neven more confused.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 35, 1, 2
+Voice Line|7, 99, 0, 29, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Maybe we should shut her up for good...?\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 7, 0, 4, 2
+Check Character|14
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 8, 4, 1, 2
+Voice Line|8, 99, 0, 17, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Hey, what're you whinin' about?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Text|Hurry and get this over with already!\n
+Wait Frame|
+Wait For Input|
+Text|...And then we can greet coach Nekomaru with open arms\nwhen he comes back!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 8, 0, 4, 2
+Check Character|12
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 9, 20, 1, 2
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 99, 0, 79, 100
+Text|Let's go...there's no time to waste.\n
+Wait Frame|
+Wait For Input|
+Text|I know it's sad but we need to move forward... And\nthen...we need to end this once and for all...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 9, 0, 4, 2
+Check Character|2
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 11, 27, 1, 2
+Voice Line|11, 99, 0, 45, 100
+Text|If you have to kill two people, for some\ndumbass reason...\n
+Wait Frame|
+Wait For Input|
+Text|Why couldn't you have at least\npick Mahiru's murderer as one of them?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 37, 1, 2
+Voice Line|11, 99, 0, 58, 100
+Text|I can't wait to bop over the head this\nabsolute retard of the killer once I know who they are!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 11, 24, 4, 2
+Check Character|8
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 13, 2, 1, 2
+Voice Line|13, 99, 0, 18, 100
+Text|Oooo...I haven't been helpful at all...\n
+Wait Frame|
+Wait For Input|
+Text|I couldn't even figure out an estimated time of death...\nI'm sorry I'm such a useless piece of trash...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 13, 0, 4, 2
+Check Character|255
+Choice|20
+Run Script|3, 3, 231, 0, 1
+Choice|21
+Run Script|3, 3, 231, 0, 2
+Choice|22
+Load Map|0, 202, 1, 0
+Change UI|3, 0
+Run Script|8, 0, 154, 0, 0
+Change UI|3, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|63
+Change UI|13, 1
+Format|6
+Text|<CLT 06>"ROOOOOOOOAAAAAAAAAAARRR...!"<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|9, 0
+Sprite|5, 1, 98, 0, 0
+Sprite|1, 3, 98, 0, 0
+Sprite|10, 4, 98, 0, 0
+Sprite|14, 8, 98, 0, 0
+Sprite|9, 7, 98, 0, 0
+Sprite|12, 9, 98, 0, 0
+Sprite|2, 11, 98, 0, 0
+Sprite|8, 13, 98, 0, 0
+Run Script|8, 0, 154, 0, 1
+Run Script|8, 0, 154, 0, 2
+Change UI|3, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>We stepped onto the escalator and ascended toward the\ngaping maw of Monokuma Rock...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>And that's when I suddenly noticed it.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Speaker|0
+Format|4
+Text|<CLT 04>I noticed our lined up silhouettes keep getting smaller\nand smaller...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...But I can't turn back now.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If I turn back, I won't be able to press forward...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+0x3a|6, 0, 0, 20
+Run Script|8, 0, 154, 0, 3
+0x3a|6, 0, 0, 30
+Change UI|3, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>And when everyone was inside Monokuma Rock...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Run Script|8, 0, 154, 0, 4
+Music|255, 120, 0
+Screen Fade|1, 1, 64
+Change UI|6, 1
+Animation|3, 72, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 72, 0, 0, 0, 0, 0, 4
+SFX A|0, 223, 100
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>The elevator began its deep descent as usual.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 90
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>...But nobody said a word.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>As we stood there trying to figure out what to say to\neach other, the elevator descended deeper and deeper...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Animation|3, 72, 0, 0, 0, 0, 0, 6
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Format|4
+Text|<CLT 04>And when it descended as far as it could go, it finally\nstopped.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|255, 255, 100
+SFX A|0, 224, 100
+Screen Fade|1, 1, 24
+Animation|3, 72, 0, 0, 0, 0, 0, 255
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 16
+0x3a|6, 0, 0, 10
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>The elevator doors opened slowly, almost tantalizingly\nso.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Light poured through from the other side, eroding the\nboundaries of the darkness...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And...I walked into that place.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+0x3a|6, 0, 0, 60
+Music|255, 0, 0
+Screen Fade|1, 1, 24
+Script|3, 0, 102, 0, 202
+Stop Script|
+Choice|23
+Choice|254
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There's no turning back...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|255
+0x2c|1, 244
+Stop Script|

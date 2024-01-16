@@ -1,0 +1,1288 @@
+OSL Script
+Set Game To DR2
+Text Count|149, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+Load Map|0, 135, 0, 0
+Change UI|9, 0
+Sprite|3, 9, 0, 0, 0
+Sprite|4, 8, 0, 0, 0
+Sprite|9, 3, 0, 0, 0
+Sprite|2, 11, 3, 0, 0
+Sprite|8, 7, 30, 0, 0
+Sprite|5, 1, 0, 0, 0
+Sprite|7, 19, 0, 0, 0
+Sprite|6, 4, 0, 0, 0
+0x1|0, 135, 1, 1
+0x1|0, 135, 3, 1
+0x1|0, 135, 4, 1
+0x1|0, 135, 6, 1
+0x1|0, 135, 7, 1
+0x1|0, 135, 8, 1
+0x1|0, 135, 9, 1
+0x1|0, 135, 11, 1
+0x46|19, 19, 0, 1
+0x4d|
+0x3b|1, 244
+0x23|23, 0, 0, 0, 0
+0x2c|1, 244
+0x23|24, 0, 0, 0, 0
+Change UI|14, 1
+Change UI|3, 1
+0x3a|6, 0, 0, 60
+Change UI|26, 7
+0x3a|5, 0, 0, 20
+Change UI|9, 1
+Sprite|0, 7, 31, 1, 2
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 2, 100
+Text|...Everybody here?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 9, 2, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 52, 100
+Text|Hey, want to know something cool? According to\nMonokuma...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|We'll all get a treat if we ride that rollercoaster\ntogether.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 23, 100
+Text|I-I'm not riding that thing!\n
+Wait Frame|
+Wait For Input|
+Text|Didn't I tell you!? I get crazy carsick!\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 5, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 107, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Rawr! Welcome!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 16, 0, 1, 2
+Voice Line|16, 99, 0, 68, 100
+Text|Welcome to the main attraction of this amusement park,\nthe <CLT 03>Great Ultra-Delicious Coaster<CLT>!\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 21, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 70, 100
+Text|Is it really true that we'll get a prize for riding\nthis?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 9, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 76, 100
+Text|Suuuure thing!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|What's...the prize?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 13, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 219, 100
+Text|Aw no! That's the surprise for after you ride this!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 54, 100
+Text|Hey...do we really all have to ride this together...?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 202, 100
+Text|Didn't I tell you already? Are those ears for\ndecoration?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 18, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 53, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|No! I'm not gonna do it!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 2, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 8, 100
+Text|Now now, it's gonna be fine! Thrill rides are sweeeeeet!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 38, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Everyone who likes them always says that! But I already\nknow that they're not fun at all!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 7, 37, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 49, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|But...there's a possibility that the prize is gonna be\nthose ship parts, you know?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 15, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 43, 100
+Text|Th-that...that might be true but...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 12, 100
+Text|Are there... any height requirements for riding\nthis thing?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 8, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 9, 100
+Text|There shouldn't be any. I mean, Monokuma cannot\nharm us by himself if we don't break the rules, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|9
+Text|And, since he wants all of us to ride...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 4, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 17, 100
+Text|...it means that the ride should pose no risk\neven to the shortest of us.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 42, 100
+Text|...I had always dreamed of being able to get onto\nroller coasters without any stupid hindrances!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 43, 100
+Text|...Now, I am finally able to...\nB-but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 8, 100
+Text|I see...I've only gone to an amusement park once during\nmy childhood...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 13, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 39, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|But it was an amusement park in hell filled with\nman-eating demons!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 4, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+Text|Hey everyone... It's just going to be a waste of time if\nwe stand around like this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 15, 1, 2
+Voice Line|1, 99, 0, 91, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Why don't we just try riding it?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 8, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 39, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|H-Hold on! Wh-Why do we have to "just try riding it"!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 1, 1, 1, 2
+Speaker|1
+Voice Line|1, 99, 0, 11, 100
+Text|...Nekomaru, can I leave this to you?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 8, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 9, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|LEAAAAAAAAAAAVE IIIIIIIT TOOOOO MEEEEEEEEEEEE!!!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 6, 1, 4
+Speaker|4
+Voice Line|4, 99, 0, 24, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|S-Stop it! Stop it...please, lemme go!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 4, 20, 1, 4
+Voice Line|4, 99, 0, 57, 100
+SFX A|0, 22, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|LEEEEEET MEEEEEEEEE GOOOOOOOOOOOOOOOOOOOO!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Music|255, 120, 0
+Sprite|0, 4, 0, 4, 4
+Speaker|0
+Format|4
+Text|<CLT 04>But despite his desperate struggling, Kazuichi got\nstuffed into the rollercoaster...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 12, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 3, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|All aboard the Great Ultra-Delicious Coaster!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 16, 0, 3, 2
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>With Monokuma's shout, the rollercoaster took off at\nmaximum speed!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|1, 46, 100
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Music|58, 100, 0
+Animation|3, 90, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 90, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Voice Line|8, 99, 0, 136, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Yaaaaaahoooooooo!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|4
+Voice Line|4, 99, 0, 118, 100
+Text|Ahhhhhhhhhhhhh! Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhh!\n
+Wait Frame|
+Wait For Input|
+Voice Line|4, 99, 0, 119, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|I'm gonna die...I'm gonna diiiiiiiiiiiiiiie!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|6
+Voice Line|6, 99, 0, 134, 100
+Text|Tch...! What overwhelming g-force! It feels like all the\nscrews in my body are going to fly offffff!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|3
+Voice Line|3, 99, 0, 105, 100
+Text|Be still...my heart!\n
+Wait Frame|
+Wait For Input|
+Speaker|11
+Voice Line|11, 99, 0, 25, 100
+Text|Gyahahahaha!\n
+Wait Frame|
+Wait For Input|
+Speaker|4
+Voice Line|4, 99, 0, 120, 100
+Text|I...I...I'm gonna die... Let...me...die...\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 120
+Animation|3, 90, 0, 0, 0, 0, 0, 2
+Animation|3, 90, 0, 0, 0, 0, 0, 255
+Music|12, 100, 0
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+SFX A|0, 33, 100
+Sprite|0, 16, 13, 6, 2
+Change UI|51, 0
+Change UI|2, 1
+0x3a|6, 0, 0, 30
+Speaker|0
+Voice Line|16, 99, 0, 9, 100
+Text|All right, we've arrived! How was it? Wasn't that fun?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>S-So it's finally over... That was a little...too\nintense...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 2, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 11, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Hey, hey! Let's go on it one more time!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 30, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 26, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|First time in my life I am agreeing with you, Akane!\nPlease, keep this up!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 20, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 58, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Change UI|13, 1
+Text|No! No friggin' way!!!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 9, 9, 1, 1
+Speaker|9
+Voice Line|9, 99, 0, 5, 100
+Text|...Hey, more importantly, where's our treat?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 9, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 9, 100
+Text|Oh yeah, right! Here you go! The treat is a file!\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Animation|11, 251, 0, 0, 0, 0, 0, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Huh!?\n
+Wait Frame|
+Wait For Input|
+Music|19, 100, 0
+Speaker|0
+Format|4
+Text|<CLT 04>Th-This symbol...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|11, 251, 0, 0, 0, 0, 0, 2
+0x3a|6, 0, 0, 10
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Sprite|1, 16, 0, 3, 2
+Animation|3, 16, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 16, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>It's the same symbol...that's on the door of the ancient\nruin!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 24
+Animation|3, 16, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Animation|11, 251, 0, 0, 0, 0, 0, 1
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>If so, this file must be...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...A file from the Future Foundation! Will we be able to\nfind out who they are if we look at this!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 251, 0, 0, 0, 0, 0, 2
+Sprite|0, 1, 2, 1, 3
+Speaker|1
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|1, 99, 0, 2, 100
+Text|...Is it all right if I check inside?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 0, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 153, 100
+Text|Sure thing, do whatever you like!\n
+Wait Frame|
+Wait For Input|
+Animation|11, 251, 0, 0, 0, 0, 0, 1
+Sprite|0, 1, 4, 1, 3
+Speaker|0
+Format|4
+Text|<CLT 04>We gathered around Nagito as he received the file...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And stared at him intensely as he carefully turned the\npages.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|11, 251, 0, 0, 0, 0, 0, 2
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Change UI|3, 0
+Change UI|6, 1
+Sprite|0, 1, 4, 3, 3
+Animation|3, 91, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Animation|3, 91, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|63
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|6
+Text|<CLT 06>Hope's Peak Academy ironically became the site for the\n<CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>killing school life<CLT><CLT 06>.<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>The mastermind behind the plan...locked the students\ninside the academy and forced them to kill each other.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>The students who were pushed to their limit eventually\nreached a state of heightened paranoia...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>And...that's how the killing began.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>The killings committed by those students lasted several\ndays...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|6
+Text|<CLT 06>But at a certain point, the curtain suddenly fell.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>A group of students united and staged a counterattack\nagainst the mastermind, who paid with their life.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Animation|3, 91, 0, 0, 0, 0, 0, 6
+0x3a|5, 0, 0, 30
+Change UI|1, 1
+Format|6
+Text|<CLT 06>With this, the <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>six students<CLT><CLT 06> who survived were able to\nescape the academy...<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|1
+Voice Line|1, 99, 0, 41, 100
+Text|Hey, aren't these photos on the left...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Photos of the <CLT 03>six people who survived<CLT>?\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Text|Then...what does this mean?\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Why is...<CLT 03>he<CLT> in this photo?\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I looked down at where Nagito was pointing...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Music|20, 100, 0
+Animation|3, 91, 0, 0, 0, 0, 0, 8
+0x3a|5, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Huh!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>He was much thinner, as if he was an entirely different\nperson...but he looked exactly like <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>someone<CLT><CLT 04> we knew.<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Animation|3, 91, 0, 0, 0, 0, 0, 255
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+Sprite|0, 2, 0, 2, 3
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>The Ultimate Affulent Progeny...Byakuya Togami...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>He looked exactly like him, the first victim on this\nisland.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Sprite|0, 2, 0, 3, 3
+0x37|0, 0, 3
+Change UI|6, 1
+Animation|3, 91, 0, 0, 0, 0, 0, 3
+Animation|3, 91, 0, 0, 0, 0, 0, 6
+Screen Fade|0, 2, 24
+Animation|3, 91, 0, 0, 0, 0, 0, 8
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 99, 0, 29, 100
+Text|Th-This definitely...looks like Byakuya...\n
+Wait Frame|
+Wait For Input|
+Speaker|6
+Voice Line|6, 99, 0, 28, 100
+SFX A|0, 18, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Why is Bykauya's photo in here!?\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Animation|3, 91, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Sprite|0, 1, 13, 8, 3
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 99, 0, 25, 100
+Text|Th-This...what does this mean?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 4, 1, 4
+Speaker|4
+Voice Line|4, 99, 0, 24, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Like...what's this <CLT 03>killing school trip<CLT> that they're\ntalking about!?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 25, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 12, 100
+Text|It looks like the <CLT 03>killings<CLT> we're involved in resemble\nthis set of killings that happened before...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|And...that took place inside Hope's Peak Academy.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 41, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 14, 100
+Text|Hold on...did these fucked up killings actually happen\ninside *the* Hope's Peak Academy?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 41, 1, 2
+Voice Line|7, 99, 0, 76, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|That's not possible! There's no way the teachers or the\npolice would let that happen!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 3, 2, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 3, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|However...what if the Future Foundation—<CLT 03>World\nEnder<CLT>—was the one who initiated this?\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 19, 9, 1, 3
+Speaker|6
+Voice Line|6, 99, 0, 42, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|You mean that organization was the one who took over\nHope's Peak Academy then!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 4
+Speaker|4
+Voice Line|4, 99, 0, 52, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Th-That's not possible! How stupid!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|1, 1, 16, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 78, 100
+Text|If Byakuya were still alive, we would've been able to\nlearn the details of this...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...How unfortunate.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 7, 31, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 7, 100
+Text|However...we lost our memories, correct? That should\nhave applied to Byakuya as well.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Also...Byakuya never said a word about such a past\nactually existing...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 1, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 38, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Well, he was killed before he could.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>So he became the first victim before he could tell us\nabout any of this...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Ah, perhaps...that's what Byakuya was planning to talk\nto me about...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|3, 0
+Change UI|6, 1
+Sprite|1, 3, 0, 3, 1
+Filter|1, 1, 0, 0
+0x37|0, 2, 1
+Sprite|0, 2, 1, 8, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|2
+Text|I cannot talk to others about my past... I suspect\nthat my skeptical nature is partly to blame.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Distrusting others...and being distrusted in turn...\nFor a long time, my life has been a living hell.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 2, 3
+Sprite|0, 2, 0, 3, 1
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>Was he...specifically referring to this <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>killing school life<CLT><CLT 04>...?<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 4, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 2, 100
+Text|Anyway...as long as Byakuya is no longer with us, we\nhave no choice but to ask Monokuma...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|How does the <CLT 03>killing school life<CLT> that occurred at\nHope's Peak Academy relate to this island?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 8, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 5, 100
+Text|The only thing I can say is...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 0, 1, 2
+Voice Line|16, 99, 0, 75, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|All the answers are in your <CLT 03>school memories that were\ntaken away<CLT>!\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 16, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 18, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Then give them back! Give those memories back to us!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 13, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 217, 100
+Text|No no, the Future Foundation took your memories, and I\ncan't do anything about it in my current state.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 11, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 83, 100
+Text|Regardless, it's unforgivable...!\n
+Wait Frame|
+Wait For Input|
+Text|I will never forgive those who try to trample hope...\nThey should all be destroyed...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 4, 1, 4
+Speaker|4
+Voice Line|4, 99, 0, 51, 100
+Text|Argh! This isn't making sense again! How fucking\nannoying!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 4, 13, 1, 4
+Voice Line|4, 99, 0, 50, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Whatever man, just lemme go back home! Where the hell\nare the ship parts!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 16, 10, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 216, 100
+Text|Oh, who knows? They should be somewhere on this island.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 37, 1, 3
+Speaker|7
+Voice Line|7, 99, 0, 49, 100
+Text|I have searched this island once through...but I did not\nfind ship parts anywhere.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|No...the Funhouse should still be left.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 1, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 6, 100
+Text|Based on what I've heard...it seems we cannot access it\nunless we're all gathered together, correct?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 9, 1, 2
+Speaker|16
+Voice Line|16, 99, 1, 157, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Ding ding! Cooooooooorrect!\n
+Wait Frame|
+Wait For Input|
+Text|That's right, the treats you can't find yet are alllllll\nhidden inside the Funhouse!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 4, 13, 1, 3
+Speaker|4
+Voice Line|4, 99, 0, 50, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Then the ship parts should be there too, right!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 4, 13, 4, 3
+Change UI|27, 0
+0x3a|5, 0, 0, 30
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>No, not just the ship parts... If he means "all" the\ntreats...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>That also includes...our Hope's Peak Academy student\nprofiles...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Which means a clue about my talent should be there too.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>It might be a trap... It might be a trap, but...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's like we're already caught in a trap. Then...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Speaker|0
+Text|Everyone...let's go...\n
+Wait Frame|
+Wait For Input|
+Music|2, 100, 0
+Text|Let's try going to the Funhouse...!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 10
+0x3a|5, 0, 0, 30
+Sprite|1, 11, 41, 1, 2
+Change UI|1, 1
+Speaker|11
+Voice Line|11, 99, 0, 50, 100
+Text|The Funhouse is that creepy-looking building, right?\nCome on, Hajime. It's a painfully obvious trap.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|But...we have no other choice.\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I mean, we might be able to obtain the ship parts if we\ngo there!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 1, 22, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 87, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...And learn the secret of Hajime's talent too.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 29, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 41, 100
+Text|Who cares what talent exactly Hajime has?\nHe's the... least annoying person on the island!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 1, 1, 3
+Speaker|1
+Voice Line|1, 99, 0, 12, 100
+SFX A|0, 25, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Fine... I think we should listen to Hajime and head over\nto the Funhouse as well.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 3, 1, 2
+Speaker|16
+Voice Line|16, 99, 0, 29, 100
+Text|Puhuhu, looks like you guys have decided.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 4, 1, 2
+Voice Line|16, 99, 0, 36, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|I have things to prepare so I'll be going first! I'll\nsee you later!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 3, 7, 2
+0x3a|6, 0, 0, 30
+Sprite|0, 9, 16, 1, 3
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 99, 0, 44, 100
+Text|I'm not really on board with this idea but...\n
+Wait Frame|
+Wait For Input|
+Text|If everyone says they're gonna go, I guess I have no\nchoice. I guess I have to go with everyone.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 1, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 10, 100
+Text|Plunging yourself into a trap is an act of sheer\nmadness...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 3, 9, 1, 1
+Voice Line|3, 99, 0, 33, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Fuhahaha! That's what makes it truly interesting!\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 11, 41, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 39, 100
+Text|This is so painfully obvious trap... That's why\nI would have to keep tabs on you, Hajime.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 3
+Speaker|11
+Voice Line|11, 99, 0, 42, 100
+Text|To ensure that at least it wouldn't be you who\nwould get killed this time.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Then it's decided...!\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Change UI|3, 0
+Screen Fade|1, 1, 48
+Change UI|6, 1
+Sprite|1, 3, 9, 3, 2
+Music|255, 60, 0
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Maybe it's because we were shown a new mystery from that\nFuture Foundation file but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...I was panicking.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I couldn't keep still after being forced to see more\nmysteries that didn't make sense.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I felt like...I didn't even care if it was a trap.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>And because of that <CLT><CLT 03><CLT><CLT 04><CLT><CLT 03>panic<CLT><CLT 04>, I completely forgot...<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Monokuma's traps are always...far beyond our\nimagination...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...I competely forgot about that.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Script|4, 0, 4, 0, 132
+Stop Script|
+Stop Script|

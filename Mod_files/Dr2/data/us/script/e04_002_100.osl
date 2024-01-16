@@ -1,0 +1,159 @@
+OSL Script
+Set Game To DR2
+Text Count|12, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 0
+Change UI|6, 0
+Load Map|0, 100, 0, 0
+Change UI|9, 0
+Change UI|14, 0
+Screen Fade|0, 1, 24
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+Change UI|16, 1
+0x3b|1, 244
+Check Character|255
+Choice|20
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 101, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 201, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 101
+Stop Script|
+Choice|21
+Run Script|4, 3, 231, 0, 1
+Choice|22
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 19, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 2
+SFX A|0, 209, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 19
+Stop Script|
+Choice|23
+Run Script|4, 3, 231, 0, 1
+Choice|24
+Run Script|4, 3, 231, 0, 1
+Choice|25
+Run Script|4, 3, 231, 0, 1
+Choice|26
+Run Script|4, 3, 231, 0, 1
+Choice|27
+Run Script|4, 3, 231, 0, 136
+Choice|28
+Run Script|4, 3, 231, 0, 136
+Choice|29
+Run Script|4, 3, 231, 0, 1
+Choice|30
+Run Script|4, 3, 231, 0, 1
+Choice|31
+Run Script|4, 3, 231, 0, 1
+Choice|32
+Run Script|4, 3, 231, 0, 1
+Choice|33
+Run Script|4, 3, 231, 0, 1
+Choice|34
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|This is Hiyoko's cottage.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I have no business there right now.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|35
+Run Script|4, 3, 231, 0, 136
+Choice|36
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>The Mikan we knew was a fake, and the Mikan\nwho killed Ibuki and Sonia was the real Mikan...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And that ending...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Mikan, just what in the world did you remember...?\nWho was <CLT 03>that person<CLT> you called your "beloved"...?\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|37
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I wish I could've heard your song again after you got\nbetter...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Even though your music was...well... Still, you could've\nbecome a big star on your own.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But...that can no longer...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|38
+Run Script|4, 3, 231, 0, 136
+Choice|39
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 102, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 200, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 102
+Stop Script|
+Choice|40
+Run Script|4, 3, 231, 0, 100
+Choice|41
+Run Script|4, 3, 231, 0, 101
+Choice|254
+Choice|255
+0x2c|1, 244
+Stop Script|
+Stop Script|

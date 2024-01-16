@@ -1,0 +1,354 @@
+OSL Script
+Set Game To DR2
+Text Count|39, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|56, 100, 0
+Change UI|1, 1
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 1, 21, 0, 1, 0
+Voice Line|0, 3, 0, 99, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|That's it...the killer just brought the <CLT 03>camera<CLT> from\nthe music venue.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 100, 100
+Text|With it...they made me think it was a live feed from the\nvenue, when it was actually from somewhere else.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 47, 0, 0
+Trial Camera|7, 0, 120, 0, 0, 0
+Voice Line|7, 3, 0, 57, 100
+Text|Then...only the monitor was left in the music venue?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 88, 0, 0, 0
+Voice Line|0, 3, 0, 101, 100
+Text|Yes...at least, when I first discovered Ibuki's body.\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 89, 0, 1, 0
+Voice Line|0, 3, 0, 102, 100
+Text|But when Sonia's body appeared, the killer probably put\nthe camera back too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 18, 0, 0
+Trial Camera|8, 0, 58, 0, 0, 0
+Voice Line|8, 3, 0, 51, 100
+Text|That means...you shoulda realized that from the start\nand made this easier on all of us...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 120, 0, 0, 0
+Text|He did discover the body. I doubt his attention was\nfocused on the camera.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 34, 0, 0, 0
+Voice Line|0, 3, 0, 103, 100
+Text|Well that's true, but...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 112, 0, 1, 0
+Voice Line|0, 3, 0, 104, 100
+Text|In order to hide that the camera was missing, the killer\n<CLT 03>did one more thing<CLT> to the remaining monitor.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|18, 1
+0x3b|1, 244
+0x32|1
+Text|Destroyed it\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|2
+Text|Painted it\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 137, 0, 0, 0
+Text|The killer painted the monitor so it'd be harder for us\nto notice that the camera had been taken.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 13, 0, 0, 0
+Text|Why...would painting the monitor a different color make\nit harder for us to notice the camera was missing?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 34, 0, 0, 0
+Text|U-Um...well...\n
+Wait Frame|
+Wait For Input|
+Text|...Sorry. Looks like I misunderstood.\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Dammit... Looks like everyone thinks I'm suspicious\nbecause I said something unnecessary.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3b|0, 0
+0x32|3
+Text|Hid it\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 137, 0, 0, 0
+Text|The killer hid the monitor so it'd be harder for us to\nnotice that the camera had been taken.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 42, 0, 0
+Trial Camera|7, 0, 33, 0, 0, 0
+Text|If both the monitor and the camera were missing,\nwouldn't that make it easier for us to notice?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 14, 0, 0, 0
+Text|U-Um...you're right...\n
+Wait Frame|
+Wait For Input|
+Text|...Sorry. Looks like I misunderstood.\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Dammit... Looks like everyone thinks I'm suspicious\nbecause I said something unnecessary.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3b|0, 0
+0x32|4
+Text|Flipped it over\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 137, 0, 0, 0
+Text|The killer flipped over the monitor so it'd be harder\nfor us to notice that the camera had been taken.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 10, 0, 0
+Trial Camera|11, 0, 12, 0, 0, 0
+Speaker|11
+Text|Not. Funny.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 34, 0, 0, 0
+Text|U-Um...sorry. Looks like I misunderstood.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Dammit... Looks like everyone thinks I'm suspicious\nbecause I said something unnecessary.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3b|0, 0
+0x32|18
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3b|0, 0
+0x32|19
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>The thing the killer did to the remaining monitor was...<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 1, 19, 0, 1, 0
+Voice Line|0, 3, 0, 105, 100
+SFX A|0, 19, 100
+Text|The killer smashed the monitor to pieces, <CLT 03>destroying<CLT>\nit...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 25, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 106, 100
+Text|As long as it was in pieces, you wouldn't be able to\ntell if the camera was actually there or not...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 107, 100
+Text|My attention was so focused on the body that even I\ncouldn't have noticed something like that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 25, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 117, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 3, 0, 0
+Voice Line|1, 3, 0, 98, 100
+Text|And the moment Hajime left the music venue, the killer\nput back the camera they took...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 28, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 108, 100
+Text|And they destroyed it and left that in pieces as well.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 28, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 93, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|4, 4, 3, 0, 0
+Voice Line|4, 3, 0, 37, 100
+Text|It's easy to say it was filmed somewhere else, but the\nsurveillance camera's connection wasn't that strong.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 3, 0, 0
+Trial Camera|3, 0, 112, 0, 0, 0
+Voice Line|3, 3, 0, 60, 100
+Text|Despite Kazuichi's desperate repair efforts, it seems it\ncould not transmit from the hospital to the motel...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 19, 0, 0
+Trial Camera|4, 0, 14, 0, 0, 0
+Voice Line|4, 3, 0, 38, 100
+Text|The fact that it was able to connect between the\nhospital and the music venue is amazing enough!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Script|3, 0, 228, 0, 0
+Stop Script|
+Stop Script|

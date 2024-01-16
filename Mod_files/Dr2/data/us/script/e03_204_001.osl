@@ -1,0 +1,165 @@
+OSL Script
+Set Game To DR2
+Text Count|28, 0
+Change UI|21, 2
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|7, 7, 41, 0, 0
+Text|The killer was still inside the music venue.\n
+Wait Frame|
+Check Flag A|0, 1
+Sprite|7, 7, 49, 0, 0
+Text|By locking the door <CLT 17>from the inside<CLT>...\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 2
+Sprite|7, 7, 33, 0, 0
+Text|They tried to keep us from getting in!\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|3, 3, 12, 0, 0
+Text|It seems they were\ntrying to <CLT 17>stall for time<CLT>...\n
+Wait Frame|
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 4
+Sprite|10, 10, 19, 0, 0
+Text|How did you lock the door,\nMahiru's murderer?!\n
+Wait Frame|
+Check Flag A|0, 5
+Sprite|10, 10, 4, 0, 0
+Text|You had somehow made it look like\nit was from inside, right?\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 6
+Sprite|7, 7, 50, 0, 0
+Text|The lock was on the floor\nin front of the door...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 7
+Sprite|8, 8, 21, 0, 0
+Text|Are you talkin' about\nthe <CLT 69>broken drumstick<CLT>?\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 8
+Sprite|7, 7, 35, 0, 0
+Text|You can use that as\na bolt to lock the door.\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 9
+Sprite|7, 7, 49, 0, 0
+Text|By doing that,\nthe killer who was hiding inside...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 10
+Sprite|7, 7, 37, 0, 0
+Text|...waited till\nwe gathered together...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 11
+Sprite|7, 7, 33, 0, 0
+Text|...and suddenly appeared!\n
+Wait Frame|
+Check Flag A|0, 12
+Sprite|13, 13, 7, 0, 0
+Text|So they looked like\nthey had just rushed over...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 13
+Sprite|10, 10, 2, 0, 0
+Text|Are you all seriously trusting\nMahiru's murderer?\n
+Wait Frame|
+Check Flag A|0, 14
+Speaker|62
+Format|20
+Text|<CLT 20>Sounds like an interesting assumption but...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Speaker|62
+Format|20
+Text|<CLT 20>I wonder...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Speaker|62
+Format|20
+Text|<CLT 20>Meaning it's meeeeeeeeeeeeeeeeeeeeeee!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>Seriously, stop it!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>Were they able to stall for time?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>Um...but it was pretty easy to...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>Mahiru's murderer is trying\nto frame me again!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>What the heck did they do\nwith something like that?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 22
+Speaker|62
+Format|20
+Text|<CLT 20>Fools...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 23
+Speaker|62
+Format|20
+Text|<CLT 20>Sticks are the keys which turn the world...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 24
+Speaker|62
+Format|20
+Text|<CLT 20>The turbidity of the world!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 25
+Speaker|62
+Format|20
+Text|<CLT 20>Hmm...the killer was inside.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 26
+Speaker|62
+Format|20
+Text|<CLT 20>But based on that taste...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 27
+Speaker|62
+Format|20
+Text|<CLT 20>Y-You sure know a lot...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

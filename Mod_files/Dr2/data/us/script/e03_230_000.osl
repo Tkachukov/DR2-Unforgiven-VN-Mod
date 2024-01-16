@@ -1,0 +1,252 @@
+OSL Script
+Set Game To DR2
+Text Count|22, 0
+0x2c|0, 20
+0x3a|9, 0, 0, 0
+Set Flag|0, 10, 1
+Set Flag|0, 11, 1
+Run Script|3, 0, 230, 0, 1
+Music|29, 100, 0
+Animation|0, 227, 0, 0, 0, 0, 0, 0
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 244
+Change UI|20, 1
+0x3b|1, 245
+0x32|63
+0x32|64
+0x32|65
+0x32|66
+0x32|68
+0x32|69
+0x32|74
+0x32|255
+0x2c|1, 245
+0x3b|1, 246
+0x2c|1, 244
+Change UI|20, 1
+0x3b|1, 247
+0x32|64
+0x32|65
+0x32|66
+0x32|68
+0x32|74
+0x32|255
+0x2c|1, 247
+0x2c|1, 246
+0x46|21, 12, 0, 1
+0x4d|
+0x3b|1, 248
+Change UI|20, 1
+0x3b|1, 249
+0x32|65
+0x32|66
+0x32|74
+0x32|255
+0x2c|1, 249
+0x2c|1, 248
+Change UI|31, 1
+0x3b|1, 250
+Check Flag A|0, 3
+Change UI|1, 1
+Sprite|4, 4, 14, 0, 0
+Trial Camera|4, 0, 13, 0, 0, 0
+Text|I knew it! So the killer tried to make the conference\nroom look like the music venue!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But...that isn't proof. You won't be able to make the\nconference room look like the music venue with that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Looks like...I've made a mistake! Dammit, I need to\nthink this over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 4
+Change UI|1, 1
+Sprite|4, 4, 14, 0, 0
+Trial Camera|4, 0, 33, 0, 0, 0
+Text|So you think...they tried to make the music venue look\nlike the conference room?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But...that isn't proof. You won't be able to make the\nmusic room look like the conference room with that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Looks like...I've made a mistake! Dammit, I need to\nthink this over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 5
+Change UI|1, 1
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 33, 0, 0, 0
+Text|The killer had made a\nbackground set that resembles the music venue?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But... where did they make it?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Looks like...I've made a mistake! Dammit, I need to\nthink this over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 6
+Change UI|1, 1
+Sprite|3, 3, 15, 0, 0
+Trial Camera|3, 0, 32, 0, 0, 0
+Text|That's it...the killer did something else to the\ncamera...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And this time around, they didn't do something cheap\nlike switch the cameras...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 13, 0, 0
+Trial Camera|3, 1, 19, 0, 0, 0
+Text|It's thoughtography! The killer was able to create\nscenery that doesn't exist using the power of Nen!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Just as I thought, I made a big mistake! Dammit...I need\nto think this over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 8
+Change UI|1, 1
+Sprite|8, 8, 2, 0, 0
+Trial Camera|8, 0, 32, 0, 0, 0
+Text|What...are you pissed 'cause I called you stupid? You're\npretty cute, aren'tcha!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 18, 0, 0
+Trial Camera|8, 0, 13, 0, 0, 0
+Text|But you're definitely stupid! Don't challenge me with\nproof that doesn't even make sense!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 1
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Looks like...I've made a mistake! Dammit, I need to\nthink this over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|39, 20
+0x3a|6, 0, 0, 50
+Voice Line|0, 99, 0, 9, 100
+Animation|0, 227, 0, 0, 0, 0, 0, 1
+Trial Camera|0, 2, 12, 0, 0, 0
+Change UI|31, 0
+0x3b|0, 0
+Check Flag A|78, 32
+Check Flag A|117, 48
+Check Flag A|156, 64
+Change UI|1, 1
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 251
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>In order to make the hospital conference room resemble\nthe music venue, what did the killer do...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...I should figure that out first.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|1, 252
+0x2c|1, 251
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>In order to make the hospital conference room resemble\nthe music venue, what did the killer do...?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>The answer to that should be hidden inside the proof I\nfound at the music venue...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x2c|1, 252
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|195, 80
+Change UI|31, 2
+0x3b|0, 1
+Check Flag A|234, 96
+Change UI|31, 3
+0x3b|0, 2
+Check Flag A|255, 255
+0x2c|1, 250
+0x2c|0, 0
+Animation|0, 227, 0, 0, 0, 0, 0, 255
+Script|3, 0, 231, 0, 0
+Stop Script|
+0x2c|0, 1
+Animation|0, 227, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|0, 2
+Animation|0, 227, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+Stop Script|

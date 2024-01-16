@@ -1,0 +1,259 @@
+OSL Script
+Set Game To DR2
+Text Count|24, 0
+0x46|16, 12, 0, 1
+0x4d|
+0x3b|1, 244
+0x1c|
+0x2c|1, 244
+Set Flag|0, 7, 0
+Music|23, 100, 0
+Change UI|4, 1
+Trial Camera|0, 1, 241, 0, 0, 0
+Speaker|63
+Format|6
+Text|<CLT 06>Long time no see...well, not really.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>It's time for the third <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Panic Talk Action (PTA)<CLT><CLT 06>.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>This...is probably going to be my last job during a class trial.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>Please humor me while I taint your ears one last time.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>Starting from this PTA, the <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Reload<CLT><CLT 06><CLT><CLT 06> and <CLT><CLT 03>ammo<CLT><CLT 06> features\nwill be added.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>You will no longer be able to make do with just\nthe %CTRL_PTA_LOCK_ON_ATTACK%.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>Below the Tempo Marker in the lower portion of the\nscreen, the <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>number of bullets<CLT><CLT 06> are displayed.<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>From this point on, you'll need <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>1 bullet<CLT><CLT 06><CLT><CLT 06> to <CLT><CLT 03>destroy 1 remark<CLT><CLT 06>.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>When you're out of bullets, you won't be able to destroy the \nremarks, no matter how much you mash the \n%CTRL_PTA_LOCK_ON_ATTACK%<CLT>\n
+Wait Frame|
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>You will be able to refresh your bullets by pressing\nthe <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>%CTRL_BULLET_TIME_RELOAD%<CLT><CLT 06><CLT><CLT 06> to <CLT><CLT 03>reload<CLT><CLT 06>.<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>…<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>Just like locking on, press the <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>%CTRL_BULLET_TIME_RELOAD%<CLT><CLT 06> <CLT><CLT 06> in time with the Tempo Marker.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>The controls are the same as the %CTRL_PTA_LOCK_ON_ATTACK%.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>Match the Tempo Marker either by pressing the %CTRL_BULLET_TIME_RELOAD%<CLT><CLT 03><CLT><CLT 06>.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>The <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>number of bullets refreshed<CLT><CLT 06> is based on how\nwell you kept the tempo.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>If you get the timing wrong when you press the %CTRL_BULLET_TIME_RELOAD%\n...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>Bullets will not be refreshed, so please be careful.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>Also, your ammo will be <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>completely refreshed<CLT><CLT 06><CLT><CLT 03><CLT><CLT 06> and \nwill <CLT><CLT 03>not run out<CLT><CLT 06> <CLT><CLT 03>during Fever Time<CLT><CLT 06>.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>If your difficulty level is set to Gentle, you do not\nneed to reload.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>I guess this was a pretty useless explanation...even\nthough it was the last one.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>That should be all the explanations for the class trials.\nThe rest is up to you to overcome.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>You should be able to find it beyond this point.\nWhat you and I both yearn for...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 20, 100
+Format|6
+Text|<CLT 06>True <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>despair<CLT><CLT 06>.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>Well then...good luck, and have fun!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 0
+Set Flag|0, 7, 1
+0x1c|
+Stop Script|

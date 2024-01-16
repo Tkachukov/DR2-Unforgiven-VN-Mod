@@ -1,0 +1,623 @@
+OSL Script
+Set Game To DR2
+Text Count|43, 0
+0x11|11, 0, 0, 15
+Change UI|2, 1
+Change UI|0, 0
+Change UI|1, 1
+Sprite|0, 11, 29, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 20, 100
+Text|Man, this place has awful food. I wanna eat proper\nJapanese food.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You like Japanese food?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 11, 100
+Text|Of course.\n
+Wait Frame|
+Wait For Input|
+Text|Rice, fish, vegetables, miso, soy sauce... I could\ntotally live off that stuff alone.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 26, 1, 2
+Voice Line|11, 99, 0, 14, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|I seriously can't stand smelly, oily people who eat\ntons of meat!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|They think and act like stupid animals.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>As usual...your attitude is terrible...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 28, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 19, 100
+Text|Besides, Japan has lots of delicate, refined, high\nquality things.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Why do they gotta suck up to worthless countries \nwho can only brag about how big they are?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 29, 1, 2
+Voice Line|11, 99, 0, 20, 100
+Text|They don't need to import anything from those stupid\nplaces.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Y-You should stop...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 49, 100
+Text|Awww, how boring.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 26, 1, 2
+Voice Line|11, 99, 0, 15, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|Jeez...that's why opportunists are such useless cowards.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>You're not scared of anything, huh...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Well, that's one good thing about Hiyoko...I guess?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 28, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 17, 100
+Text|I'm just saying we should take good care of the things\nthat are close to us.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I know I have an old-fashioned way of thinking because\nI'm involved in a hobby with over 400 years of history.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 32, 1, 2
+Voice Line|11, 99, 0, 18, 100
+Text|But what's wrong with old-fashioned things?\n
+Wait Frame|
+Wait For Input|
+Text|Of course...I don't intend to disagree with the new\ndirection Kabuki Theater is taking these days...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|But I think it's a good thing to protect things that\nneed to be protected.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Th-That's unexpected... I guess even you say decent\nthings sometimes.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 29, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 22, 100
+Text|Whaaaaat? How mean! I'm always serious!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Voice Line|11, 99, 0, 4, 100
+Text|I seriously love traditional dancing, Japanese candy,\nand Japanese food. And as much as I love these...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 26, 1, 2
+Voice Line|11, 99, 0, 14, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|I seriously love stomping on disgusting things!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Is that something you really needed to mention?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 35, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 16, 100
+Text|Well, I'm sure a boring commoner like you won't\nunderstand.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Well, whatever. \nI always make it a habit to relax the tips of my fingers.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Voice Line|11, 99, 0, 4, 100
+Text|This is the source of the Japanese traditional dance.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Traditional dancing, huh... Now that you mention it,\nI've never actually seen a performance.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 33, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 31, 100
+Text|Even if you do go see one, you're definitely just gonna\nfall asleep in the middle of it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Haha...maybe.\n
+Wait Frame|
+Wait For Input|
+Text|But...if you're the one doing the dancing, I'll make\nsure to stay awake.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 42, 1, 2
+Speaker|11
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|Daddy...said the same thing, too.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|Then...I'll make sure to specifically invite you the\nnext time I perform.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 37, 1, 2
+Voice Line|11, 99, 0, 40, 100
+SFX A|0, 21, 100
+0x20|4, 0, 30, 4, 2
+Text|But in exchange, if you fall asleep, I'll publicly\nhumiliate you.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|I'll record you when you're at your ugliest and upload\nit on the Internet.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|G-Got it... I'll pay attention...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I feel like I made a promise on the fly that I really\nshouldn't have, but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Hiyoko looks unexpectedly happy, so I guess it's fine.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 24, 4, 2
+Change UI|1, 0
+0x3b|0, 10
+0x2c|0, 0
+Music|255, 60, 0
+Set Report Info|11, 0, 5
+0x3a|38, 1, 0, 100
+Change UI|2, 0
+SFX A|0, 41, 100
+Speaker|63
+Format|6
+Text|<CLT 06>Hiyoko's <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Report Card<CLT><CLT 06> has been updated based on your\nexperience with her.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|0, 20
+0x2c|0, 1
+Change UI|1, 0
+Change UI|3, 0
+Screen Fade|1, 1, 24
+SFX A|255, 255, 100
+0x3a|6, 0, 0, 60
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 24
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>After talking to Hiyoko about random things for a while,\nI returned to my cottage.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|51, 0
+Change UI|1, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Screen Fade|0, 1, 24
+Set Flag|15, 31, 1
+0x1c|
+0x2c|0, 10
+0x3a|19, 0, 255, 255
+0x47|0, 41, 0, 0, 0
+0x4d|
+0x3b|1, 244
+0x3a|19, 0, 0, 0
+0x2c|1, 244
+0x47|0, 41, 0, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|19, 0, 0, 1
+0x2c|1, 245
+0x47|0, 41, 0, 0, 2
+0x4d|
+0x3b|1, 246
+0x3a|19, 0, 0, 2
+0x2c|1, 246
+0x47|0, 41, 0, 0, 3
+0x4d|
+0x3b|1, 247
+0x3a|19, 0, 0, 3
+0x2c|1, 247
+0x47|0, 41, 0, 0, 4
+0x4d|
+0x3b|1, 248
+0x3a|19, 0, 0, 4
+0x2c|1, 248
+0x47|0, 41, 0, 0, 5
+0x4d|
+0x3b|1, 249
+0x3a|19, 0, 0, 5
+0x2c|1, 249
+0x47|0, 41, 0, 0, 6
+0x4d|
+0x3b|1, 250
+0x3a|19, 0, 0, 6
+0x2c|1, 250
+0x47|0, 41, 0, 0, 7
+0x4d|
+0x3b|1, 251
+0x3a|19, 0, 0, 7
+0x2c|1, 251
+0x47|0, 41, 0, 0, 8
+0x4d|
+0x3b|1, 252
+0x3a|19, 0, 0, 8
+0x2c|1, 252
+0x47|0, 41, 0, 0, 9
+0x4d|
+0x3b|1, 253
+0x3a|19, 0, 0, 9
+0x2c|1, 253
+0x47|0, 41, 0, 0, 10
+0x4d|
+0x3b|1, 254
+0x3a|19, 0, 0, 10
+0x2c|1, 254
+0x47|0, 41, 0, 0, 11
+0x4d|
+0x3b|1, 255
+0x3a|19, 0, 0, 11
+0x2c|1, 255
+0x47|0, 41, 0, 0, 12
+0x4d|
+0x3b|2, 0
+0x3a|19, 0, 0, 12
+0x2c|2, 0
+0x47|0, 41, 0, 0, 13
+0x4d|
+0x3b|2, 1
+0x3a|19, 0, 0, 13
+0x2c|2, 1
+0x47|0, 41, 0, 0, 14
+0x4d|
+0x3b|2, 2
+0x3a|19, 0, 0, 14
+0x2c|2, 2
+0x47|0, 41, 0, 0, 15
+0x4d|
+0x3b|2, 3
+0x3a|19, 0, 0, 15
+0x2c|2, 3
+0x47|0, 41, 0, 0, 16
+0x4d|
+0x3b|2, 4
+0x3a|19, 0, 0, 16
+0x2c|2, 4
+0x47|0, 41, 0, 0, 17
+0x4d|
+0x3b|2, 5
+0x3a|19, 0, 0, 17
+0x2c|2, 5
+0x47|0, 41, 0, 0, 18
+0x4d|
+0x3b|2, 6
+0x3a|19, 0, 0, 18
+0x2c|2, 6
+0x47|0, 41, 0, 0, 19
+0x4d|
+0x3b|2, 7
+0x3a|19, 0, 0, 19
+0x2c|2, 7
+0x47|0, 41, 0, 0, 20
+0x4d|
+0x3b|2, 8
+0x3a|19, 0, 0, 20
+0x2c|2, 8
+0x47|0, 41, 0, 0, 21
+0x4d|
+0x3b|2, 9
+0x3a|19, 0, 0, 21
+0x2c|2, 9
+0x47|0, 41, 0, 0, 22
+0x4d|
+0x3b|2, 10
+0x3a|19, 0, 0, 22
+0x2c|2, 10
+0x47|0, 41, 0, 0, 23
+0x4d|
+0x3b|2, 11
+0x3a|19, 0, 0, 23
+0x2c|2, 11
+0x47|0, 41, 0, 0, 24
+0x4d|
+0x3b|2, 12
+0x3a|19, 0, 0, 24
+0x2c|2, 12
+0x47|0, 41, 0, 0, 25
+0x4d|
+0x3b|2, 13
+0x3a|19, 0, 0, 25
+0x2c|2, 13
+0x47|0, 41, 0, 0, 26
+0x4d|
+0x3b|2, 14
+0x3a|19, 0, 0, 26
+0x2c|2, 14
+0x47|0, 41, 0, 0, 27
+0x4d|
+0x3b|2, 15
+0x3a|19, 0, 0, 27
+0x2c|2, 15
+0x47|0, 41, 0, 0, 28
+0x4d|
+0x3b|2, 16
+0x3a|19, 0, 0, 28
+0x2c|2, 16
+0x47|0, 41, 0, 0, 29
+0x4d|
+0x3b|2, 17
+0x3a|19, 0, 0, 29
+0x2c|2, 17
+0x47|0, 41, 0, 0, 30
+0x4d|
+0x3b|2, 18
+0x3a|19, 0, 0, 30
+0x2c|2, 18
+0x47|0, 41, 0, 0, 31
+0x4d|
+0x3b|2, 19
+0x3a|19, 0, 0, 31
+0x2c|2, 19
+0x47|0, 41, 0, 0, 32
+0x4d|
+0x3b|2, 20
+0x3a|19, 0, 0, 32
+0x2c|2, 20
+0x47|0, 41, 0, 0, 33
+0x4d|
+0x3b|2, 21
+0x3a|19, 0, 0, 33
+0x2c|2, 21
+0x47|0, 41, 0, 0, 34
+0x4d|
+0x3b|2, 22
+0x3a|19, 0, 0, 34
+0x2c|2, 22
+0x47|0, 41, 0, 0, 35
+0x4d|
+0x3b|2, 23
+0x3a|19, 0, 0, 35
+0x2c|2, 23
+0x47|0, 41, 0, 0, 36
+0x4d|
+0x3b|2, 24
+0x3a|19, 0, 0, 36
+0x2c|2, 24
+0x47|0, 41, 0, 0, 37
+0x4d|
+0x3b|2, 25
+0x3a|19, 0, 0, 37
+0x2c|2, 25
+0x47|0, 41, 0, 0, 38
+0x4d|
+0x3b|2, 26
+0x3a|19, 0, 0, 38
+0x2c|2, 26
+0x47|0, 41, 0, 0, 39
+0x4d|
+0x3b|2, 27
+0x3a|19, 0, 0, 39
+0x2c|2, 27
+0x47|0, 41, 0, 0, 40
+0x4d|
+0x3b|2, 28
+0x3a|19, 0, 0, 40
+0x2c|2, 28
+0x47|0, 41, 0, 0, 41
+0x4d|
+0x3b|2, 29
+0x3a|19, 0, 0, 41
+0x2c|2, 29
+0x47|0, 41, 0, 0, 42
+0x4d|
+0x3b|2, 30
+0x3a|19, 0, 0, 42
+0x2c|2, 30
+0x47|0, 41, 0, 0, 43
+0x4d|
+0x3b|2, 31
+0x3a|19, 0, 0, 43
+0x2c|2, 31
+0x47|0, 41, 0, 0, 44
+0x4d|
+0x3b|2, 32
+0x3a|19, 0, 0, 44
+0x2c|2, 32
+0x47|0, 41, 0, 0, 45
+0x4d|
+0x3b|2, 33
+0x3a|19, 0, 0, 45
+0x2c|2, 33
+0x47|0, 41, 0, 0, 46
+0x4d|
+0x3b|2, 34
+0x3a|19, 0, 0, 46
+0x2c|2, 34
+0x47|0, 41, 0, 0, 47
+0x4d|
+0x3b|2, 35
+0x3a|19, 0, 0, 47
+0x2c|2, 35
+0x47|0, 41, 0, 0, 48
+0x4d|
+0x3b|2, 36
+0x3a|19, 0, 0, 48
+0x2c|2, 36
+0x47|0, 41, 0, 0, 49
+0x4d|
+0x3b|2, 37
+0x3a|19, 0, 0, 49
+0x2c|2, 37
+0x47|0, 41, 0, 0, 50
+0x4d|
+0x3b|2, 38
+0x3a|19, 0, 0, 50
+0x2c|2, 38
+0x47|0, 41, 0, 0, 51
+0x4d|
+0x3b|2, 39
+0x3a|19, 0, 0, 51
+0x2c|2, 39
+0x47|0, 41, 0, 0, 52
+0x4d|
+0x3b|2, 40
+0x3a|19, 0, 0, 52
+0x2c|2, 40
+0x47|0, 41, 0, 0, 53
+0x4d|
+0x3b|2, 41
+0x3a|19, 0, 0, 53
+0x2c|2, 41
+0x47|0, 41, 0, 0, 54
+0x4d|
+0x3b|2, 42
+0x3a|19, 0, 0, 54
+0x2c|2, 42
+0x47|0, 41, 0, 0, 55
+0x4d|
+0x3b|2, 43
+0x3a|19, 0, 0, 55
+0x2c|2, 43
+0x3b|0, 0
+0x2c|0, 20
+0x2f|0, 19, 112, 59, 2, 44, 112, 48, 0, 0
+Music|0, 100, 0
+Show Background|0, 1, 112
+Show Background|0, 2, 112
+Show Background|0, 3, 112
+Show Background|0, 4, 112
+Show Background|0, 5, 112
+Show Background|0, 6, 112
+Show Background|0, 7, 112
+Show Background|0, 8, 112
+Show Background|0, 9, 112
+Show Background|0, 10, 112
+Show Background|0, 11, 112
+Show Background|0, 12, 112
+Show Background|0, 13, 112
+Show Background|0, 14, 112
+Show Background|0, 15, 112
+Show Background|0, 16, 112
+Show Background|0, 17, 112
+Show Background|0, 18, 112
+Show Background|0, 19, 112
+Show Background|0, 20, 112
+Show Background|0, 21, 112
+Show Background|0, 22, 112
+Show Background|0, 23, 112
+Show Background|0, 24, 112
+Show Background|0, 25, 112
+Show Background|0, 26, 112
+Show Background|0, 27, 112
+Show Background|0, 28, 112
+Show Background|0, 29, 112
+Show Background|0, 30, 112
+Show Background|0, 31, 112
+Show Background|0, 32, 112
+Show Background|0, 33, 112
+Show Background|0, 34, 112
+Show Background|0, 35, 112
+Show Background|0, 36, 112
+Show Background|0, 37, 112
+Show Background|0, 38, 112
+Show Background|0, 39, 112
+Show Background|0, 40, 112
+Show Background|0, 41, 112
+Show Background|0, 42, 112
+Show Background|0, 43, 112
+Show Background|0, 44, 112
+Show Background|0, 45, 112
+Show Background|0, 46, 112
+Show Background|0, 47, 112
+Show Background|0, 48, 112
+Show Background|0, 49, 112
+Show Background|0, 50, 112
+Show Background|0, 51, 112
+Show Background|0, 52, 112
+Show Background|0, 53, 112
+Show Background|0, 54, 112
+Show Background|0, 55, 112
+Show Background|255, 255, 112
+0x2c|2, 44
+0x3b|0, 1
+Stop Script|

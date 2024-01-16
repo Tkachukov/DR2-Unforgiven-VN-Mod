@@ -1,0 +1,223 @@
+OSL Script
+Set Game To DR2
+Text Count|19, 0
+0x2c|0, 20
+0x3a|9, 0, 0, 0
+Set Flag|0, 10, 1
+Set Flag|0, 11, 1
+Run Script|3, 0, 214, 0, 1
+Music|61, 100, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 0
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 244
+Change UI|20, 1
+0x3b|1, 245
+0x32|72
+0x32|73
+0x32|74
+0x32|75
+0x32|76
+0x32|255
+0x2c|1, 245
+0x3b|1, 246
+0x2c|1, 244
+Change UI|20, 1
+0x3b|1, 247
+0x32|72
+0x32|74
+0x32|75
+0x32|255
+0x2c|1, 247
+0x2c|1, 246
+0x46|21, 12, 0, 1
+0x4d|
+0x3b|1, 248
+Change UI|20, 1
+0x3b|1, 249
+0x32|72
+0x32|74
+0x32|75
+0x32|255
+0x2c|1, 249
+0x2c|1, 248
+Change UI|31, 1
+0x3b|1, 250
+Check Flag A|0, 0
+Change UI|1, 1
+Sprite|1, 1, 13, 0, 0
+Trial Camera|1, 0, 13, 0, 0, 0
+Text|It's impossible for Akane and I to have committed this\ncrime since we both had the Despair Disease.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|...Everyone already understands that, right?\n
+Wait Frame|
+Wait For Input|
+Text|To bring up that topic again after all this time...\nThere's definitely something wrong with you.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Looks like everyone thinks I'm suspicious because I said\nsomething wrong...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 3
+Change UI|1, 1
+Sprite|11, 11, 7, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Text|Why do you think that's suspicious?!\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 5, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Speaker|11
+Text|I have porcelain skin, you dummy!\n
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|I can sunbath only at dawn or at dusk\nwithout risking getting a sunburn!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Looks like everyone thinks I'm suspicious because I said\nsomething wrong...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 7
+Change UI|1, 1
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 13, 0, 0, 0
+Text|We were sleeping at our cottages, right?\n
+Wait Frame|
+Wait For Input|
+Text|But that's not an alibi since there's no one here to\nback it up, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Hey Hajime! Can't you do something about that!? I'm\ncounting on you to provide better cover fire!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Text|Looks like...I made a mistake. I need to think this over \none more time.<CLT 04><CLT>
+Wait Frame|
+Format|4
+Format|0
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|0, 10
+Change UI|1, 1
+Sprite|4, 4, 4, 0, 0
+Trial Camera|4, 0, 33, 0, 0, 0
+Text|I would like it if at least someone had it,\nbut no one here actually has an alibi!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|Don't toy with my hopes like that next time!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Looks like everyone thinks I'm suspicious because I said\nsomething wrong...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|39, 26
+0x3a|6, 0, 0, 50
+Voice Line|0, 99, 0, 6, 100
+Animation|0, 201, 0, 0, 0, 0, 0, 1
+Trial Camera|0, 2, 12, 0, 0, 0
+Change UI|31, 0
+0x3b|0, 0
+Check Flag A|78, 32
+Check Flag A|117, 48
+Check Flag A|156, 64
+Change UI|1, 1
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 251
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>The murders supposedly happened before and during the\nmorning announcement...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>The person who doesn't have an alibi for that time...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|1, 252
+0x2c|1, 251
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 34, 0, 1, 0
+Format|4
+Text|<CLT 04>The murders supposedly happened before and during the\nmorning announcement...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>The trial's proceeding as though nobody has an alibi,\nbut is that really okay?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x2c|1, 252
+Sprite|0, 0, 0, 0, 0
+Change UI|1, 0
+Check Flag A|195, 80
+Change UI|31, 2
+0x3b|0, 1
+Check Flag A|234, 96
+Change UI|31, 3
+0x3b|0, 2
+Check Flag A|255, 255
+0x2c|1, 250
+0x2c|0, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Script|3, 0, 215, 0, 0
+Stop Script|
+0x2c|0, 1
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|0, 2
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+Stop Script|

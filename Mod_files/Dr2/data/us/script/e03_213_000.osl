@@ -1,0 +1,559 @@
+OSL Script
+Set Game To DR2
+Text Count|71, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|26, 100, 0
+Change UI|1, 1
+Sprite|10, 12, 99, 0, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 1, 25, 0, 1, 0
+Voice Line|0, 3, 0, 52, 100
+SFX A|0, 21, 100
+Text|That's not it... The reason there was no blood on the\nfloor is because the killer wiped it away afterward.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 7, 0, 0
+Trial Camera|3, 0, 83, 0, 0, 0
+Voice Line|3, 3, 0, 40, 100
+Text|D-Don't say such foolish things...! You don't have proof\nof that at all...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 20, 0, 0, 0
+Voice Line|0, 3, 0, 53, 100
+SFX A|0, 19, 100
+Text|...Yes, I do.\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 2, 7, 0, 1, 0
+Animation|11, 248, 0, 0, 0, 0, 0, 1
+Voice Line|0, 3, 0, 54, 100
+Text|If you look closely...there's a streak on the floor\nwhere blood was wiped away.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 161, 0, 0, 0
+Voice Line|9, 3, 0, 25, 100
+Text|When the killer tried to hide Sonia's body, they\nprobably cleaned the blood at the same time but...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 118, 0, 1, 0
+Voice Line|9, 3, 0, 26, 100
+Text|Ibuki must've already stepped in it, and the killer\nprobably didn't even realize it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 248, 0, 0, 0, 0, 0, 255
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 17, 0, 0, 0
+Voice Line|7, 3, 0, 43, 100
+Text|The reason they wiped off the blood on the floor...was\nso we'd mix up the order of the murders, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 25, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Change UI|1, 1
+Speaker|7
+Text|Even if they're able to hide Sonia's body, it'd be bad\nif her blood was left out in the open.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|8
+Voice Line|8, 3, 0, 14, 100
+Text|Plus, Ibuki's body was left out in the open, and it\nwasn't bleedin' from any open wounds at all...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 25, 3
+0x37|0, 34, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|9
+Voice Line|9, 3, 0, 27, 100
+Text|The killer had probably left the knife lodged in Sonia's\nwound to block any further bleeding.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 34, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 38, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|13, 13, 13, 0, 0
+Text|Actually, the bleeding will stop once the heart stops\nbeating, so...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 12, 0, 0
+Trial Camera|4, 0, 113, 0, 0, 0
+Voice Line|4, 99, 0, 58, 100
+Text|Can you please stop making me imagine\nMiss Sonia's heart stopping it's beating?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 17, 0, 0, 0
+Text|Maybe...the heater was running inside the music venue so\nit would screw with Mikan's autopsy?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 12, 0, 0
+Trial Camera|13, 0, 19, 0, 0, 0
+Voice Line|13, 3, 0, 17, 100
+Text|Th-That's right! I didn't know the time of death because\nof the heater!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 56, 0, 0, 0
+Voice Line|0, 3, 0, 55, 100
+Text|If the time of death wasn't mentioned in the Monokuma\nFile, just to keep concrete evidence from us...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 0, 0, 0
+Trial Camera|9, 0, 21, 0, 0, 0
+Voice Line|9, 3, 0, 28, 100
+Text|...Yep, since we have all this evidence, there's no one\nelse who wants to object, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 1, 37, 0, 0, 0
+SFX A|0, 19, 100
+Voice Line|9, 3, 0, 29, 100
+Text|Then it's decided! Sonia was killed <CLT 03>before Ibuki<CLT>!\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 3, 0, 0
+Trial Camera|3, 0, 89, 0, 0, 0
+Voice Line|3, 3, 0, 41, 100
+Text|It appears that...it is wiser to retreat for now...\n
+Wait Frame|
+Wait For Input|
+Music|255, 90, 0
+Sprite|3, 3, 6, 0, 0
+Trial Camera|3, 1, 39, 0, 0, 0
+Voice Line|3, 3, 0, 42, 100
+SFX A|0, 21, 100
+Text|Fine then... But regardless of good or evil, there's no\ndeceit in upholding one's convictions.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|4, 4, 13, 0, 0
+Trial Camera|4, 0, 53, 0, 0, 0
+Voice Line|4, 3, 0, 19, 100
+Text|...Can't you just shut up and back off?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 41, 0, 0
+Trial Camera|7, 0, 17, 0, 0, 0
+Text|Can't you both concentrate on our job\nfirst?!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 1, 191, 0, 0, 0
+Voice Line|1, 3, 0, 47, 100
+SFX A|0, 19, 100
+Text|Ah, wait a sec. There's something I want to run by\nMonokuma first.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 18, 0, 0
+Trial Camera|8, 0, 182, 0, 0, 0
+Voice Line|8, 3, 0, 15, 100
+Text|Eh!? Again!? Didn't somethin' like this happen last\ntime, too!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 41, 0, 0, 0
+Voice Line|1, 3, 0, 48, 100
+Text|Hey, if the victim actually committed suicide, what are\nwe supposed to do?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 92, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Huh? Suicide?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 35, 0, 0
+Trial Camera|16, 2, 15, 0, 0, 0
+Voice Line|16, 3, 0, 7, 100
+Text|The same as always... You have to vote for who the\nkiller is...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 31, 0, 0
+Trial Camera|16, 2, 70, 0, 0, 0
+Voice Line|16, 3, 0, 8, 100
+Text|Think about it... A suicide means you've killed the most\nimportant existence of all: yourself.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|16, 2, 43, 0, 1, 0
+Voice Line|16, 3, 0, 9, 100
+Text|Unfortunately, that means there's no blackened to punish\nbut...I guess in a pinch I can always punish Monomi.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 27, 0, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+SFX A|0, 22, 100
+Voice Line|17, 3, 0, 7, 100
+Text|Why me!?\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 0, 0
+Trial Camera|4, 0, 53, 0, 0, 0
+Voice Line|4, 99, 0, 22, 100
+Text|What do you mean, "if the victim actually\ncommitted suicide"?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 52, 0, 0, 0
+Text|Well...I mean, I understand Sonia's death, but I'm\nwondering if Ibuki was really murdered.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 2, 167, 0, 0, 0
+Text|For example, it's possible Ibuki killed Sonia, and then\ncommitted suicide due to a guilty conscience, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 9, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|11, 99, 0, 57, 100
+Speaker|11
+Text|She had Gullible Disease, not Murder Disease!\nDon't you dare to libel Ibuki like that,\nyou murder-loving vermin!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 21, 0, 0, 0
+Text|I'm sorry, Hiyoko, but since when you are this\nconcerned about Ibuki's good name?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 15, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|11, 99, 0, 40, 100
+Speaker|11
+Text|Since she was murdered, you walking toadstool!\nDead friends need your protection more than living ones!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 14, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|11, 99, 0, 43, 100
+Speaker|11
+Text|Because... they can't speak for themselves\nanymore.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 203, 0, 0, 0
+Voice Line|9, 3, 0, 30, 100
+Text|But if Ibuki's the killer, she wouldn't have been able\nto falsify the sequence of the murders, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|9, 3, 0, 31, 100
+Text|After Hajime saw the hanged body, the sudden appearance\nof Sonia's body soon after means...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 116, 0, 0, 0
+Voice Line|9, 3, 0, 32, 100
+Text|...the killer had to be alive at that time.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 1, 3, 0, 0, 0
+SFX A|0, 19, 100
+Voice Line|1, 3, 0, 52, 100
+Text|Then she was alive!\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 3, 0, 0
+Trial Camera|13, 1, 39, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 18, 100
+SFX A|0, 22, 100
+Text|Haaaaaah!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 143, 0, 0, 0
+Voice Line|1, 3, 0, 53, 100
+Text|When Hajime first discovered Ibuki, she was just\npretending to be dead...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|1, 3, 0, 54, 100
+Text|If she waited until Hajime left, that's when she\ncould've made her move and messed with the crime scene.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 41, 4, 0
+Trial Camera|7, 1, 27, 0, 0, 0
+Voice Line|7, 3, 0, 45, 100
+SFX A|0, 18, 100
+Text|Sh-She hanged herself, remember!? There's no fucking way\nshe could've faked that!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 183, 0, 0, 0
+Voice Line|9, 3, 0, 33, 100
+Text|And, if she was going to fake her death, I think...she\nwouldn't have chosen hanging...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 119, 0, 1, 0
+Voice Line|9, 3, 0, 34, 100
+Text|Her body would've been defenseless in that state. If\nanyone touched her, that alone would've ruined her plan.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 14, 0, 0, 0
+Voice Line|1, 3, 0, 55, 100
+Text|Hmm, I see...so that means...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 1, 45, 0, 0, 0
+Voice Line|1, 3, 0, 56, 100
+SFX A|0, 19, 100
+Text|There's no doubt that someone killed those two. I'm\nglad. Now I'm free to search for the killer.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 4, 0
+Trial Camera|8, 1, 53, 0, 0, 0
+SFX A|0, 22, 100
+Voice Line|8, 3, 0, 16, 100
+Text|Wh-What the heck!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 119, 0, 0, 0
+Voice Line|1, 3, 0, 57, 100
+Text|Ah, there's still one more issue on my mind...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 138, 0, 1, 0
+Voice Line|1, 3, 0, 58, 100
+Text|If Ibuki didn't commit suicide, then just what was that\nvideo Hajime saw?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 16, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Music|9, 100, 0
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 69, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 69, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|1
+Voice Line|1, 3, 0, 59, 100
+Text|According to that video you saw...Ibuki was by herself\nwhen she climbed the stepladder, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|1, 3, 0, 60, 100
+Text|Then does that mean...someone forced her to do it?\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 69, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|11, 11, 7, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|11, 99, 0, 36, 100
+Text|Gullible Disease.\nThat asshole could have tricked her into doing anything.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 1, 39, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 33, 0, 0, 0
+Voice Line|13, 3, 0, 19, 100
+Text|U-Um...putting that aside... It seems obvious that the\nkiller did something...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|13, 0, 14, 0, 1, 0
+Voice Line|13, 3, 0, 20, 100
+Text|So...maybe we should figure out who was able to do\nwhatever that was...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 113, 0, 0, 0
+Text|So, an alibi...\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|4, 4, 8, 0, 0
+Trial Camera|4, 0, 53, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Then our plan is to find out who doesn't have it!\n
+Wait Frame|
+0x3a|6, 0, 0, 30
+Music|19, 100, 0
+Wait For Input|
+Trial Camera|4, 0, 113, 0, 0, 0
+Text|Since Hajime has seen the video, it is clear what time\nthe crime took place!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 67, 0, 0, 0
+Voice Line|9, 3, 0, 35, 100
+SFX A|0, 19, 100
+Text|Ah, but just to be sure... That surveillance camera\ndoesn't have a record function, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 135, 0, 0, 0
+Voice Line|4, 3, 0, 21, 100
+Text|It's a cheap-ass surveillance camera, you know? There's\nno way it'd have some kinda sweet recording feature.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 1, 0, 0
+Trial Camera|13, 0, 88, 0, 0, 0
+Voice Line|13, 3, 0, 21, 100
+Text|Then...the video Hajime saw was actually live?\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 0, 60, 0, 0, 0
+Voice Line|3, 3, 0, 43, 100
+Text|What time did Hajime see that video?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 91, 0, 0, 0
+Voice Line|0, 3, 0, 56, 100
+Text|I saw it at the hospital...<CLT 03>right before Monokuma's\nmorning announcement<CLT>.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 205, 0, 0, 0
+Voice Line|0, 3, 0, 57, 100
+Text|And I saw the body at the music venue <CLT 03>a little after\nMonokuma's announcement<CLT>.\n
+Format|3
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 112, 0, 0, 0
+Voice Line|1, 3, 0, 62, 100
+Text|Hm... So Ibuki hanged herself right before Monokuma's\nannouncement...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 88, 0, 1, 0
+Text|And since we established that Sonia was killed before\nIbuki...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 227, 0, 0, 0
+Voice Line|1, 3, 0, 64, 100
+SFX A|0, 19, 100
+Text|That means the time that the murders occurred was\n<CLT 03>before and during the announcement<CLT>!\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 8, 0, 0
+Trial Camera|13, 0, 67, 0, 0, 0
+Voice Line|13, 3, 0, 22, 100
+Text|Th-Then we just have to find the person who doesn't have\nan alibi during that time...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 18, 4, 0
+Trial Camera|4, 0, 53, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Miss Sonia, I am finally going to avenge you!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|10, 12, 99, 0, 0
+Script|3, 0, 214, 0, 0
+Stop Script|
+Stop Script|

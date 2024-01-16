@@ -1,0 +1,235 @@
+OSL Script
+Set Game To DR2
+Text Count|25, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+0x1|0, 74, 29, 1
+Change UI|6, 0
+Load Map|0, 74, 0, 0
+Change UI|9, 0
+Sprite|0, 11, 3, 0, 0
+Sprite|1, 3, 0, 0, 0
+0x46|19, 16, 0, 1
+0x4d|
+0x3b|1, 244
+0x23|22, 0, 0, 0, 0
+0x23|23, 0, 0, 0, 0
+0x2c|1, 244
+0x23|24, 0, 0, 0, 0
+Music|16, 100, 0
+Set Flag|12, 14, 1
+Load Map|0, 74, 1, 0
+Change UI|14, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|26, 8
+0x3a|5, 0, 0, 20
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 3, 2, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|3
+Voice Line|3, 99, 0, 36, 100
+Text|I'm surprised you were brave enough to accompany me\nin the exploration of this dungeon, Hiyoko.\n
+Wait Frame|
+Wait For Input|
+Speaker|3
+Text|Few mortals can stand my Aura of Darkness that is\nalways there when I am entering dungeons such as this one.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 29, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 47, 100
+Text|Wow, you're really dedicated to keeping up your act.\nI'm kinda impressed, honestly.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 13, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 16, 100
+Text|It's not an act, foolish mortal!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 15, 100
+Text|I already told you. There is no point in putting up\nan act before someone like me...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|...an Ultimate with a performance-based talent.\nAre you this afraid of showing your true self?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 7, 1, 1
+Speaker|3
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 8, 100
+Text|You're not going to like a "real, normal human"\nGundham Tanaka, as you are calling it.
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 41, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 21, 100
+Text|Why? Because he still hates me for killing his...\nonly friend?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 12, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 36, 100
+Text|Aren't we already over this?\nListen well, Hiyoko...
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 19, 100
+Text|I'm... listening.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 3, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 42, 100
+Text|Speaking as... a child who got punished a lot...\nfor things that couldn't be... entirely his fault...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|3
+Text|I really would like not to punish someone\nfor what wasn't largely their fault at the end of the day.\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Wait For Input|
+Sprite|1, 11, 38, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 43, 100
+Text|But it is my fault! I had murdered her!\nEven if it was indirect murder...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 17, 100
+Text| I had send Sonia out in the middle of the night\nbecause I didn't care about her safety.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|In fact, I had wished in that moment she had...\nwalked in on something and got herself killed.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|Just because... I had hated her.\nYes, when she had ACTUALLY died, I felt horrible and dirty.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 47, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 48, 100
+Text|But F-Fuyuhiko feels that way about Mahiru now!\nThat doesn't make him not a murderer! And so...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 2, 1, 2
+Speaker|3
+Voice Line|3, 99, 0, 38, 100
+Text|Sonia wouldn't have been mad at you for getting\nher killed. Believe me, she wouldn't have.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 27, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 51, 100
+Text|What about you? You see, I get now that Mahiru\nwouldn't want for Fuyuhiko to be killed to avenge her...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|...so I don't wish him dead anymore as well.\nBut she obviously wouldn't want for me to just...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 45, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 42, 100
+Text|...be a "friend" to him as if nothing had happened!\nRight?!\n
+Wait Frame|
+Wait For Input|
+Speaker|11
+Text|So, when you are trying to be a friend to me now...\ndon't you feel you're betraying Sonia?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 38, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 43, 100
+Text|Don't you feel like you are being a worthless\nparasite of a friend to her?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 7, 1, 1
+Speaker|3
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...!\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Speaker|0
+Format|4
+Text|<CLT 04>Even from the distance, I could see Gundham\nflinching away from Hiyoko at these words.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 9, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 18, 100
+Text|HA! Foolish mortal! You had just fell for the simplest\nPeasant Form illusion spell!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 36, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 48, 100
+Text|Wait! Gundham! I didn't meant it like that!\nPlease go back to your real self!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 3, 9, 1, 1
+Speaker|3
+Voice Line|3, 99, 0, 33, 100
+Text|You really thought I geniunely posess a mortal\nhuman body? I pity your feeblemindness, child!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 11, 39, 1, 1
+Speaker|11
+Voice Line|11, 99, 0, 45, 100
+Text|Gundham! I am so, so sorry!\nForgive me!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I had quitely exited the guest room until\neither of them could notice me.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|3, 0
+Set Flag|12, 15, 1
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 12
+SFX A|0, 207, 100
+Music|2, 100, 0
+Change UI|15, 2
+0x1c|
+Stop Script|
+Stop Script|

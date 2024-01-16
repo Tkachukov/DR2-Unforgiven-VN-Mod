@@ -1,0 +1,297 @@
+OSL Script
+Set Game To DR2
+Text Count|18, 0
+0x2c|0, 20
+0x3a|9, 0, 0, 0
+Run Script|3, 0, 220, 0, 1
+Music|27, 100, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 0
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 244
+Change UI|20, 1
+0x3b|1, 245
+0x32|63
+0x32|66
+0x32|67
+0x32|70
+0x32|72
+0x32|73
+0x32|74
+0x32|255
+0x2c|1, 245
+0x3b|1, 246
+0x2c|1, 244
+Change UI|20, 1
+0x3b|1, 247
+0x32|63
+0x32|70
+0x32|72
+0x32|73
+0x32|74
+0x32|255
+0x2c|1, 247
+0x2c|1, 246
+0x46|21, 12, 0, 1
+0x4d|
+0x3b|1, 248
+Change UI|20, 1
+0x3b|1, 249
+0x32|72
+0x32|74
+0x32|75
+0x32|255
+0x2c|1, 249
+0x2c|1, 248
+Change UI|75, 1
+0x3b|1, 250
+Check Flag A|0, 18
+Change UI|1, 1
+Sprite|11, 11, 7, 1, 0
+Trial Camera|11, 1, 192, 0, 0, 0
+Speaker|62
+Text|Do you think you can just bully me into accepting\nyour bullshit just because you're taller? Heh, WRONG!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>I won't be able to cut through Hiyoko's rebuttal with\nthis...! Think this over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|0, 22
+Change UI|1, 1
+Sprite|11, 11, 7, 1, 0
+Trial Camera|11, 1, 192, 0, 0, 0
+Speaker|62
+Text|The killer had screwed with her body so much already!\nWhy do you think they wouldn't have went full perv on it?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>It's true...her body was heavily tampered with.\nI should've seen that...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|0, 27
+Change UI|1, 1
+Sprite|11, 11, 7, 1, 0
+Trial Camera|11, 1, 192, 0, 0, 0
+Speaker|62
+Text|The killer must have searched though\nSonia's body to destroy any evidence!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|That's why you hadn't found\nany letter, dumbass!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>I won't be able to cut through Hiyoko's rebuttal with\nthis...! Think this over one more time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|39, 43
+0x3a|6, 0, 0, 50
+Voice Line|0, 99, 0, 25, 100
+Animation|0, 201, 0, 0, 0, 0, 0, 1
+Trial Camera|0, 2, 12, 0, 0, 0
+Change UI|75, 0
+0x3b|0, 0
+Check Flag A|117, 48
+Trial Camera|0, 2, 12, 0, 0, 0
+Change UI|75, 0
+0x3b|0, 0
+Check Flag A|156, 64
+Change UI|1, 1
+Sprite|0, 0, 18, 2, 0
+Trial Camera|0, 2, 214, 0, 0, 1
+Format|4
+Text|<CLT 04>No, what Hiyoko's saying is unreasonable... I need to\nfind an opening and counter her.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|156, 65
+Change UI|1, 1
+Sprite|0, 0, 18, 2, 0
+Trial Camera|0, 2, 214, 0, 0, 1
+Format|4
+Text|<CLT 04>She's more stubborn than I thought...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>But I can't back out... I need to counter her remarks\nand show her my decisive proof.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|156, 66
+Change UI|1, 1
+Sprite|0, 0, 1, 2, 0
+Trial Camera|0, 2, 214, 0, 0, 1
+Format|4
+Text|<CLT 04>So this is the final stretch of Hiyoko's argument...\nShe's finally revealed her ace in the hole.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>There's clearly a contradiction in what she just said! I\nneed to tell her!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|175, 200
+Change UI|1, 1
+Trial Camera|11, 1, 39, 0, 0, 0
+Sprite|0, 0, 3, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>I can't just listen to what she's saying! I also need to\nrespond...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|175, 201
+Change UI|1, 1
+Trial Camera|11, 1, 39, 0, 0, 0
+Sprite|0, 0, 3, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...I was overcome...! She's gonna go back to the\noriginal topic...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|175, 202
+Change UI|1, 1
+Trial Camera|11, 1, 39, 0, 0, 0
+Sprite|0, 0, 3, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 32, 100
+Format|4
+Text|<CLT 04>Dammit...I was overcome...! She's gonna go back to the\noriginal topic...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|179, 176
+Change UI|1, 1
+Trial Camera|11, 1, 39, 0, 0, 0
+Sprite|0, 0, 3, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 34, 100
+Format|4
+Text|<CLT 04>Just a little bit more and I can draw something\nout...next time!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|179, 177
+Change UI|1, 1
+Trial Camera|11, 1, 39, 0, 0, 0
+Sprite|0, 0, 3, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 34, 100
+Format|4
+Text|<CLT 04>Ugh...I let my guard down! She's gonna go back to the\noriginal topic...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|179, 178
+Change UI|1, 1
+Trial Camera|11, 1, 39, 0, 0, 0
+Sprite|0, 0, 3, 2, 0
+Trial Camera|0, 1, 45, 0, 0, 1
+Voice Line|0, 99, 0, 34, 100
+Format|4
+Text|<CLT 04>Ugh...I let my guard down! She's gonna go back to the\noriginal topic...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 2, 0
+Trial Camera|0, 1, 190, 0, 0, 1
+Change UI|1, 0
+Check Flag A|195, 80
+Change UI|75, 2
+0x3b|0, 1
+Check Flag A|234, 96
+Change UI|75, 3
+0x3b|0, 2
+Check Flag A|255, 255
+0x2c|1, 250
+0x2c|0, 0
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Script|3, 0, 221, 0, 0
+Stop Script|
+0x2c|0, 1
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|0, 2
+Animation|0, 201, 0, 0, 0, 0, 0, 255
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+Stop Script|

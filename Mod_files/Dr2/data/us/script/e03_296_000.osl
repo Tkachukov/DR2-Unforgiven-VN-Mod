@@ -1,0 +1,270 @@
+OSL Script
+Set Game To DR2
+Text Count|23, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Set Flag|16, 11, 1
+0x3a|12, 0, 0, 2
+Change UI|7, 1
+0x3a|0, 0, 0, 1
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x3a|15, 0, 0, 42
+0x3a|20, 0, 0, 200
+Set Flag|12, 32, 0
+Set Flag|13, 32, 0
+Set Flag|14, 32, 0
+Set Flag|15, 32, 0
+Set Flag|0, 19, 1
+Set Flag|0, 4, 1
+Set Flag|0, 5, 0
+Set Flag|0, 6, 1
+Set Flag|0, 7, 1
+Set Title|0, 0, 0
+Set Title|1, 0, 0
+Set Title|2, 0, 0
+Set Title|3, 0, 0
+Set Title|4, 0, 0
+Set Title|5, 0, 0
+Set Title|6, 0, 0
+Set Title|7, 0, 0
+Set Title|8, 0, 0
+Set Title|9, 0, 0
+Set Title|10, 0, 0
+Set Title|11, 0, 0
+Set Title|12, 0, 0
+Set Title|13, 0, 0
+Set Title|14, 0, 0
+Set Title|15, 0, 0
+Set Flag|17, 0, 0
+Set Flag|17, 1, 0
+Set Flag|17, 2, 1
+Set Flag|17, 3, 0
+Set Flag|17, 4, 0
+Set Flag|17, 5, 1
+Set Flag|17, 6, 0
+Set Flag|17, 7, 0
+Set Flag|17, 8, 0
+Set Flag|17, 9, 0
+Set Flag|17, 10, 1
+Set Flag|17, 11, 0
+Set Flag|17, 12, 1
+Set Flag|17, 13, 0
+Set Flag|17, 14, 1
+Set Flag|17, 15, 1
+0x12|0, 1
+0x12|1, 1
+0x12|2, 1
+0x12|3, 1
+0x12|4, 1
+0x12|5, 1
+0x12|6, 1
+0x12|7, 1
+0x12|8, 1
+0x12|9, 1
+0x12|10, 1
+0x12|11, 0
+0x12|12, 0
+0x12|13, 0
+0x12|14, 0
+0x12|15, 1
+Change UI|6, 0
+Change UI|9, 0
+Truth Bullet|255, 0
+Truth Bullet|60, 11
+Truth Bullet|61, 11
+Truth Bullet|62, 11
+Truth Bullet|63, 11
+Truth Bullet|64, 11
+Truth Bullet|65, 11
+Truth Bullet|66, 11
+Truth Bullet|67, 11
+Truth Bullet|68, 11
+Truth Bullet|69, 11
+Truth Bullet|70, 11
+Truth Bullet|71, 11
+Truth Bullet|72, 11
+Truth Bullet|73, 11
+Truth Bullet|74, 11
+Truth Bullet|75, 11
+Truth Bullet|76, 11
+Truth Bullet|77, 11
+Truth Bullet|78, 11
+Music|23, 100, 0
+Trial Camera|16, 2, 186, 0, 0, 0
+Change UI|8, 1
+0x3a|15, 0, 0, 41
+0x2c|0, 0
+Change UI|18, 0
+Change UI|18, 4
+0x3b|1, 244
+0x32|1
+Text|Argument 1-5\n
+Wait Frame|
+0x3b|0, 1
+0x32|2
+Text|Argument 5-8\n
+Wait Frame|
+0x3b|0, 2
+0x32|3
+Text|Spot Select 1-4\n
+Wait Frame|
+0x3b|0, 3
+0x32|4
+Text|Rebuttal 1-2 / Guess Person Area\n
+Wait Frame|
+0x3b|0, 4
+0x32|18
+0x32|19
+Change UI|1, 1
+Speaker|63
+Trial Camera|0, 0, 137, 0, 0, 0
+Format|6
+Text|<CLT 06>Please select where you would like to jump to.\n<CLT>
+Wait Frame|
+Format|0
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+Change UI|18, 4
+0x3b|1, 245
+0x32|1
+Text|Nonstop Debate 1 / Refute \n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 202, 0, 0
+Stop Script|
+0x32|2
+Text|Nonstop Debate 2 / Refute\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 204, 0, 0
+Stop Script|
+0x32|3
+Text|Nonstop Debate 3 / Consent\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 210, 0, 0
+Stop Script|
+0x32|4
+Text|Nonstop Debate 4 / Refute\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 214, 0, 0
+Stop Script|
+0x32|18
+0x32|19
+Change UI|1, 1
+Speaker|63
+Trial Camera|0, 0, 137, 0, 0, 0
+Format|6
+Text|<CLT 06>Which argument would you like to jump to?\n<CLT>
+Wait Frame|
+Format|0
+0x32|255
+0x2c|1, 245
+0x2c|0, 2
+Change UI|18, 0
+Change UI|18, 4
+0x3b|1, 246
+0x32|1
+Text|Nonstop Debate 5 / Consent\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 218, 0, 0
+Stop Script|
+0x32|2
+Text|Nonstop Debate 6 / Consent\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 230, 0, 0
+Stop Script|
+0x32|3
+Text|Nonstop Debate 7 / Consent\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 233, 0, 0
+Stop Script|
+0x32|4
+Text|Nonstop Debate 8 / Refute\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 235, 0, 0
+Stop Script|
+0x32|18
+0x32|19
+Change UI|1, 1
+Speaker|63
+Trial Camera|0, 0, 137, 0, 0, 0
+Format|6
+Text|<CLT 06>Which argument would you like to jump to?\n<CLT>
+Wait Frame|
+Format|0
+0x32|255
+0x2c|1, 246
+0x2c|0, 3
+Change UI|18, 0
+Change UI|18, 4
+0x3b|1, 247
+0x32|1
+Text|Spot Select 2\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 222, 0, 0
+Stop Script|
+0x32|2
+Text|Go back\n
+Wait Frame|
+0x3b|0, 0
+0x32|18
+0x32|19
+Change UI|1, 1
+Speaker|63
+Trial Camera|0, 0, 137, 0, 0, 0
+Format|6
+Text|<CLT 06>Which argument would you like to jump to?\n<CLT>
+Wait Frame|
+Format|0
+0x32|255
+0x2c|1, 247
+0x2c|0, 4
+Change UI|18, 0
+Change UI|18, 4
+0x3b|1, 248
+0x32|1
+Text|Rebuttal Showdown 1 (Gundham)\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 211, 0, 0
+Script|3, 0, 212, 0, 0
+Stop Script|
+0x32|2
+Text|Rebuttal Showdown 2 (Hiyoko)\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 219, 0, 0
+Script|3, 0, 220, 0, 0
+Stop Script|
+0x32|3
+Text|Guess person (Mikan) Area\n
+Wait Frame|
+Change UI|18, 0
+Script|3, 0, 232, 0, 0
+Stop Script|
+0x32|4
+Text|Go back\n
+Wait Frame|
+0x3b|0, 0
+0x32|18
+0x32|19
+Change UI|1, 1
+Speaker|63
+Trial Camera|0, 0, 137, 0, 0, 0
+Format|6
+Text|<CLT 06>Which rebuttal would you like to jump to?\n<CLT>
+Wait Frame|
+Format|0
+0x32|255
+0x2c|1, 248
+Stop Script|

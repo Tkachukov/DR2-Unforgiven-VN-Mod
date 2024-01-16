@@ -1,0 +1,71 @@
+OSL Script
+Set Game To DR2
+Text Count|0, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x3a|15, 0, 0, 39
+0x3a|20, 0, 1, 44
+Set Flag|15, 32, 0
+Set Flag|0, 19, 1
+Set Flag|0, 4, 1
+Set Flag|0, 5, 1
+Set Flag|0, 6, 0
+Set Flag|0, 7, 1
+Set Title|0, 0, 0
+Set Title|1, 0, 0
+Set Title|2, 0, 0
+Set Title|3, 0, 0
+Set Title|4, 0, 0
+Set Title|5, 0, 0
+Set Title|6, 0, 0
+Set Title|7, 0, 0
+Set Title|8, 0, 0
+Set Title|9, 0, 0
+Set Title|10, 0, 0
+Set Title|11, 0, 0
+Set Title|12, 0, 0
+Set Title|13, 0, 0
+Set Title|14, 0, 0
+Set Title|15, 0, 0
+Set Flag|0, 15, 0
+Set Flag|0, 16, 1
+Set Flag|17, 0, 0
+Set Flag|17, 1, 0
+Set Flag|17, 2, 1
+Set Flag|17, 3, 0
+Set Flag|17, 4, 0
+Set Flag|17, 5, 1
+Set Flag|17, 6, 0
+Set Flag|17, 7, 0
+Set Flag|17, 8, 0
+Set Flag|17, 9, 0
+Set Flag|17, 10, 1
+Set Flag|17, 11, 0
+Set Flag|17, 12, 1
+Set Flag|17, 13, 0
+Set Flag|17, 14, 1
+Set Flag|17, 15, 1
+0x1|1, 99, 0, 252
+0x1|1, 99, 0, 253
+0x1|1, 99, 0, 254
+Run Script|3, 3, 231, 0, 149
+0x1|0, 200, 1, 1
+0x1|0, 200, 3, 1
+0x1|0, 200, 4, 1
+0x1|0, 200, 5, 1
+0x1|0, 200, 6, 1
+0x1|0, 200, 7, 1
+0x1|0, 200, 8, 1
+0x1|0, 200, 9, 1
+0x1|0, 200, 10, 1
+0x1|0, 200, 13, 1
+Change UI|6, 1
+Screen Fade|1, 1, 24
+0x3a|8, 0, 0, 0
+Script|3, 1, 44, 0, 202
+Stop Script|
+Stop Script|

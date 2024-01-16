@@ -1,0 +1,134 @@
+OSL Script
+Set Game To DR2
+Text Count|22, 0
+Change UI|21, 1
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|4, 4, 8, 0, 0
+Text|Is there any evidence that this\nis really a game world!?\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 1
+Sprite|16, 16, 50, 0, 0
+Text|You are the evidence.\n
+Wait Frame|
+Check Flag A|0, 2
+Sprite|10, 10, 5, 0, 0
+Text|The hell does that mean?!\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|16, 16, 43, 0, 0
+Text|You're avatars made of memories\nfrom before you entered the school...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 4
+Sprite|16, 16, 44, 0, 0
+Text|But your actual bodies in\nthe real world are different!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 5
+Sprite|16, 16, 40, 0, 0
+Text|Though you <CLT 17>have no memories<CLT>\nof your time living your school life...\n
+Format|17
+Format|0
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 6
+Sprite|16, 16, 52, 0, 0
+Text|Your real bodies actually\n<CLT 69>lived that life<CLT>.\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 7
+Sprite|8, 8, 12, 0, 0
+Text|What game world...?\n
+Wait Frame|
+Check Flag A|0, 8
+Sprite|8, 8, 24, 0, 0
+Text|What avatar...?\n
+Wait Frame|
+Check Flag A|0, 9
+Sprite|8, 8, 10, 0, 0
+Text|I'm a <CLT 69>human being\nwith a real body<CLT>!\n
+Format|69
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 10
+Speaker|62
+Format|20
+Text|<CLT 20>I can't believe it...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 11
+Speaker|62
+Format|20
+Text|<CLT 20>We're...the evidence?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 12
+Speaker|62
+Format|20
+Text|<CLT 20>Our memories before we entered...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 13
+Speaker|62
+Format|20
+Text|<CLT 20>There's no way that's possible...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 14
+Speaker|62
+Format|20
+Text|<CLT 20>Is it...memory loss...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Speaker|62
+Format|20
+Text|<CLT 20>That's a lie!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Speaker|62
+Format|20
+Text|<CLT 20>There's another reality...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>Then she...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>Don't fuck with me!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>Even if you show me...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>You still can't believe it?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>You aren't flexible enough...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

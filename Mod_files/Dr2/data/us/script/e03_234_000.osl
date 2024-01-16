@@ -1,0 +1,765 @@
+OSL Script
+Set Game To DR2
+Text Count|103, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|56, 100, 0
+Change UI|1, 1
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 204, 0, 1, 0
+Voice Line|0, 3, 0, 146, 100
+Text|So that's what happened...! We've been falling for the\nkiller's lie this whole time...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+Filter|1, 1, 0, 0
+0x37|0, 141, 1
+Sprite|0, 1, 2, 8, 2
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 30
+Change UI|51, 1
+Speaker|1
+Change UI|1, 1
+Text|There's something I want to ask you...\n
+Wait Frame|
+Wait For Input|
+Text|There's no doubt Ibuki's cause of death was being hanged\nby this rope, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 1, 0, 4, 2
+Sprite|1, 13, 1, 1, 2
+Text|Y-Yes...she had no other external injuries, so there's\nno doubt she died from hanging herself.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 13, 1, 4, 2
+Sprite|0, 1, 2, 1, 2
+Text|I see...I see...so Ibuki died by hanging herself.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Sprite|0, 1, 2, 3, 2
+0x37|0, 141, 3
+Filter|1, 0, 0, 0
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 197, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 21, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|0, 3, 0, 147, 100
+Text|You said Ibuki <CLT 03>hanged herself<CLT>, but that was a complete\nlie, wasn't it Mikan?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 7, 0, 0
+Trial Camera|13, 0, 67, 0, 0, 0
+Voice Line|13, 3, 0, 62, 100
+Text|Th-That is...well...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 4, 4, 0
+Trial Camera|0, 1, 53, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|0, 3, 0, 148, 100
+SFX A|0, 26, 100
+Text|You told us the wrong cause of death! You lied, didn't\nyou!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 21, 4, 0
+Trial Camera|13, 1, 59, 0, 0, 0
+Voice Line|13, 3, 0, 63, 100
+SFX A|0, 22, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|Hah-haaaaaaaaaaaah...!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 220, 0, 0, 0
+Voice Line|1, 3, 0, 139, 100
+Text|You should've been able to tell the difference between\nhanging and strangling, just by looking.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 183, 0, 1, 0
+Voice Line|1, 3, 0, 140, 100
+Text|You, Mikan, the <CLT 03>Ultimate Nurse<CLT>...\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 7, 0, 0
+Trial Camera|13, 0, 133, 0, 0, 0
+Voice Line|13, 3, 0, 64, 100
+Text|Eeee...Please wait.\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 0, 218, 0, 0, 0
+Voice Line|13, 3, 0, 65, 100
+Text|F-First of all...I'm not a coroner...so I don't have the\nmedical knowledge to identify injuries like that...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|13, 13, 20, 4, 0
+Trial Camera|13, 1, 43, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 66, 100
+SFX A|0, 18, 100
+Text|That's why...it's not my fault if I made a mistake!\n
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 92, 0, 0, 0
+Voice Line|1, 3, 0, 141, 100
+Text|But even a drunk medical student can notice the\ndifference between a hanging and strangulation.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 141, 0, 0, 0
+Voice Line|7, 3, 0, 67, 100
+Text|I'm not taking her side or anything...but being clumsy\nand unskilled in this area could lead to a mistake...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 67, 0, 0, 0
+Voice Line|13, 3, 0, 67, 100
+Text|H-He's totally right...! Hehe...I'm such a clumsy mess\nand I got sooooo careless...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 0, 0
+Trial Camera|8, 0, 166, 0, 0, 0
+Voice Line|8, 3, 0, 66, 100
+Text|Mikan nursed me till I got better... There's no way I'm\ngonna doubt her...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 7, 0, 0
+Trial Camera|1, 2, 175, 0, 0, 0
+Voice Line|1, 3, 0, 142, 100
+Text|Don't you think her devotion to nursing is what helped\nher draw Ibuki to her death?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 166, 0, 0, 0
+Voice Line|8, 3, 0, 67, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 134, 0, 0, 0
+Voice Line|1, 3, 0, 143, 100
+Text|And if not... Her symptoms were still very serious, and\ncaused her to believe what anybody told her...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 18, 0, 1, 0
+Voice Line|1, 3, 0, 144, 100
+Text|It wouldn't surprise me if she willingly followed Mikan\n*because* she was nursing her.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 3, 4, 0
+Trial Camera|8, 0, 220, 0, 0, 0
+Voice Line|8, 3, 0, 68, 100
+Text|S-So Mikan volunteered to nurse us...'cause she was\nplannin' to do this all along?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 77, 0, 0, 0
+Voice Line|7, 3, 0, 68, 100
+Text|That's a little... Aren't you like the thief who\nsuspects everyone else of being thieves?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 15, 0, 0
+Trial Camera|1, 0, 139, 0, 0, 0
+Voice Line|1, 3, 0, 145, 100
+Text|I'm not a criminal, Mikan is! I mean...she's a killer,\nyou know?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 6, 0, 0
+Trial Camera|13, 0, 83, 0, 0, 0
+Voice Line|13, 3, 0, 68, 100
+SFX A|0, 23, 100
+Text|You've got it all wrong! Please forgive me!\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Sprite|1, 1, 10, 0, 0
+Trial Camera|1, 1, 1, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|1, 3, 0, 146, 100
+SFX A|0, 19, 100
+Text|I'm sorry, but there's no way I can forgive you.\n
+Wait Frame|
+Wait For Input|
+Music|10, 100, 0
+Trial Camera|1, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|1, 3, 0, 147, 100
+SFX A|0, 21, 100
+Text|I just can't forgive this crime at all.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 1, 39, 0, 0, 0
+SFX A|0, 19, 100
+0x2e|1, 30, 0, 100, 0
+Format|4
+Text|<CLT 04>...!?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 42, 0, 0
+Trial Camera|7, 0, 21, 0, 0, 0
+Text|Forgiveness or not...we still have not decided if\nMikan is the killer...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 16, 0, 0
+Trial Camera|1, 0, 179, 0, 0, 0
+Voice Line|1, 3, 0, 148, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 2, 7, 0, 0, 0
+Voice Line|1, 3, 0, 149, 100
+Text|Hmm, I see... You guys are kind...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 34, 0, 0, 0
+Voice Line|1, 3, 0, 150, 100
+Text|Well, if that's the choice everyone makes, then the only\nthing I can do is back off, I guess...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 214, 0, 1, 0
+Voice Line|1, 3, 0, 151, 100
+Text|But is that really okay? Is that everyone's <CLT 03>hope<CLT>?\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 4, 4, 0
+Trial Camera|8, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|8, 3, 0, 69, 100
+SFX A|0, 18, 100
+Text|You're friggin' annoyin'! If you keep talkin', I'm\nseriously gonna beat you up!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 2, 158, 0, 0, 0
+Voice Line|13, 3, 0, 69, 100
+Text|B-But...I'm really...really not the killer...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 20, 0, 0, 0
+Voice Line|0, 3, 0, 149, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 6, 0, 0
+Trial Camera|13, 0, 131, 0, 0, 0
+Voice Line|13, 3, 0, 70, 100
+Text|Th-There's no way—*hic!*—I'm capable of killing\nsomeone...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 87, 0, 0, 0
+Voice Line|0, 3, 0, 150, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Sprite|0, 0, 18, 4, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|0, 3, 0, 151, 100
+SFX A|0, 21, 100
+Text|...Is that really true?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 14, 4, 0
+Trial Camera|13, 1, 53, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 71, 100
+SFX A|0, 22, 100
+Text|Eeeeeee!?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 4, 4, 0
+Trial Camera|8, 1, 25, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|8, 3, 0, 70, 100
+SFX A|0, 18, 100
+Text|S-Stop it already! That's enough!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 6, 0, 0
+Trial Camera|0, 1, 39, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|0, 3, 0, 152, 100
+SFX A|0, 18, 100
+Text|...I can't stop!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 0, 0
+Trial Camera|8, 1, 45, 0, 0, 0
+0x2e|1, 30, 0, 100, 0
+Voice Line|8, 3, 0, 71, 100
+SFX A|0, 20, 100
+Text|...!\n
+Wait Frame|
+Wait For Input|
+Music|16, 100, 180
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 0, 118, 0, 0, 0
+Voice Line|0, 3, 0, 153, 100
+Text|I...don't want to do this either...! Of course I don't\nwant to do this...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 95, 0, 1, 0
+Voice Line|0, 3, 0, 154, 100
+Text|But...I *need* to do this...!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 0, 0
+Trial Camera|8, 0, 115, 0, 0, 0
+Voice Line|8, 3, 0, 72, 100
+Text|Y-You doubt your friends...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 6, 4, 0
+Trial Camera|0, 1, 59, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|0, 3, 0, 155, 100
+SFX A|0, 18, 100
+Text|That's not it! I suspect them because I want to believe\nthem!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 24, 0, 0
+Trial Camera|8, 0, 58, 0, 0, 0
+Voice Line|8, 3, 0, 73, 100
+Text|Wh-What the hell does that mean...!?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 34, 0, 0, 0
+Voice Line|9, 3, 0, 80, 100
+SFX A|0, 19, 100
+Text|Um...I don't think <CLT 03>belief<CLT> and <CLT 03>doubt<CLT> are necessarily\nopposites.\n
+Format|3
+Format|0
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|8, 8, 16, 0, 0
+Trial Camera|8, 0, 142, 0, 0, 0
+Voice Line|8, 3, 0, 74, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Music|18, 100, 90
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 2, 10, 0, 0, 0
+Voice Line|9, 3, 0, 81, 100
+Text|I do doubt her...but I still want to believe her. Belief\nlies at the heart of that conflict.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 34, 0, 1, 0
+Voice Line|9, 3, 0, 82, 100
+Text|Cuz...if there's no room for doubt, then there's no\nreason to believe, is there?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 12, 0, 0
+Trial Camera|8, 0, 160, 0, 0, 0
+Voice Line|8, 3, 0, 75, 100
+Text|D-Don't say deep stuff... I...don't really get it...\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 0, 41, 0, 0, 0
+Voice Line|9, 3, 0, 83, 100
+Text|If you want to believe in someone...you need to overcome\n<CLT 03>doubt<CLT> first.\n
+Wait Frame|
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 17, 0, 1, 0
+Voice Line|9, 3, 0, 84, 100
+Format|3
+Text|<CLT 03>Belief<CLT> without <CLT 03>doubt<CLT>...is simply a lie.\n
+Format|0
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 12, 0, 0
+Trial Camera|8, 0, 61, 0, 0, 0
+Voice Line|8, 3, 0, 76, 100
+Text|...Tch.\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 11, 0, 0
+Trial Camera|8, 0, 161, 0, 0, 0
+Voice Line|8, 3, 0, 77, 100
+Text|Fine...do whatever you want. I won't stop you anymore.\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 0, 220, 0, 0, 0
+Voice Line|13, 3, 0, 72, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Sprite|13, 13, 15, 0, 0
+Trial Camera|13, 1, 21, 0, 0, 0
+Voice Line|13, 3, 0, 73, 100
+SFX A|0, 19, 100
+Text|...Huh? Is that all you can say?\n
+Wait Frame|
+Wait For Input|
+Music|9, 100, 0
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 0, 218, 0, 1, 0
+Voice Line|13, 3, 0, 74, 100
+Text|Ah, so in the end...you're all just a bunch of bullies,\nhuh?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|13, 0, 206, 0, 1, 0
+Voice Line|13, 3, 0, 75, 100
+Text|Justifying your actions with fancy words... M-Making\nexcuses for why it's not really your fault...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 6, 0, 0
+Trial Camera|13, 0, 83, 0, 0, 0
+Voice Line|13, 3, 0, 76, 100
+SFX A|0, 23, 100
+Text|E-Everyone always treats me like that... Always...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|13, 0, 169, 0, 1, 0
+Voice Line|13, 3, 0, 77, 100
+Text|*Hic!* "It's all her fault..." "Sh-She's the one with\nthe problem..."\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 4, 0
+Trial Camera|13, 1, 25, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 78, 100
+SFX A|0, 18, 100
+Text|I...I'm done with that! You hear me!? I'm doooooooooone!\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 19, 0, 0, 0
+Voice Line|7, 3, 0, 69, 100
+Text|H-Hey...Mikan...?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 16, 0, 0
+Trial Camera|13, 0, 34, 0, 0, 0
+Voice Line|13, 3, 0, 79, 100
+Text|It's not fair...It's not fair not fair not fair notfair\nnotfair notfair notfairnotfairnotfairnotfairnotfair...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|13, 0, 13, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 80, 100
+SFX A|0, 21, 100
+Text|Why won't you forgive me!? If you did something\nwrong...you'd forgive yourself right away...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 4, 0
+Trial Camera|13, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 81, 100
+SFX A|0, 18, 100
+Text|What did I do!? Why won't anybody forgive me!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 61, 0, 0, 0
+Voice Line|1, 3, 0, 152, 100
+Text|...Is acting like this your strategy now? Well, this is\nannoying.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 2, 7, 0, 0, 0
+Voice Line|1, 3, 0, 153, 100
+Text|Plus...to be honest, I've run out of ideas. How can we\nget you to admit it...? That's the issue.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 0, 143, 0, 0, 0
+Voice Line|9, 3, 0, 85, 100
+Text|If we don't have any clues... Why don't we have her give\nus some?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 241, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 0, 150, 0, 0, 0
+Voice Line|9, 3, 0, 86, 100
+Text|I'm...the same as Hajime. I don't want to doubt any of\nmy friends...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 2, 6, 0, 1, 0
+Voice Line|9, 3, 0, 87, 100
+Text|But still...the truth is one of us murdered two of our\nfriends...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 1, 45, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|9, 3, 0, 88, 100
+SFX A|0, 26, 100
+Text|That's why...we gotta stick with this until the very\nend. So we can finally break these chains of despair.\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Music|25, 100, 0
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 113, 0, 0, 0
+Format|4
+Text|<CLT 04>Ch-Chiaki...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 0, 0, 0
+Trial Camera|9, 0, 93, 0, 0, 0
+Voice Line|9, 3, 0, 89, 100
+Text|Hey Mikan... Can I ask you one last thing?\n
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 41, 0, 1, 0
+Voice Line|9, 3, 0, 90, 100
+Text|If you're not the killer, then who fabricated that video\nHajime watched?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 6, 0, 0
+Trial Camera|13, 0, 67, 0, 0, 0
+Voice Line|13, 3, 0, 82, 100
+Text|L-Like I said, it obviously wasn't me!\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 1, 3, 0, 0, 0
+Voice Line|9, 3, 0, 91, 100
+SFX A|0, 19, 100
+Text|...Can you prove it?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 7, 0, 0
+Trial Camera|13, 0, 228, 0, 0, 0
+Voice Line|13, 3, 0, 83, 100
+Text|P-Prove it...?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 16, 4, 0
+Trial Camera|13, 1, 47, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 84, 100
+SFX A|0, 21, 100
+Text|Wait... Do you have any proof that *I'm* the one who\nfabricated that video?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 20, 4, 0
+Trial Camera|13, 1, 55, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 85, 100
+SFX A|0, 18, 100
+Text|Waaaaaaaaah! That's right! Show me your proof!\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 9, 0, 0
+Trial Camera|13, 0, 38, 0, 0, 0
+Voice Line|13, 3, 0, 86, 100
+Text|B-B-B-B-Because...you're just assuming the video was\nfilmed at the conference room...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 4, 0, 0
+Trial Camera|13, 0, 143, 0, 0, 0
+Voice Line|13, 3, 0, 87, 100
+Text|T-Treating me like a killer b-based on an assumption...\nJ-Just because I was at the hospital...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 20, 4, 0
+Trial Camera|13, 1, 61, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 88, 100
+SFX A|0, 18, 100
+Text|Th-That's totally crazy...! I didn't do anything\nwrong...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 4, 0
+Trial Camera|13, 1, 43, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 89, 100
+SFX A|0, 21, 100
+Text|Why does everybody always hate me!? Please, just forgive\nme already!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 147, 0, 0, 0
+Voice Line|7, 3, 0, 70, 100
+Text|I-Is this broad really okay...!? She's emotionally\nunstable...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 4, 0
+Trial Camera|13, 0, 231, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 90, 100
+SFX A|0, 21, 100
+Text|I-I-I-I'm not the killer! That video...I never filmed\nth-th-th-th-that video!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 0, 41, 0, 0, 0
+Voice Line|9, 3, 0, 92, 100
+Text|Hm... It seems she finally started arguing for us.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 117, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 1, 59, 0, 0, 0
+Voice Line|9, 3, 0, 93, 100
+Text|But the only one who can find the hole in her\nargument...is you, Hajime.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|9, 0, 73, 0, 1, 0
+Voice Line|9, 3, 0, 94, 100
+Text|So...I'm going to leave this to you once again.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 34, 0, 0, 0
+Format|4
+Text|<CLT 04>Could it be...was this Chiaki's goal all along?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 1, 238, 0, 1, 0
+Voice Line|0, 3, 0, 156, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>She's saying everyone's fate depends on me, the only\nperson who saw that video...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 16, 0, 0
+Trial Camera|13, 2, 153, 0, 0, 0
+Voice Line|13, 3, 0, 91, 100
+Text|Why do you get to decide I'm the killer? Where's your\nproof!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 20, 4, 0
+Trial Camera|13, 1, 45, 0, 0, 0
+Voice Line|13, 3, 0, 92, 100
+SFX A|0, 18, 100
+0x2e|1, 20, 0, 100, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Text|Please forgive me alreaaaady!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 16, 0, 0
+Trial Camera|0, 0, 90, 0, 0, 0
+Format|4
+Text|<CLT 04>I need to...make up my mind.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 11, 0, 0
+Trial Camera|0, 0, 119, 0, 1, 0
+Format|4
+Text|<CLT 04>I'm the one who has to do it...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 0, 226, 0, 1, 0
+Format|4
+Text|<CLT 04>I'm the one who's going to finish this...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Script|3, 0, 235, 0, 0
+Stop Script|
+Stop Script|

@@ -1,0 +1,124 @@
+OSL Script
+Set Game To DR2
+Text Count|13, 0
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+0x1|0, 43, 29, 1
+Change UI|6, 0
+Load Map|0, 43, 0, 0
+Change UI|9, 0
+Change UI|14, 1
+Load Map|0, 42, 1, 0
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+Set Flag|14, 9, 1
+Music|255, 90, 0
+Change UI|2, 0
+Change UI|1, 1
+SFX A|1, 37, 100
+Speaker|63
+Format|6
+Text|<CLT 06>*Bzzzzzzzzzzzzzzz!*<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|16
+Voice Line|16, 99, 1, 246, 100
+Text|Um...I apologize for keeping you waiting.\n
+Wait Frame|
+Wait For Input|
+Text|World famous director Monokuma presents a stunning\nmasterpiece that reduced American audiences to tears...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|"<CLT 03>The Wizard of Monomi 2.5D<CLT>" will be screening shortly.\n
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>From the title alone...I have a bad feeling about\nthis... "2.5D"...that sounds so half-assed...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|16
+Voice Line|16, 99, 1, 247, 100
+Text|Now then, please relax and enjoy the film.\n
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 128
+Run Script|8, 0, 100, 0, 17
+Change UI|6, 0
+Change UI|3, 1
+Change UI|9, 1
+Screen Fade|0, 1, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 9, 6, 2
+Music|12, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 42, 100
+Text|Man, movies are the best! That drama was so moving that\nI needed *two* boxes of tissues! One for each head!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 16, 0, 1, 2
+Voice Line|16, 99, 1, 164, 100
+Text|Now then, let's meet again at the class trial!\n
+Wait Frame|
+Wait For Input|
+Voice Line|16, 99, 1, 225, 100
+Text|Goodbye, bye, bye!\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|0, 16, 3, 7, 2
+0x3a|6, 0, 0, 30
+Music|4, 100, 0
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I'm too disgusted to even let out a sigh right now...\nThat's all I can say to describe this situation...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Screen Fade|1, 1, 24
+SFX A|0, 209, 100
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+Script|3, 0, 100, 0, 42
+Stop Script|
+Stop Script|

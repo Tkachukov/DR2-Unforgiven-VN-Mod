@@ -1,0 +1,330 @@
+OSL Script
+Set Game To DR2
+Text Count|41, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|56, 100, 0
+Change UI|1, 1
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 204, 0, 1, 0
+Voice Line|0, 3, 0, 157, 100
+Text|Mikan...you have committed a major mistake...\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 3, 0, 0
+Trial Camera|13, 1, 23, 0, 0, 0
+Voice Line|13, 3, 0, 105, 100
+SFX A|0, 19, 100
+Text|M-Mistake...?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 89, 0, 0, 0
+Voice Line|0, 3, 0, 158, 100
+Text|As I said before many times...I'm the only one who saw\nthat video.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 38, 0, 0, 0
+Voice Line|13, 3, 0, 106, 100
+Text|Wh-What's wrong with that?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 229, 0, 0, 0
+Voice Line|0, 3, 0, 159, 100
+Text|But I...never said anything about the camera angle.\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 3, 4, 0
+Trial Camera|13, 1, 53, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 107, 100
+SFX A|0, 20, 100
+Text|...Aaaah!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 160, 0, 0, 0
+Voice Line|0, 3, 0, 160, 100
+Text|So, how can you...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 4, 4, 0
+Trial Camera|0, 1, 37, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 0, 128, 30, 0
+Voice Line|0, 3, 0, 161, 100
+SFX A|0, 26, 100
+Text|...say anything about the <CLT 03>camera angle<CLT> as if you saw\nthat video yourself!?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 14, 4, 0
+Trial Camera|13, 1, 63, 0, 0, 0
+Voice Line|13, 3, 0, 108, 100
+SFX A|0, 22, 100
+Text|Heeeeeeeeeeee...!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 2, 11, 0, 0, 0
+Voice Line|1, 3, 0, 156, 100
+Text|The only reason Mikan knew the camera angle Hajime had\nseen...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 108, 0, 1, 0
+Voice Line|1, 3, 0, 157, 100
+Text|...is because you're the person who actually filmed that\nvideo... Is that right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 20, 0, 0
+Trial Camera|9, 0, 38, 0, 0, 0
+Voice Line|9, 3, 0, 97, 100
+Text|This is your just reward. The more desperately you\nargue, the deeper you dig yourself into a hole...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|9, 3, 0, 98, 100
+SFX A|0, 21, 100
+Text|...You lied, didn't you?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 14, 0, 0
+Trial Camera|13, 1, 63, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 109, 100
+SFX A|0, 22, 100
+Text|...Guhhhhhhhh!\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 8, 0, 0
+Trial Camera|8, 0, 21, 0, 0, 0
+Voice Line|8, 3, 0, 78, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|8, 3, 0, 79, 100
+Text|Are...you serious...?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 16, 4, 0
+Trial Camera|8, 0, 228, 0, 0, 0
+Text|Is it true, Mikan!? Did you...did you kill Sonia and\nIbuki!?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 17, 0, 0
+Trial Camera|13, 0, 218, 0, 0, 0
+Voice Line|13, 3, 0, 110, 100
+Text|Ahhhhh! F-Forgive meeeeeeeeeeeeee...\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 1, 43, 0, 0, 0
+Voice Line|13, 3, 0, 111, 100
+SFX A|0, 19, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Trial Camera|13, 0, 131, 0, 0, 0
+Voice Line|13, 3, 0, 112, 100
+Text|Huh huh huh huh huh huh huh huh huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 11, 0, 0
+Trial Camera|13, 0, 83, 0, 0, 0
+Voice Line|13, 3, 0, 113, 100
+SFX A|0, 19, 100
+Text|Ah! I was wrong! Wrong! No no, that's not it at all!\n
+Wait Frame|
+Wait For Input|
+Music|10, 100, 120
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 41, 0, 0, 0
+Voice Line|3, 3, 0, 69, 100
+Text|That's not it...?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 0, 224, 0, 0, 0
+Voice Line|13, 3, 0, 114, 100
+Text|I mean, it's impoooooooossible!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 21, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>I-Impossible...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 15, 0, 0
+Trial Camera|13, 0, 41, 0, 0, 0
+Voice Line|13, 3, 0, 115, 100
+Text|You know that hemp bag Ibuki was wearing when she\ndied...? Try remembering the tote bag instead.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 2, 151, 0, 0, 0
+Voice Line|13, 3, 0, 116, 100
+Text|Diiiiiiiiing, I totally remember now.\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 5, 0, 0
+Trial Camera|4, 0, 146, 0, 0, 0
+Voice Line|4, 3, 0, 52, 100
+Text|Wh-What the heck's wrong with her...? She's getting\nweirder by the minute.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 13, 4, 0
+Trial Camera|11, 0, 228, 0, 0, 0
+Voice Line|11, 99, 0, 46, 100
+Speaker|11
+Text|P-piggy? ...Are you on drugs or something?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 15, 0, 0
+Trial Camera|13, 0, 206, 0, 0, 0
+Voice Line|13, 3, 0, 117, 100
+Text|That tote bag... Isn't it the same one that girl was\nwearing in the video?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 33, 4, 0
+Trial Camera|7, 1, 25, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|7, 3, 0, 72, 100
+SFX A|0, 18, 100
+Text|How do you know so much about that video!?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 5, 0, 0
+Trial Camera|13, 0, 64, 0, 0, 0
+Voice Line|13, 3, 0, 118, 100
+SFX A|0, 25, 100
+Text|Tee hee hee! Who cares about that!?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 18, 0, 0
+Trial Camera|13, 0, 221, 0, 0, 0
+Voice Line|13, 3, 0, 119, 100
+Text|More importantly, did you know that bag is a limited\nitem that was sold at the movie theater?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 69, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 69, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|13
+Voice Line|13, 3, 0, 120, 100
+Text|Hajime saw it too, didn't you? You remember the Usami\ndecal on it, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 250, 0, 0, 0, 0, 1, 1
+Voice Line|13, 3, 0, 121, 100
+SFX A|0, 19, 100
+Text|Whoopsie, don't worry about it. I remember it even if\nyou don't.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|13, 3, 0, 122, 100
+Text|Tadaaaaaaaa! There's no mistake that that tote bag is a\nlimited item!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 250, 0, 0, 0, 0, 1, 2
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 69, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|13, 13, 15, 0, 0
+Trial Camera|13, 0, 3, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|13, 13, 15, 0, 0
+Voice Line|13, 3, 0, 123, 100
+SFX A|0, 19, 100
+Text|So don't you think it's impossible?\n
+Wait Frame|
+Wait For Input|
+Trial Camera|13, 2, 6, 0, 1, 0
+Voice Line|13, 3, 0, 124, 100
+Text|Using one tote bag in both the conference room and the\nmusic venue at the same time...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|13, 13, 16, 4, 0
+Trial Camera|13, 1, 41, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 125, 100
+SFX A|0, 21, 100
+Text|It's blatantly obvious that that's impossible, don't you\nthink!?\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 30
+Music|9, 100, 0
+Wait For Input|
+Sprite|13, 13, 11, 0, 0
+Trial Camera|13, 2, 181, 0, 0, 0
+Voice Line|13, 3, 0, 126, 100
+SFX A|0, 25, 100
+Text|That's why that video isn't fabricated and I'm not the\nkiller.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 19, 4, 0
+Trial Camera|13, 1, 25, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|13, 3, 0, 127, 100
+SFX A|0, 18, 100
+Text|So you'll forgive me, right!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 16, 0, 0
+Trial Camera|1, 0, 38, 0, 0, 0
+Voice Line|1, 3, 0, 158, 100
+Text|Taking your stubbornness this far... Such despair.\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 16, 0, 0
+Trial Camera|13, 0, 231, 0, 0, 0
+Voice Line|13, 3, 0, 128, 100
+SFX A|0, 21, 100
+Text|Then you're gonna forgive me? I won't stop until you\nforgive me!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Script|3, 0, 237, 0, 0
+Stop Script|
+Stop Script|

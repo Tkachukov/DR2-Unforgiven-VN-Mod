@@ -1,0 +1,392 @@
+OSL Script
+Set Game To DR2
+Text Count|53, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|26, 100, 0
+Change UI|1, 1
+Sprite|10, 12, 99, 0, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 1, 37, 0, 1, 0
+Voice Line|0, 3, 0, 23, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 26, 100
+Text|I'm not the killer! I mean, there's no way I'd be able\nto imitate that movie...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|1, 1, 9, 0, 0
+Trial Camera|1, 2, 234, 0, 0, 0
+Voice Line|1, 3, 0, 18, 100
+SFX A|0, 19, 100
+Text|...Of course you're not. I already knew that.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 239, 0, 0, 0
+Voice Line|0, 3, 0, 24, 100
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 116, 0, 0, 0
+Voice Line|1, 3, 0, 19, 100
+Text|Before the incident, Hajime had never watched that\nmovie... His invitation ticket is proof of that.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 2, 166, 0, 1, 0
+Animation|11, 247, 0, 0, 0, 0, 0, 1
+Voice Line|1, 3, 0, 20, 100
+Text|Each person only received one ticket, and they're marked\nwith a stamp that shows the date and time...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 247, 0, 0, 0, 0, 0, 2
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 140, 0, 0, 0
+Voice Line|1, 3, 0, 21, 100
+Text|...Isn't that right, Monokuma?\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 31, 0, 0
+Trial Camera|16, 2, 15, 0, 0, 0
+Voice Line|16, 3, 0, 2, 100
+Text|Yes, no mistakes there.\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 200, 0, 0, 0
+Voice Line|1, 3, 0, 22, 100
+Text|Which means there's no way Hajime, who never saw the\nmovie, could commit murders that imitated it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 0, 119, 0, 0, 0
+Voice Line|1, 3, 0, 23, 100
+Text|Or...did anyone tell him what happens in the movie? Of\ncourse, no one did, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 4, 0
+Trial Camera|4, 1, 33, 0, 0, 0
+Voice Line|4, 3, 0, 6, 100
+SFX A|0, 22, 100
+Text|H-Hold on a sec! You're the one who brought this up in\nthe first place!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 6, 0, 0
+Trial Camera|0, 0, 146, 0, 0, 0
+Voice Line|0, 3, 0, 25, 100
+Text|Nagito...what are you doing...!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 133, 0, 0, 0
+Voice Line|1, 3, 0, 24, 100
+Text|Well, since we're opening with your witness testimony, I\nthought we should solidify the foundation...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 15, 0, 0
+Trial Camera|1, 1, 39, 0, 0, 0
+Voice Line|1, 3, 0, 25, 100
+SFX A|0, 20, 100
+Text|...It also provides a good warm-up.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 6, 4, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Voice Line|0, 3, 0, 26, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Wh-What warm-up!? This isn't a game, you know!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 9, 0, 0
+Trial Camera|1, 0, 114, 0, 0, 0
+Voice Line|1, 3, 0, 26, 100
+Text|D-Don't get mad... I just think warming up is really\nimportant, especially since this isn't a game.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 13, 0, 0
+Trial Camera|4, 1, 33, 0, 0, 0
+Voice Line|4, 99, 0, 7, 100
+Text|Enough with this crap! Can we start figuring out\nfor real already what MONSTER HAD KILLED MISS SONIA?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 15, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|10, 3, 0, 4, 100
+Speaker|11
+Text|That's unfair for Ibuki, you simp!\nShe had died first, and deserves to be investigated first!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|8, 8, 13, 0, 0
+Trial Camera|8, 0, 18, 0, 0, 0
+Voice Line|8, 99, 0, 4, 100
+Text|Well.. she definitely climbed the stepladder\nall by herself, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 87, 0, 0, 0
+Voice Line|0, 3, 0, 27, 100
+Text|Yeah, I'm positive.\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 4, 4, 0
+Trial Camera|8, 1, 39, 0, 0, 0
+Voice Line|8, 3, 0, 5, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Then that seals it! Ibuki committed suicide!\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 1, 0, 0
+Trial Camera|3, 0, 239, 0, 0, 0
+Voice Line|3, 99, 0, 1, 100
+Text|If Ibuki committed suicide...then who...\n...killed...\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 13, 0, 0
+Trial Camera|8, 0, 113, 0, 0, 0
+Voice Line|8, 3, 0, 6, 100
+Text|Hmm, a murder coincidentally occurrin' in the same place\nas a suicide...ain't possible, huh?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 37, 0, 0
+Trial Camera|7, 0, 35, 0, 0, 0
+Voice Line|7, 3, 0, 8, 100
+Text|Like I said before, it's pretty clear what the problem\nwith this case is.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|7, 2, 7, 0, 1, 0
+Sprite|7, 7, 42, 0, 0
+Voice Line|7, 99, 0, 9, 100
+Text|The killer murdered Sonia while Hajime was gone...\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 35, 4, 0
+Trial Camera|7, 1, 23, 0, 0, 0
+Voice Line|7, 3, 0, 10, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|So all we gotta do is establish who could've possibly\ndone that!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 12, 0, 0
+Trial Camera|3, 0, 210, 0, 0, 0
+Voice Line|3, 3, 0, 2, 100
+Text|Then let's ask Hajime... How long would you say you were\naway from the music venue?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 57, 0, 0, 0
+Voice Line|0, 3, 0, 28, 100
+Text|I couldn't have been gone for more than ten minutes...\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 4, 0, 0
+Trial Camera|4, 0, 95, 0, 0, 0
+Voice Line|4, 99, 0, 28, 100
+Text|So they killed... and desecrated... Miss Sonia...\nUnder ten minutes?! But... how?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 139, 0, 0, 0
+Voice Line|7, 3, 0, 11, 100
+Text|That's why the killer stalled for time by making the\nmusic venue a closed room.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 235, 0, 0, 0
+Voice Line|8, 3, 0, 7, 100
+SFX A|0, 19, 100
+Text|Hm? Whaddaya mean a "closed room"?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 255, 0, 0, 0
+Voice Line|7, 3, 0, 12, 100
+Text|The killer blocked the venue door from the inside to try\nand keep us from entering right away.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 3, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|10, 3, 0, 5, 100
+Speaker|11
+Text|Were you only good at planning murders when you\nhad your sword-sucking spineless whore to help you?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 9, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|10, 3, 0, 6, 100
+Speaker|11
+Text|If they blocked the door from the inside, they\nthemselves would not have been able to leave, you moron!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|7, 7, 37, 0, 0
+Trial Camera|7, 0, 92, 0, 0, 0
+Voice Line|7, 3, 0, 13, 100
+Text|Yeah, you're absolutely right...\n
+Wait Frame|
+Wait For Input|
+Music|9, 100, 0
+Sprite|7, 7, 33, 4, 0
+Trial Camera|7, 2, 236, 0, 0, 0
+Voice Line|7, 3, 0, 14, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|Which means...when we broke down the venue door, the\nkiller was still inside!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 3, 4, 0
+Trial Camera|13, 1, 25, 0, 0, 0
+Voice Line|13, 3, 0, 7, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 22, 100
+Text|Haaaah! Th-They were!?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 43, 0, 0
+Trial Camera|7, 0, 105, 0, 0, 0
+Voice Line|7, 3, 0, 15, 100
+Text|If that's the case, the only suspicious people are those\nwho don't have an alibi for that time...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|25, 100, 0
+Sprite|7, 7, 33, 4, 0
+Trial Camera|7, 1, 53, 0, 0, 0
+Voice Line|7, 99, 0, 16, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|And that's you two! Kazuichi and Hiyoko!\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 15, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+SFX A|0, 22, 100
+Voice Line|10, 3, 0, 7, 100
+Speaker|11
+Text|It is YOU who had killed them, right?\nTrying to pin the blame on me again, just like then!\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 8, 0, 0
+Trial Camera|4, 1, 5, 0, 0, 0
+SFX A|0, 22, 100
+Voice Line|4, 3, 0, 8, 100
+Text|Wh-What the hell!? Why's it gotta be us!?\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 53, 0, 0, 0
+Voice Line|7, 3, 0, 17, 100
+Text|The others all have alibis.\n
+Wait Frame|
+Wait For Input|
+Trial Camera|7, 0, 120, 0, 1, 0
+Voice Line|7, 3, 0, 18, 100
+Text|Chiaki, Mikan, Hajime, and I all broke down the venue\ndoor together...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|7, 3, 0, 19, 100
+Text|Gundham met up with Hajime at the motel right before\nthat...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|7, 0, 203, 0, 1, 0
+Sprite|7, 7, 33, 0, 0
+Voice Line|7, 3, 0, 20, 100
+Text|And if Akane and Nagito were laid up in the hospital,\nthe only person that leaves is one of you! \n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 183, 0, 0, 0
+Voice Line|1, 3, 0, 27, 100
+SFX A|0, 19, 100
+Text|There's another person who doesn't have an alibi. You\nknow...Nekomaru.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 33, 4, 0
+Trial Camera|16, 2, 25, 0, 0, 0
+Voice Line|16, 3, 0, 3, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|ME TOOOOOOOOOOOOOOOOOOOO!?\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 26, 0, 0
+Trial Camera|17, 2, 79, 0, 0, 0
+Voice Line|17, 3, 0, 1, 100
+SFX A|0, 23, 100
+Text|Hey, why are you talking like...huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|17, 17, 27, 0, 0
+Trial Camera|17, 2, 108, 0, 0, 0
+Voice Line|17, 3, 0, 2, 100
+SFX A|0, 22, 100
+Text|Y-You're kidding, right...? You're...not up to something\nweird, are you?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 33, 4, 0
+Trial Camera|7, 1, 25, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|7, 3, 0, 21, 100
+SFX A|0, 21, 100
+Text|Anyway! If the killer was hiding inside the venue, we\nshould obviously doubt the people who don't have alibis!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 13, 0, 0
+Trial Camera|4, 0, 115, 0, 0, 0
+Voice Line|4, 99, 0, 27, 100
+SFX A|0, 22, 100
+Text|How can you even think I could have killed Miss Sonia?!\nAre you really this heartless?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 226, 0, 0, 0
+Format|4
+Text|<CLT 04>The killer was inside the music venue... Fuyuhiko\nobviously thinks so but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Format|4
+Text|<CLT 04>Is that really it?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|10, 12, 99, 0, 0
+Script|3, 0, 204, 0, 0
+Stop Script|
+Stop Script|

@@ -1,0 +1,90 @@
+OSL Script
+Set Game To DR2
+Text Count|7, 0
+0x2c|0, 20
+Music|8, 100, 60
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 130, 0, 0, 0
+Format|4
+Text|<CLT 04>The stepladder isn't the only thing that's different,\nhuh...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Chiaki said that the stepladder was at "a different\nplace" but...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x47|0, 35, 0, 0, 2, 7, 0, 35, 0, 0, 1
+0x4d|
+0x3b|1, 244
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 94, 0, 1, 0
+Format|4
+Text|<CLT 04>If that's the case, the thing that's different between\nthat video and the actual scene of the crime...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 29, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 10, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>Is that "thing" the place where the killer did\nsomething?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x3b|1, 245
+0x2c|1, 244
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 117, 0, 1, 0
+Format|4
+Text|<CLT 04>If so...doesn't that mean the video I saw is completely\nwrong?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 94, 0, 1, 0
+Format|4
+Text|<CLT 04>Which means the thing that's different between that\nvideo and the actual scene of the crime...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 29, 0, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 10, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>Does it mean the killer used that surveillance camera\nunit...to do something at that place?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+0x2c|1, 245
+Music|32, 100, 0
+0x3e|4, 4
+0x3b|1, 246
+0x32|1
+0x3b|0, 0
+0x32|2
+0x3b|0, 1
+0x32|3
+0x3b|0, 2
+0x32|255
+0x2c|1, 246
+0x2c|0, 0
+Script|3, 0, 225, 0, 0
+Stop Script|
+0x2c|0, 1
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|0, 2
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+Stop Script|

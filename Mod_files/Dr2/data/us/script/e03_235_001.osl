@@ -1,0 +1,242 @@
+OSL Script
+Set Game To DR2
+Text Count|40, 0
+Change UI|21, 8
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|13, 13, 21, 0, 0
+Text|I'm not the killer!\n
+Wait Frame|
+Check Flag A|0, 1
+Sprite|1, 1, 10, 0, 0
+Text|We can't think of anybody\nelse other than you...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 2
+Sprite|1, 1, 8, 0, 0
+Text|...who could've filmed that video.\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|13, 13, 15, 0, 0
+Text|Huh? Do you have any proof?\n
+Wait Frame|
+Check Flag A|0, 4
+Sprite|13, 13, 18, 0, 0
+Text|Is the <CLT 17>hemp bag on her head<CLT> the proof?\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 5
+Sprite|13, 13, 18, 0, 0
+Text|Is the <CLT 17>hospital gown<CLT> \nshe was wearing suspicious?\n
+Format|17
+Format|0
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 6
+Sprite|13, 13, 18, 0, 0
+Text|Or could it be the <CLT 17>hospital\nslippers she had on<CLT>?\n
+Format|17
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 7
+Sprite|7, 7, 41, 0, 0
+Text|Ibuki and Mikan clearly\nhave different body types...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 8
+Sprite|13, 13, 18, 0, 0
+Text|Is that really your proof?\n
+Wait Frame|
+Check Flag A|0, 9
+Sprite|13, 13, 15, 0, 0
+Text|You could tell her <CLT 17>body type\nunder the hospital gown<CLT>?\n
+Format|17
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 10
+Sprite|13, 13, 18, 0, 0
+Text|Just from that video?\n
+Wait Frame|
+Check Flag A|0, 11
+Sprite|13, 13, 16, 0, 0
+Text|Just from that <CLT 17>camera angle<CLT>!?\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 12
+Sprite|13, 13, 16, 0, 0
+Text|Just from that <CLT 17>dim candlelight<CLT>!?\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 13
+Sprite|13, 13, 19, 0, 0
+Text|There's no way you'd be able to\nmake out her body type!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 14
+Sprite|13, 13, 17, 0, 0
+Text|So please forgive me already!\n
+Wait Frame|
+Check Flag A|0, 15
+Sprite|9, 9, 20, 0, 0
+Text|Hajime,\npay close attention and listen well.\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 16
+Sprite|9, 9, 10, 0, 0
+Text|You're the only one who can\npoint out the <CLT 17>killer's mistake<CLT>.\n
+Wait Frame|
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>Is this really Mikan...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>Is the hemp bag on her head the proof?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>Is the hemp bag on her head the proof?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>Is the hospital gown\nshe was wearing suspicious?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>Is the hospital gown\nshe was wearing suspicious?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 22
+Speaker|62
+Format|20
+Text|<CLT 20>Or could it be the hospital slippers she had on?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 23
+Speaker|62
+Format|20
+Text|<CLT 20>Or could it be the hospital slippers she had on?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 24
+Speaker|62
+Format|20
+Text|<CLT 20>You could tell her body type \nunder the hospital gown?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 25
+Speaker|62
+Format|20
+Text|<CLT 20>You could tell her body type \nunder the hospital gown?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 26
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that camera angle!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 27
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that camera angle!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 28
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that camera angle!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 29
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that camera angle!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 30
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that dim candlelight!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 31
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that dim candlelight!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 32
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that dim candlelight!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 33
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that dim candlelight!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 34
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that dim candlelight!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 35
+Speaker|62
+Format|20
+Text|<CLT 20>Just from that dim candlelight!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 36
+Speaker|62
+Format|20
+Text|<CLT 20>Wh-What happened to her...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 37
+Speaker|62
+Format|20
+Text|<CLT 20>Mikan's voice...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 38
+Speaker|62
+Format|20
+Text|<CLT 20>My heart...my feelings...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 39
+Speaker|62
+Format|20
+Text|<CLT 20>...are about to be crushed...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

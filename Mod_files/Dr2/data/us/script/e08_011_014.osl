@@ -1,0 +1,176 @@
+OSL Script
+Set Game To DR2
+Text Count|10, 0
+0x49|0, 10, 0, 0, 5
+0x4d|
+0x3b|1, 244
+Run Script|8, 0, 11, 0, 21
+0x3b|0, 0
+0x3b|1, 245
+0x2c|1, 244
+Change UI|9, 1
+Sprite|0, 11, 41, 1, 2
+Change UI|0, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|11
+Voice Line|11, 99, 0, 14, 100
+Text|This Funhouse looks just like a level from\nthe shitty indie horror game...\n
+Wait Frame|
+Wait For Input|
+0x2c|1, 245
+Change UI|18, 0
+Change UI|18, 2
+0x3b|1, 246
+0x32|1
+Text|Invite Hiyoko to hang out\n
+Wait Frame|
+Set Flag|15, 31, 1
+0x3b|0, 1
+0x32|2
+Text|See who else is around\n
+Wait Frame|
+0x3b|0, 0
+0x32|18
+0x32|19
+Speaker|0
+Format|4
+Text|<CLT 04>What should I do? Should I invite Hiyoko to hang out?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 246
+0x2c|0, 0
+Change UI|18, 0
+Sprite|0, 11, 24, 4, 2
+Change UI|1, 0
+0x1c|
+0x2c|0, 1
+Change UI|18, 0
+Sprite|0, 11, 27, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 12, 100
+Text|Huh? Do you feel bad for leading me into this\nhorrific murder trap now, Hajime?\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+Sprite|0, 11, 24, 3, 2
+Change UI|6, 1
+0x37|0, 0, 1
+Change UI|3, 2
+Screen Fade|0, 1, 24
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>We spend time today dunking on Monokuma's\naesthetisal tastes together...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|51, 0
+Change UI|1, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Change UI|6, 0
+Sprite|0, 11, 24, 8, 2
+0x3a|6, 0, 0, 10
+Change UI|3, 3
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 30
+0x11|10, 1, 0, 2
+0x4a|0, 10, 4, 0, 20
+0x4d|
+0x3b|1, 247
+0x11|10, 0, 0, 20
+0x2c|1, 247
+0x4a|0, 10, 5, 0, 0
+0x4d|
+0x3b|1, 248
+0x11|10, 0, 0, 0
+0x2c|1, 248
+SFX A|0, 36, 100
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>It looks like Hiyoko and I grew a little closer.\nAt least, I hope that we did...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+Change UI|18, 2
+0x3b|1, 249
+0x32|1
+Text|Definitely!\n
+Wait Frame|
+0x3b|0, 3
+0x32|2
+Text|Not really...\n
+Wait Frame|
+0x3b|0, 2
+0x32|18
+0x32|19
+Change UI|2, 0
+Speaker|63
+Format|3
+Format|0
+Format|6
+Text|<CLT 03><CLT><CLT 06>Would you like to give Hiyoko a <CLT><CLT 03>present<CLT><CLT 06>?<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 249
+0x2c|0, 2
+Change UI|18, 0
+0x3b|0, 4
+0x2c|0, 3
+Change UI|18, 0
+Run Script|8, 0, 11, 0, 100
+0x3b|0, 4
+0x2c|0, 4
+0x49|0, 10, 0, 0, 1
+0x4d|
+0x3b|1, 250
+0x11|10, 0, 0, 20
+0x2c|1, 250
+0x4a|0, 10, 4, 0, 20
+0x4d|
+0x3b|1, 251
+0x11|10, 0, 0, 0
+0x49|0, 10, 0, 0, 4
+0x4d|
+0x3b|1, 252
+Run Script|8, 0, 11, 0, 43
+0x2c|1, 252
+0x49|0, 10, 0, 0, 3
+0x4d|
+0x3b|1, 253
+Run Script|8, 0, 11, 0, 42
+0x2c|1, 253
+0x49|0, 10, 0, 0, 2
+0x4d|
+0x3b|1, 254
+Run Script|8, 0, 11, 0, 41
+0x2c|1, 254
+0x49|0, 10, 0, 0, 1
+0x4d|
+0x3b|1, 255
+Run Script|8, 0, 11, 0, 40
+0x2c|1, 255
+0x2c|1, 251
+0x3b|0, 5
+0x2c|0, 5
+Change UI|3, 0
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 24
+SFX A|255, 255, 100
+Sprite|0, 11, 24, 3, 2
+0x1c|
+Stop Script|

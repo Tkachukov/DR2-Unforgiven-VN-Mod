@@ -1,0 +1,532 @@
+OSL Script
+Set Game To DR2
+Text Count|65, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|24, 100, 0
+Change UI|1, 1
+Sprite|10, 12, 99, 0, 0
+Sprite|11, 2, 3, 0, 0
+Sprite|16, 16, 31, 0, 0
+Voice Line|16, 1, 0, 1, 100
+Text|Now then, let's begin with a simple explanation of the\nclass trial.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|2, 1, 236, 0, 0, 0
+Voice Line|16, 1, 0, 2, 100
+Text|During the class trial you will present your arguments\nfor who the killer is, and vote for "whodunnit."\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 2, 10, 0, 0, 0
+Voice Line|16, 1, 0, 3, 100
+Text|If you vote correctly, then only the blackened will\nreceive punishment. But if you pick the wrong person...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|16, 2, 74, 0, 0, 0
+Voice Line|16, 1, 0, 4, 100
+Text|I'll punish everyone *besides* the blackened, and that\nperson will earn the right to leave this island!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 30, 0, 0
+Trial Camera|16, 2, 65, 0, 0, 0
+Voice Line|16, 3, 0, 1, 100
+Text|...Oh well, who cares about this boring explanation?\nLet's get on with it already!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 118, 0, 0, 0
+Voice Line|1, 3, 0, 1, 100
+Text|I don't mind starting the trial, but...I don't really\nhave a grasp of how the case played out.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 10, 0, 0
+Trial Camera|1, 0, 54, 0, 0, 0
+Voice Line|1, 3, 0, 2, 100
+Text|You know, because I was asleep the whole time.\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 3, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|10, 3, 0, 1, 100
+Speaker|11
+Text|Keh, even if you do grasp it, you're just gonna confuse\nthe heck out of us, aren't you?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 21, 0, 0
+Trial Camera|8, 0, 116, 0, 0, 0
+Voice Line|8, 3, 0, 1, 100
+Text|But Nagito's not alone. I don't really get it either.\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 2, 0, 0
+Trial Camera|11, 0, 34, 0, 0, 0
+Voice Line|10, 3, 0, 2, 100
+Speaker|11
+Text|You're fine... Your head's empty anyway.\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 16, 0, 0
+Trial Camera|8, 1, 17, 0, 0, 0
+Voice Line|8, 3, 0, 2, 100
+SFX A|0, 21, 100
+Text|Empty head...? Heh, what's wrong with that...?\n
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 10, 4, 0
+Trial Camera|8, 1, 51, 0, 0, 0
+Voice Line|8, 3, 0, 3, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Listen up! The emptier your head, the more dreams you\ncan stuff inside it, y'know!\n
+Wait Frame|
+Wait Frame|
+Music|255, 60, 0
+Wait For Input|
+Sprite|0, 0, 26, 0, 0
+Trial Camera|0, 0, 33, 0, 0, 0
+Format|4
+Text|<CLT 04>...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|24, 100, 0
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 61, 0, 0, 0
+Voice Line|9, 3, 0, 1, 100
+Text|Anyway...we shouldn't proceed with the trial if those\ntwo can't participate in the arguments...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 108, 0, 1, 0
+Voice Line|9, 3, 0, 2, 100
+Text|Since he's the first witness, why don't we ask Hajime to\nexplain the incident and the sequence of events?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 113, 0, 0, 0
+Voice Line|0, 3, 0, 1, 100
+Text|Then...let's start with when we split into the <CLT 03>Hospital\nTeam<CLT> and <CLT 03>Motel Team<CLT> because of the Despair Disease.\n
+Format|3
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 202, 0, 0, 0
+Voice Line|0, 3, 0, 2, 100
+Text|The Hospital Team consisted of Nagito, Ibuki and\nAkane—who were infected—and Mikan, Fuyuhiko, and me.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 0, 0, 1
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 108, 0, 0, 0
+Voice Line|3, 99, 0, 10, 100
+Text|The other five on the Motel Team were...myself,\nKazuichi, Chiaki, Hiyoko... and the Dark Queen.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 53, 0, 0, 0
+Voice Line|7, 3, 0, 1, 100
+Text|Spending the night at the hospital was prohibited, so\nHajime and I had to sleep at our cottages.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 20, 0, 0
+Trial Camera|0, 0, 20, 0, 0, 0
+Voice Line|0, 3, 0, 3, 100
+Text|I woke up at my cottage on the day the incident\nhappened....\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 4, 100
+Text|Mikan came by to wake me up and told me that Nagito had\nrecovered from his symptoms.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 114, 0, 1, 0
+Voice Line|0, 3, 0, 5, 100
+Text|We immediately headed over to the hospital, and after we\nconfirmed his recovery...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 6, 100
+Text|I made Mikan rest in the on-call room since she hadn't\nslept all night, while I waited in the hospital lobby.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 144, 0, 1, 0
+Voice Line|0, 3, 0, 7, 100
+Text|And then...I saw the incoming signal light on the\nsurveillance camera blinking before our scheduled time.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 2, 7, 0, 1, 0
+Voice Line|0, 3, 0, 8, 100
+Text|When I pressed the button to turn on the monitor, what\nappeared onscreen was...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|60, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|3, 69, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 2, 24
+Animation|3, 69, 0, 0, 0, 0, 0, 1
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 9, 100
+Text|A video of someone wearing a hospital gown and a hemp\nbag on their head...climbing a stepladder.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Animation|3, 69, 0, 0, 0, 0, 0, 255
+Change UI|60, 1
+Change UI|6, 0
+Change UI|9, 0
+Sprite|1, 1, 15, 0, 0
+Trial Camera|1, 1, 39, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|1, 1, 15, 0, 0
+Voice Line|1, 3, 0, 3, 100
+Text|Amazing! That's such a heart-pounding story! And then\nwhat did you do, Hajime?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 21, 0, 0
+Trial Camera|0, 0, 233, 0, 0, 0
+Voice Line|0, 3, 0, 10, 100
+Text|I tried to stop them, of course...\n
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 11, 100
+Text|I rushed out of the hospital and ran to where the video\nwas being recorded—the music venue...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 11, 0, 0
+Trial Camera|0, 0, 15, 0, 1, 0
+Voice Line|0, 3, 0, 12, 100
+Text|...But it was too late.\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 33, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Voice Line|0, 3, 0, 13, 100
+Text|By the time I arrived, the person wearing the hemp bag\non their head was already hanging from the ceiling.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 33, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 197, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 18, 0, 0
+Voice Line|0, 3, 0, 14, 100
+Text|I thought I should tell the others right away, so I\nheaded to the motel.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 37, 0, 0, 0
+Voice Line|1, 3, 0, 4, 100
+Text|Why the motel?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 178, 0, 0, 0
+Voice Line|0, 3, 0, 15, 100
+Text|Because it was close to the music venue and, unlike the\nhospital, there were more able-bodied people there...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 26, 0, 0
+Trial Camera|0, 0, 133, 0, 0, 0
+Voice Line|0, 3, 0, 16, 100
+Text|...At least, that's what I thought, but the only person\nwho came with me was Chiaki.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 4, 0, 0
+Trial Camera|9, 0, 14, 0, 0, 0
+Voice Line|9, 3, 0, 3, 100
+Text|But I remember feeling a little relieved because not\nlong after, we met up with Mikan and Fuyuhiko.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 37, 0, 0
+Trial Camera|7, 0, 159, 0, 0, 0
+Voice Line|7, 3, 0, 2, 100
+Text|...We were also looking for Ibuki since she disappeared\nfrom our sight.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 7, 0, 0
+Trial Camera|13, 0, 58, 0, 0, 0
+Voice Line|13, 3, 0, 1, 100
+Text|After I rested for a bit, I started counting everyone at\nthe hospital...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|13, 0, 134, 0, 0, 0
+Voice Line|13, 3, 0, 2, 100
+Text|And then, I noticed Ibuki was gone... So...I sprinted\nout of the hospital...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 138, 0, 0, 0
+Voice Line|13, 3, 0, 3, 100
+Text|Coincidentally, I ran into Fuyuhiko, so I pled with him\nin various ways to see if he could help me out.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 11, 4, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|10, 3, 0, 3, 100
+SFX A|0, 22, 100
+Speaker|11
+Text|Mahiru's murderer and the slutty pig?!\nDon't... make... me... imagine...\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 34, 0, 0
+Trial Camera|7, 0, 64, 0, 0, 0
+Voice Line|7, 3, 0, 3, 100
+Text|Don't say it like that and confuse people...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 0, 0, 0
+Trial Camera|0, 0, 140, 0, 0, 0
+Voice Line|0, 3, 0, 17, 100
+Text|After I heard from those two that Ibuki disappeared, I\nhad a feeling she was the person wearing the hemp bag...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 2, 7, 0, 1, 0
+Voice Line|0, 3, 0, 18, 100
+Text|So I immediately led them to the music venue.\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 32, 0, 0
+Trial Camera|7, 0, 113, 0, 0, 0
+Voice Line|7, 3, 0, 4, 100
+Text|But the door wouldn't open. Since we had no other\noption, the four of us broke down the door...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+Change UI|6, 1
+Change UI|9, 1
+0x37|0, 88, 1
+Screen Fade|0, 2, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|1, 1
+Speaker|7
+Voice Line|7, 99, 0, 10, 100
+Text|And when that happened...we didn't just find Ibuki's\nbody! We also found Sonia's!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|7, 3, 0, 6, 100
+Text|And not just that... Her body was taped to a pillar.\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+Screen Fade|1, 2, 8
+0x37|0, 88, 3
+Change UI|6, 0
+Change UI|9, 0
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 21, 0, 0, 0
+Screen Fade|0, 2, 24
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 18, 0, 0
+Voice Line|0, 3, 0, 19, 100
+Text|That's when we heard the <CLT 03>body discovery announcement<CLT>\nnot once, but twice in a row...\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 7, 0, 0
+Trial Camera|13, 0, 41, 0, 0, 0
+Voice Line|13, 3, 0, 4, 100
+Text|And so...we decided to lower the hanged body, didn't we?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 5, 0, 0
+Trial Camera|0, 0, 89, 0, 0, 0
+Voice Line|0, 3, 0, 20, 100
+Text|When we removed the hemp bag... Just as we feared...it\nwas Ibuki.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 0, 159, 0, 0, 0
+Voice Line|1, 3, 0, 5, 100
+Text|So that's how the case played out. Thank you...I\nunderstood it very easily...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 35, 0, 0
+Trial Camera|7, 0, 17, 0, 0, 0
+Voice Line|7, 3, 0, 7, 100
+Text|Well, it's clear what the problem with this case is.\nWhen Hajime left the music venue, who—?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 180, 0
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 2, 234, 0, 0, 0
+Voice Line|1, 3, 0, 6, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|...Wait. How do I know anything Hajime just said is\ntrue?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 4, 0
+Trial Camera|0, 1, 15, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Huh?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|25, 100, 0
+Sprite|1, 1, 11, 0, 0
+Trial Camera|1, 0, 178, 0, 0, 0
+Voice Line|1, 3, 0, 7, 100
+Text|Sorry, I'm only being impartial right now... And the\nstory I just heard...is clearly suspicious.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 2, 141, 0, 1, 0
+Voice Line|1, 3, 0, 8, 100
+Text|Hajime, if you're the only one who saw the hanging video\nand the first one to discover Ibuki's body...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 230, 0, 0, 0
+Voice Line|1, 3, 0, 9, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 21, 100
+Text|...then you could be lying as much as you want right\nnow, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 4, 0
+Trial Camera|0, 1, 39, 0, 0, 0
+Voice Line|0, 3, 0, 21, 100
+SFX A|0, 20, 100
+Text|L-Lie...!? Why would I lie!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 116, 0, 0, 0
+Voice Line|1, 3, 0, 10, 100
+Text|Obviously, so you could make us ignore what might be an\ninconvenient truth for you.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 7, 0, 0
+Trial Camera|0, 0, 93, 0, 0, 0
+Voice Line|0, 3, 0, 22, 100
+Text|...Do you doubt me?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 15, 0, 0
+Trial Camera|1, 0, 151, 0, 0, 0
+Voice Line|1, 3, 0, 11, 100
+Text|If you're not lying, I would like you to prove it...\n
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 55, 0, 1, 0
+Voice Line|1, 3, 0, 12, 100
+Text|C'mon, try to prove it to me! Prove you're not the\nkiller!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 235, 0, 0, 0
+0x2e|1, 10, 0, 150, 0
+Format|4
+Text|<CLT 04>Gh...!<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+0x2e|0, 10, 0, 150, 0
+Trial Camera|1, 0, 149, 0, 0, 0
+Format|4
+Text|<CLT 04>It's just as Hiyoko said... Nagito's the kind of guy\nwho'll just confuse us and make matters worse...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 5, 4, 0
+Trial Camera|0, 0, 219, 0, 1, 0
+Format|4
+Text|<CLT 04>Dammit...I shouldn't have explained it to Nagito! I'm in\ntrouble now thanks to that!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|10, 12, 99, 0, 0
+Script|3, 0, 202, 0, 0
+Stop Script|
+Stop Script|

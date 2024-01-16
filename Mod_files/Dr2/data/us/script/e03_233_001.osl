@@ -1,0 +1,188 @@
+OSL Script
+Set Game To DR2
+Text Count|32, 0
+Change UI|21, 7
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|1, 1, 21, 0, 0
+Text|Ibuki didn't die from hanging...\n
+Wait Frame|
+Check Flag A|0, 1
+Sprite|1, 1, 22, 0, 0
+Text|She was <CLT 17>strangled<CLT> to death.\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 2
+Sprite|8, 8, 21, 0, 0
+Text|That's basically the same thing!\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|9, 9, 2, 0, 0
+Text|Though hanging and strangling seem similar,\nthey're very different.\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 4
+Sprite|9, 9, 10, 0, 0
+Text|The scars they leave\nwould <CLT 17>look different<CLT>, too.\n
+Wait Frame|
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 5
+Sprite|10, 10, 15, 0, 0
+Text|Scars... You mean the rope burn, right...?\n
+Wait Frame|
+Check Flag A|0, 6
+Sprite|1, 1, 21, 0, 0
+Text|But we believed it was from a hanging...\n
+Wait Frame|
+Check Flag A|0, 7
+Sprite|1, 1, 1, 0, 0
+Text|Why would that be?\n
+Wait Frame|
+Check Flag A|0, 8
+Sprite|4, 4, 8, 0, 0
+Text|Did we fall for <CLT 69>someone's lie<CLT>!?\n
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 9
+Sprite|7, 7, 37, 0, 0
+Text|The body at the crime\nscene was <CLT 69>hanged<CLT>, you know.\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 10
+Sprite|7, 7, 38, 0, 0
+Text|Obviously we'd assume it was a hanging.\n
+Wait Frame|
+Check Flag A|0, 11
+Sprite|3, 3, 2, 0, 0
+Text|The Monokuma File complicates this, too.\n
+Wait Frame|
+Check Flag A|0, 12
+Sprite|3, 3, 12, 0, 0
+Text|It <CLT 69>never specified<CLT>\nhanging or strangulation.\n
+Format|69
+Format|0
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 13
+Sprite|13, 13, 4, 0, 0
+Text|Whoever misunderstood is to blame!\n
+Wait Frame|
+Check Flag A|0, 14
+Speaker|62
+Format|20
+Text|<CLT 20>What does that matter...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Speaker|62
+Format|20
+Text|<CLT 20>A decisive clue...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Speaker|62
+Format|20
+Text|<CLT 20>Th-That's right!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>What's an abrasive scar?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>Even if they changed...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>Would you know the difference?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>Seriously, I don't care!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>By any means or whatever...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 22
+Speaker|62
+Format|20
+Text|<CLT 20>Even if you say it's a lie...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 23
+Speaker|62
+Format|20
+Text|<CLT 20>I don't even know what's the lie and what's not.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 24
+Speaker|62
+Format|20
+Text|<CLT 20>We weren't tricked...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 25
+Speaker|62
+Format|20
+Text|<CLT 20>Anybody can see that and...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 26
+Speaker|62
+Format|20
+Text|<CLT 20>You're totally right!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 27
+Speaker|62
+Format|20
+Text|<CLT 20>That's the norm...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 28
+Speaker|62
+Format|20
+Text|<CLT 20>It doesn't pertain to Mikan at all...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 29
+Speaker|62
+Format|20
+Text|<CLT 20>That's all the more reason why my proof...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 30
+Speaker|62
+Format|20
+Text|<CLT 20>...would have a more decisive meaning.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 31
+Speaker|62
+Format|20
+Text|<CLT 20>That is... That is...!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

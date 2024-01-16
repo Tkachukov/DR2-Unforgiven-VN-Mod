@@ -1,0 +1,374 @@
+OSL Script
+Set Game To DR2
+Text Count|21, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+Load Map|0, 71, 0, 0
+Change UI|9, 0
+Sprite|18, 1, 0, 0, 0
+Sprite|18, 1, 90, 0, 0
+Sprite|12, 7, 30, 0, 0
+Sprite|12, 7, 90, 0, 0
+Sprite|9, 3, 0, 0, 0
+Sprite|9, 3, 90, 0, 0
+Sprite|11, 4, 0, 0, 0
+Sprite|11, 4, 90, 0, 0
+Sprite|13, 9, 0, 0, 0
+Sprite|13, 9, 90, 0, 0
+Sprite|17, 8, 0, 0, 0
+Sprite|17, 8, 90, 0, 0
+Sprite|15, 11, 7, 0, 0
+Sprite|15, 11, 90, 0, 0
+0x46|12, 14, 0, 0
+0x4d|
+0x3b|1, 244
+0x23|21, 1, 0, 1, 0
+0x23|22, 1, 0, 1, 0
+0x3b|1, 245
+0x2c|1, 244
+0x23|22, 0, 0, 0, 0
+0x2c|1, 245
+Change UI|14, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+0x46|12, 12, 0, 0
+0x4d|
+0x3b|1, 246
+0x3a|6, 0, 0, 60
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Ngh...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|Ughhh...\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>When I woke up...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...I was someplace that didn't make sense.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It was clearly a place I've never seen before.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>My sense of reality was still hazy, so I wasn't able to\nreact right away...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|9, 0
+Sprite|14, 19, 0, 0, 10
+Change UI|9, 1
+0x3a|6, 0, 0, 60
+Change UI|26, 19
+0x3a|5, 0, 0, 20
+Sprite|0, 19, 7, 1, 2
+Change UI|1, 1
+Speaker|6
+Voice Line|6, 99, 0, 40, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Where...is thiiiiiis!?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>However, when I looked over at Nekomaru standing tall in\na wide stance, my sense of reality felt even hazier.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|1, 8, 6, 1, 1
+Speaker|8
+Voice Line|8, 99, 0, 24, 100
+Text|*Yawwwwwn...* Man, I slept good...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 47, 1, 0
+Speaker|11
+Voice Line|11, 99, 0, 53, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|What... douchebag thought it would be a fun idea\nto drug me YET AGAIN?!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 48, 1, 2
+Speaker|7
+Voice Line|7, 99, 0, 70, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Wh-What the hell is this!?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 7, 48, 4, 1
+Change UI|1, 0
+Change UI|27, 3
+Change UI|9, 0
+Sprite|18, 1, 91, 0, 20
+Sprite|12, 7, 91, 0, 10
+Sprite|9, 3, 91, 0, 20
+Sprite|11, 4, 91, 0, 10
+Sprite|13, 9, 91, 0, 40
+Sprite|17, 8, 91, 0, 50
+Sprite|15, 11, 91, 0, 40
+Change UI|9, 1
+0x3a|5, 0, 0, 60
+0x1|0, 78, 0, 1
+0x1|0, 78, 1, 1
+0x1|0, 78, 3, 1
+0x1|0, 78, 4, 1
+0x1|0, 78, 6, 1
+0x1|0, 78, 7, 1
+0x1|0, 78, 8, 1
+0x1|0, 78, 9, 1
+0x1|0, 78, 10, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Voices expressing surprise and confusion began to\nsurround me, one after another.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It seems that the others have started to wake up as\nwell.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Set Flag|12, 12, 1
+0x3b|1, 247
+0x2c|1, 246
+0x2c|1, 247
+Change UI|16, 1
+0x3b|1, 248
+Check Character|9
+0x46|12, 13, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 17, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Akane's twitching her nose like a beast and examining\nher surroundings...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Hey, what happened?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 1, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 61, 100
+Text|Well, you know...it's just my gut, but...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I feel like someone's gettin' closer...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Huh? What do you mean? Who?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 18, 1, 2
+Speaker|8
+Voice Line|8, 99, 0, 39, 100
+Text|I dunno. It's just my gut, after all.\n
+Wait Frame|
+Wait For Input|
+Animation|12, 18, 0, 0, 0, 0, 0, 1
+Speaker|19
+Voice Line|6, 99, 0, 74, 100
+Text|IT'S JUST MY GUT!\n
+Wait Frame|
+Wait For Input|
+Animation|12, 18, 0, 0, 0, 0, 0, 2
+Speaker|0
+Format|4
+Text|<CLT 04>But still...her gut is pretty impressive...\nFor some reason it's strangely intuitive...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>And Monokuma did say something about\nthe<CLT> <CLT 03>main cast coming<CLT><CLT 04><CLT><CLT 04>...<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>It's surprising but...her gut must be correct again\nthis time...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+Set Flag|12, 13, 1
+0x3b|1, 250
+0x2c|1, 249
+Change UI|51, 0
+Change UI|9, 1
+Sprite|0, 8, 17, 1, 2
+Change UI|2, 1
+Change UI|1, 1
+Speaker|8
+Text|...\n
+Wait Frame|
+Wait For Input|
+Text|I definitely feel like someone's gettin' closer...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Her gut is pretty impressive... \nSometimes, it's strangely intuitive...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>And Monokuma did say something about\nthe<CLT> <CLT 03>main cast coming<CLT><CLT 04><CLT><CLT 04>...<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's surprising but...her gut must be correct again this time...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 8, 0, 4, 2
+Change UI|1, 0
+0x2c|1, 250
+Check Character|255
+Choice|20
+Change UI|15, 0
+Change UI|1, 0
+Change UI|3, 0
+Load Map|1, 15, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|6, 0, 103, 1, 15
+Stop Script|
+Choice|21
+0x46|12, 14, 0, 0
+0x4d|
+0x3b|1, 251
+0x3b|1, 252
+0x2c|1, 251
+Change UI|15, 0
+Change UI|1, 0
+Choice|254
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|1, 248
+0x32|1
+Text|The bedrooms\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 74, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 19
+SFX A|0, 200, 100
+Change UI|15, 2
+Script|4, 0, 5, 0, 74
+Stop Script|
+0x32|2
+Text|The lounge\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 101, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 200, 100
+Change UI|15, 2
+Script|4, 0, 0, 0, 101
+Stop Script|
+0x32|3
+Text|Cancel\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Where would you like to go?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 248
+Choice|255
+0x2c|1, 247
+Stop Script|
+Stop Script|

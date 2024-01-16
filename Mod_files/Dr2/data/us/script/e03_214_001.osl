@@ -1,0 +1,156 @@
+OSL Script
+Set Game To DR2
+Text Count|26, 0
+Change UI|21, 4
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|1, 1, 22, 0, 0
+Text|We can exclude the sick\npeople <CLT 17>like me and Akane<CLT>, right?\n
+Wait Frame|
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 1
+Sprite|8, 8, 18, 0, 0
+Text|And what about the others?\n
+Wait Frame|
+Check Flag A|0, 2
+Sprite|11, 4, 11, 0, 0
+Text|Right before the morning announcement...\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|11, 4, 3, 0, 0
+Text|I was <CLT 17>sunbathing<CLT>\non the beach!\n
+Format|17
+Format|0
+Check Flag A|0, 4
+Sprite|4, 4, 3, 0, 0
+Text|Can anyone confirm that?\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 5
+Sprite|11, 4, 3, 0, 0
+Text|Can anyone confirm you were\nin your motel room this dawn?\n
+Wait Frame|
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 6
+Sprite|4, 4, 19, 0, 0
+Text|What about you guys...?\n
+Wait Frame|
+Check Flag A|0, 7
+Sprite|7, 7, 35, 0, 0
+Text|I was where I was\nsupposed to be: <CLT 69>my own cottage<CLT>.\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 8
+Sprite|3, 3, 4, 0, 0
+Text|That's not an alibi!\n
+Wait Frame|
+Check Flag A|0, 9
+Sprite|4, 10, 14, 0, 0
+Text|Aside from those who were sick...\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 10
+Sprite|4, 10, 5, 0, 0
+Text|Then <CLT 17>nobody has an alibi<CLT>, darn it!\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 11
+Sprite|4, 10, 21, 0, 0
+Text|I had failed to avenge you,\nMiss Sonia!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 12
+Speaker|62
+Format|20
+Text|<CLT 20>You're excluded too, huh...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 13
+Speaker|62
+Format|20
+Text|<CLT 20>How convenient for you!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 14
+Speaker|62
+Format|20
+Text|<CLT 20>I was meditating.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Speaker|62
+Format|20
+Text|<CLT 20>Me too.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Speaker|62
+Format|20
+Text|<CLT 20>Um..<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>Why sunbath at dawn?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>You have an alibi, huh...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>Why!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>Hmph...my evil eyes...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>...have already seen the truth.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 22
+Speaker|62
+Format|20
+Text|<CLT 20>...Then tell me.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 23
+Speaker|62
+Format|20
+Text|<CLT 20>I am not the killer!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 24
+Speaker|62
+Format|20
+Text|<CLT 20>Ah, I see...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 25
+Speaker|62
+Format|20
+Text|<CLT 20>My skin is very sun-sensitive!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

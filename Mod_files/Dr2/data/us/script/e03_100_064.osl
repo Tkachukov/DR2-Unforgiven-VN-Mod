@@ -1,0 +1,403 @@
+OSL Script
+Set Game To DR2
+Text Count|50, 0
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+0x1|0, 64, 29, 1
+Change UI|6, 0
+Load Map|0, 64, 0, 0
+0x1|0, 64, 9, 1
+Change UI|9, 0
+Sprite|0, 9, 0, 0, 0
+0x46|19, 14, 0, 1
+0x4d|
+0x3b|1, 244
+0x23|26, 0, 0, 0, 0
+0x2c|1, 244
+0x23|27, 0, 0, 0, 0
+Load Map|0, 56, 1, 0
+0x46|15, 30, 0, 1
+0x4d|
+0x3b|1, 245
+Change UI|14, 1
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+0x3b|0, 0
+0x2c|1, 245
+Music|255, 120, 0
+Change UI|14, 0
+Change UI|6, 1
+0x37|0, 0, 1
+Screen Fade|0, 1, 16
+0x3a|6, 0, 0, 10
+Change UI|51, 1
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>What's this...? It's pitch black...I can't see\nanything...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Um...where's the switch...?\n
+Wait Frame|
+Wait For Input|
+Speaker|9
+Voice Line|9, 99, 0, 79, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Don't turn it on.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Text|Ch-Chiaki...are you there...?\n
+Wait Frame|
+Wait For Input|
+Speaker|9
+Voice Line|9, 99, 0, 128, 100
+Text|...If you turn on the light, it's gonna be fully\nexposed. It'd be embarrassing.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Wh-What's...fully exposed...?\n
+Wait Frame|
+Wait For Input|
+Speaker|9
+Voice Line|9, 99, 0, 79, 100
+Text|Hey Hajime...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 21, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...If you poke out your eyes, you can turn on the light.\n
+Wait Frame|
+Wait For Input|
+Text|...What're you gonna do? Are you gonna poke them out?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I'm not gonna poke out my eyes...!\n
+Wait Frame|
+Wait For Input|
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 99, 0, 62, 100
+Text|Aww. Bummer.\n
+Wait Frame|
+Wait For Input|
+Text|...Troll fail.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>No sooner did she finish saying that, I heard the dry\nsound of curtains being drawn...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|1, 36, 100
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 10
+Screen Fade|1, 2, 8
+0x37|0, 0, 3
+0x37|0, 1, 1
+Screen Fade|0, 2, 8
+0x3a|6, 0, 0, 10
+Change UI|51, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There was a flash of intense light that stung my eyes a\nlittle...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I squinted my eyes until they started adjusting to the\nlight...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 2, 8
+0x37|0, 1, 3
+Music|4, 100, 0
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 2, 64
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+0x3a|6, 0, 0, 30
+Speaker|0
+Format|4
+Text|<CLT 04>And I saw Chiaki had finished opening the curtain that\nwas covering the window.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|26, 9
+0x3a|5, 0, 0, 30
+Change UI|9, 1
+Change UI|1, 1
+Sprite|0, 9, 9, 1, 2
+Voice Line|9, 99, 0, 5, 100
+Text|...Were you surprised?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Surprised...? I don't get it?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 10, 1, 2
+Voice Line|9, 99, 0, 11, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|I got it.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Got what?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 1, 2
+Voice Line|9, 99, 0, 25, 100
+Text|The curtains in this conference room are designed to\ncompletely block out light.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 9, 1, 2
+Voice Line|9, 99, 0, 44, 100
+Text|There's a projector in here, so they were probably\ncareful about light shining through.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 246, 0, 0, 0, 0, 0, 1
+Sprite|0, 9, 2, 1, 2
+Voice Line|9, 99, 0, 10, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|See? A black curtain that blocks light and it's also\nlong enough to reach the floor. It's perfect.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 246, 0, 0, 0, 0, 0, 2
+Speaker|0
+Text|A black, light-blocking curtain... That's why it was so\ndark.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|So...is something wrong with it?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 3, 1, 2
+Text|...\n
+Wait Frame|
+Wait For Input|
+Voice Line|9, 99, 0, 30, 100
+Text|...I'm still in the middle of investigating, so it's a\nsecret.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Yep...she's upset.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|But still...what was all that about?\n
+Wait Frame|
+Wait For Input|
+Text|That bit about it being embarrassing if I look\nand..."troll fail"...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 0, 1, 2
+Voice Line|9, 99, 0, 7, 100
+Text|I just wanted to mess with you...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>Yep...she's definitely upset. Why is she acting so\nchildish?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Set Flag|15, 30, 1
+Change UI|1, 0
+Sprite|0, 9, 0, 4, 2
+Run Script|3, 3, 231, 0, 143
+0x46|14, 6, 0, 1, 6, 14, 8, 0, 1, 6, 14, 10, 0, 1
+0x4d|
+0x3b|1, 246
+0x3b|0, 2
+0x2c|1, 246
+Run Script|3, 3, 231, 0, 150
+0x2c|0, 0
+Change UI|16, 1
+0x3b|1, 247
+Check Character|0
+0x46|14, 14, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 9, 0, 1, 2
+Speaker|0
+Text|Hey, did I do something to make you angry?\n
+Wait Frame|
+Wait For Input|
+Speaker|9
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 9, 1, 2
+Voice Line|9, 99, 0, 26, 100
+Text|I'm not angry...I think.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Well, are you or aren't you?\n
+Wait Frame|
+Wait For Input|
+Text|If you're not angry, you wouldn't have done something so\nweird.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 2, 1, 2
+Voice Line|9, 99, 0, 6, 100
+Text|Yeah, I'm already over what happened earlier, so you\ndon't have to worry about it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 9, 1, 2
+Voice Line|9, 99, 0, 17, 100
+Text|...I think.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...Is she teasing me?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Set Flag|14, 14, 1
+Change UI|1, 0
+Sprite|0, 9, 0, 4, 2
+0x3b|1, 249
+0x2c|1, 248
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 9, 0, 1, 2
+Voice Line|9, 99, 0, 11, 100
+Text|Yeah, I'm already over what happened earlier, so you\ndon't have to worry about it.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 9, 9, 1, 2
+Voice Line|9, 99, 0, 17, 100
+Text|...I think.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>...Is she teasing me?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Sprite|0, 9, 0, 4, 2
+0x2c|1, 249
+Check Character|255
+Choice|20
+Run Script|3, 3, 231, 0, 1
+Choice|21
+Run Script|3, 3, 231, 0, 2
+Choice|22
+Run Script|3, 3, 231, 0, 80
+Choice|23
+Run Script|3, 3, 231, 0, 81
+Choice|24
+Run Script|3, 3, 231, 0, 82
+Choice|25
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>So this was a light-blocking curtain... That's why it\nwas so pitch black.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Choice|27
+Run Script|3, 3, 231, 0, 84
+Choice|26
+Run Script|3, 3, 231, 0, 147
+Choice|254
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|1, 250
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 56, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 5
+SFX A|0, 206, 100
+Change UI|15, 2
+Script|3, 0, 0, 0, 56
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 250
+Choice|255
+0x2c|1, 247
+0x2c|0, 2
+Run Script|3, 3, 231, 0, 141
+Screen Fade|1, 1, 24
+Script|3, 0, 101, 0, 0
+Stop Script|
+Stop Script|

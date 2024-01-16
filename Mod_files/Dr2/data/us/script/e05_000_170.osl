@@ -1,0 +1,93 @@
+OSL Script
+Set Game To DR2
+Text Count|3, 0
+0x2f|0, 20, 112, 59, 1, 244, 112, 48, 0, 2
+Script|5, 0, 2, 0, 170
+Stop Script|
+Show Background|255, 255, 112
+Screen Fade|1, 0, 1
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+Set Flag|0, 12, 1
+Change UI|6, 0
+0x2f|0, 0, 112, 59, 1, 245, 112, 48, 0, 1
+Load Map|0, 170, 0, 1
+Show Background|0, 3, 112
+Show Background|255, 255, 112
+0x2c|1, 245
+Change UI|9, 0
+0x2f|0, 20, 112, 59, 1, 246, 112, 48, 0, 9
+Sprite|0, 10, 0, 0, 0
+Show Background|0, 10, 112
+0x2c|1, 246
+0x46|19, 23, 0, 1
+0x4d|
+0x3b|1, 247
+0x23|22, 0, 0, 0, 0
+0x23|25, 0, 0, 0, 0
+0x2c|1, 247
+0x23|26, 0, 0, 0, 0
+Change UI|14, 1
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+Change UI|16, 1
+0x3b|1, 248
+Check Character|0
+0x2f|0, 20, 112, 59, 1, 249, 112, 48, 0, 9
+Run Script|8, 0, 10, 0, 19
+0x46|15, 31, 0, 1
+0x4d|
+0x3b|1, 250
+Script|5, 0, 10, 0, 0
+Stop Script|
+0x2c|1, 250
+Show Background|255, 255, 112
+Check Character|255
+Choice|20
+Run Script|5, 3, 231, 0, 100
+Choice|21
+Run Script|5, 3, 231, 0, 101
+Choice|24
+Run Script|5, 3, 231, 0, 177
+Choice|23
+Run Script|5, 3, 231, 0, 178
+Choice|22
+Run Script|5, 3, 231, 0, 20
+Choice|254
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|1, 251
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 160, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 1
+SFX A|0, 201, 100
+Change UI|15, 2
+Script|5, 0, 0, 0, 160
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 251
+Choice|255
+0x2c|1, 248
+Stop Script|
+Stop Script|

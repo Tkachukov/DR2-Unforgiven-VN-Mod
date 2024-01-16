@@ -1,0 +1,147 @@
+OSL Script
+Set Game To DR2
+Text Count|25, 0
+Change UI|21, 3
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|9, 9, 2, 0, 0
+Text|When Sonia was killed...\n
+Wait Frame|
+Check Flag A|0, 1
+Sprite|9, 9, 10, 0, 0
+Text|...Ibuki's feet were <CLT 17>on the floor<CLT>.\n
+Format|17
+Format|0
+Wait Frame|
+Check Flag A|0, 2
+Sprite|3, 3, 4, 0, 0
+Text|I am telling you to present\nyour evidence!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 3
+Sprite|7, 7, 47, 0, 0
+Text|Did you see her walking?\n
+Wait Frame|
+Check Flag A|0, 4
+Sprite|10, 10, 14, 0, 0
+Text|There was a RIVER of blood\nwhen the princess got shanked...\n
+Wait Frame|
+Check Flag A|0, 5
+Sprite|10, 10, 19, 0, 0
+Text|...so obviously Ibuki's feet\n<CLT 69>are soaking red<CLT>from it!\n
+Format|69
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 6
+Sprite|13, 13, 13, 0, 0
+Text|Were there even any footprints\nat the crime scene?\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 7
+Sprite|4, 4, 10, 0, 0
+Text|Maybe her feet were on the floor...\n
+Wait Frame|
+Check Flag A|0, 8
+Sprite|4, 4, 14, 0, 0
+Text|...but she was, like, sitting or something?\n
+Wait Frame|
+Check Flag A|0, 9
+Sprite|4, 4, 2, 0, 0
+Text|So instead, there'd\nbe a <CLT 69>mark on her ass<CLT>!\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 10
+Sprite|3, 3, 9, 0, 0
+Text|Weak, weak, weak, I say!\n
+Wait Frame|
+Check Flag A|0, 11
+Sprite|3, 3, 13, 0, 0
+Text|It doesn't even pierce\nmy heart!\n
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 12
+Speaker|62
+Format|20
+Text|<CLT 20>Her feet...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 13
+Speaker|62
+Format|20
+Text|<CLT 20>It's not like she's a ghost...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 14
+Speaker|62
+Format|20
+Text|<CLT 20>It means she's alive, right!?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Speaker|62
+Format|20
+Text|<CLT 20>We're not talking about that...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Speaker|62
+Format|20
+Text|<CLT 20>Who are you even fighting against...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>A sign that she stepped on something...?<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>There was nothing on the floor...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>There's no evidence whatsoever!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>Could it be...<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>That's not possible.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 22
+Speaker|62
+Format|20
+Text|<CLT 20>I believe that's not possible.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 23
+Speaker|62
+Format|20
+Text|<CLT 20>That's impossible.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 24
+Speaker|62
+Format|20
+Text|<CLT 20>Weak.<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

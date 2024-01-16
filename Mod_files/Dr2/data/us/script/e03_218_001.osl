@@ -1,0 +1,148 @@
+OSL Script
+Set Game To DR2
+Text Count|24, 0
+Change UI|21, 5
+Change UI|22, 1
+0x3b|1, 244
+Check Flag A|0, 0
+Sprite|13, 13, 13, 0, 0
+Text|Why did Sonia\n
+Wait Frame|
+Check Flag A|0, 1
+Sprite|13, 13, 7, 0, 0
+Text|go to the music venue...?\n
+Wait Frame|
+Check Flag A|0, 2
+Sprite|13, 13, 9, 0, 0
+Text|Are you all stupid?\n
+Wait Frame|
+Check Flag A|0, 3
+Sprite|7, 7, 31, 0, 0
+Text|It's obvious the killer\n<CLT 69>had lured her out<CLT>!\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 4
+Sprite|8, 8, 13, 0, 0
+Text|If that's not it...\n
+Wait Frame|
+Check Flag A|0, 5
+Sprite|8, 8, 18, 0, 0
+Text|Maybe she got\n<CLT 69>abducted<CLT>\nby the killer!\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Wait Frame|
+Check Flag A|0, 6
+Sprite|10, 10, 14, 0, 0
+Text|Wait, don't fucking say...\n
+Wait Frame|
+Check Flag A|0, 7
+Sprite|10, 10, 9, 0, 0
+Text|She had <CLT 69>walked in\non the crime by accident<CLT>...\n
+Format|69
+Wait Frame|
+Format|0
+Wait Frame|
+Check Flag A|0, 8
+Sprite|3, 3, 1, 0, 0
+Text|Or...\n
+Wait Frame|
+Check Flag A|0, 9
+Sprite|3, 3, 13, 0, 0
+Text|She was guided by\nthe <CLT 69>will of causality<CLT>!\n
+Wait Frame|
+Format|69
+Format|0
+Wait Frame|
+Check Flag A|0, 10
+Speaker|62
+Format|20
+Text|<CLT 20>Killer<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 11
+Speaker|62
+Format|20
+Text|<CLT 20>Miss Sonia<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 12
+Speaker|62
+Format|20
+Text|<CLT 20>＜Come to the music venue!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 13
+Speaker|62
+Format|20
+Text|<CLT 20>Jeez, what the heck!＞<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 14
+Speaker|62
+Format|20
+Text|<CLT 20>Killer<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 15
+Speaker|62
+Format|20
+Text|<CLT 20>Miss Sonia<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 16
+Speaker|62
+Format|20
+Text|<CLT 20>Hey, just stay put!＞<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 17
+Speaker|62
+Format|20
+Text|<CLT 20>＜Waaaah!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 18
+Speaker|62
+Format|20
+Text|<CLT 20>Music Venue<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 19
+Speaker|62
+Format|20
+Text|<CLT 20>Miss Sonia<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 20
+Speaker|62
+Format|20
+Text|<CLT 20>＜Hurry!<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 21
+Speaker|62
+Format|20
+Text|<CLT 20>Killer<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 22
+Speaker|62
+Format|20
+Text|<CLT 20>Miss Sonia<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|0, 23
+Speaker|62
+Format|20
+Text|<CLT 20>＜This, too, is fate...?＞<CLT>\n
+Format|0
+Wait Frame|
+Check Flag A|255, 255
+0x2c|1, 244
+0x1c|
+Stop Script|

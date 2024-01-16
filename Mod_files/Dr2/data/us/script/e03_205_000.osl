@@ -1,0 +1,474 @@
+OSL Script
+Set Game To DR2
+Text Count|58, 0
+0x2c|0, 20
+Set Flag|0, 7, 1
+Set Flag|0, 13, 0
+Music|26, 100, 0
+Change UI|1, 1
+Sprite|10, 12, 99, 0, 0
+Sprite|0, 0, 9, 4, 0
+Trial Camera|0, 1, 29, 0, 1, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|0, 3, 0, 29, 100
+SFX A|0, 18, 100
+Text|Hold on a sec...! There's also a possibility that the\ndoor was locked from the outside!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 126, 0, 0, 0
+Voice Line|7, 3, 0, 30, 100
+Text|From the outside...how?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 94, 0, 0, 0
+Animation|11, 243, 0, 0, 0, 0, 0, 1
+Voice Line|0, 3, 0, 30, 100
+Text|There was a semitransparent glob stuck to the venue\ndoor. Maybe that's what they used...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 47, 0, 0
+Trial Camera|7, 0, 179, 0, 0, 0
+Voice Line|7, 3, 0, 31, 100
+Text|Semitransparent glob...like rubber, maybe?\n
+Wait Frame|
+Wait For Input|
+Animation|11, 243, 0, 0, 0, 0, 0, 2
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 0
+0x2c|0, 0
+Change UI|18, 1
+0x3b|1, 244
+0x32|1
+Text|Glue\n
+Wait Frame|
+Voice Line|0, 99, 0, 1, 100
+Animation|0, 200, 0, 0, 0, 0, 0, 1
+Animation|0, 200, 0, 0, 0, 0, 0, 255
+0x46|21, 5, 0, 1
+0x4d|
+0x3b|1, 245
+0x3a|13, 1, 3, 232
+0x3b|1, 246
+0x2c|1, 245
+0x3a|13, 1, 1, 244
+0x2c|1, 246
+0x3b|0, 1
+0x32|2
+Text|Gum\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|It...was gum!\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 9, 0, 0
+Trial Camera|9, 0, 12, 0, 0, 0
+Text|Hmm...really?\n
+Wait Frame|
+Wait For Input|
+Text|What's the point of sticking gum between the gaps of the\ndoor? That doesn't make any sense.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>I-I agree...it doesn't make sense...<CLT>\n
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 247
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 247
+0x3b|0, 0
+0x32|3
+Text|Rubber\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|It...was definitely rubber!\n
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 3, 0, 0
+Trial Camera|4, 0, 89, 0, 0, 0
+Text|Did they...melt the rubber before they used it? I\nbelieve a specialized appliance would be necessary...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>He's right... It looks like it'd be difficult to use\nrubber.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 248
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 248
+0x3b|0, 0
+0x32|4
+Text|Gummy\n
+Wait Frame|
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+Text|It was...a gummy!\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 11, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Speaker|11
+Text|It's not me, Hajime! Mahiru's killer\nwants to frame me for Sonia, too!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 31, 0, 0
+Trial Camera|7, 0, 33, 0, 0, 0
+Text|Why'd you even have to mention gummies,\nyou bastard?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Looks like I said something pointless... I should calm\ndown and think this over.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 249
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 249
+0x3b|0, 0
+0x32|18
+Sprite|7, 7, 37, 0, 0
+Trial Camera|7, 0, 33, 0, 0, 0
+Text|Hey, what is that...semitransparent glob?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 4, 0, 0
+Trial Camera|1, 0, 32, 0, 0, 0
+Text|Can you...really not say it?\n
+Wait Frame|
+Wait For Input|
+Text|Maybe Hajime really is the killer.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 2, 0, 0
+Trial Camera|0, 0, 153, 0, 0, 0
+Voice Line|0, 99, 0, 31, 100
+Format|4
+Text|<CLT 04>Everyone's staring... Looks like I just made a fool of\nmyself in front of everyone...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+SFX A|0, 140, 100
+0x3a|13, 2, 5, 20
+Wait For Input|
+0x47|0, 13, 0, 0, 0
+0x4d|
+0x3b|1, 250
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Run Script|3, 1, 43, 0, 0
+0x3b|0, 20
+0x2c|1, 250
+0x3a|11, 0, 0, 60
+0x3b|0, 0
+0x32|19
+Sprite|0, 0, 1, 0, 0
+Trial Camera|0, 0, 226, 0, 0, 0
+Format|4
+Text|<CLT 04>It wasn't rubber at all. That semitransparent glob was\nprobably...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Sprite|0, 0, 9, 0, 0
+Trial Camera|0, 0, 13, 0, 0, 0
+Voice Line|0, 3, 0, 31, 100
+Text|That semitransparent glob...must've been glue.\n
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 39, 0, 0
+Trial Camera|7, 0, 118, 0, 0, 0
+Voice Line|7, 3, 0, 32, 100
+Text|Glue!?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 0, 0, 0
+Trial Camera|9, 0, 179, 0, 0, 0
+Voice Line|9, 3, 0, 6, 100
+Text|Yeah, I think so too.\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 19, 0, 0
+Trial Camera|9, 0, 14, 0, 1, 0
+Animation|11, 243, 0, 0, 0, 0, 0, 1
+Voice Line|9, 3, 0, 7, 100
+Text|It had a firm, gel-like chewiness...and I could smell\nworkshop chemicals the moment I put it in my mouth...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 10, 0, 0
+Trial Camera|9, 1, 37, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|9, 3, 0, 8, 100
+SFX A|0, 21, 100
+Text|...Based on all that, I'm certain it was glue.\n
+Wait Frame|
+Wait For Input|
+Animation|11, 243, 0, 0, 0, 0, 0, 2
+Sprite|8, 8, 8, 4, 0
+Trial Camera|8, 1, 23, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|8, 3, 0, 9, 100
+SFX A|0, 22, 100
+Text|I didn't know glue was edible...\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 7, 0, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+Voice Line|10, 3, 0, 11, 100
+Speaker|11
+Text|If Hajime had a penny for each obvious thing\nthat you don't know, he would have been as rich as me!\n
+Wait Frame|
+Wait For Input|
+Trial Camera|0, 2, 7, 0, 0, 0
+Sprite|0, 0, 20, 0, 0
+Animation|11, 243, 0, 0, 0, 0, 0, 1
+Voice Line|0, 3, 0, 32, 100
+Text|That glue was only applied to the areas where both doors\ntouched...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Voice Line|0, 3, 0, 33, 100
+Text|By <CLT 03>pouring it in the gaps of the closed door<CLT>, they\nmust've sealed the venue door from the outside.\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Animation|11, 243, 0, 0, 0, 0, 0, 2
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 92, 0, 0, 0
+Voice Line|9, 3, 0, 9, 100
+Text|And thanks to that, a glob of glue was left where the\ndoor was stuck... Yep, it fits perfectly.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 13, 0, 0
+Trial Camera|13, 0, 88, 0, 0, 0
+Voice Line|13, 3, 0, 9, 100
+Text|But...if you just stick them together with glue, you'd\nbe able to break down the door easily, you know?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 135, 0, 0, 0
+Voice Line|9, 3, 0, 10, 100
+Text|That doesn't really matter... The killer only did that to\nmake us think the door was locked from the inside.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 39, 4, 0
+Trial Camera|7, 1, 59, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|7, 3, 0, 33, 100
+SFX A|0, 20, 100
+Text|...Wh-What'd you say!?\n
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 8, 0, 0
+Trial Camera|9, 0, 28, 0, 0, 0
+Voice Line|9, 3, 0, 11, 100
+Text|First of all, didn't that drumstick we found seem really\nobvious? Almost unnaturally so?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|9, 9, 2, 0, 0
+Trial Camera|9, 0, 183, 0, 1, 0
+Voice Line|9, 3, 0, 12, 100
+Text|It was so obvious...that it makes more sense to think\nthe killer placed it as a diversion...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 48, 0, 0
+Trial Camera|7, 0, 13, 0, 0, 0
+Voice Line|7, 3, 0, 34, 100
+Text|Are you saying the drumstick was a <CLT 03>trap<CLT> the killer\nset on purpose...?\n
+Format|3
+Format|0
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 41, 0, 0
+Trial Camera|7, 0, 144, 0, 0, 0
+Voice Line|7, 3, 0, 35, 100
+Text|Then I...I totally fell for that fuckin' trap!\n
+Wait Frame|
+Wait For Input|
+Sprite|11, 2, 2, 4, 0
+Trial Camera|11, 0, 32, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+Voice Line|4, 3, 0, 10, 100
+SFX A|0, 18, 100
+Speaker|11
+Text|Just as I told you, Mahiru's killer was only smart at\nplanning murders when he had his sword-sucking...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+0x2d|1, 0, 240, 0, 136, 105, 255, 128, 192, 160, 255, 0
+Music|24, 100, 0
+Sprite|17, 17, 24, 4, 0
+Trial Camera|17, 2, 101, 0, 0, 0
+Voice Line|17, 3, 0, 3, 100
+SFX A|0, 25, 100
+Text|In a quarrel, both sides are to blame. That's why it's\nbetter to just have no sides at all!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+0x2d|0, 0, 240, 0, 136, 105, 255, 128, 192, 160, 30, 0
+Sprite|3, 3, 3, 0, 0
+Trial Camera|3, 0, 113, 0, 0, 0
+Voice Line|3, 99, 0, 4, 100
+Text|So... During the ten minutes Hajime left the venue, the\nkiller slew the Dark Queen and created a closed space?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|8, 8, 13, 0, 0
+Trial Camera|8, 0, 90, 0, 0, 0
+Voice Line|8, 3, 0, 10, 100
+Text|And they also taped her up after killin' her, right?\n
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 2, 0, 0
+Trial Camera|13, 0, 53, 0, 0, 0
+Voice Line|13, 3, 0, 10, 100
+Text|Awww... What unimaginable speed for a slowpoke like\nme...!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|4, 4, 13, 0, 0
+Trial Camera|4, 0, 89, 0, 0, 0
+Voice Line|4, 99, 0, 53, 100
+Text|Can you all shut up and don't make me\nimagine that?!\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 2, 0, 0
+Trial Camera|1, 0, 110, 0, 0, 0
+Voice Line|1, 3, 0, 28, 100
+Text|If they couldn't have done it while Hajime was away from\nthe venue...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Trial Camera|1, 0, 235, 0, 0, 0
+Sprite|1, 1, 21, 0, 0
+SFX A|0, 19, 100
+Voice Line|1, 3, 0, 29, 100
+Text|They must have done it earlier than that.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 18, 0, 0
+Trial Camera|0, 0, 53, 0, 0, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>...Earlier?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|7, 7, 49, 0, 0
+Trial Camera|7, 0, 41, 0, 0, 0
+Voice Line|7, 3, 0, 36, 100
+Text|But when Hajime got to the venue, only Ibuki's body was\nthere, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 3, 0, 0
+Trial Camera|1, 2, 7, 0, 0, 0
+Voice Line|1, 99, 0, 30, 100
+Text|And when you went back with everyone else, Sonia's body\nwas there too, right?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 22, 0, 0
+Trial Camera|1, 0, 167, 0, 0, 0
+Voice Line|1, 99, 0, 31, 100
+Text|But it's possible that the body was just revealed at\nthat time, when Sonia was actually killed earlier.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|13, 13, 3, 0, 0
+Trial Camera|13, 0, 114, 0, 0, 0
+Voice Line|13, 3, 0, 11, 100
+SFX A|0, 20, 100
+Text|J-Just revealed...?\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 21, 0, 0
+Trial Camera|1, 0, 93, 0, 0, 0
+Voice Line|1, 3, 0, 32, 100
+Text|Of course, the body wasn't revealed on its own. The\nkiller did that, too.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 114, 0, 0, 0
+Animation|11, 237, 0, 0, 0, 0, 0, 1
+Voice Line|1, 3, 0, 33, 100
+Text|...Here, I have proof.\n
+Wait Frame|
+Wait For Input|
+Sprite|3, 3, 2, 0, 0
+Trial Camera|3, 0, 138, 0, 0, 0
+Voice Line|3, 3, 0, 5, 100
+SFX A|0, 19, 100
+Text|Hm... That scrap of paper...is that what we found in the\nbaton lighting at the music venue?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 1, 1, 0, 0
+Trial Camera|1, 0, 202, 0, 0, 0
+Voice Line|1, 3, 0, 34, 100
+Text|That's right, but...just what is this scrap, anyway?\n
+Wait Frame|
+Wait For Input|
+Sprite|10, 12, 99, 0, 0
+Animation|11, 237, 0, 0, 0, 0, 0, 2
+Script|3, 0, 206, 0, 0
+Stop Script|
+Stop Script|

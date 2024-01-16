@@ -1,0 +1,16 @@
+---
+archives: []
+loggerLevel: "OFF"
+concurrentOperations: 4
+scope:
+  first: "> "
+  second: "default"
+autoConfirm: false
+purgeCache: true
+attemptFingerprinting: true
+printExtractPercentage: true
+printCompilePercentage: true
+noFluffIO: false
+multithreadedSimple: false
+defaultParams: {}
+pluginData: {}

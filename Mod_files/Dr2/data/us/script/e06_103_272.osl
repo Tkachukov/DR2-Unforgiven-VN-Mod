@@ -1,0 +1,1006 @@
+OSL Script
+Set Game To DR2
+Text Count|80, 0
+Change UI|11, 1
+Change UI|7, 0
+Change UI|16, 0
+0x3a|2, 0, 0, 100
+0x3a|3, 0, 0, 100
+0x46|14, 13, 0, 0
+0x4d|
+0x3b|1, 244
+Set Flag|0, 12, 0
+0x3b|1, 245
+0x2c|1, 244
+Set Flag|0, 12, 1
+0x2c|1, 245
+0x1|0, 45, 29, 1
+0x46|14, 8, 0, 0
+0x4d|
+0x3b|1, 246
+0x1|1, 99, 0, 253
+0x3b|1, 247
+0x2c|1, 246
+0x1|1, 99, 1, 253
+0x2c|1, 247
+Change UI|6, 0
+Load Map|1, 16, 0, 0
+0x46|14, 7, 0, 1
+0x4d|
+0x3b|1, 248
+0x1|0, 45, 11, 1
+0x2c|1, 248
+Change UI|9, 0
+0x46|14, 7, 0, 1
+0x4d|
+0x3b|1, 249
+Sprite|0, 11, 0, 0, 0
+0x2c|1, 249
+0x46|19, 12, 0, 1
+0x4d|
+0x3b|1, 250
+0x23|22, 0, 0, 0, 0
+0x23|25, 0, 0, 0, 0
+0x2c|1, 250
+0x23|26, 0, 0, 0, 0
+Change UI|14, 1
+Load Map|0, 44, 1, 0
+Change UI|3, 1
+0x3a|6, 0, 0, 30
+0x46|14, 7, 0, 1
+0x4d|
+0x3b|1, 251
+0x3b|0, 1
+0x2c|1, 251
+0x2c|0, 0
+Speaker|0
+Format|4
+Text|This...feels different from a classroom...\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 30
+Change UI|9, 0
+0x1|0, 45, 11, 1
+Sprite|0, 11, 0, 0, 0
+0x3a|5, 0, 0, 60
+Change UI|26, 10
+0x3a|5, 0, 0, 20
+Change UI|1, 1
+Change UI|9, 1
+Sprite|0, 11, 4, 1, 2
+0x1|0, 45, 11, 1
+Voice Line|11, 99, 0, 3, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|It's probably the office, right...? I mean...the room\nkind of has that stuffy, teacher-y vibe to it...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|The office, huh...? Now that you mention it,\nit does look like that...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 21, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 19, 100
+Text|Hajime...have you seen Souda?\nThe stupid mechanic had run off on his own somewhere...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I had only shrugged my shoulders in response to that.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 17, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 20, 100
+Text|Dammit, I'm already worried for him...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 21, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 42, 100
+Text|What if that buffoon got himself in trouble,\nand I wasn't there to help...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I still can't believe that this is the same girl who was\nkilling animals for fun just a couple of weeks ago.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 17, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 34, 100
+Text|Let's begin by ourselves, then.  I'll investigate all of these\nweird-ass flowers, and you, Hajime...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 4, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 40, 100
+Text|Figure out what's going on with that monitor,\nand then investigate that creepy-looking <CLT 03>list of subjects<CLT>...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 11, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 39, 100
+Text|My most loyal former slave...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 0, 4, 2
+Speaker|0
+Format|4
+Text|<CLT 04>Although... I can believe that this is the same girl.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Set Flag|14, 7, 1
+Change UI|1, 0
+Sprite|0, 11, 0, 4, 2
+0x2c|0, 1
+Change UI|16, 1
+0x3b|1, 252
+Check Character|0
+0x46|15, 26, 0, 0
+0x4d|
+0x3b|1, 253
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 11, 27, 1, 2
+Voice Line|11, 99, 0, 5, 100
+Text|How did they even die?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You... You better look in the Monokuma file inside your\nhsndbook for that.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I would have rather...\nnot relive these moments without dire need.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 38, 1, 2
+Voice Line|11, 99, 0, 44, 100
+Text|Can you at least tell me where they\nhad died, if you're such a snowfake?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...The music venue, both of them.\n...I am sorry.\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 2
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 25, 1, 2
+Voice Line|11, 99, 0, 33, 100
+Text|How hilarious it would be if it's the virgin mechanic!\nFinally realised he's never getting inside her pants, and...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|How can you say something so horrible?!\nDoes Ibuki's death mean nothing to you?!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 38, 1, 2
+Voice Line|11, 99, 0, 44, 100
+Text|Ibuki...was not like Mahiru...\nBut... she had made a friendship bracelet for me...\n
+Wait Frame|
+Wait For Input|
+Text|And a flower c-crown... and had promised that...\nwhen we escape this island together, she...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 47, 1, 2
+Voice Line|11, 99, 0, 58, 100
+Text|You heartless sack of shit, Hajime!\nHow could you even say something so horrible about me?!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|That's... are you even serious right now?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 39, 1, 2
+Voice Line|11, 99, 0, 45, 100
+Text|Of course I am pissed that Ibuki's dead!\nCan I at least take... some solace...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 38, 1, 2
+Voice Line|11, 99, 0, 43, 100
+Text|...in knowing that at least, an annoying dumb princess\nwho constantly disrespected our country, is now dead, too?\n
+Wait Frame|
+Wait For Input|
+Text|Can I at least once be allowed to be happy that the bad person\nis dead, especially when I have nothing to do with it?!\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|<CLT 04>That last bit was oddly specific...<CLT>\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|You really have no idea what may have happened to Sonia?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 45, 1, 2
+Voice Line|11, 99, 0, 42, 100
+Text|...\n
+Wait Frame|
+Wait For Input|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 41, 1, 2
+Voice Line|11, 99, 0, 42, 100
+Text|Yesterday evening... I had...\n...heard Sonia leaving her room.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Leaving? Was she alone?\nAre you sure you had heard her, and not someone else?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 27, 1, 2
+Voice Line|11, 99, 0, 48, 100
+Text|Are you doubting the Ultimate Traditional Dancer's ability\nto recognise steps of different people?\n
+Wait Frame|
+Wait For Input|
+Text|It was Sonia, and she was on her own.\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|And you... didn't ask her where she was going?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 37, 1, 2
+Voice Line|11, 99, 0, 55, 100
+Text|What an idiotic question!\nAm I looking like a nanny for spoiled royal brats to you?!\n
+Wait Frame|
+Wait For Input|
+Text|Now, investigate this room and don't bother me\nwith your retardation anymore!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 40, 1, 2
+Voice Line|11, 99, 0, 46, 100
+Text|Mahiru... Mahiru... Mahiru... Mahiru...\nH-h-h-help m-m-me...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>I... really should leave her alone for now.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+0x3a|6, 0, 0, 20
+Truth Bullet|75, 1
+Change UI|2, 0
+Speaker|63
+Animation|4, 51, 0, 0, 0, 0, 0, 1
+Format|6
+Text|<CLT 06>"<CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Hiyoko's Account<CLT><CLT 06>" has been added to the Truth Bullets\nsection of your handbook.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|57, 100, 0
+Sprite|0, 10, 0, 4, 2
+Animation|4, 51, 0, 0, 0, 0, 0, 2
+Set Flag|0, 6, 1
+Set Flag|15, 26, 1
+Change UI|1, 0
+0x46|15, 25, 0, 1, 6, 15, 26, 0, 1, 6, 14, 13, 0, 0
+0x4d|
+0x3b|1, 254
+Speaker|0
+Text|I don't...see anything else that looks suspicious...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>There's no sign that someone made a mess of her room,\nand I don't think she was forcefully abducted.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I feel like I couldn't really find any important\nclue...oh well...\n<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Wait For Input|
+Set Flag|14, 13, 1
+Change UI|1, 0
+Set Flag|0, 12, 1
+0x2c|1, 254
+0x46|15, 22, 0, 1, 6, 15, 23, 0, 1, 6, 15, 24, 0, 1, 6, 15, 25, 0, 1, 6, 15, 26, 0, 1
+0x4d|
+0x3b|1, 255
+Set Flag|14, 8, 1
+0x2c|1, 255
+0x46|14, 6, 0, 1, 6, 14, 8, 0, 1, 6, 14, 10, 0, 1
+0x4d|
+0x3b|2, 0
+0x3b|0, 2
+0x2c|2, 0
+0x3b|2, 1
+0x2c|1, 253
+Change UI|9, 1
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 11, 45, 1, 2
+Voice Line|11, 99, 0, 17, 100
+Text|Sonia... is dead...\nAnnoying foreighner princess is dead...\n
+Wait Frame|
+Wait For Input|
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 0, 4, 2
+Change UI|1, 0
+Change UI|27, 0
+0x3a|5, 0, 0, 60
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>What is wrong with this girl?\nI thought she would be distracted by Ibuki's death way more...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Sometimes... I think I cannot understand her at all.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>That's not important right now...\nSo, Sonia had left the motel on her own?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Was she taking a late evening walk?\nEverything looks like this is the case, but then...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>How did the killer know where and when\nthey could catch Sonia alone?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|2, 1
+Check Character|255
+Choice|20
+Run Script|3, 3, 231, 0, 1
+Choice|21
+Run Script|3, 3, 231, 0, 2
+Choice|22
+Run Script|3, 3, 231, 0, 148
+Choice|23
+Change UI|15, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>This is not even really a monitor. It's just letters\nfloating in the air, like the music room from earlier.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Looks like a passage from an e-mail someone wrote.\nI think it's the same one from earlier...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Music|255, 90, 0
+Format|4
+Text|<CLT 04>I guess I should read it...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Music|19, 100, 60
+Animation|12, 55, 0, 0, 0, 0, 0, 1
+Speaker|63
+Format|6
+Text|<CLT 06>"We understand this matter regarding the survivors."<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>"In order to safely acquire them, please do\nyour best and continue your investigation."<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|6
+Text|<CLT 06>"However, you must exercise extreme caution\nconcerning the<CLT><CLT 03> <CLT><CLT 06><CLT><CLT 03>Remnants of Despair<CLT><CLT 06>."<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>"Even though they have lost Junko Enoshima,\nthe fact remains that they are incredibly dangerous."<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>"Even after her death, The Tragedy has not ended..."<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>"Perhaps...there is still a leader on par\nwith Junko Enoshima."<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>"As long as we do nothing about the Remnants of Despair,\nwe will not be able to end this incident."<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>"For this reason, the Remnants of Despair must be\nimmediately eliminated once they are discovered."<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|6
+Text|<CLT 06>"Everything is for the sake of a shining future..."<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|12, 55, 0, 0, 0, 0, 0, 2
+Speaker|0
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|I-Immediately eliminated...!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Text|Does that mean...this is an order to kill them?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>That doesn't sound peaceful at all...\nWell, I guess that's understandable.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|3
+Format|0
+Format|4
+Text|<CLT 03><CLT><CLT 04>If<CLT> <CLT 03>the biggest, most awful, most tragic event\nin human history<CLT> <CLT 04>is as terrible as it sounds...<CLT>\n
+Format|0
+Format|3
+Wait Frame|
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>It's...pretty much all-out war.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>If the<CLT><CLT 03> <CLT><CLT 04><CLT><CLT 03>Remnants of Despair<CLT><CLT 04> <CLT><CLT 04>are the ones<CLT>\n<CLT 03>waging that war<CLT><CLT 04>...<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|There's no way they'd be forgiven that easily...\n
+Wait Frame|
+Wait For Input|
+Music|255, 120, 0
+Truth Bullet|156, 1
+Set Flag|0, 6, 1
+Change UI|2, 0
+Speaker|63
+Animation|4, 132, 0, 0, 0, 0, 0, 1
+Format|6
+Text|<CLT 06>"<CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>Remnants of Despair<CLT><CLT 06>" has been added to\nthe Truth Bullets section of your handbook.<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|4, 132, 0, 0, 0, 0, 0, 2
+Change UI|1, 0
+Set Flag|12, 18, 1
+Music|5, 100, 60
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Let's see what's up with this <CLT 03>"L-list of Subjects"<CLT>...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>There's a newspaper posted on the blackboard.\nBelow that,<CLT><CLT 03> <CLT><CLT 04><CLT><CLT 03>"Hiyoko Saionji"<CLT> <CLT 04>is written there...<CLT>\n
+Wait Frame|
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Format|3
+Format|0
+Format|4
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>...What is this newspaper?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Music|255, 120, 0
+Screen Fade|1, 1, 24
+Change UI|6, 1
+Animation|3, 177, 0, 0, 0, 0, 0, 3
+Screen Fade|0, 1, 24
+Animation|3, 177, 0, 0, 0, 0, 0, 4
+0x3a|6, 0, 0, 90
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Text|...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...What is this?\n
+Wait Frame|
+Music|9, 100, 60
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>It says "Miss Hiyoko Saionji"... \nThis can't mean our Hiyoko, right?<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I mean...she is standing right behind me, and...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 16
+Animation|3, 177, 0, 0, 0, 0, 0, 255
+0x37|0, 0, 1
+Screen Fade|0, 1, 8
+Change UI|51, 1
+Change UI|2, 1
+Sprite|0, 11, 0, 0, 0
+0x3a|6, 0, 0, 120
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Being small and child-like is pretty much her defining feature.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Sprite|0, 11, 0, 3, 2
+0x37|0, 0, 3
+Animation|3, 177, 0, 0, 0, 0, 0, 3
+Animation|3, 177, 0, 0, 0, 0, 0, 6
+Screen Fade|0, 1, 24
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>But the photo in this newspaper...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>In a way, I can see the resemblance to Hiyoko,\nbut her height and figure...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Format|4
+Text|<CLT 04>...It's too different from the Hiyoko I know.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Wh-What does this mean...?\n
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+Animation|3, 177, 0, 0, 0, 0, 0, 255
+Change UI|6, 0
+Change UI|3, 1
+Screen Fade|0, 1, 24
+Change UI|26, 4
+0x3a|5, 0, 0, 30
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Sprite|0, 11, 11, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 12, 100
+Text|Found something interesting, Hajime?\nLet me take a look! ...Hu-uh...?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 12, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 29, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|..........................\nWhat........ Who.........What........\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|...Hiyoko, are you... alright?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 12, 1, 2
+Text|...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 13, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 56, 100
+Text|WHO IS THIS UGLY FATASS COW?!\nHOW DARE SHE STEAL MY IDENTITY SO SHAMELESSLY?!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Calm down, Hiyoko!\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 23, 1, 2
+Voice Line|11, 99, 0, 55, 100
+Text|No I won't! Not while I'm kidnapped and trapped on this\nhorrible island and some bimbo BITCH is stealing my life from me!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|Are you sure she's not just a distant relative?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 23, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 51, 100
+Text|I. Have. No. Distant relatives. Like that. She is an impostor!\nP-probably working together with Monokuma!\n
+Wait Frame|
+Wait For Input|
+Music|255, 0, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 13, 6, 1
+Music|13, 100, 0
+0x3a|6, 0, 0, 10
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 77, 100
+Text|Nah, she doesn't work with me.\nAt least, not yet.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 14, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 58, 100
+Text|Then... it's an edited image. You faked it, just to...\nmock my... m-my body, r-right, scumbag...?\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Sprite|1, 16, 10, 1, 1
+Speaker|16
+Voice Line|16, 99, 1, 202, 100
+Text|No, Hiyoko. That's a real photo...\nand the real you in it.\n
+Wait Frame|
+Wait For Input|
+Music|9, 100, 60
+Speaker|0
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|...Huh?\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 13, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 57, 100
+SFX A|0, 18, 100
+Change UI|13, 1
+0x20|4, 0, 30, 4, 2
+Text|Kill yourself, you... toymaker's error!\nI never had a body like this!\n
+Wait Frame|
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 11, 21, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 44, 100
+Text|If only I was... this... tall... and... womanly...\nIt would have been too good of a thing to happen to me...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 0, 1, 1
+Speaker|16
+Voice Line|16, 99, 0, 82, 100
+Text|I dunno what to tell you then...\nWhat if you already was like this at some point before?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|What are you even saying!?\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|No one can grow backwards...\n
+Wait Frame|
+Wait For Input|
+SFX A|0, 18, 100
+Change UI|13, 1
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|There's no way Hiyoko could've had a growth spurt...!\nAnd then regress back to her current... condition.\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Change UI|1, 0
+Change UI|51, 0
+SFX A|0, 27, 100
+0x37|0, 88, 3
+Change UI|6, 0
+Sprite|1, 16, 3, 8, 1
+Change UI|3, 1
+Screen Fade|0, 2, 24
+Change UI|51, 0
+Change UI|2, 1
+Change UI|1, 1
+Speaker|16
+Voice Line|16, 99, 0, 29, 100
+SFX A|0, 19, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Text|Puhuhuhuhu...\n
+Wait Frame|
+Wait For Input|
+Sprite|1, 16, 13, 1, 1
+Voice Line|16, 99, 0, 100, 100
+Text|Well, regardless, all the clues I've provided are true.\n
+Wait Frame|
+Wait For Input|
+Text|If they weren't, it wouldn't be fair!\n
+Wait Frame|
+Wait For Input|
+Music|255, 60, 0
+Change UI|1, 0
+SFX A|0, 33, 100
+Sprite|1, 16, 3, 7, 1
+0x3a|6, 0, 0, 30
+Music|5, 100, 60
+Change UI|1, 1
+Sprite|0, 11, 14, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 43, 100
+SFX A|0, 20, 100
+Screen Flash|255, 255, 255, 4, 0, 30, 255
+Change UI|13, 1
+Text|H-how? How? How could this be me!?\n
+Wait Frame|
+0x3a|6, 0, 0, 10
+Change UI|13, 0
+Wait For Input|
+Sprite|0, 11, 16, 1, 2
+Speaker|11
+Voice Line|11, 99, 0, 48, 100
+Text|Is this trashbag... implying that... I used to be this...\ntall, beautiful lady before we lost our memories...\n
+Wait For Input|
+Speaker|11
+Voice Line|11, 99, 0, 13, 100
+Text|And then he... kidnapped us, and... mutiliated my body...\nwith surgeries... And turned me back into... this...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 11, 0, 4, 2
+Change UI|3, 0
+Change UI|1, 0
+Change UI|51, 0
+Screen Fade|1, 1, 24
+0x37|0, 0, 3
+Animation|3, 177, 0, 0, 0, 0, 0, 3
+Animation|3, 177, 0, 0, 0, 0, 0, 6
+Screen Fade|0, 1, 24
+0x3a|6, 0, 0, 60
+Change UI|51, 1
+Change UI|2, 0
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>Is he really saying these two Hiyokos are the same person?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Th-That's impossible.<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>I mean, if Hiyoko was once a grown up... no, not even Monokuma\ncould pull off such a transformation...<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Wait... He did perform even more radical one on Nekomaru...\nBut this means...\n<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Format|4
+Text|<CLT 04>Oh my God...\nPoor Hiyoko...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Animation|3, 177, 0, 0, 0, 0, 0, 255
+Change UI|1, 0
+0x46|15, 25, 0, 1, 6, 15, 26, 0, 1, 6, 14, 13, 0, 0
+0x4d|
+0x3b|2, 2
+Speaker|0
+Text|I don't see...anything else that looks suspicious...\n
+Wait Frame|
+Wait For Input|
+Speaker|0
+Format|4
+Text|<CLT 04>There's no sign that someone made a mess of her room,\nand I don't think she was forcefully abducted.<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Speaker|0
+Text|I feel like I couldn't really find any important\nclue...oh well...\n<CLT>
+Wait Frame|
+Wait Frame|
+Format|0
+Wait For Input|
+Set Flag|14, 13, 1
+Change UI|1, 0
+Set Flag|0, 12, 1
+0x2c|2, 2
+0x46|15, 22, 0, 1, 6, 15, 23, 0, 1, 6, 15, 24, 0, 1, 6, 15, 25, 0, 1, 6, 15, 26, 0, 1
+0x4d|
+0x3b|2, 3
+Set Flag|14, 8, 1
+0x2c|2, 3
+0x46|14, 6, 0, 1, 6, 14, 8, 0, 1, 6, 14, 10, 0, 1
+0x4d|
+0x3b|2, 4
+0x3b|0, 2
+0x2c|2, 4
+Choice|254
+0x46|15, 25, 0, 1, 6, 15, 26, 0, 1
+0x4d|
+0x3b|2, 5
+Change UI|2, 1
+Change UI|1, 1
+Change UI|18, 0
+Change UI|18, 3
+0x3b|2, 6
+0x32|1
+Text|Yes\n
+Wait Frame|
+Change UI|1, 0
+Change UI|3, 0
+Load Map|0, 44, 1, 0
+0x3a|6, 0, 0, 30
+0x3a|8, 0, 0, 0
+SFX A|0, 201, 100
+Change UI|15, 2
+Script|3, 0, 100, 0, 44
+Stop Script|
+0x32|2
+Text|No\n
+Wait Frame|
+Change UI|1, 0
+0x32|18
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Leave here?<CLT>\n
+Format|0
+Wait Frame|
+0x32|255
+0x2c|2, 6
+0x3b|2, 7
+0x2c|2, 5
+Change UI|2, 1
+Change UI|1, 1
+Speaker|0
+Format|4
+Text|<CLT 04>There's still things I need to investigate...<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Change UI|1, 0
+0x2c|2, 7
+Choice|255
+0x2c|1, 252
+0x2c|0, 2
+Run Script|3, 3, 231, 0, 141
+Screen Fade|1, 1, 24
+Script|3, 0, 101, 0, 0
+Stop Script|
+Stop Script|

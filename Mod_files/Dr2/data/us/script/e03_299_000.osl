@@ -1,0 +1,183 @@
+OSL Script
+Set Game To DR2
+Text Count|17, 0
+Set Flag|0, 7, 0
+Music|9, 100, 0
+Change UI|1, 1
+Change UI|4, 0
+Sprite|0, 0, 3, 0, 0
+Trial Camera|0, 1, 202, 0, 1, 0
+Speaker|62
+Format|4
+Text|<CLT 04>It's no use... I can't go on any longer... I don't have\nany other options...!<CLT>\n
+Wait Frame|
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 3, 0, 0
+Trial Camera|8, 1, 253, 0, 1, 0
+Speaker|62
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 10, 0
+SFX A|0, 19, 100
+Format|4
+Text|<CLT 04>Everyone...doubts me...?<CLT>\n
+Format|0
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 33, 4, 0
+Trial Camera|16, 2, 21, 0, 0, 0
+Speaker|62
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 18, 100
+Text|Hahaaaaaa! It appears the trial has come to an end!\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 36, 0, 0
+Trial Camera|16, 2, 67, 0, 1, 0
+Speaker|62
+Text|Now then, it's time to vote! Well, I can totally imagine\nwho the blackened will be.\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 32, 0, 0
+Trial Camera|16, 2, 73, 0, 1, 0
+Speaker|62
+Text|Puhuhuhuhuhu....!\n
+Wait Frame|
+Wait For Input|
+Change UI|4, 1
+Change UI|1, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 64
+Sprite|16, 16, 31, 0, 0
+Trial Camera|16, 2, 74, 0, 0, 0
+Screen Fade|0, 1, 64
+0x3a|6, 0, 0, 30
+Change UI|1, 1
+Change UI|4, 0
+Sprite|16, 16, 31, 0, 0
+Speaker|62
+Text|Ahem! By a majority vote, the one who has been chosen as\nthe blackened is...\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 10, 0, 1
+Sprite|16, 16, 31, 0, 0
+Trial Camera|0, 1, 45, 0, 0, 0
+Speaker|62
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 20, 100
+Text|Hajime Hinata!\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 32, 4, 0
+Trial Camera|16, 0, 253, 0, 0, 0
+Speaker|62
+SFX A|0, 21, 100
+Text|But Hajime is not the blackened! Too bad!\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 35, 0, 0
+Trial Camera|16, 2, 7, 0, 0, 0
+Speaker|62
+SFX A|0, 25, 100
+Text|The true blackened has graduated splendidly!\nCongratulations!\n
+Wait Frame|
+Wait Frame|
+Wait For Input|
+Text|And now...\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 33, 4, 0
+Trial Camera|16, 2, 39, 0, 0, 0
+0x2d|1, 0, 240, 0, 136, 105, 255, 0, 0, 128, 30, 0
+SFX A|0, 248, 100
+Speaker|62
+Text|...the others will all be punished!\n
+Wait Frame|
+Wait For Input|
+Sprite|16, 16, 33, 0, 0
+Speaker|62
+SFX A|0, 19, 100
+Text|Ah, that means you too, Hajime...\n
+Wait Frame|
+Wait For Input|
+Sprite|0, 0, 11, 0, 0
+Trial Camera|0, 0, 220, 0, 0, 0
+Voice Line|0, 99, 0, 35, 100
+Text|This is my...our end...?\n
+Wait Frame|
+Wait For Input|
+Change UI|18, 0
+0x3a|11, 0, 0, 60
+0x3a|13, 0, 0, 1
+0x2c|0, 0
+Change UI|18, 2
+0x3b|1, 244
+0x32|1
+Text|Yes\n
+Wait Frame|
+Set Flag|0, 13, 1
+Sprite|0, 0, 4, 0, 0
+Trial Camera|0, 1, 37, 0, 0, 0
+Voice Line|0, 99, 0, 37, 100
+0x2d|1, 0, 240, 0, 136, 105, 255, 255, 255, 128, 30, 0
+SFX A|0, 26, 100
+Text|We will never give up!\n
+Wait Frame|
+0x3a|13, 1, 78, 32
+Wait For Input|
+0x3b|0, 1
+0x32|2
+Text|No\n
+Wait Frame|
+0x3b|0, 2
+0x32|18
+0x3b|0, 2
+0x32|19
+Speaker|63
+Format|6
+Text|<CLT 06>Would you like to <CLT><CLT 03><CLT><CLT 06><CLT><CLT 03>retry<CLT><CLT 06>?<CLT>\n
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Format|3
+Format|0
+Format|6
+Format|0
+Wait Frame|
+0x32|255
+0x2c|1, 244
+0x2c|0, 1
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Screen Fade|1, 1, 24
+Sprite|0, 0, 0, 0, 1
+Sprite|16, 16, 31, 0, 1
+Sprite|17, 17, 22, 0, 1
+Trial Camera|0, 2, 12, 0, 0, 0
+Screen Fade|0, 1, 24
+0x1c|
+0x2c|0, 2
+Change UI|18, 0
+0x3a|13, 0, 0, 0
+Change UI|4, 1
+Change UI|1, 0
+Music|255, 180, 0
+0x3a|6, 0, 0, 30
+Screen Fade|1, 1, 128
+Set Flag|0, 2, 0
+Change UI|6, 1
+Change UI|9, 1
+Animation|0, 0, 0, 0, 0, 0, 0, 0
+Screen Fade|0, 1, 24
+Animation|0, 0, 0, 0, 0, 0, 0, 1
+Voice Line|16, 99, 0, 34, 100
+0x3a|6, 0, 0, 240
+Screen Fade|1, 1, 184
+Animation|0, 0, 0, 0, 0, 0, 0, 255
+Script|255, 0, 255, 0, 255
+Stop Script|
+Stop Script|
